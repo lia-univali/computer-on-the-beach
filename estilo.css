@@ -1,31 +1,87 @@
 @charset "UTF-8";
 
-body{margin:0;
-    height: 50%;
-    width: 100%;
-    background: url("fotos/grupo.jpg");
-    background-repeat: no-repeat;
+body {
+    color: white;
+
 }
-.img-responsive img{
+
+
+.cabeçalho {
+    background-image: url("fotos/grupo.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 50px;
+    height: 800px;
     width: 100%;
+    margin-bottom: 50px;
+    
+}
+ .cabeçalho div {
+    position: absolute;
+    left: 45px;
+    top: 70px;
   
-}
+
+} 
+.cabeçalho ul {
+    text-align: center;
+    position: relative;
+    top: 50px;        
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+.cabeçalho li {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 10px;
+    padding: 15px;    
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1,5em;
+    color: white;
+   }
 
 
 
-.navbar{
-    background-color: gray;
-    color: white !important;
-}
-.navbar a{
-    color: white !important;
+.cabeçalho a {
+    color: white;
+
 }
 
-.navbar-nav .dropdown-menu{
-    
-    background-color: gray;
+.cabeçalho a:hover {
+    color: green;
+    text-decoration: none !important;
+    transition: 0.5s;
 }
-.navbar-nav .dropdown-menu :hover{
-    
-    background-color: darkgray;
+
+/*configurações cabeçalho*/
+.dropdown-menu {
+    background-color: darkgrey;
+}
+
+.cabeçalho h1 {
+    color: snow;
+    position: absolute;
+    bottom: 200px;
+    left: 90px;
+    font-size: 65px;
+    font-style: bolder;
+
+}
+
+.cabeçalho h4 {
+    color: snow;
+    position: absolute;
+    bottom: 150px;
+    left: 90px;
+    font-size: 30px;
+    font-style: bolder;
+    text-transform: uppercase;
+
 }
