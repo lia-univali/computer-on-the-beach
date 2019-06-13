@@ -1,12 +1,10 @@
 @charset "UTF-8";
 
 body {
-    
-
+    color: #161A08;
 }
 
-
-.cabeçalho {
+.cabecalho {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
     position: relative;
@@ -16,14 +14,17 @@ body {
     margin-bottom: 10px;
     
 }
- .cabeçalho div {
+ .cabecalho div {
     position: absolute;
     left: 25px;
-    top: 70px;
-  
+    top: 70px; 
+    } 
 
-} 
-.cabeçalho ul {
+.drop-line {
+    margin-top: 10px !important;
+}
+
+.cabecalho ul {
     text-align: center;
     position: relative;
     top: 50px;        
@@ -31,46 +32,45 @@ body {
     justify-content: flex-end;
     margin-right: 35px;
     align-items: center;
+    padding: 15px 5px;  
     text-transform: uppercase;
+    font-style: normal;
+    font-size: 18px;
+    
   }
 
-.cabeçalho li {
-    font-size: 15px;
+.cabecalho li {  
     display: flex;
     justify-content: space-around;
-    margin: 15px 10px;
-    padding: 15px;    
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 1,5em;
+    margin: 15px 10px;    
+    font-size: 18px;
     }
 
-    .cabeçalho .dropdown-item {
+    .cabecalho .dropdown-item {
         font-size: 14px;
         padding: 15px;
         
-
     }
         
-    .cabeçalho .dropdown-item:hover {
+    .cabecalho .dropdown-item:hover {
         color: white;
         background-color: #4bb463;
         transition: 0.5s;
     }
 
-    .cabeçalho .dropdown-toggle:hover {
+    .cabecalho .dropdown-toggle:hover {
         color: green;
         transition: 0.5s;
     }
 
 
     
-.cabeçalho a {
+.cabecalho a {
     color: white;
-
+    font-size: 18px !important;
 }
 
-.cabeçalho a:hover {
+.cabecalho a:hover {
     color: green;
     text-decoration: none !important;
     transition: 0.5s;
@@ -81,7 +81,7 @@ body {
     background-color: #29333f;
 }
 
-.cabeçalho h1 {
+.cabecalho h1 {
     color: snow;
     position: absolute;
     bottom: 200px;
@@ -91,7 +91,7 @@ body {
 
 }
 
-.cabeçalho h4 {
+.cabecalho h4 {
     color: snow;
     position: absolute;
     bottom: 150px;
@@ -163,44 +163,11 @@ body {
 
   /*atividades*/
   .atividades {
+    font-size: 18px;
     font-style: normal;
     padding: 10px 25px;
     margin: 10px 65px;
-    color: black;
-    
-}
-
-.atividades h2 {
-    text-align: center;
-    font-size: 66px;
-    font-weight: bold;
-    color: #ff6f61;
-    margin-bottom: 45px;
-}
-  
-.atividades h3 {
-    text-align: center;
-    font-size: 42px;
-    font-weight: bold;
-    color: #ff6f61;
-    margin-bottom: 25px;
-}
-
-.atividades h5 {
-    font-size: 22px;
-    font-weight: bold;
-    color: #ff6f61;
-}
-
-.atividades h4 {
-    font-size: 36px;
-    font-weight: bold;
-
-}
-
-.atividades h6 {
-    font-size: 16px;
-    font-weight: bold;
+    color: black;    
 }
 
 .palestras {
@@ -209,5 +176,74 @@ body {
     padding: 25px;
 }
 
+.atividades h2 {
+    text-align: center;
+    font-size: 66px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin: 30px 0;
+}
+  
+.atividades h3 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
 
+.atividades h5 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-top: 30px;
+}
+
+.atividades h4 {
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.atividades h6, a {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.workshop, .minicursos {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 25px;
+}
+
+.demais-atividades {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: #161A08;
+    margin: 35px 0;
+}
+
+footer h2 {
+    margin-top: 85px;
+    margin-bottom: 10px;
+    font-size: 66px;
+    font-weight: normal;
+}
+
+footer img {
+    margin: 5px 35px;
+    
+}
+
+.logo-fim {
+    margin: 85px 0;
+}
 
