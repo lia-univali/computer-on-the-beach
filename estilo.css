@@ -75,9 +75,9 @@ body {
     text-decoration: none !important;
     transition: 0.5s;
 }
-
-/*configurações cabeçalho*/
-.dropdown-menu {
+header nav{
+    height: 130px;
+    padding: 0px;
     background-color: #29333f;
 }
 
@@ -101,41 +101,23 @@ body {
     text-transform: uppercase;
 
 }
-/*introdução */
-.introdução {
-    position: relative;
-    top: 10px;
-    font-style: normal;
-    padding: 10px 15px;
-    margin: 10px 45px;
-    text-align: center;
-    display: inline-flex;    
+#menu-nav ul{
+    padding: 0px;
+    color: white;
 }
-
-.introdução h3 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ff6f61;
+#menu-nav li{
+    display: inline-block;
+    margin: 25px;
     text-transform: uppercase;
+    font-weight: bolder;
 }
-
-.introdução h4 {
-    font-size: 26px;
-    font-weight: bold;
-    
-    
+#menu-nav a{
+    color: white;
 }
-
-.introdução a {
-    font-size: 20px;
-    font-weight: bold;
-    color: #ff6f61;
-    text-transform: uppercase;
-    
-}
-
-.introdução a:hover {
+#menu-nav a:hover, #menu-nav .dropdown-toggle:hover{
+    color: #4bb463;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .introdução p {
