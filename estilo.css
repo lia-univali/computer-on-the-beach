@@ -1,82 +1,42 @@
 @charset "UTF-8";
-
-body {
-    color: white;
-
-}
-
-
-.cabeçalho {
-    background-image: url("fotos/grupo.jpg");
-    background-size: cover;
-    position: relative;
-    bottom: 50px;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 50px;
-    
-}
- .cabeçalho div {
-    position: absolute;
-    left: 45px;
-    top: 70px;
-  
-
-} 
-.cabeçalho ul {
+#grade-programação{
+    color: black;
     text-align: center;
-    position: relative;
-    top: 50px;        
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 45px;
-
-    align-items: center;
-    text-transform: uppercase;
-  }
-
-.cabeçalho li {
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
-    margin: 15px 10px;
-    padding: 15px;    
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 1,5em;
+    padding: 30px;
+}
+header nav{
+    height: 130px;
+}
+#logo{
+    margin-top: 30px;
+    margin-left:  50px;
+    margin-bottom: 60px;
+    
+    height: 60px;
+    width: 200px;
+}
+nav #menu-nav ul{
+    list-style: none;
+}
+nav #menu-nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+#cabeçalho-index h1 {
     color: white;
-   }
-
-
-
-.cabeçalho a {
-    color: white;
-
-}
-
-.cabeçalho a:hover {
-    color: green;
-    text-decoration: none !important;
-    transition: 0.5s;
-}
-
-/*configurações cabeçalho*/
-.dropdown-menu {
-    background-color: darkgrey;
-}
-
-.cabeçalho h1 {
-    color: snow;
     position: absolute;
     bottom: 200px;
     left: 90px;
-    font-size: 65px;
+    font-size: 58px;
+    line-height:58px;
+    font-weight:900;
     font-style: bolder;
 
 }
 
-.cabeçalho h4 {
-    color: snow;
+#cabeçalho-index h4 {
+    color: white;
     position: absolute;
     bottom: 150px;
     left: 90px;
@@ -84,4 +44,48 @@ body {
     font-style: bolder;
     text-transform: uppercase;
 
+}
+#cabeçalho-index {
+    background-image: url("fotos/grupo.jpg");
+    background-size: cover;
+    display: block;
+    height: 800px;
+    margin-bottom: 50px;
+    
+} 
+#cabeçalho-index ul {
+   position: relative;
+   margin-top: 0px;
+  
+    text-transform: uppercase;
+  }
+
+#cabeçalho-index li {
+    font-size: 15px;
+    display: inline;
+    justify-content: flex-end;  
+
+    margin: 15px 10px;
+    padding: 15px;    
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1,5em;
+   }
+
+
+
+#cabeçalho-index a {
+    color: white;
+
+}
+#cabeçalho-index a:hover {
+    color: green;
+    text-decoration: none !important;
+    transition: 0.5s;
+}
+#cabeçalho-index .dropdown-toggle:hover{
+    color: green;
+    text-decoration: none !important;
+    transition: 0.5s;
+    
 }
