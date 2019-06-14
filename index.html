@@ -8,8 +8,7 @@
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src='main.js'></script> 
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -18,7 +17,7 @@
   </head>
 
   <body>
-     <header class="cabecalho">
+     <header class="cabecalho"> 
         <div>
         <img src="fotos/logo.png" height="60px" width="200px">
         </div>
@@ -51,12 +50,8 @@
           <li><a href="https://www.computeronthebeach.com.br/">Organização</a></li>
           <li><a href="https://www.computeronthebeach.com.br/">Local e Hospedagem</a></li>
           <li><a href="https://www.computeronthebeach.com.br/">Anais</a></li>
-        </ul>
-        
-      
-
-
-      
+        </ul>   
+            
 
       <h1 class="countdown-timer-title" style="color:#ffffff;font-size:58px;line-height:58px;font-weight:900;">COMPUTER ON THE BEACH 2020</h1>
 
@@ -66,8 +61,8 @@
 
      <main>
 
-      <div class="introdução">
-         <div class="apresentação">
+      <div class="introducao">
+         <div class="apresentacao">
          <h3>Conheça o evento</h3>
          
          <div class="shadow p-3  bg-white rounded"><h4>11º Edição</h4></div>
@@ -82,7 +77,7 @@
 
          <div class="intro-link-foto">
          <a href="#">Clique aqui para acessar os anais</a>
-         <img src="fotos/img3-1.png"  width="512" height="288" >
+         <img src="fotos/img3-1.png" width="512" height="288" >
          </div>
 
          
@@ -101,8 +96,20 @@
             </P>
             <a href="#">Saiba mais...</a>
 
-            <h5>P1: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
-            <h6>Palestrante: Michel Reips (Segware).</h6>
+            <div class="p1" id="p1">
+                  <h5>P1: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
+                  <h6>Palestrante: Michel Reips (Segware)</h6>
+            </div>
+
+            <div class="p1michel" id="p1michel"
+            style="display: none">
+                  <h5>P1: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
+                  <h6>Palestrante: Michel Reips (Segware).</h6>
+                  <h6>Local: Auditório</h6>
+
+                  <h6>Michel Reips (Segware)</h6>
+                  <p>Formado em Desenvolvimento de Jogos Digitais pela Univali no ano de 2013. Desenvolvedor com experiência desde a comunicação com o hardware até em aplicativos para usuário final, atualmente, Líder de Integrações na empresa Segware.</p>
+            </div>
 
 
             <section>   
@@ -193,11 +200,12 @@
 
       </footer>
 
-
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="main.js" ></script>
 
      </main>
 
   </body>
 </html>
 
- 

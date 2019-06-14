@@ -120,7 +120,13 @@ header nav{
     transition: 0.5s;
 }
 
-.introdução p {
+.introducao {
+    display: flex;
+    margin: 30px 40px;
+    
+}
+
+.introducao p {
     font-size: 18px;
     font-weight: normal;
     display: flex;
@@ -131,12 +137,26 @@ header nav{
     margin: 40px 15px;
   }
 
-  .apresentação  {
+  .apresentacao  {
+      text-align: center;
       width: 80%;
-      padding: 0 15px;
+      padding: 0 25px;
+      
+  }
+
+  .apresentacao h3 {
+      font-size: 38px;
+      color: #ff6f61;
+      text-transform: uppercase;
+      font-weight: bold;
   }
   .intro-link-foto {
-    padding: 0 15px;
+    padding: 0 25px;
+    text-transform: uppercase;
+  }
+
+  .intro-link-foto a {
+    text-align: center;
   }
 
   .intro-link-foto img {

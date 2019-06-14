@@ -1,7 +1,11 @@
-$(document).ready(() => {
-  $('.menu-button').on('click',() => {
-    $('#nav-dropdown').slideToggle();
-  });
+
+
+      
+ $(document).ready(() => {
+       $("#p1").on('click',() => {
+             $("#p1michel").toggle();
+        }); 
+ });
 
 
 
@@ -11,4 +15,5 @@ $(document).ready(() => {
 
 
 
-  
+
+
