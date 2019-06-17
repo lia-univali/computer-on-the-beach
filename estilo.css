@@ -9,80 +9,12 @@ body {
 .cabecalho {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
-    position: relative;
-    bottom: 50px;
     height: 800px;
-    width: 100%;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
- .cabecalho div {
-    position: absolute;
-    left: 25px;
-    top: 70px; 
-    } 
-
-.drop-line {
-    margin-top: 10px !important;
+.cabecalho nav{
+    background-color: transparent;
 }
-
-.cabecalho ul {
-    text-align: center;
-    position: relative;
-    top: 50px;        
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 35px;
-    align-items: center;
-    padding: 15px 5px;  
-    text-transform: uppercase;
-    font-style: normal;
-    font-size: 18px;
-    
-  }
-
-.cabecalho li {  
-    display: flex;
-    justify-content: space-around;
-    margin: 15px 10px;    
-    font-size: 18px;
-    }
-
-    .cabecalho .dropdown-item {
-        font-size: 14px;
-        padding: 15px;
-        
-    }
-        
-    .cabecalho .dropdown-item:hover {
-        color: white;
-        background-color: #4bb463;
-        transition: 0.5s;
-    }
-
-    .cabecalho .dropdown-toggle:hover {
-        color: green;
-        transition: 0.5s;
-    }
-
-
-    
-.cabecalho a {
-    color: white;
-    font-size: 18px !important;
-}
-
-.cabecalho a:hover {
-    color: green;
-    text-decoration: none !important;
-    transition: 0.5s;
-}
-header nav{
-    height: 130px;
-    padding: 0px;
-    background-color: #29333f;
-}
-
 .cabecalho h1 {
     color: snow;
     position: absolute;
@@ -92,7 +24,6 @@ header nav{
     font-style: bolder;
 
 }
-
 .cabecalho h4 {
     color: snow;
     position: absolute;
@@ -103,30 +34,10 @@ header nav{
     text-transform: uppercase;
 
 }
-#menu-nav ul{
-    padding: 0px;
-    color: white;
-}
-#menu-nav li{
-    display: inline-block;
-    margin: 25px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-#menu-nav a{
-    color: white;
-}
-#menu-nav a:hover, #menu-nav .dropdown-toggle:hover{
-    color: #4bb463;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
 .introducao {
     display: flex;
     margin: 30px 40px;    
 }
-
 .introducao p {
     font-size: 18px;
     font-weight: normal;
@@ -136,22 +47,19 @@ header nav{
     padding: 0 5px;
     text-transform: none;
     margin: 40px 15px;
-  }
-
-  .apresentacao  {
-      text-align: center;
-      width: 80%;
-      padding: 0 25px;
-      
-  }
-
-  .apresentacao h3 {
-      font-size: 38px;
-      color: #ff6f61;
-      text-transform: uppercase;
-      font-weight: bold;
-  }
-  .intro-link-foto {
+}
+.apresentacao  {
+    text-align: center;
+    width: 80%;
+    padding: 0 25px;   
+}
+.apresentacao h3 {
+    font-size: 38px;
+    color: #ff6f61;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.intro-link-foto {
     padding: 0 25px;
     text-transform: uppercase;
     text-align: center;
@@ -165,17 +73,14 @@ header nav{
 
   .intro-link-foto img {
     margin-top: 50px;
-  }
-
-  /*atividades*/
-  .atividades {
+}
+.atividades {
     font-size: 18px;
     font-style: normal;
     padding: 10px 25px;
     margin: 10px 65px;
     color: black;    
 }
-
 .palestras {
     background-color: #f7f7f7;
     width: 100%;
@@ -189,7 +94,6 @@ header nav{
     color: #568763;;
     margin: 30px 0;
 }
-  
 .atividades h3 {
     text-align: center;
     font-size: 42px;
@@ -198,18 +102,15 @@ header nav{
     margin-top: 40px;
     margin-bottom: 15px;
 }
-
 .atividades h5 {
     font-size: 26px;
     font-weight: bold;
     color: #568763;;
     margin-top: 30px;
 }
-
 .atividades h4 {
     font-size: 36px;
     font-weight: bold;
-    
 }
 
 .atividades h6, a {
@@ -297,33 +198,58 @@ header nav{
     width: 100%;
     padding: 25px;
 }
-
 .demais-atividades {
     background-color: #f7f7f7;
     width: 100%;
     padding: 25px;
     text-align: center;
 }
-
+                /*FOOTER INDEX*/
 footer {
     text-align: center;
     color: #161A08;
     margin: 35px 0;
 }
-
 footer h2 {
     margin-top: 85px;
     margin-bottom: 10px;
     font-size: 66px;
     font-weight: normal;
 }
-
 footer img {
     margin: 5px 35px;
-    
 }
-
 .logo-fim {
     margin: 85px 0;
+}
+                /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
+
+header nav{
+    height: 130px;  
+    background-color: #69E6FF;
+}
+#logo{
+    width: 20%;
+}
+#menu-nav ul{
+    color: white;
+}
+#menu-nav .dropdown-menu{
+    background-color: #69E6FF;
+}
+#menu-nav li{   
+    display: inline-block;
+    margin: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#menu-nav a{
+    color: white;
+}
+#menu-nav a:hover, #menu-nav .dropdown-toggle:hover{
+    color: #4bb463;
+    text-decoration: none;
+    transition: 0.5s;
+    
 }
 
