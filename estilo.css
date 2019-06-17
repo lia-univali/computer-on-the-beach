@@ -78,13 +78,13 @@ body {
     font-size: 18px;
     font-style: normal;
     padding: 10px 25px;
-    margin: 10px 65px;
+    margin: 10px 25px;
     color: black;    
 }
 .palestras {
-    background-color: #f7f7f7;
+    background-color: #f3fff3;
     width: 100%;
-    padding: 25px;
+    padding: 30px 55px;
 }
 
 .atividades h2 {
@@ -106,7 +106,7 @@ body {
     font-size: 26px;
     font-weight: bold;
     color: #568763;;
-    margin-top: 30px;
+  
 }
 .atividades h4 {
     font-size: 36px;
@@ -114,11 +114,12 @@ body {
 }
 
 .atividades h6, a {
-    font-size: 16px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: 700;
     margin-top: 10px;
 }
 
+/*configurações michel*/
 .p1michel {
     display: flex;
     margin: 20px 20px;   
@@ -167,8 +168,107 @@ body {
     cursor: pointer;
 }
 
-/* botoes fechar - abrir palestras */
- .atividades .palestras .p1abre {
+/*configurações robson*/
+.p0robson {
+    display: flex;
+    margin: 20px 20px;   
+  }
+
+.robson-main {
+    margin: 20px 0;
+}
+
+.robson {    
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;  
+  text-transform: none;
+  margin: 15px 10px;
+  width: 50%;
+}
+
+.robson-main .robson h6 {
+    font-style: 700;
+}
+
+.robson-foto {
+    text-align: center;
+    margin: 0 auto;   
+    font-size: 14px;
+    text-align: justify;
+    width: 45%;
+}
+
+.robson-foto img {
+    padding-left: 65px;
+    margin-bottom: 25px;
+}
+
+.robson-bio {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.p0abre {
+    cursor: pointer;
+}
+
+.p0fecha {
+    cursor: pointer;
+}
+
+/*configurações andrea*/
+.p3andrea {
+    display: flex;
+    margin: 20px 20px;   
+  }
+
+.andrea-main {
+    margin: 50px 0;
+}
+
+.andrea {    
+  font-size: 18px;
+  font-weight: normal;
+  text-align: justify;  
+  text-transform: none;
+  margin: 15px 10px;
+  width: 50%;
+}
+
+.andrea-main .andrea h6 {
+    font-style: 700;
+}
+
+.robson-foto {
+    text-align: center;
+    margin: 0 auto;   
+    font-size: 14px;
+    text-align: justify;
+    width: 45%;
+}
+
+.robson-foto img {
+    padding-left: 65px;
+    margin-bottom: 25px;
+}
+
+.andrea-bio {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.p3abre {
+    cursor: pointer;
+}
+
+.p3fecha {
+    cursor: pointer;
+}
+
+/* botoes fechar - abrir palestras  */
+   
+   #p0abre, #p1abre, #p3abre {
     margin: 15px;
     padding: 15px;
     font-style: normal;
@@ -177,14 +277,14 @@ body {
     color: #568763;
    }
 
-   .atividades .palestras .p1fecha {
-
+   #p0fecha, #p1fecha, #p3fecha {
     font-style: normal;
     font-weight: bolder;
     font-size: 1,5em;
     color: #568763;
    }
-   
+
+
    .atividades .palestras a:hover {
      font-style: normal;
      font-weight: bolder;
