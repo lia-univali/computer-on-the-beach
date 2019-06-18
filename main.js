@@ -9,37 +9,55 @@
 });*/
 
 $(document).ready(function(){
-      $(".p1fecha").click(function(){
-        $(".p1michel").hide();
+
+      $("#autor1Main").click(function(){
+        if($("#p1").css('display') == 'none'){
+          $("#p1").show();
+        }else{ 
+          $("#p1").hide();
+        }
+    }); 
+      $("#autor2Main").click(function(){
+        if($("#p2").css('display') == 'none'){
+          $("#p2").show();
+        }else{ 
+          $("#p2").hide();
+        }
+     }); 
+
+         $("#autor3Main").click(function(){
+        if($("#p3").css('display') == 'none'){
+          $("#p3").show();
+        }else{ 
+          $("#p3").hide();
+        }
       });
-      $("#p1abre").click(function(){
-        $("#p1michel").show();
+
+      $("#autor4Main").click(function(){
+        if($("#p4").css('display') == 'none'){
+          $("#p4").show();
+        }else{ 
+          $("#p4").hide();
+        }
       });
-    });
 
-    $(document).ready(function(){
-      $(".p0fecha").click(function(){
-        $(".p0robson").hide();
+      $("#autor5Main").click(function(){
+        if($("#p5").css('display') == 'none'){
+          $("#p5").show();
+        }else{ 
+          $("#p5").hide();
+        }
       });
-      $("#p0abre").click(function(){
-        $("#p0robson").show();
+
+      $("#autor6Main").click(function(){
+        if($("#p6").css('display') == 'none'){
+          $("#p6").show();
+        }else{ 
+          $("#p6").hide();
+        }
       });
-    });
 
-    $(document).ready(function(){
-      $(".p3fecha").click(function(){
-        $(".p3andrea").hide();
-      });
-      $("#p3abre").click(function(){
-        $("#p3andrea").show();
-      });
-    });
-
-
-
-
-
-
+  });
 
 
 
