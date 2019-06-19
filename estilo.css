@@ -125,15 +125,28 @@ body {
 }
 
 /*configurações palestrantes*/
+hr {
+    border:none;
+    height: 20px;
+       width: 50%;
+      height: 50px;
+      margin-top: 15px;
+      border-bottom: 0px solid red;
+      box-shadow: 0 20px 25px -20px red;
+    margin: -50px auto 10px;
+  }
+
 .p1, .p2, .p3, .p4, .p5, .p6 {
     display: flex;
     margin: 20px 20px;   
   }
 
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main {
-    margin: 70px 0;
+    margin: 40px 0;
+    padding-bottom: 25px;
     cursor: pointer;
 }
+
 
 .autor1, .autor2, .autor3, .autor4, .autor5, .autor6 {    
   font-size: 18px;
@@ -168,19 +181,19 @@ body {
 }
 
 .p1abre, .p2abre, .p3abre, .p4abre, .p5abre, .p6abre {
-    cursor: pointer;
+    
 }
 
 .p1fecha, .p2fecha, .p3fecha, .p4fecha, .p5fecha, .p6fecha {
-    cursor: pointer;
+    
 }
 
 
 /* botoes fechar - abrir palestras  */
    
    #p1abre, #p2abre, #p3abre, #p4abre, #p5abre, #p6abre {
-    margin: 15px;
-    padding: 15px;
+    margin: 15px 0;
+    padding: 15px 5px;
     font-style: normal;
     font-weight: bolder;
     font-size: 1,5em;
