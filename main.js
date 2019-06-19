@@ -57,6 +57,14 @@ $(document).ready(function(){
         }
       });
 
+      $('#programacao').on('mouseenter', () => {
+        $(".dropdown-menu").show()
+      });
+      
+      $('#programacao').on('mouseleave', () => {
+        $(".dropdown-menu").hide();
+      });
+
   });
 
 

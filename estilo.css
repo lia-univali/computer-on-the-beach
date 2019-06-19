@@ -10,7 +10,7 @@ body {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
     height: 800px;
-    margin-bottom: 6    0px;   
+    margin-bottom: 6    0px;   /* testar utilidade*/
 }
 .cabecalho nav{
     background-color: transparent;
@@ -263,13 +263,15 @@ header nav{
 #menu-nav ul{
     color: white;
     display: inline-block;  
+    margin-top: 40px;
 }
 #menu-nav .dropdown-menu{
-    background-color: #69E6FF;
+    background-color: #0F0F0C;
 }
 #menu-nav li{   
     display: inline-block;
-    margin: 25px;
+    margin: 5px;
+    padding: 0px 11px;
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -282,5 +284,8 @@ header nav{
     transition: 0.5s;
     
 }
-
+#menu-nav .dropdown-item:hover{   
+    background-color: #4bb463;
+    color: white;
+}
 
