@@ -3,14 +3,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: #3333;
+    color: #333;
 }
 
 .cabecalho {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
     height: 800px;
-    margin-bottom: 10px;   
+    margin-bottom: 6    0px;   
 }
 .cabecalho nav{
     background-color: transparent;
@@ -18,7 +18,7 @@ body {
 .cabecalho h1 {
     color: snow;
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
     left: 90px;
     font-size: 65px;
     font-style: bolder;
@@ -27,7 +27,7 @@ body {
 .cabecalho h4 {
     color: snow;
     position: absolute;
-    bottom: 150px;
+    bottom: 60px;
     left: 90px;
     font-size: 30px;
     font-style: bolder;
@@ -36,10 +36,15 @@ body {
 }
 .introducao {
     display: flex;
-    margin: 30px 40px;    
-}
-.introducao p {
+    margin: 30px 40px;  
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.introducao .apresentacao p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
     font-weight: normal;
     display: flex;
     justify-content: flex-start;
@@ -55,7 +60,7 @@ body {
 }
 .apresentacao h3 {
     font-size: 38px;
-    color: #ff6f61;
+    color: #568763;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -68,7 +73,7 @@ body {
 
   .intro-link-foto a {
     text-align: center;
-    color: #ff6f61 !important;
+    color: #568763;
   }
 
   .intro-link-foto img {
@@ -105,7 +110,7 @@ body {
 .atividades h5 {
     font-size: 26px;
     font-weight: bold;
-    color: #568763;;
+    color: #568763;
   
 }
 .atividades h4 {
