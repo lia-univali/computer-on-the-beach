@@ -42,10 +42,6 @@ body {
     color: #333;
 }
 
-.introducao h4 {
-
-}
-
 .introducao .apresentacao p {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -109,7 +105,7 @@ body {
     font-size: 42px;
     font-weight: bold;
     color: #568763;;
-    margin-top: 40px;
+    margin-top: 55px;
     margin-bottom: 15px;
 }
 .atividades h5 {
@@ -187,6 +183,7 @@ hr {
 
 #saibaMais {
     margin-top: 30px;
+    
 }
 
 i {
@@ -195,7 +192,7 @@ i {
 
 /* botoes fechar - abrir palestras  */
    
-   #p1abre, #p2abre, #p3abre, #p4abre, #p5abre, #p6abre {    
+   #p1abre, #p2abre, #p3abre, #p4abre, #p5abre, #p6abre, #wshopAbre, #mini1Abre, #mini2Abre {    
     padding: 25px 5px;
     font-style: normal;
     font-weight: bolder;
@@ -211,24 +208,44 @@ i {
    }
 
 
-   .atividades .palestras a:hover {
+   .atividades .palestras a:hover, .workshop a:hover, .minicursos a:hover, .demais-atividades a:hover {
      font-style: normal;
      font-weight: bolder;
      font-size: 1,5em;
      color: #375234;
+     cursor: pointer;
    }
    
 
-.workshop, .minicursos {
-    background-color: #f7f7f7;
+.workshop {
+    background-color: #f3fff3;
     width: 100%;
-    padding: 25px;
+    padding: 65px 55px;
+    margin: 15px 0;    
+    cursor: pointer;
 }
+
+.minicursos {
+    background-color: #f3fff3;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 55px;
+    padding-right:55px;
+    padding-left: 55px;
+    margin-top: 15px;     
+    cursor: pointer;
+}
+
+.minicursos h5 {
+    padding-top: 65px;
+    
+}
+
 .demais-atividades {
-    background-color: #f7f7f7;
+    background-color: #f3fff3;
     width: 100%;
     padding: 25px;
-    text-align: center;
+    text-align: center;    
 }
                 /*FOOTER INDEX*/
 footer {

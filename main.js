@@ -57,12 +57,26 @@ $(document).ready(function(){
         }
       });
 
-      $('#programacao').on('mouseenter', () => {
-        $(".dropdown-menu").show()
+      $("#workShop").click(function(){
+        if($("#wsDetalhes").css('display') == 'none'){
+          $("#wsDetalhes").show();
+        }else{ 
+          $("#wsDetalhes").hide();
+        }
+      });
+
+      $('#programacao, #programacao li.dropdown').on('mouseenter', () => {
+        $("#menuProgramacao").show()
+      });
+      $('#chamadas').on('mouseenter', () => {
+        $("#menuChamadas").show()
       });
       
-      $('#programacao').on('mouseleave', () => {
-        $(".dropdown-menu").hide();
+      $('#programacao,.dropdown-menu').on('mouseleave', () => {
+        $("#menuProgramacao").hide();
+      });
+      $('#chamadas').on('mouseleave', () => {
+        $("#menuChamadas").hide();
       });
 
   });

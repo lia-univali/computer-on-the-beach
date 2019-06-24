@@ -1,4 +1,3 @@
-@ -1,322 +0,0 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -17,48 +16,47 @@
 
   <body>
      <header class="cabecalho"> 
-            <nav class="navbar" >
-                  <img id="logo" src="fotos/logo.png">
-
-                  <div id="menu-nav">
-                        <ul>   
-                              <li>
-                                    <a href="https://www.computeronthebeach.com.br/">Home</a>
-                              </li>
-
-                              <li class="dropdown">
-                                    <dropdown  class="dropdown-toggle" data-toggle="dropdown">
-                                          <a href="#">Programação</a>
-                                    </dropdown>
-                            
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Link 1</a>
-                                        <a class="dropdown-item" href="#">Link 2</a>
-                                        <a class="dropdown-item" href="#">Link 1</a>
-                                        <a class="dropdown-item" href="#">Link 2</a>
-                                    </div>
-                              </li>
-                              
-                              <li class="dropdown">
-                                    <dropdown  class="dropdown-toggle" data-toggle="dropdown">
-                                        <a href="#">chamadas</a>
-                                    </dropdown>
-                            
-                                    <div class="dropdown-menu">
-                                          <a class="dropdown-item" href="#">Link 1</a>
-                                          <a class="dropdown-item" href="#">Link 2</a>
-                                          <a class="dropdown-item" href="#">Link 1</a>
-                                          <a class="dropdown-item" href="#">Link 2</a>
-                                    </div>
-                              </li>
-                            
-                              <li><a href="https://www.computeronthebeach.com.br/">Inscrições</a></li>
-                              <li><a href="https://www.computeronthebeach.com.br/">Organização</a></li>
-                              <li><a href="https://www.computeronthebeach.com.br/">Local e Hospedagem</a></li>
-                              <li><a href="https://www.computeronthebeach.com.br/">Anais</a></li>
-                        </ul>
-                  </div>
-            </nav>   
+      <nav class="navbar" >
+            <div id="menu-nav">
+                <img id="logo" src="fotos/logo.png">
+                <ul>   
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <dropdown  class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="#" id="programacao">Programação</a>
+                        </dropdown>
+                    
+                        <div class="dropdown-menu" id="menuProgramacao">
+                            <a class="dropdown-item" href="gradeDeProgramacao.html">GRADE DE PROGRAMAÇÃO</a>
+                            <a class="dropdown-item" href="workshopMeninasDigitais.html">WORKSHOP MENINAS DIGITAIS</a>
+                            <a class="dropdown-item" href="painel.html">PAINEL</a>
+                            <a class="dropdown-item" href="sessoesTecnicas.html">SESSÕES TÉCNICAS</a>
+                            <a class="dropdown-item" href="resumosEstendidos.html">RESUMOS ESTENDIDOS</a>
+                            <a class="dropdown-item" href="programacaoConcursoTrabalhosTecnicos.html">CONCURSO DE TRABALHOS TÉCNICOS</a>
+                        </div>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <dropdown  class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="#">chamadas</a>
+                        </dropdown>
+                    
+                        <div class="dropdown-menu" id="menuChamadas">
+                            <a class="dropdown-item" href="trilhaPrincipal.html">TRILHA PRINCIPAL</a>
+                            <a class="dropdown-item" href="chamadaConcursoTrabalhosTecnicos.html">CONCURSOS TRABALHOS TÉCNICOS</a>
+                        </div>
+                    </li>
+                    
+                    <li><a href="inscricoes.html">Inscrições</a></li>
+                    <li><a href="organizacao.html">Organização</a></li>
+                    <li><a href="localEHospedagem.html">Local e Hospedagem</a></li>
+                    <li><a href="anais.html">Anais</a></li>
+                </ul>
+            </div>
+      </nav>    
       <h1 class="countdown-timer-title" style="color:#ffffff;font-size:58px;line-height:58px;font-weight:900;">COMPUTER ON THE BEACH 2020</h1>
 
       <h4 class="countdown-timer-title">De 04 a 06 de abril 2020, Florianopolis</h4>
@@ -143,243 +141,316 @@
                   </div>  
 
 
-            <div class="autor2-main" id="autor2Main" title="Saiba mais">
-                  <div>
-                    <h5>2ª PALESTRA: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
-                    <h6>Palestrante: Michel Reips (Segware)</h6>
-                    <h6>Local: Auditório</h6>
-                    <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                  </div>
-                  <div id="saibaMais">
-                    <i class="fas fa-chevron-down"></i>
-                    <a class="p2abre" id="p2abre"><i>Saiba mais...</i></a>
-                  </div>
-                  <hr>
-                  <div class="p2" id="p2" style="display: none">
-                  
-                    <div class="autor2">   
-                        <p>Como podemos receber, processar e armazenar milhões de eventos diariamente de forma assíncrona, garantindo ordem de entrega e rapidez? Vamos mostrar como fizemos tudo isso usando micro serviços, mensageria clusterizada e banco de NoSQL.</p>
-                        <br>
-                        <h6><i>Michel Reips</i></h6> 
-                              
-                  <div class="autor2-bio">                    
-                        <p>Formado em Desenvolvimento de Jogos Digitais pela Univali no ano de 2013. Desenvolvedor com experiência desde a comunicação com o hardware até em aplicativos para usuário final, atualmente, Líder de Integrações na empresa Segware.</p>                        
-                  </div>
-                        <br>
-                  <div id="saibaMais">
-                        <i class="fas fa-chevron-up"></i>
-                        <a class="p2fecha" id="p2fecha"><i>&nbsp;Fechar</i></a>  
-                  </div>
-                  
-                  
-                  </div>
-
-                  <div class="autor2-foto">
-                        <img src="fotos/michel.png" height="auto" width="70%"/>
-                 
-                  </div>
-
-                  </div>
-            </div>
-
-
-            <div class="autor3-main" id="autor3Main" title="Saiba mais">
-                  <div>
-                    <h5>3ª PALESTRA: A proteção dos dados pessoais e as novas tecnologias: caos ou oportunidades?</h5>
-                    <h6>Palestrantes:  Andrea Willemin e Ramicés da Silva.</h6>
-                    <h6>Local: Auditório</h6> 
-                    <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                  </div>
-                  <div id="saibaMais">
-                  <i class="fas fa-chevron-down"></i>
-                  <a class="p3abre" id="p3abre"><i>Saiba mais...</i></a>
-                  </div>
-                  <hr>
-                  <div class="p3" id="p3" style="display: none">
-                  
-                    <div class="autor3">   
-                        <p>Em Agosto de 2020, entra em vigor a Lei Geral de Proteção de Dados
-                              (LGPD). Além de criar novos direitos para pessoas físicas, como o direito à
-                              exclusão de dados e portabilidade entre serviços semelhantes, a lei prevê
-                              diversas mudanças na forma como o tratamento de dados deve ser feito em
-                              instituições públicas e privadas.
-                              O que são, afinal, dados pessoais? Quais são as mudanças que as empresas
-                              que fazem tratamento de dados pessoais devem atentar neste momento?
-                              Quais são as consequências de não-cumprimento das medidas previstas na
-                              lei? Quais dificuldades técnicas desenvolvedores, designers e gestores
-                              enfrentarão para adequar seus serviços e projetos?
-                              Mais do que uma inovação legislativa, a LGPD representa uma mudança de
-                              cultura em privacidade no Brasil. Os impactos dessa lei vão desde cadastros
-                              internos no setor de RH de empresas, dados médicos sensíveis de pacientes
-                              em hospitais, cadastros em sites de compras e até mesmo bancos de dados de
-                              prefeituras. Compreender as mudanças necessárias e os aspectos gerais da lei
-                              é essencial para empresas e serviços que fazem tratamento de dados
-                              pessoais.</p>
-                        <br>
-                        <h6><i>Andrea Willemin </i></h6> 
-                              
-                        <div class="autor3-bio">                    
-                        <p>Andrea é Advogada, Data Protection Officer, certificada pela Comunidade Europeia, Doutoranda em Ciência da Informação e Tecnologia pela Universidade Federal de Santa Catarina, Mestre em Direito da Sociedade de Informação e Propriedade Intelectual pela Universidade Federal de Santa Catarina – UFSC, pós-graduada em Proteção de Dados e em Segurança da Informação pela Universidade de Maastrischt/ Holanda e EPFL/Suíça; graduada em Direito pela Pontifícia Universidade Católica de São Paulo – PUC/SP e Université de Neuchâtel – Suíça; Economista formada pela Université de Savois – França e Université Genève – Suíça; Executive MBA Université de Genève.</p>                        
+                  <div class="autor2-main" id="autor2Main" title="Saiba mais">
+                        <div>
+                        <h5>2ª PALESTRA: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
+                        <h6>Palestrante: Michel Reips (Segware)</h6>
+                        <h6>Local: Auditório</h6>
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
                         </div>
-                        <br>
-                    <div id="saibaMais">
-                        <i class="fas fa-chevron-up"></i>
-                        <a class="p3fecha" id="p3fecha"><i>&nbsp;Fechar</i></a>
-                    </div>
-                   
-                    <div class="autor3-foto">
-                        <img src="fotos/robson.png" height="auto" width="85%"/>
-                 
-                    </div>
-                  
-                  </div>
 
-            </div>  
-
-
-            <div class="autor4-main" id="autor4Main" title="Saiba mais">
-                  <div>
-                    <h5>4ª PALESTRA: Segurança da Informação em Cooperativas de Credito Sistema Sicoob</h5>
-                    <h6>Palestrante: Paulo Silva (Tracker Consultoria)</h6>
-                    <h6>Local: Auditório</h6>     
-                    <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>               
-                  </div>
-                  <div id="saibaMais">
-                    <i class="fas fa-chevron-down"></i>
-                    <a class="p4abre" id="p4abre"><i>Saiba mais...</i></a>
-                  </div> 
-                  <hr>
-                  <div class="p4" id="p4" style="display: none">
-                  
-                    <div class="autor4">   
-                        <p>Descrição da palestra etc......</p>
-                        <br>
-                        <h6><i>Paulo Silva </i></h6> 
-                              
-                        <div class="autor4-bio">                    
-                        <p>Paulo Silva é Doutor pela Universidade Federal de Santa Catarina, Diretor de Consultoria da Tracker Segurança da Informação e Auditor Líder 27001 pelo British Standards Institution. Com mais de 14 anos de experiência em consultoria e auditoria em Gestão de Segurança da Informação; Gestão de Tecnologia da Informação e Gerenciamento de Projetos. Realizou mais de 150 projetos em empresas como SICOOB-SC/RS, CECRESP, UNIMED, FIESC, FECOAGRO, Senior Sistemas, Altenburg Têxtil, Electro Aço Altona, Grupo Lunelli, entre outras. Professor de Pós-Graduação há mais de 14 anos, atuando em instituições como FURB, UNIVALI, SENAC/SC, Estácio, entre outras. Autor de vários artigos publicados em eventos e periódicos nacionais e internacionais, incluindo Estados Unidos, Canadá, Austrália, França e Espanha.</p>                        
-                        </div>
-                        <br>
                         <div id="saibaMais">
-                        <i class="fas fa-chevron-up"></i>
-                        <a class="p4fecha" id="p4fecha"><i>&nbsp;Fechar</i></a>
+                        <i class="fas fa-chevron-down"></i>
+                        <a class="p2abre" id="p2abre"><i>Saiba mais...</i></a>
                         </div>
-                     
-                    <div class="autor4-foto">
-                        <img src="fotos/paulo.jpg" height="auto" width="85%"/>
-                 
-                    </div>
+                        <hr>
+                        <div class="p2" id="p2" style="display: none">
                   
+                              <div class="autor2">
+                              <p>Como podemos receber, processar e armazenar milhões de eventos diariamente de forma assíncrona, garantindo ordem de entrega e rapidez? Vamos mostrar como fizemos tudo isso usando micro serviços, mensageria clusterizada e banco de NoSQL.</p>
+                              <br>
+                              <h6><i>Michel Reips</i></h6>                              
+                                    <div class="autor2-bio">                    
+                                    <p>Formado em Desenvolvimento de Jogos Digitais pela Univali no ano de 2013. Desenvolvedor com experiência desde a comunicação com o hardware até em aplicativos para usuário final, atualmente, Líder de Integrações na empresa Segware.</p>                        
+                                    </div>
+                                    <br>
+                                    <div id="saibaMais">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <a class="p2fecha" id="p2fecha"><i>&nbsp;Fechar</i></a>  
+                                    </div>
+                                             
+                              </div>
+
+                              <div class="autor2-foto">
+                              <img src="fotos/michel.png" height="auto" width="70%"/>
+                  
+                              </div>
+
+                        </div>
                   </div>
 
-            </div>  
 
+                  <div class="autor3-main" id="autor3Main" title="Saiba mais">
+                        <div>
+                        <h5>3ª PALESTRA: A proteção dos dados pessoais e as novas tecnologias: caos ou oportunidades?</h5>
+                        <h6>Palestrantes:  Andrea Willemin e Ramicés da Silva.</h6>
+                        <h6>Local: Auditório</h6> 
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
+                        </div>
+                        <div id="saibaMais">
+                        <i class="fas fa-chevron-down"></i>
+                        <a class="p3abre" id="p3abre"><i>Saiba mais...</i></a>
+                        </div>
+                        <hr>
+                        <div class="p3" id="p3" style="display: none">
+                        
+                              <div class="autor3">   
+                                    <p>Em Agosto de 2020, entra em vigor a Lei Geral de Proteção de Dados
+                                          (LGPD). Além de criar novos direitos para pessoas físicas, como o direito à
+                                          exclusão de dados e portabilidade entre serviços semelhantes, a lei prevê
+                                          diversas mudanças na forma como o tratamento de dados deve ser feito em
+                                          instituições públicas e privadas.
+                                          O que são, afinal, dados pessoais? Quais são as mudanças que as empresas
+                                          que fazem tratamento de dados pessoais devem atentar neste momento?
+                                          Quais são as consequências de não-cumprimento das medidas previstas na
+                                          lei? Quais dificuldades técnicas desenvolvedores, designers e gestores
+                                          enfrentarão para adequar seus serviços e projetos?
+                                          Mais do que uma inovação legislativa, a LGPD representa uma mudança de
+                                          cultura em privacidade no Brasil. Os impactos dessa lei vão desde cadastros
+                                          internos no setor de RH de empresas, dados médicos sensíveis de pacientes
+                                          em hospitais, cadastros em sites de compras e até mesmo bancos de dados de
+                                          prefeituras. Compreender as mudanças necessárias e os aspectos gerais da lei
+                                          é essencial para empresas e serviços que fazem tratamento de dados
+                                          pessoais.</p>
+                                    <br>
+                                    <h6><i>Andrea Willemin </i></h6> 
+                                          
+                                    <div class="autor3-bio">                    
+                                    <p>Andrea é Advogada, Data Protection Officer, certificada pela Comunidade Europeia, Doutoranda em Ciência da Informação e Tecnologia pela Universidade Federal de Santa Catarina, Mestre em Direito da Sociedade de Informação e Propriedade Intelectual pela Universidade Federal de Santa Catarina – UFSC, pós-graduada em Proteção de Dados e em Segurança da Informação pela Universidade de Maastrischt/ Holanda e EPFL/Suíça; graduada em Direito pela Pontifícia Universidade Católica de São Paulo – PUC/SP e Université de Neuchâtel – Suíça; Economista formada pela Université de Savois – França e Université Genève – Suíça; Executive MBA Université de Genève.</p>                        
+                                    </div>
+                                    <br>
+                                    <div id="saibaMais">
+                                          <i class="fas fa-chevron-up"></i>
+                                          <a class="p3fecha" id="p3fecha"><i>&nbsp;Fechar</i></a>
+                                    </div>                   
+                                                
+                              </div>
+                              <div class="autor3-foto">
+                                    <img src="fotos/robson.png" height="auto" width="85%"/>
+                        
+                              </div>
+                        </div>  
+                  </div>
 
-            <div class="autor5-main" id="autor5Main" title="Saiba mais">
-                <div>
-                  <h5>5ª PALESTRA: Para que serve uma blockchain e por que eu devo me preocupar com isto?</h5>
-                  <h6>Palestrante: Alexandre Melo Braga (UNICAMP)</h6>
-                  <h6>Local: Auditório</h6> 
-                  <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                </div>                  
-                  <div id="saibaMais">
+                  <div class="autor4-main" id="autor4Main" title="Saiba mais">
+                        <div>
+                        <h5>4ª PALESTRA: Segurança da Informação em Cooperativas de Credito Sistema Sicoob.</h5>
+                        <h6>Palestrante: Paulo Silva (Tracker Consultoria)</h6>
+                        <h6>Local: Auditório</h6>     
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>               
+                        </div>
+                        <div id="saibaMais">
+                        <i class="fas fa-chevron-down"></i>
+                        <a class="p4abre" id="p4abre"><i>Saiba mais...</i></a>
+                        </div> 
+                        <hr>
+                        <div class="p4" id="p4" style="display: none">
+                        
+                              <div class="autor4">   
+                              <p>Descrição da palestra etc......</p>
+                              <br>
+                              <h6><i>Paulo Silva </i></h6> 
+                                          
+                                    <div class="autor4-bio">                    
+                                    <p>Paulo Silva é Doutor pela Universidade Federal de Santa Catarina, Diretor de Consultoria da Tracker Segurança da Informação e Auditor Líder 27001 pelo British Standards Institution. Com mais de 14 anos de experiência em consultoria e auditoria em Gestão de Segurança da Informação; Gestão de Tecnologia da Informação e Gerenciamento de Projetos. Realizou mais de 150 projetos em empresas como SICOOB-SC/RS, CECRESP, UNIMED, FIESC, FECOAGRO, Senior Sistemas, Altenburg Têxtil, Electro Aço Altona, Grupo Lunelli, entre outras. Professor de Pós-Graduação há mais de 14 anos, atuando em instituições como FURB, UNIVALI, SENAC/SC, Estácio, entre outras. Autor de vários artigos publicados em eventos e periódicos nacionais e internacionais, incluindo Estados Unidos, Canadá, Austrália, França e Espanha.</p>                        
+                                    </div>
+                                    <br>
+                                    <div id="saibaMais">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <a class="p4fecha" id="p4fecha"><i>&nbsp;Fechar</i></a>
+                                    </div>
+                                                                        
+                              </div>
+                              <div class="autor4-foto">
+                              <img src="fotos/paulo.jpg" height="auto" width="85%"/>
+                        
+                              </div>
+                        </div>  
+                  </div>
+
+                  <div class="autor5-main" id="autor5Main" title="Saiba mais">
+                        <div>
+                        <h5>5ª PALESTRA: Para que serve uma blockchain e por que eu devo me preocupar com isto?</h5>
+                        <h6>Palestrante: Alexandre Melo Braga (UNICAMP)</h6>
+                        <h6>Local: Auditório</h6> 
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
+                        </div>                  
+                        <div id="saibaMais">
                         <i class="fas fa-chevron-down"></i>
                         <a class="p5abre" id="p5abre"><i>Saiba mais...</i></a>                  
-                  </div>
-                <hr>
-                <div class="p5" id="p5" style="display: none">
-                
-                  <div class="autor5">   
-                      <p>Esta palestra conta como eu me envolvi com a tecnologia Blockchain e oferece uma visão pragmática da utilidade desta tecnologia, discutindo quais os casos de uso viáveis, como ela pode ser usada com sucesso, e onde seu uso não faz sentido, fazendo relação com as questões de confiança, segurança e privacidade envolvidas. O objetivo da palestra e alimentar o senso crítico da plateia em uma discussão sobre o potencial de uso da tecnologia blockchain ilustrada por erros, armadilhas, mitos e acertos, sem exageros e com os pés no chão.</p>
-                      <br>
-                      <h6><i>Alexandre Melo Braga</i></h6> 
-                            
-                      <div class="autor5-bio">                    
-                      <p>Doutor em ciência da computação nas áreas de criptografia aplicada, segurança de software e desenvolvimento de software seguro. Com 20 anos de experiência, já atuou como pesquisador e consultor em projetos para telecomunicações, bancos, operadoras de cartão de crédito, operadoras de planos de saúde, agências governamentais, forças armadas e comércio de varejo, sempre voltado para a utilização correta da criptografia e segurança de software sobre tecnologias específicas, tais como, software embarcado, meios de pagamento, smartTVs, aplicações móveis, IoT e Blockchain. Possui as certificações PMP, CISSP, CSSLP.</p>             
-                      </div>
-                      <br>
-                      <div id="saibaMais">
-                      <i class="fas fa-chevron-up"></i>
-                      <a class="p5fecha" id="p5fecha"><i>&nbsp;Fechar</i></a> 
-                      </div>
-                   
-                  <div class="autor5-foto">
-                      <img src="fotos/alexandre.png" height="auto" width="85%"/>
-               
-                  </div>
-                
-                </div>
-
-          </div>  
-
-
-
-          <div class="autor6-main" id="autor6Main" title="Saiba mais">
-            <div>
-              <h5>6ª PALESTRA: Papel da Inteligência Artificial e Máquinas de Aprendizado na CyberSegurança na atualidade</h5>
-              <h6>Palestrante: Rafael Righi (Suntech)</h6>
-              <h6>Local: Auditório</h6>    
-              <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>                              
-            </div>
-            <div id="saibaMais">
-                  <i class="fas fa-chevron-down"></i>
-                  <a class="p6abre" id="p6abre"><i>Saiba mais...</i></a>                  
-            </div>
-            <hr>
-
-            <div class="p6" id="p6" style="display: none">
-            
-              <div class="autor6">   
-                  <p>Os desafios de segurança na atualidade são imensos. Os vetores de ataque são em maior quantidade e complexidade (por onde vem o ataque). A complexidade dos ataques também tem aumentado e ataques direcionados e aqueles considerados APT são uma realidade. Também destacamos a avalanche de informações, alertas e logs gerados pelas ferramentas de segurança e sensores. Nesse cenário fica praticamente inviável que soluções de segurança obtenham sucesso sem utilizar recursos de automação e inteligência para ganhar escala e assertividade nas suas missões. Essa palestra irá falar sobre o cenário atual de segurança e como a inteligência artificial (e seu ramo Machine Learning) tem ajudado na construção de soluções de segurança mais preparadas para os desafios de hoje!</p>
-                  <br>
-                  <h6><i>Rafael Righi</i></h6> 
+                        </div>
+                        <hr>
+                        <div class="p5" id="p5" style="display: none">
                         
-                  <div class="autor6-bio">                    
-                  <p>Graduado em Ciência da Computação pela UFSM e Mestre em Ciência da Computação pela UFSC, com ênfase em segurança de sistemas computacionais, Rafael é Gerente de Soluções na Verint com atuação em soluções de cibersegurança para o governo e setor corporativo. Trabalhou para RNP, SENAI, Brasil Telecom e Oi com infra-estrutura de redes e segurança da informação. Além disso, Rafael também atua como professor da Academia Cisco.</p>                        
+                              <div class="autor5">   
+                              <p>Esta palestra conta como eu me envolvi com a tecnologia Blockchain e oferece uma visão pragmática da utilidade desta tecnologia, discutindo quais os casos de uso viáveis, como ela pode ser usada com sucesso, e onde seu uso não faz sentido, fazendo relação com as questões de confiança, segurança e privacidade envolvidas. O objetivo da palestra e alimentar o senso crítico da plateia em uma discussão sobre o potencial de uso da tecnologia blockchain ilustrada por erros, armadilhas, mitos e acertos, sem exageros e com os pés no chão.</p>
+                              <br>
+                              <h6><i>Alexandre Melo Braga</i></h6> 
+                                    
+                                    <div class="autor5-bio">                    
+                                    <p>Doutor em ciência da computação nas áreas de criptografia aplicada, segurança de software e desenvolvimento de software seguro. Com 20 anos de experiência, já atuou como pesquisador e consultor em projetos para telecomunicações, bancos, operadoras de cartão de crédito, operadoras de planos de saúde, agências governamentais, forças armadas e comércio de varejo, sempre voltado para a utilização correta da criptografia e segurança de software sobre tecnologias específicas, tais como, software embarcado, meios de pagamento, smartTVs, aplicações móveis, IoT e Blockchain. Possui as certificações PMP, CISSP, CSSLP.</p>             
+                                    </div>
+                                    <br>
+                                    <div id="saibaMais">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <a class="p5fecha" id="p5fecha"><i>&nbsp;Fechar</i></a> 
+                                    </div>                              
+                                    
+                              </div>
+                              <div class="autor5-foto">
+                              <img src="fotos/alexandre.png" height="auto" width="85%"/>           
+                              </div>
+                        </div>  
+
                   </div>
-                  <br>
+
+                  <div class="autor6-main" id="autor6Main" title="Saiba mais">
+                        <div>
+                        <h5>6ª PALESTRA: Papel da Inteligência Artificial e Máquinas de Aprendizado na CyberSegurança na atualidade.</h5>
+                        <h6>Palestrante: Rafael Righi (Suntech).</h6>
+                        <h6>Local: Auditório</h6>    
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6>                              
+                        </div>
+                        <div id="saibaMais">
+                              <i class="fas fa-chevron-down"></i>
+                              <a class="p6abre" id="p6abre"><i>Saiba mais...</i></a>                  
+                        </div>
+                        
+
+                        <div class="p6" id="p6" style="display: none">
+                        
+                              <div class="autor6">   
+                              <p>Os desafios de segurança na atualidade são imensos. Os vetores de ataque são em maior quantidade e complexidade (por onde vem o ataque). A complexidade dos ataques também tem aumentado e ataques direcionados e aqueles considerados APT são uma realidade. Também destacamos a avalanche de informações, alertas e logs gerados pelas ferramentas de segurança e sensores. Nesse cenário fica praticamente inviável que soluções de segurança obtenham sucesso sem utilizar recursos de automação e inteligência para ganhar escala e assertividade nas suas missões. Essa palestra irá falar sobre o cenário atual de segurança e como a inteligência artificial (e seu ramo Machine Learning) tem ajudado na construção de soluções de segurança mais preparadas para os desafios de hoje!</p>
+                              <br>
+                              <h6><i>Rafael Righi</i></h6> 
+                                          
+                                    <div class="autor6-bio">                    
+                                    <p>Graduado em Ciência da Computação pela UFSM e Mestre em Ciência da Computação pela UFSC, com ênfase em segurança de sistemas computacionais, Rafael é Gerente de Soluções na Verint com atuação em soluções de cibersegurança para o governo e setor corporativo. Trabalhou para RNP, SENAI, Brasil Telecom e Oi com infra-estrutura de redes e segurança da informação. Além disso, Rafael também atua como professor da Academia Cisco.</p>                        
+                                    </div>
+                                    <br>
+                                    <div id="saibaMais">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <a class="p6fecha" id="p6fecha">&nbsp;Fechar</a> 
+                                    </div>             
+                                          
+                              </div>
+                              <div class="autor6-foto">
+                              <img src="fotos/rafael.jpg" height="auto" width="85%"/>
+                        
+                              </div>
+                        </div>  
+                  
+                  </div>
+      </div>
+
+      <h3>Workshop</h3>
+            <div class="workshop" id="workShop" title="Detalhes" >
+                  <h5>Threat Defense Workshops:</h5>
+                  <p>
+                  O Threat Defense Workshop trata-se de uma simulação de ciberataque, para “pensar como hacker” e aprender como proteger-se! É extremamente difícil fazer uma simulação de um ciberataque no dia a dia, por isso estamos convidando-o(a) para executar esse ciberataque em um ambiente controlado, com as mesmas ferramentas e técnicas usadas pelos hackers e, logo depois, planejar e implementar a segurança necessária para bloquear esse tipo de ataque.
+                  </p>
+                  <div>
+                        <h6>Ministrantes: Amanda Veras e Tatiana Borher.</h6>
+                        <h6>Local: Auditório</h6>    
+                        <h6>Data / Horário: 01/06/2020 às 16:00 hrs.</h6> 
+                        <h6>Inscrição</h6>                             
+                        </div>
+
                   <div id="saibaMais">
-                  <i class="fas fa-chevron-up"></i>
-                  <a class="p6fecha" id="p6fecha">&nbsp;Fechar</a> 
-                   </div>
-               
-              <div class="autor6-foto">
-                  <img src="fotos/Rafael.jpg" height="auto" width="85%"/>
-           
-              </div>
-            
-            </div>
+                        <i class="fas fa-chevron-down"></i>
+                        <a class="wshopabre" id="wshopAbre"><i>Detalhes...</i></a>                  
+                  </div>
 
-      </div>  
+                  <div class="wshop-detalhes" id="wsDetalhes" style="display: none">
+                        
+                        <div class="wconceito">   
+                        
+                        <h6>Conceito:</h6>
+                        <p>O Threat Defense Workshop trata-se de uma simulação de ciberataque, para “pensar como hacker” e aprender como proteger-se! É extremamente difícil fazer uma simulação de um ciberataque no dia a dia, por isso estamos convidando-o(a) para executar esse ciberataque em um ambiente controlado, com as mesmas ferramentas e técnicas usadas pelos hackers e, logo depois, planejar e implementar a segurança necessária para bloquear esse tipo de ataque.
+                        </p>
+                        
+                        <h6>Objetivo</h6>
+                        <p>
+                        Este evento tempo objetivo estimular a comunidade da área de TI no que tange ao desenvolvimento de soluções para segurança cibernética. Através de um desafio busca-se preparar as pessoas para este cenário que tanto aflige a todos em um mundo conectado, fazendo com que as mesmas sejam replicadoras da segurança cibernética e as possibilidades de soluções para a segurança cibernética da população em geral.
+                        </p>
 
-          
-         </div>
-               <h3>Workshop</h3>
-         <div class="workshop">
-               <h5>Threat Defense Workshops:</h5>
-               <p>
-                     O Threat Defense Workshop trata-se de uma simulação de ciberataque, para “pensar como hacker” e aprender como proteger-se! É extremamente difícil fazer uma simulação de um ciberataque no dia a dia, por isso estamos convidando-o(a) para executar esse ciberataque em um ambiente controlado, com as mesmas ferramentas e técnicas usadas pelos hackers e, logo depois, planejar e implementar a segurança necessária para bloquear esse tipo de ataque.
-               </p>
-               <a href="#">Saiba mais...</a>
+                        <h6>Sobre os Ministrantes</h6>
+                        <p>
+                        Amanda Veras é coordenadora do setor de .......
+                        Tatiana Bohrer é professor e especialista no campo de ....
+                        </p>
+                        </div>
+                        
+                        <div class="wformato">
+                        <h6>Formato</h6>
+                        <ul>
+                              <li>Os participantes serão divididos em equipes de 4 ou 5 pessoas.</li>
+                              <li>Cada equipe terá a missão de atacar e se defender, como se fossem hackers.</li>
+                              <li>Desta forma terão a oportunidade de compreenderem melhor as técnicas utilizadas pelos invasores virtuais.</li>
+                              <li>Durante 5 horas as equipes multidisciplinares competirão entre si para resolver a maior quantidade de desafios de ataque e defesa. Com o auxílio de um especialista da área.</li>
+                        </ul>
 
-         </div>
-               <h3>Minicursos</h3>
+                        <h6>Pre-requisitos</h6>
+                        <p>Desejável ter conhecimento técnico nos seguintes temas:</p>
+                        <ul>
+                             <li>Comandos básicos de Windows e Linux;</li> 
+                             <li>Conhecimento de Redes;</li>
+                             <li>Conhecimento básico sobre ameaças.</li>
+                        </ul>
+
+                        <p>Cada participante deve trazer seu notebook com a seguinte configuração mínima:</p>
+                        <ul>
+                             <li>4G de RAM; 1CPU, 50G de Disco Rígido;</li> 
+                             <li>Sistema Operativo Windows, Linux, MAC;</li>
+                             <li>Navegador de Internet (Internet Explorer, Firefox, Chrome, Safari) sem restrições de PROXY;</li>
+                             <li>Rede sem fio.</li>
+                        </ul>
+
+                        </div>
+
+                        <h6>Valor</h6>
+                        <ul>
+                              <li>Pessoas já inscritas no Computer on the Beach: Isento.</li>
+                              <li>Pessoas não inscritas no Computer on the Beach: R$ 70,00.</li>
+                        </ul>
+                       
+                                    
+                           
+                              <br>
+                              <div id="saibaMais">
+                              <i class="fas fa-chevron-up"></i>
+                              <a class="p6fecha" id="p6fecha">&nbsp;Fechar</a> 
+                              </div>             
+                                    
+                        
+                      
+                  </div>
+            </div>  
+
+      
+
+      <h3>Minicursos</h3>
          <div class="minicursos">
-               <h4>Minicursos</h4>
-
                <h5>MC1: Detectando dados úteis na Web e trabalhando com eles.</h5>
                <h6>Palestrante: Carina F. Dorneles</h6>
                <p>Neste minicurso, serão discutidas questões referentes à natureza, detecção e ao uso do “Big Data”, mais especificamente, do Big Data presente na Web.</p>
-               <a href="#">Saiba mais...</a>
+               <div id="saibaMais">
+                  <i class="fas fa-chevron-down"></i>
+                  <a class="mini1abre" id="mini1Aabre"><i>Saiba mais...</i></a>                  
+               </div>                        
+               <hr>
 
                <h5>MC2: Introdução às tecnologias blockchain e suas aplicações</h5>
                <h6>Palestrante: Alexandre Melo Braga (UNICAMP)</h6>
                <p>Este minicurso aborda as tecnologias componentes de uma blockchain de modo introdutório e amplo, indo além das criptomoedas como o Bitcoin, proporcionando ao participante uma visão geral sobre o assunto.</p>  
-               <a href="#">Saiba mais...</a>
-
+               <div id="saibaMais">
+                  <i class="fas fa-chevron-down"></i>
+                  <a class="pmini2abre" id="pmini2Abre"><i>Saiba mais...</i></a>                  
+               </div>
+               
          </div>
          
-         <h3>Demais Atividades</h3>
+      <h3>Demais Atividades</h3>
          <div class="demais-atividades">
                <h4>Programação Detalhada</h4>
 
