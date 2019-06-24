@@ -65,14 +65,14 @@ $(document).ready(function(){
         }
       });
 
-      $('#programacao, #programacao li.dropdown').on('mouseenter', () => {
+      $('#programacao').on('mouseenter', () => {
         $("#menuProgramacao").show()
       });
       $('#chamadas').on('mouseenter', () => {
         $("#menuChamadas").show()
       });
       
-      $('#programacao,.dropdown-menu').on('mouseleave', () => {
+      $('#programacao').on('mouseleave', () => {
         $("#menuProgramacao").hide();
       });
       $('#chamadas').on('mouseleave', () => {
