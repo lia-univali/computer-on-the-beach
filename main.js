@@ -65,7 +65,7 @@ $(document).ready(function(){
         }
       });
 
-      $('#programacao').on('mouseenter', () => {
+      $('#programacao.dropdown').on('mouseenter', () => {
         $("#menuProgramacao").show()
       });
       $('#chamadas').on('mouseenter', () => {
