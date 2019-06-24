@@ -6,13 +6,13 @@ body {
     color: #333;
 }
 
-.cabecalho {
+#cabecalhoIndex {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
     height: 800px;
     margin-bottom: 6    0px;   /* testar utilidade*/
 }
-.cabecalho nav{
+#cabecalhoIndex nav{
     background-color: transparent;
 }
 #tituloHome{
@@ -301,4 +301,5 @@ footer h1{
 }
 #logoFim{
     background-color: #3f3f3d;
+    
 }
