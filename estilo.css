@@ -230,24 +230,6 @@ i {
     padding: 25px;
     text-align: center;
 }
-                /*FOOTER INDEX*/
-footer {
-    text-align: center;
-    color: #161A08;
-    margin: 35px 0;
-}
-footer h2 {
-    margin-top: 85px;
-    margin-bottom: 10px;
-    font-size: 66px;
-    font-weight: normal;
-}
-footer img {
-    margin: 5px 35px;
-}
-.logo-fim {
-    margin: 85px 0;
-}
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
 header nav{
@@ -273,8 +255,7 @@ header nav{
 }
 #menu-nav li{   
     display: inline-block;
-    margin: 5px;
-    padding: 0px 11px;
+    padding: 0px 15px;
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -291,4 +272,18 @@ header nav{
     background-color: #4bb463;
     color: white;
 }
+                /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
+footer {
+    text-align: center;
+    color: #161A08;
+}
+footer h1{
+    font-weight: 700;   
 
+}
+#realizacoes, #patrocinio, #apoio, #apoioInstucional{
+    margin-bottom: 70px;
+}
+#logoFim{
+    background-color: #3f3f3d;
+}
