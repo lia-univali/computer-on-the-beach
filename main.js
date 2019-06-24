@@ -65,6 +65,22 @@ $(document).ready(function(){
         }
       });
 
+      $("#mc1Main").click(function(){
+        if($("#idMc1").css('display') == 'none'){
+          $("#idMc1").show();
+        }else{ 
+          $("#idMc1").hide();
+        }
+      });
+
+      $("#mc2Main").click(function(){
+        if($("#idMc2").css('display') == 'none'){
+          $("#idMc2").show();
+        }else{ 
+          $("#idMc2").hide();
+        }
+      });
+
       $('#programacao.dropdown').on('mouseenter', () => {
         $("#menuProgramacao").show()
       });
