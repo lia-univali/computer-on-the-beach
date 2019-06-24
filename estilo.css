@@ -15,20 +15,17 @@ body {
 .cabecalho nav{
     background-color: transparent;
 }
-.cabecalho h1 {
+#tituloHome{
+    margin: 400px 100px;
+}
+#tituloHome h1 {
     color: snow;
-    position: absolute;
-    bottom: 100px;
-    left: 90px;
     font-size: 65px;
     font-style: bolder;
 
 }
-.cabecalho h4 {
+#tituloHome h4 {
     color: snow;
-    position: absolute;
-    bottom: 60px;
-    left: 90px;
     font-size: 30px;
     font-style: bolder;
     text-transform: uppercase;
@@ -267,12 +264,13 @@ header nav{
     display: inline-block;  
     margin-top: 40px;
 }
-#menu-nav .dropdown-menu{
+#menuProgramacao, #menuChamadas{
+    margin: 0;
     background-color: #0F0F0C;
 }
 #menu-nav li{   
     display: inline-block;
-    padding: 0px 15px;
+    padding: 10px 15px;
     text-transform: uppercase;
     font-weight: bolder;
 }
