@@ -333,6 +333,18 @@ header nav{
     background-color: #4bb463;
     color: white;
 }
+#tituloPadrao{
+    margin-top: 110px;
+}
+#tituloPadrao h1{
+    color: #568763;
+    font-size: 50px;
+   font-weight: 600;
+    text-align: center ;
+    background-image: url(fotos/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 footer {
     
