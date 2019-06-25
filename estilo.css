@@ -124,36 +124,71 @@ body {
 }
 
 /*configurações Meninas Digitais */
-.meninas {
-    margin-top: 40px;
+
+.cabecalho-meninas {    
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;  
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 #fotoMeninas {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 35px;
+    margin-right: 20px;
 }
 
-.cabecalho-meninas {
-    display: flex;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 100px;    
+.descricao-meninas {
+    
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-weight: normal;    
+    width: 40%;
+    padding: 0 5px;
+    margin: 30px 15px;
 
-}
-.meninas h3 {
-    text-align: center;
-    font-size: 46px;
-    font-weight: bold;
-    color: #568763;
-}
+}  
 
-.meninas h5, .cabecalho-meninas h5 {
-    text-align: center;
+.cabecalho-meninas h5 {    
     font-size: 26px;
     font-weight: bold;
     color: #568763;
+}
+
+.meninas-main {   
+    margin: 50px 10px;  
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.meninas-parte2 {
+    margin-left: 25px;
+    border-left: 1px solid #568763;
+   
+}
+
+.meninas-main .meninas-parte2 img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.meninas-main h5 {
+    color: #568763;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.meninas-main h6 {
+    
+    font-weight: normal;
+    font-size: 20px;
 }
 
 /*configurações palestrantes*/
@@ -163,9 +198,9 @@ hr {
        width: 80%;
       height: 50px;
       margin-top: 0;
-      border-bottom: 0.1px solid #568763;;
-      box-shadow: 0 20px 25px -20px #568763;;
-      margin: 0 auto 10px;
+      border-bottom: 0.1px solid #568763;
+      box-shadow: 0 20px 25px -20px #568763;
+      margin: 0 auto;
   }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1, .mc1, .mc2 {
@@ -344,7 +379,7 @@ header nav{
 }
 #tituloPadrao h2{
     color: #568763;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
 
 }
