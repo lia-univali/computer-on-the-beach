@@ -12,6 +12,7 @@ body {
     height: 800px;
     margin-bottom: 6    0px;   /* testar utilidade*/
 }
+
 #cabecalhoIndex nav{
     background-color: transparent;
 }
@@ -122,6 +123,15 @@ body {
     margin-top: 10px;
 }
 
+
+#cabecalhoMeninas {
+    background-image: url("fotos/meninas.jpg");
+    background-size: cover;
+    height: 400px;
+    margin: 60px 0;  
+}
+
+
 /*configurações palestrantes*/
 hr {
     border:none;
@@ -184,7 +194,7 @@ hr {
     
 }
 
-i, .workshop a, .minicursos a {
+i, .workshop a, .minicursos a, .demais-atividades a {
     color:  #568763;
 }
 
@@ -301,17 +311,33 @@ header nav{
 }
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 footer {
+    
     text-align: center;
     color: #161A08;
+
 }
 footer h1{
     font-weight: 700;   
+    font-size: 56px;
 
 }
-#realizacoes, #patrocinio, #apoio, #apoioInstucional{
-    margin-bottom: 70px;
+#realizacoes, #patrocinio, #apoio, #apoioInstitucional {
+    margin: 70px 0;
+    
 }
+#realizacoes img, #patrocinio img, #apoio img, #apoioInstitucional img {
+    height: auto;
+    width: 280px;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+
 #logoFim{
     background-color: #3f3f3d;
-    
+    margin-top: 50px;
+    height: 180;
+    padding: 0;
+    margin: 0;
+
 }
