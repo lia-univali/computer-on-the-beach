@@ -136,7 +136,7 @@ body {
 }
 
 .cabecalho-meninas {
-    display: ;
+    display: flex;
     margin: 0 auto;
     position: relative;
     margin-top: 100px;    
@@ -149,7 +149,7 @@ body {
     color: #568763;
 }
 
-.meninas h5 {
+.meninas h5, .cabecalho-meninas h5 {
     text-align: center;
     font-size: 26px;
     font-weight: bold;
@@ -289,22 +289,7 @@ i, .workshop a, .minicursos a, .demais-atividades a {
     padding-top: 65px;
     
 }
-                /*CONFIGURAÇÕES DOS ANAIS*/
-#anais{
-   margin: 100px 100px;
 
-}
-#anais h2{
-    
-    font-size: 35px;
-    font-weight: 600;
- }
-blockquote {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    border-left: 5px solid #eee;
-    
-}
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
 header nav{
@@ -328,7 +313,6 @@ header nav{
 #menuProgramacao, #menuChamadas{
     margin: 0;
     background-color: #0F0F0C;
-    position: absolute;
 }
 #menu-nav li{   
     display: inline-block;
@@ -348,18 +332,6 @@ header nav{
 #menu-nav .dropdown-item:hover{   
     background-color: #4bb463;
     color: white;
-}
-#tituloPadrao{
-    margin-top: 100px;
-}
-#tituloPadrao h1{
-    color: #568763;
-    font-size: 50px;
-   font-weight: 600;
-    text-align: center ;
-    background-image: url(fotos/banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 footer {
