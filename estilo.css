@@ -310,6 +310,37 @@ blockquote {
     text-decoration: none;
     color: #000000;
 }
+                /*CONFIGURAÇÕES PAGINA LOCAL E HOSPEDAGEM*/
+#local{
+    text-align: center;
+    color: #568763;
+    margin: 50px 0;
+}
+#local h3 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin: 10px 0;
+}
+#local h4 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+#mapa{
+    text-align: center;
+    margin: 50px 0;
+}
+#mapa  img{
+    height: 450px;
+    width: 70%;
+}
+#hospedagem{
+    margin: 30px 100px;
+    padding-left: 40px;
+    justify-content: flex-end;
+    font-size: 16px;
+}
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
 header nav{
