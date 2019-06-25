@@ -335,15 +335,18 @@ header nav{
 }
 #tituloPadrao{
     margin-top: 110px;
+    text-align: center;
 }
 #tituloPadrao h1{
     color: #568763;
     font-size: 50px;
    font-weight: 600;
-    text-align: center ;
-    background-image: url(fotos/banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
+}
+#tituloPadrao h2{
+    color: #568763;
+    font-size: 40px;
+    font-weight: 600;
+
 }
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 footer {
