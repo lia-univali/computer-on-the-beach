@@ -170,23 +170,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.meninas-parte1 {
-    
+.meninas-parte1 {    
     margin-right: 25px;    
    
 }
-.meninas-parte2 {
-    
+
+.meninas-parte1 ul {
+    padding: 0 20px;
+    margin-top: 15px;
+    text-align: justify;
+    border-left: 4px solid hsl(136, 62%, 90%);
+}
+.meninas-parte2 {    
     margin-left: 25px; 
     padding: 0 50px;
     border-left: 4px solid hsl(136, 62%, 90%);   
-   
 }
+
 #fotoMeninaParte2 {
     position: relative;
     display: flex;
-    /*justify-content: center;*/
-    /*align-items: center;*/
     margin: -2px auto;
     
 }
@@ -219,7 +222,71 @@ body {
     padding: 0 30px;
     margin-top: 25px;
     text-align: justify;
-    border-left: 4px solid hsl(136, 62%, 90%);
+    
+}
+
+.meninas-main ul {
+    list-style-type: none;
+}
+
+/*configurações painel*/
+
+.containerPainel {   
+    margin: 50px 40px;  
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#fotoPainelistas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    
+}
+
+.painelMain h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.painelMain p {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: justify;
+    margin: 15px 0px 0;   
+    padding: 0 25px;
+    border-left: 4px solid hsl(136, 62%, 90%); 
+}
+
+/*configurações Sessões Técnicas */
+
+.mainTecnicas {
+    margin: 0 40px;
+    font-size:16px;
+}
+
+.sTecnicas {
+    margin: 30px 25px;
+}
+
+.mainTecnicas ul {
+    list-style-type: circle;
+}
+
+#stHead {
+    margin-top: 40px;
+    padding-left: 20px;
+    border-left: 4px solid hsl(136, 62%, 90%); 
+    font-weight: 600;
+    
+}
+
+#stHead h5 {
+    color: #568763;
+    font-weight: 600;
+    
 }
 
 /*configurações palestrantes*/
@@ -231,6 +298,7 @@ hr {
     border-bottom: 0.1px solid #568763;
     box-shadow: 0 20px 25px -20px #568763;
     margin: 0px auto;
+    margin-top: -20px;
   }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1, .mc1, .mc2 {
