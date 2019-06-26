@@ -128,7 +128,8 @@ body {
 .cabecalho-meninas {    
     display: flex;
     justify-content: center;
-    margin: 20px 10px;  
+    margin: 20px 10px 0px; 
+ 
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 
@@ -159,48 +160,77 @@ body {
     font-weight: bold;
     color: #568763;
 }
-
+#meninasCorpo{
+    margin: 0 auto; 
+    
+}
 .meninas-main {   
     margin: 50px 10px;  
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
-.meninas-parte2 {
-    margin-left: 25px;
-    border-left: 1px solid #568763;
+.meninas-parte1 {
+    
+    margin-right: 25px;    
    
 }
-
-.meninas-main .meninas-parte2 img {
+.meninas-parte2 {
+    
+    margin-left: 25px; 
+    padding: 0 50px;
+    border-left: 4px solid hsl(136, 62%, 90%);   
+   
+}
+#fotoMeninaParte2 {
     position: relative;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    margin: -2px auto;
     
 }
-
 .meninas-main h5 {
     color: #568763;
     font-weight: bold;
     font-size: 32px;
 }
 
-.meninas-main h6 {
-    
-    font-weight: normal;
+.meninas-main h6 {    
+    font-weight: bolder;
     font-size: 20px;
+}
+
+.meninas-bio1  {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+    text-align: justify;
+    padding: 0 5px;
+    margin: 50px 0;
+}
+
+.meninas-bio1 span {
+    font-size: 15.5px;
+    font-weight: 600;
+}
+
+.meninas-bio1 p {
+    font-size: 14px;
+    padding: 0 30px;
+    margin-top: 25px;
+    text-align: justify;
+    border-left: 4px solid hsl(136, 62%, 90%);
 }
 
 /*configurações palestrantes*/
 hr {
     border:none;
     height: 5px;
-       width: 80%;
-      height: 50px;
-      margin-top: 0;
-      border-bottom: 0.1px solid #568763;
-      box-shadow: 0 20px 25px -20px #568763;
-      margin: 0 auto;
+    width: 80%;
+    height: 50px;
+    border-bottom: 0.1px solid #568763;
+    box-shadow: 0 20px 25px -20px #568763;
+    margin: 0px auto;
   }
 
 .p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1, .mc1, .mc2 {
@@ -421,7 +451,7 @@ header nav{
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
 #tituloPadrao{
-    margin: 80px;
+    margin-top: 70px;
     text-align: center;
 }
 #tituloPadrao h1{
