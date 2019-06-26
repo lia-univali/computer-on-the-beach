@@ -406,6 +406,20 @@ blockquote {
     justify-content: flex-end;
     font-size: 16px;
 }
+                /*CONFIGURAÇÕES DA PAGINA DE ORGANIZAÇÃO*/
+#organizacao{
+    margin: 80px;
+    text-align: center;
+    box-shadow: 20px 20px 20px black;
+}
+#organizacao h1{
+    color: #568763;
+    font-size: 35px;
+   font-weight: 600;
+}
+#pessoas{
+    margin: 10px 0;
+}
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
 header nav{
