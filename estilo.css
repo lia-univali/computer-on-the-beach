@@ -379,16 +379,23 @@ blockquote {
                 /*CONFIGURAÇÕES DA PAGINA DE ORGANIZAÇÃO*/
 #organizacao{
     margin: 80px;
-    text-align: center;
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 0px 20px 20px gray;
 }
 #organizacao h1{
     color: #568763;
-    font-size: 35px;
+    font-size: 28px;
    font-weight: 600;
+   margin: 20px 0 0;
+    text-align: center;
 }
 #pessoas{
-    margin: 10px 0;
+    margin: 20px 0 40px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+#itensPessoas{
+    padding: 0 20px;
 }
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
