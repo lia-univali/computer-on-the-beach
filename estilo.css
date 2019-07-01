@@ -328,7 +328,6 @@ body {
 /*configurações inscrições*/
 
 table {
-    border-spacing: ;
     width: 75%;
     border: 1px solid black;
     margin: 45px auto;
@@ -707,11 +706,15 @@ blockquote {
 #pessoas{
     margin: 20px 0 40px;
     font-size: 16px;
-    font-weight: 600;
-
+    font-weight: 600;    
 }
 #itensPessoas{
     padding: 0 20px;
+   margin: 0 auto;
+}
+                /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
+.table .table-bordered .th{
+    display: block;
 }
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
@@ -796,10 +799,9 @@ footer h1{
 }
 #logoFim{
     background-color: #3f3f3d;
+    transform: skew(-10deg, -3deg) translateY(50px);
     margin-top: 50px;
-    height: 180;
-    padding: 0;
-    margin: 0;
+
 
 }
                 /*CONFIGURAÇÕES MEDIA*/
