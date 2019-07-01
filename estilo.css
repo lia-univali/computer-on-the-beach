@@ -6,6 +6,37 @@ body {
     color: #333;
 }
 
+
+
+  @media only screen and (max-width: 480px), (orientation: landscape) {
+    body {
+      width: 100%;
+      font-size: 16px;
+    }
+    .cabecalho {
+        width: 100%;
+    }
+    .introducao {
+        display: block;
+
+    }
+  }
+  
+  @media only screen and (min-width: 270px), (orientation: portrait) {
+    body {
+        width: 100%;
+        font-size: 16px;
+      }
+   }
+
+   @media only screen and (max-resolution: 300dpi) {
+    #menuNav {
+    display: block;
+    }  
+  }
+
+
+
 #cabecalhoIndex {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
@@ -344,6 +375,23 @@ table {
     
 }
 
+@media only screen and (max-width: 480px), (orientation: landscape) {
+    #myTable {
+      width: 95%;    
+    }  
+
+    #myTable .valor {
+        width: 15%;    
+    } 
+
+    #myTable th {
+        font-size: 16px;    
+    } 
+    
+  }
+
+
+
 /*configuracoes chamadas*/
 
 .mainChamadas {
@@ -376,12 +424,87 @@ table {
     justify-content: center;
     margin: 50px auto;
     color: darkgreen;
+    font-size: 22px;
     
 }
 
 .linkSubmissao a:hover {
     text-underline-position: none;
     
+}
+
+/*configurações trilha*/
+
+.mainTrilha {
+    margin: 0 80px;
+    font-size: 18px;
+}
+
+.mainTrilha p {
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.mainTrilha h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #568763;
+    margin-top: 35px;
+}
+
+.mainTrilha ul, a {
+    font-weight: normal;
+    list-style-type: circle;
+    color: inherit;
+    margin-top: 15px;
+        
+}
+
+.topicos {
+    margin: 0 190px;
+}
+
+/*colocar esta div no centro? margin 0 auto não funciona 
+#datasTrilha {
+    margin: 0 410px;
+}
+*/
+
+.linksTrilha {
+    display: flex;
+    text-align: center;
+    margin: 60px 120px;
+    
+}
+
+.linksTrilha div {
+    margin: 0 auto;
+    
+}
+
+.linksTrilha i {
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+.mainTrilha h5 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.comitePro {
+    margin: 0 25px;
+
+}
+
+.comitePro h4 {
+    text-align: center;
+    font-size: 42px;
+    color: #568763;
+    margin-top: 35px;
+    margin-bottom: 40px;
+
 }
 
 /*configurações palestrantes*/
