@@ -38,7 +38,7 @@ body {
 
 
 #cabecalhoIndex {
-    background-image: url("fotos/grupo.jpg");
+    background-image: url("fotos/pcnapraia.jpg");
     background-size: cover;
     height: 800px;
     margin-bottom: 6    0px;   /* testar utilidade*/
@@ -51,17 +51,17 @@ body {
     margin: 400px 100px;
 }
 #tituloHome h1 {
-    color: snow;
+    color: #568763;
     font-size: 65px;
     font-style: bolder;
-
+    
 }
 #tituloHome h4 {
-    color: snow;
+    color: #568763;
     font-size: 30px;
-    font-style: bolder;
+    font-weight: bolder;
     text-transform: uppercase;
-
+    
 }
 .introducao {
     display: flex;
@@ -120,12 +120,13 @@ body {
     background-color: #f3fff3;
     width: 100%;
     padding: 10px 55px;
+    font-size: 16px;
 }
 
 .atividades h2 {
     text-align: center;
     font-size: 66px;
-    font-weight: bold;
+    font-weight: 600;
     color: #568763;;
     margin: 0px 0;
 }
@@ -150,11 +151,11 @@ body {
 
 .atividades h6, a {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 10px;
 }
 
-/*configurações Meninas Digitais */
+                /* CONFIGURAÇÕES MENINAS DIGITAIS*/
 
 .cabecalho-meninas {    
     display: flex;
@@ -260,7 +261,7 @@ body {
     list-style-type: none;
 }
 
-/*configurações painel*/
+                /*CONFIGURAÇÕES PAINEL*/
 
 .containerPainel {   
     margin: 50px 40px;  
@@ -291,7 +292,7 @@ body {
     border-left: 4px solid hsl(136, 62%, 90%); 
 }
 
-/*configurações Sessões Técnicas */
+                /*CONFIGURAÇÕES SESSÕES TÉCNICAS */
 
 .mainTecnicas {
     margin: 0 60px;
@@ -325,10 +326,11 @@ body {
     font-weight: 600;
 }
 
-/*configurações inscrições*/
+                        /*CONFIGURAÇÕES DE INSCRIÇÕES*/
 
+/* Obs.: configuração de largura da tabela nao responde*/
 #myTable {
-    width: 95%;
+    width: 60%;
     border: 1px solid black;
     margin: 45px auto;
     font-size: 16px;    
@@ -358,15 +360,15 @@ body {
     background-color: #f2f2f2
   }
 
-  .mainInscricoes a {
-      position: relative;
-      margin: 15px auto;
-      display: flex;
-      justify-content: center;
-      color:   #568763;
-      font-size: 22px;
-      font-weight: none;
-  }
+/* Estilo no css causa aumento de tamanho do texto (inscreva-se) no hover. No html nao ocorre*/
+  .mainInscricoes h6 {
+    position: relative;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;  
+   
+   
+}
 
   .mainInscricoes a:hover {
     color: darkgreen;
@@ -391,7 +393,7 @@ body {
 
 
 
-/*configuracoes chamadas*/
+                /*CONFIGURAÇÕES CHAMADAS*/
 
 .mainChamadas {
     margin: 0 80px;
@@ -417,8 +419,7 @@ body {
     font-weight: bold;
 }
 
-.linkSubmissao  {
-   
+.linkSubmissao  {   
     text-align: center;
     margin: 50px auto;
     color: #0e3519;
@@ -431,7 +432,7 @@ body {
     
 }
 
-/*configurações trilha*/
+            /*CONFIGURAÇÕES TRILHA*/
 
 .mainTrilha {
     margin: 0 80px;
@@ -516,11 +517,53 @@ body {
     margin-bottom: 40px;
 }
 
-/*configurações palestrantes*/
+                /*CONFIGURAÇÕES PROGRAMAÇÃO TRAB. TÉCNICOS*/
+
+.mainTecnicos .tecnicos {
+    margin: 45px 50px;
+    display: flex;      
+
+}
+
+.mainTecnicos .tecnicos div {
+    margin: 0 40px;   
+    text-align: justify;
+
+}
+
+.mainTecnicos .tecnicos h3 {
+    color: #568763;
+    font-size: 38px;
+    font-weight: 600;    
+}
+
+.mainTecnicos .tecnicos h4 {
+    color: #568763;
+    font-size: 28px;
+    font-weight: 500;        
+}
+
+.mainTecnicos .tecnicos h6 {
+    color: #568763;
+    font-size: 18px;
+    font-weight: 600; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.mainTecnicos .tecnicos p {
+    
+    font-size: 17px;
+    font-weight: 500; 
+   
+}
+
+
+                /*CONFIGURAÇÕES PALESTRANTES*/
 hr {
     border:none;
     height: 5px;
-    width: 80%;
+    width: 60%;
     height: 50px;
     border-bottom: 0.1px solid #568763;
     box-shadow: 0 20px 25px -20px #568763;
@@ -542,11 +585,11 @@ hr {
 
 
 .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2 {    
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   text-align: justify;  
   text-transform: none;
-  margin: 5px 5px;
+  margin: 35px 5px;
   width: 50%;
 }
 
@@ -582,7 +625,7 @@ i, .workshop a, .minicursos a, .demais-atividades a {
     color:  #568763;
 }
 
-/* botoes fechar - abrir palestras  */
+                /* BOTOES FECHAR - ABRIR PALESTRAS  */
    
    #p1abre, #p2abre, #p3abre, #p4abre, #p5abre, #p6abre, #wshopAbre {    
     padding: 25px 5px;
@@ -702,27 +745,37 @@ blockquote {
     font-size: 16px;
 }
                 /*CONFIGURAÇÕES DA PAGINA DE ORGANIZAÇÃO*/
+
 #organizacao{
     margin: 80px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     box-shadow: 0px 20px 20px gray;
 }
 #organizacao h1{
     color: #568763;
     font-size: 28px;
-   font-weight: 600;
-   margin: 20px 0 0;
+    font-weight: 600;
+    margin: 35px 0 0;
     text-align: center;
 }
 #pessoas{
     margin: 20px 0 40px;
     font-size: 16px;
-    font-weight: 600;    
+    font-weight: 500;    
+    text-align: center;
+    font-weight: none;
 }
+
+
 #itensPessoas{
-    padding: 0 20px;
-    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-left: 55px;
+    margin-top: 40px;
 }
                 /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
+
 #tabelaProgramacao{
     display: flex;
     margin: 60px 100px;
@@ -778,6 +831,7 @@ header nav{
     color: white;
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
+
 #tituloPadrao{
     margin-top: 70px;
     text-align: center;
@@ -794,6 +848,7 @@ header nav{
 
 }
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
+
 footer {
     
     text-align: center;
@@ -823,6 +878,7 @@ footer h1{
 
 }
                 /*CONFIGURAÇÕES MEDIA*/
+                
 @media only screen and(max-width: 1400px) {
     #menu-nav li{   
         display: inline-block;
