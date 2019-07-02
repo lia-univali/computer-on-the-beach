@@ -726,14 +726,71 @@ blockquote {
                 /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
 #tabelaProgramacao{
     display: flex;
-    margin: 60px 100px;
+    margin: 60px 60px;
 }
 #tabelaDia{
-    margin: 0 30px;
+    margin: 0 20px;
 }
 #tabelaDia th, #tabelaDia td {
     text-align: center;
     vertical-align: middle;    
+}
+#stGrade{
+   background-color:#f2c90f;
+}
+#mcGrade{
+    background-color: #2081f7;
+ }
+#cbGrade{
+    background-color: #6ef0a2;
+}
+#palestraGrade{
+    background-color: #a19a9a;
+ }
+#workshopGrade{
+    background-color: #fa7268;
+}
+#concursoGrade{
+    background-color: #f246c7;
+}
+#horarioGrade{
+    background-color: rgb(228, 208, 208);
+}
+#legendaProgramacao {
+    margin: 10px 50px;
+}
+#legendaProgramacao ul{
+    list-style-type: none;
+}
+#legendaProgramacao  h4, #legendaProgramacao  h3{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+#legendaProgramacao  h3{
+    font-size: 30px;
+}
+#legendaProgramacao  a{
+    color: #000000;
+    font-size: 18px;
+}
+#legendaProgramacao h4 a:hover{
+    text-decoration: none;
+    color: rgb(17, 83, 17);
+}
+#atividadesProgramacao{
+    margin: 65px 0px 70px 80px;
+}
+#cardsProgramacao{
+    margin: 10px 10px;
+    display: inline-table;
+    background-color: #f3fff3;  
+}
+#imgSurf{
+    position: absolute;
+    left: 43%;
+    top: 2100px;
+    width: 20%;
 }
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
@@ -818,7 +875,6 @@ footer h1{
 }
 #logoFim{
     background-color: #3f3f3d;
-    transform: skew(-10deg, -3deg) translateY(50px);
     margin-top: 50px;
 
 
