@@ -41,7 +41,6 @@ body {
     background-image: url("fotos/grupo.jpg");
     background-size: cover;
     height: 800px;
-    margin-bottom: 6    0px;   /* testar utilidade*/
 }
 
 #cabecalhoIndex nav{
@@ -798,7 +797,7 @@ header nav{
     background-color: #0F0F0C;
     opacity: 0.8;
 }
-#menu-nav{
+#menuNav{
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -806,7 +805,7 @@ header nav{
 #logo{
     width: 20%;
 }
-#menu-nav ul{
+#menuNav ul{
     color: white;
     display: inline-block;  
     margin-top: 40px;
@@ -815,22 +814,22 @@ header nav{
     margin: 0;
     background-color: #0F0F0C;
 }
-#menu-nav li{   
+#menuNav li{   
     display: inline-block;
     padding: 10px 15px;
     text-transform: uppercase;
     font-weight: bolder;
 }
-#menu-nav a{
+#menuNav a{
     color: white;
 }
-#menu-nav a:hover, #menu-nav .dropdown-toggle:hover{
+#menuNav a:hover, #menu-nav .dropdown-toggle:hover{
     color: #4bb463;
     text-decoration: none;
     transition: 0.5s;
     
 }
-#menu-nav .dropdown-item:hover{   
+#menuNav .dropdown-item:hover{   
     background-color: #4bb463;
     color: white;
 }
