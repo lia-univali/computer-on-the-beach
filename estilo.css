@@ -724,18 +724,16 @@ blockquote {
     margin: 0 auto;
 }
                 /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
-table{
-    margin: 100px;
-    width: 0 !important;
+#tabelaProgramacao{
+    display: flex;
+    margin: 60px 100px;
 }
-#horarioGrade, #conteudoGrade{
+#tabelaDia{
+    margin: 0 30px;
+}
+#tabelaDia th, #tabelaDia td {
     text-align: center;
-
-}
-#horarioGrade:hover{
-   background-color: #d6f5de;
-   cursor: unset;
-   
+    vertical-align: middle;    
 }
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
