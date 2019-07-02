@@ -328,7 +328,7 @@ body {
 /*configurações inscrições*/
 
 #myTable {
-    width: 75%;
+    width: 95%;
     border: 1px solid black;
     margin: 45px auto;
     font-size: 16px;    
@@ -460,6 +460,11 @@ body {
         
 }
 
+.mainTrilha .datasTrilha a:hover {
+    color: #568763;
+    text-decoration-line: none;
+}
+
 .mainTrilha h5 {
     margin-top: 25px;
     font-weight: bold;
@@ -472,12 +477,6 @@ body {
 .topicos {
     margin: 0 190px;
 }
-
-/*colocar esta div no centro? margin 0 auto não funciona 
-#datasTrilha {
-    margin: 0 410px;
-}
-*/
 
 .linksTrilha {
     display: flex;
@@ -497,7 +496,7 @@ body {
 }
 
 .datasTrilha, .trilhaCoord {
-    border-left: 4px solid #12411f;    
+    border-left: 4px solid #8ec49d;;    
 }
 
 .trilhaCoord h5  {
