@@ -327,7 +327,7 @@ body {
 
 /*configurações inscrições*/
 
-table {
+#myTable {
     width: 75%;
     border: 1px solid black;
     margin: 45px auto;
@@ -335,26 +335,26 @@ table {
   }
 
   
-  th {
+  #myTable th {
     cursor: pointer;
     border: 1px solid black;
     background-color: hsl(136, 62%, 90%); 
     font-size: 20px;
   }
 
-  th:hover {
+ #myTable th:hover {
       background-color: rgb(158, 207, 158);
   }
   
   
-  th, td {
+ #myTable th, td {
     text-align: left;
     padding: 8px 20px;
     max-width: 100px;
     border: 1px solid black;
   }
   
-  tr:nth-child(even) {
+ #myTable tr:nth-child(even) {
     background-color: #f2f2f2
   }
 
@@ -417,12 +417,11 @@ table {
     font-weight: bold;
 }
 
-.linkSubmissao a {
-    position: relative;
-    display: flex;
-    justify-content: center;
+.linkSubmissao  {
+   
+    text-align: center;
     margin: 50px auto;
-    color: darkgreen;
+    color: #0e3519;
     font-size: 22px;
     
 }
@@ -442,6 +441,7 @@ table {
 .mainTrilha p {
     margin-top: 30px;
     font-weight: normal;
+    text-align: justify;
 }
 
 .mainTrilha h2 {
@@ -460,6 +460,15 @@ table {
         
 }
 
+.mainTrilha h5 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.mainTrilha #tituloPadrao h2 {
+    margin: 10px 0;
+}
+
 .topicos {
     margin: 0 190px;
 }
@@ -473,7 +482,7 @@ table {
 .linksTrilha {
     display: flex;
     text-align: center;
-    margin: 60px 120px;
+    margin: 60px 170px;
     
 }
 
@@ -487,9 +496,12 @@ table {
     margin-bottom: 20px;
 }
 
-.mainTrilha h5 {
-    margin-top: 25px;
-    font-weight: bold;
+.datasTrilha, .trilhaCoord {
+    border-left: 4px solid #12411f;    
+}
+
+.trilhaCoord h5  {
+    padding-left: 22px;  
 }
 
 .comitePro {
@@ -503,7 +515,6 @@ table {
     color: #568763;
     margin-top: 35px;
     margin-bottom: 40px;
-
 }
 
 /*configurações palestrantes*/
