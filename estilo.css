@@ -41,7 +41,6 @@ body {
     background-image: url("fotos/pcnapraia.jpg");
     background-size: cover;
     height: 800px;
-    margin-bottom: 6    0px;   /* testar utilidade*/
 }
 
 #cabecalhoIndex nav{
@@ -778,14 +777,71 @@ blockquote {
 
 #tabelaProgramacao{
     display: flex;
-    margin: 60px 100px;
+    margin: 60px 60px;
 }
 #tabelaDia{
-    margin: 0 30px;
+    margin: 0 20px;
 }
 #tabelaDia th, #tabelaDia td {
     text-align: center;
     vertical-align: middle;    
+}
+#stGrade{
+   background-color:#f2c90f;
+}
+#mcGrade{
+    background-color: #2081f7;
+ }
+#cbGrade{
+    background-color: #6ef0a2;
+}
+#palestraGrade{
+    background-color: #a19a9a;
+ }
+#workshopGrade{
+    background-color: #fa7268;
+}
+#concursoGrade{
+    background-color: #f246c7;
+}
+#horarioGrade{
+    background-color: rgb(228, 208, 208);
+}
+#legendaProgramacao {
+    margin: 10px 50px;
+}
+#legendaProgramacao ul{
+    list-style-type: none;
+}
+#legendaProgramacao  h4, #legendaProgramacao  h3{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+#legendaProgramacao  h3{
+    font-size: 30px;
+}
+#legendaProgramacao  a{
+    color: #000000;
+    font-size: 18px;
+}
+#legendaProgramacao h4 a:hover{
+    text-decoration: none;
+    color: rgb(17, 83, 17);
+}
+#atividadesProgramacao{
+    margin: 65px 0px 70px 80px;
+}
+#cardsProgramacao{
+    margin: 10px 10px;
+    display: inline-table;
+    background-color: #f3fff3;  
+}
+#imgSurf{
+    position: absolute;
+    left: 43%;
+    top: 2100px;
+    width: 20%;
 }
                 /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
@@ -794,7 +850,7 @@ header nav{
     background-color: #0F0F0C;
     opacity: 0.8;
 }
-#menu-nav{
+#menuNav{
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -802,7 +858,7 @@ header nav{
 #logo{
     width: 20%;
 }
-#menu-nav ul{
+#menuNav ul{
     color: white;
     display: inline-block;  
     margin-top: 40px;
@@ -811,22 +867,22 @@ header nav{
     margin: 0;
     background-color: #0F0F0C;
 }
-#menu-nav li{   
+#menuNav li{   
     display: inline-block;
     padding: 10px 15px;
     text-transform: uppercase;
     font-weight: bolder;
 }
-#menu-nav a{
+#menuNav a{
     color: white;
 }
-#menu-nav a:hover, #menu-nav .dropdown-toggle:hover{
+#menuNav a:hover, #menu-nav .dropdown-toggle:hover{
     color: #4bb463;
     text-decoration: none;
     transition: 0.5s;
     
 }
-#menu-nav .dropdown-item:hover{   
+#menuNav .dropdown-item:hover{   
     background-color: #4bb463;
     color: white;
 }
@@ -872,7 +928,6 @@ footer h1{
 }
 #logoFim{
     background-color: #3f3f3d;
-    transform: skew(-10deg, -3deg) translateY(50px);
     margin-top: 50px;
 
 
