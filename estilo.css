@@ -7,34 +7,42 @@ body {
 }
 
 
-
-  @media only screen and (max-width: 480px), (orientation: landscape) {
-    body {
-      width: 100%;
-      font-size: 16px;
-    }
-    .cabecalho {    
-        width: 100%;
-    }
-    .introducao {
-        display: block;
-
-    }
-  }
-  
-  @media only screen and (min-width: 270px), (orientation: portrait) {
-    body {
-        width: 100%;
-        font-size: 16px;
-      }
+@media only screen and (max-width: 1370px) {
+   body{
+       width: 100%;
    }
+    #menuNav li a { 
+       font-size: 15px;
+   }
+   #menuNav li { 
+    padding: 10px 5px;
+    }
+}
+@media only screen and (max-width: 400px){
+    body{
+        width: fit-content;
+    }
+    header nav {
+        height: 180px !important;
+    }
+    #menuNav ul {
+        margin-top: 5px!important;
+        margin-left: 5px;
+    }
+    #cabecalhoIndex {
+        width: 100% !important;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+    }
 
-   @media only screen and (max-resolution: 300dpi) {
-    #menuNav {
-    display: block;
-    }  
-  }
-
+    .intro-link-foto {
+        display: none !important;
+    }
+    .apresentacao {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}
 
             /*CONFIGURAÇÕES CABEÇALJO INDEX */
 
@@ -642,8 +650,11 @@ hr {
 
 .p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1, .mc1, .mc2 {
     display: flex;
-    margin: 5px 15px;  
- 
+    margin: 5px 15px;   
+  }
+  .frontFoto2, .descAutor2 {
+      display: flex;
+      margin-left: 40px;
   }
 
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1, .mc2 {
@@ -653,13 +664,13 @@ hr {
 }
 
 
-.autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2 {    
+.autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor2 {    
   font-size: 16px;
   font-weight: normal;
   text-align: justify;  
   text-transform: none;
   margin: 35px 5px;
-  width: 50%;
+  width: 100%;
 }
 
 .autor1-main .autor1 h6, .autor2-main .autor2 h6, .autor3-main .autor3 h6,  .autor4-main .autor4 h6, .autor5-main .autor5 h6,
