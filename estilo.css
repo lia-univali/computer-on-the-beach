@@ -18,8 +18,9 @@ body {
     padding: 10px 5px;
     }
 }
-@media only screen and (max-width: 400px){
-    body{
+
+@media only screen and (max-width: 400px) {
+    body {
         width: fit-content;
     }
     header nav {
@@ -34,13 +35,58 @@ body {
         background-size: contain !important;
         background-repeat: no-repeat;
     }
-
+/*
+    #cabecalhoIndex  {
+        position: relative;
+        top: 50px !important;
+    }
+*/
     .intro-link-foto {
         display: none !important;
     }
     .apresentacao {
         width: 100% !important;
         padding: 0 !important;
+    }
+
+    .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
+        position: relative;
+        top: 80px;
+    }
+
+    .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1 {
+        display: block !important;
+    }
+
+    .palestras {
+        padding: 1px 15px !important;
+    }
+
+    .workshop {
+        padding: 25px 15px!important;
+    }
+
+    .atividades {
+        margin: -30px 0 !important;
+    }
+
+    .atividades h3 {
+        margin-top: 38px !important;
+    }
+
+    .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div {
+        width: 98% !important;
+    }
+    .autor1-foto img {
+        width: 70% !important;
+    }
+    /*
+    .autor1-main hr {
+        display: none;
+    } */
+
+    .autor2-foto img, .autor3-foto img {
+        width:55%;
     }
 }
 
@@ -656,7 +702,8 @@ hr {
     
     margin: 5px 15px;   
   }
-.frontFoto1, .descAutor1,  .frontFoto2, .de.frontFotoMc1, .descAutorMc1scAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc1, .descAutorMc2   {
+
+.frontFoto1, .descAutor1,  .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc1, .descAutorMc2   {
       display: flex;
       text-align: justify;
       margin-left: 20px;
