@@ -196,7 +196,7 @@ header nav{
 .palestras {
     background-color: #f3fff3;
     width: 100%;
-    padding: 10px 55px;
+    padding: 3px 55px;
     font-size: 16px;
 }
 
@@ -648,28 +648,33 @@ hr {
     margin-top: -20px;
   }
 
-.p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1, .mc1, .mc2 {
-    display: flex;
+#workShop div {
+    margin-left: 20px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1 {
+    
     margin: 5px 15px;   
   }
-  .frontFoto2, .descAutor2 {
+.frontFoto1, .descAutor1,  .frontFoto2, .de.frontFotoMc1, .descAutorMc1scAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc1, .descAutorMc2   {
       display: flex;
-      margin-left: 40px;
+      text-align: justify;
+      margin-left: 20px;
   }
 
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1, .mc2 {
     margin: 40px 0;
-    padding-bottom: 25px;
+    padding-bottom: 0;
     cursor: pointer;
 }
 
 
-.autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor2 {    
+ .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2  {   
   font-size: 16px;
   font-weight: normal;
   text-align: justify;  
   text-transform: none;
-  margin: 35px 5px;
+  margin: 10px 5px;
   width: 100%;
 }
 
@@ -679,8 +684,9 @@ hr {
 }
 
 .autor1-foto, .autor2-foto, .autor3-foto, .autor4-foto, .autor5-foto, .autor6-foto, .autormc1-foto, .autormc2-foto {
-    text-align: center;
-    margin: 0 auto;   
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
     font-size: 14px;
     text-align: justify;
     width: 45%;
@@ -688,7 +694,7 @@ hr {
 
 .autor1-foto img, .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img {
     padding-left: 65px;
-    margin: 35px 25px;
+    margin: 20px 5px 0;
 }
 
 .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
@@ -696,13 +702,10 @@ hr {
     font-size: 14px;
 }
 
-#saibaMais {
-    margin-top: 30px;
-    
-}
 
 i, .workshop a, .minicursos a, .demais-atividades a {
     color:  #568763;
+   
 }
 
                 /* BOTOES FECHAR - ABRIR PALESTRAS  */
@@ -736,9 +739,10 @@ i, .workshop a, .minicursos a, .demais-atividades a {
 .workshop, .demais-atividades {
     background-color: #f3fff3;
     width: 100%;
-    padding: 65px 55px;
+    padding: 51px 50px;
     margin: 10px 0;    
     cursor: pointer;
+    text-align: justify;
 }
 .wshop-detalhes h6 {
     color: #568763;
