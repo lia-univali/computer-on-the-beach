@@ -12,10 +12,10 @@ body {
        width: 100%;
    }
     #menuNav li a { 
-       font-size: 15px;
+       font-size: 15px !important;
    }
    #menuNav li { 
-    padding: 10px 5px;
+    padding: 10px 5px !important;
     }
 }
 
@@ -23,12 +23,28 @@ body {
     body {
         width: fit-content;
     }
+    h1{
+        font-size: 40px !important;
+    }
     header nav {
         height: 180px !important;
     }
+    nav.navbar{
+        padding: 0px 5px !important;
+    }
+    #menuNav li{ 
+        padding: 5px !important;
+    }
+    #menuNav li a { 
+        font-size: 14px !important;
+        margin: 0px !important
+    }
     #menuNav ul {
-        margin-top: 5px!important;
-        margin-left: 5px;
+        margin: 14px !important;
+        padding: 0 !important;
+    }
+    #menuChamadas {
+        margin: 0px -170px !important;
     }
     #cabecalhoIndex {
         width: 100% !important;
@@ -110,6 +126,39 @@ body {
 
     .autor2-foto img, .autor3-foto img {
         width:55%;
+    }
+    /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
+    #tabelaProgramacao {
+        display: contents !important;
+        margin: 0px !important;
+    }
+    #tabelaDia{
+        margin: 30px 0px 0px !important; 
+    }
+    #horarioGrade, #stGrade, #mcGrade, #cbGrade, #palestraGrade, #almocoGrade, #workshopGrade, #tracoGrade, #concursoGrade{
+        padding: 0px !important;
+    }
+    #legendaProgramacao{
+        margin: 10px 0px !important;
+    }
+    #legendaProgramacao ul{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    #atividadesProgramacao {
+        margin: 60px 0px 0px !important;
+    }
+    #cardsProgramacao {
+        margin: 10px 30px !important;
+        display: unset !important;
+    }
+    #imgSurf{
+        display: none;
+    }
+    /*CONFIGURAÇÃO ORGANIZAÇÃO*/
+    #organizacao {
+        margin: 10px!important;
+        padding: 0px !important;
     }
 }
 
