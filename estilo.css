@@ -132,6 +132,11 @@ body {
     #imgSurf{
         display: none;
     }
+    /*CONFIGURAÇÃO ORGANIZAÇÃO*/
+    #organizacao {
+        margin: 10px!important;
+        padding: 0px !important;
+    }
 }
 
             /*CONFIGURAÇÕES CABEÇALJO INDEX */
