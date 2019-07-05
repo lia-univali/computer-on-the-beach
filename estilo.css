@@ -35,12 +35,6 @@ body {
         background-size: contain !important;
         background-repeat: no-repeat;
     }
-/*
-    #cabecalhoIndex  {
-        position: relative;
-        top: 50px !important;
-    }
-*/
     .intro-link-foto {
         display: none !important;
     }
@@ -54,14 +48,36 @@ body {
         top: 80px;
     }
 
-    .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1 {
+    .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
         display: block !important;
     }
+
 
     .palestras {
         padding: 1px 15px !important;
     }
 
+    .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+        margin: 25px 0 !important;
+       
+    }
+
+    .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+        margin-left: 0px !important;
+      
+    }
+
+    .palestras .descIntro1.col {
+        padding: 0 0px !important;
+    }
+
+    .atividades p {
+        margin: 0 -20px;
+    }
+
+    .workshop p, .minicursos p {
+        margin: 0 -5px;
+    }
     .workshop {
         padding: 25px 15px!important;
     }
@@ -73,17 +89,24 @@ body {
     .atividades h3 {
         margin-top: 38px !important;
     }
+     .minicursos {
+         padding: 0 15px !important;
+     }
 
-    .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div {
+     .minicursos h5 {
+         padding-top: 35px !important;
+     }
+
+    .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
         width: 98% !important;
     }
     .autor1-foto img {
         width: 70% !important;
     }
-    /*
-    .autor1-main hr {
+    
+    br {
         display: none;
-    } */
+    } 
 
     .autor2-foto img, .autor3-foto img {
         width:55%;
