@@ -21,7 +21,7 @@ body {
 
 @media only screen and (max-width: 400px) {
     body {
-        width: min-content;
+        width: fit-content;
     }
     h1{
         font-size: 40px !important;
