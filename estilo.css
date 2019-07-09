@@ -86,6 +86,9 @@ body {
     #menuChamadas {
         margin: 0px -170px !important;
     }
+    #menuProgramacao{
+        margin: 0 -25px !important;
+    }
                 /*configurações index*/
     #cabecalhoIndex {
         background-image: none !important;
@@ -212,6 +215,7 @@ body {
     }
     #tabelaDia{
         margin: 30px 0px 0px !important; 
+        font-size: 16px !important;
     }
     #horarioGrade, #stGrade, #mcGrade, #cbGrade, #palestraGrade, #almocoGrade, #workshopGrade, #tracoGrade, #concursoGrade{
         padding: 0px !important;
