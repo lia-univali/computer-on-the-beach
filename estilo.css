@@ -478,9 +478,19 @@ body {
             /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
     .mainTrilha {
         margin: 0 10px !important;
+
+    }
+
+    .datasTrilha ul {
+        margin-left: 5px;
+        padding-left: 30px;
     }
     .datasTrilha li {
-        margin-left: 10px;
+        list-style-type: circle !important;
+    }
+
+    .mainTrilha h2 {
+        margin: 0 !important;
     }
     .colTopicos{
         margin: 0px;
