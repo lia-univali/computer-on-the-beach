@@ -146,7 +146,7 @@ body {
         width: 70% !important;
     }
     br {
-        display: none; /*configuração geral*/
+        display: none; /*muito geral*/
     } 
 
     .autor2-foto img, .autor3-foto img {
@@ -376,6 +376,11 @@ body {
     #hospedagem {
         margin: 15px 20px !important;
         padding-left: 0px !important;
+    }
+            /*CONFIGURAÇÕES ORGANIZAÇÃO*/
+    #itensPessoas {
+        padding: 0px !important;
+        margin: 0px !important;
     }
 }
 
@@ -1186,14 +1191,15 @@ blockquote {
     text-align: center;
     font-weight: none;
 }
-
-
 #itensPessoas{
     padding-right: 20px;
     padding-left: 10px;
     margin-left: 55px;
     margin-top: 40px;
 }
+#itensPessoas li{
+    list-style-type: none;
+    }
                 /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
 
 #tabelaProgramacao{
