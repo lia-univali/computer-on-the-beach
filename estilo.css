@@ -388,11 +388,8 @@ body {
         margin: 15px 20px !important;
         padding-left: 0px !important;
     }
-            /*CONFIGURAÇÕES ORGANIZAÇÃO*/
-    #itensPessoas {
-        padding: 0px !important;
-        margin: 0px !important;
-    }
+            /*CONFIGURAÇÕES ORGANIZAÇÃO, CASO FOR NECESSARIO, CONFIGURAR ABAIXO*/
+
             /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
     .mainTrilha {
         margin: 0 10px !important;
@@ -416,8 +413,7 @@ body {
         margin: 0px !important;
     }
 }
-
-            /*CONFIGURAÇÕES CABEÇALHO INDEX */
+         /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
     background-image: url("fotos/praia3.jpg");
@@ -799,7 +795,7 @@ header nav{
   
  #myTable th, #myTable td {
     text-align: left;
-    padding: 8px 20px;
+    padding: 8px 0px;
     max-width: 100px;
     border: 1px solid black;
   }
@@ -828,13 +824,8 @@ header nav{
     #myTable {
       width: 95%;    
     }  
-
-    #myTable .valor {
-        width: 15%;    
-    } 
-
     #myTable th {
-        font-size: 16px;    
+        font-size: 14px;    
     } 
     
   }
