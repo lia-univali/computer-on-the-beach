@@ -27,23 +27,41 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-            /*configurações de cabeçalho padrão*/
-    body {
-        width: fit-content;
+            /*CONFIGURAÇÕES GERAIS*/
+    ul {
+        margin-bottom: 5px !important;
+        padding-left: 0px !important; 
+        padding-right:8px !important;  
+        text-align: justify;     
     }
+    li{
+        list-style-type: none;   
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    hr {
+        margin-top: -40px !important;  
+        margin-bottom: 15px !important;
+    }
+    br {
+        display: none; 
+    } 
     h1{
-        font-size: 40px !important;  /*muito geral*/
+        font-size: 40px !important;
     }
+            /*configurações de cabeçalho padrão*/
+    
     header nav {
         height: 180px !important;
     }
     nav.navbar{
         padding: 0px 5px !important;
     }
-    #menuNav li{ 
+    #menuNav li{
         padding: 5px !important;
     }
-    #menuNav li a { 
+    #menuNav li a {
         font-size: 14px !important;
         margin: 0px !important
     }
@@ -155,10 +173,6 @@ body {
     .autor1-foto img {
         width: 70% !important;
     }
-    br {
-        display: none; /*muito geral*/
-    } 
-
     .autor2-foto img, .autor3-foto img {
         width:55%;
     }
@@ -358,19 +372,6 @@ body {
         margin-bottom: 0px !important;
         
     }
-    ul {
-        margin-bottom: 5px !important; /*muito geral*/
-        padding-left: 0px !important; 
-        padding-right:8px !important;  
-        text-align: justify;     
-    }
-    p {
-        margin-bottom: 5px;
-    }
-    hr {
-        margin-top: -40px !important;  /*muito geral*/
-        margin-bottom: 15px !important;
-    }
              /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
             /*CONFIGURAÇÕES INSCRIÇÕES */
@@ -390,6 +391,28 @@ body {
             /*CONFIGURAÇÕES ORGANIZAÇÃO*/
     #itensPessoas {
         padding: 0px !important;
+        margin: 0px !important;
+    }
+            /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
+    .mainTrilha {
+        margin: 0 10px !important;
+    }
+    .datasTrilha li {
+        margin-left: 10px;
+    }
+    .colTopicos{
+        margin: 0px;
+    }
+    .topicos {
+        margin: 0px 20px !important;
+    }
+    .topicos li {
+        list-style-type: circle;
+    }
+    .trilhaCoord li{
+        margin-left: 10px;
+    }
+    .linksTrilha{
         margin: 0px !important;
     }
 }
