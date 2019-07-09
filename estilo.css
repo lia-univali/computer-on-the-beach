@@ -27,11 +27,12 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+            /*configurações de cabeçalho padrão*/
     body {
         width: fit-content;
     }
     h1{
-        font-size: 40px !important;
+        font-size: 40px !important;  /*muito geral*/
     }
     header nav {
         height: 180px !important;
@@ -53,6 +54,7 @@ body {
     #menuChamadas {
         margin: 0px -170px !important;
     }
+                /*configurações index*/
     #cabecalhoIndex {
         width: 100% !important;
         background-size: contain !important;
@@ -74,8 +76,6 @@ body {
     .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
         display: block !important;
     }
-
-
     .palestras {
         padding: 1px 15px !important;
     }
@@ -116,8 +116,6 @@ body {
     .wconceito {
         padding-right: 6px !important;
     }
-
-
     .atividades {
         margin: -30px 0 !important;
     }
@@ -147,15 +145,14 @@ body {
     .autor1-foto img {
         width: 70% !important;
     }
-    
     br {
-        display: none;
+        display: none; /*configuração geral*/
     } 
 
     .autor2-foto img, .autor3-foto img {
         width:55%;
     }
-
+                /*configuração de footer*/
     footer img {
         margin: 0 5px !important;
         padding: 0 5px !important;
@@ -170,7 +167,7 @@ body {
     #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
         margin: 45px 0 !important;
     }
-    /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
+                /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
     #tabelaProgramacao {
         display: contents !important;
         margin: 0px !important;
@@ -198,14 +195,14 @@ body {
     #imgSurf{
         display: none;
     }
-    /*CONFIGURAÇÃO ORGANIZAÇÃO*/
+             /*CONFIGURAÇÃO ORGANIZAÇÃO*/
     #organizacao {
         margin: 10px!important;
         padding: 0px !important;
     }
 
 
-    /*CONFIGURAÇÃO MENINAS DIGITAIS */
+            /*CONFIGURAÇÃO MENINAS DIGITAIS */
     #meninasCorpo {
         font-size: 16px !important;
         padding: 0 5px !important;
@@ -274,7 +271,7 @@ body {
         box-shadow: 0 20px 25px -20px #568763;
     }
 
-    /*CONFIGURAÇÕES PAINEL*/
+             /*CONFIGURAÇÕES PAINEL*/
     .containerPainel {
         margin: 15px 15px !important;
     }
@@ -314,7 +311,7 @@ body {
         margin-top: 20px !important;
     }
 
-    /*SESSOES TEC. - ARTIGOS COMPLETOS */
+             /*SESSOES TEC. - ARTIGOS COMPLETOS */
 
     .mainTecnicas {
         margin: 0px 16px !important;
@@ -352,7 +349,7 @@ body {
         
     }
     ul {
-        margin-bottom: 5px !important;
+        margin-bottom: 5px !important; /*muito geral*/
         padding-left: 0px !important; 
         padding-right:8px !important;  
         text-align: justify;     
@@ -361,20 +358,23 @@ body {
         margin-bottom: 5px;
     }
     hr {
-        margin-top: -40px !important;
+        margin-top: -40px !important;  /*muito geral*/
         margin-bottom: 15px !important;
     }
-    /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
+             /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
-    /*CONFIGURAÇÕES INSCRIÇÕES */
+            /*CONFIGURAÇÕES INSCRIÇÕES */
 
     .mainInscricoes td {
         padding: 2px 3px !important;
     }
-
+            /*CONFIGURAÇÕES ANAIS*/
+    #anais{
+        margin: 30px !important;
+    }
 }
 
-            /*CONFIGURAÇÕES CABEÇALJO INDEX */
+            /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
     background-image: url("fotos/praia3.jpg");
