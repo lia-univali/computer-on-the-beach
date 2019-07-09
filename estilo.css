@@ -116,7 +116,9 @@ body {
     .wconceito {
         padding-right: 6px !important;
     }
-
+    .wshop-detalhes ul {
+        margin-left: 12px !important;
+    }
 
     .atividades {
         margin: -30px 0 !important;
@@ -227,9 +229,19 @@ body {
     #meninasCorpo #tituloPadrao hr {
         display: none;
     }
-    .cabecalho-meninas {
-        display: block !important;              
+
+    #meninasCorpo hr {
+        height: 60px !important;
     }
+    .cabecalho-meninas {
+        display: block !important;    
+        margin-top: 28px !important;          
+    }
+
+    .meninas-main.row {
+        display: block !important;
+    }
+    
     #fotoMeninas {
         margin:0 auto !important;
         width: 70%;
@@ -240,6 +252,13 @@ body {
         width: 100% !important;
         text-align: justify;
     }
+
+    .meninas-main ul {
+        padding-left: 8px !important;
+        margin-top: -5px !important;
+        margin-bottom: 6px !important;
+    }
+    
     .meninas-parte1 {
         position: relative;
         left: -2px;
@@ -248,7 +267,7 @@ body {
         padding-right: 0 !important;
        
     }
-       .descricao-meninas p {
+    .descricao-meninas p {
         margin-bottom: 0 !important;
     }
     .meninas-parte2 {
@@ -267,11 +286,13 @@ body {
         font-size: 16px !important;
     }
     .meninas-bio1 p {
-        margin: 15px 0 -50px !important;
+        margin: 15px 0 -14px !important;
         padding: 0 3px !important;
+        padding-bottom: 30px !important;
         font-size: 18px !important;
         border-bottom: 0.1px solid #568763;
-        box-shadow: 0 20px 25px -20px #568763;
+        box-shadow: 0 20px 25px -25px #568763;
+        
     }
 
     /*CONFIGURAÇÕES PAINEL*/
@@ -364,13 +385,58 @@ body {
         margin-top: -40px !important;
         margin-bottom: 15px !important;
     }
-    /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
+    /*CONFIGURAÇÕES RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
-    /*CONFIGURAÇÕES INSCRIÇÕES */
+    /*CONFIGURAÇÕES INSCRIÇÕES */    
 
     .mainInscricoes td {
-        padding: 2px 3px !important;
+        padding: 5px 3px !important;
     }
+    .mainInscricoes th {
+        max-width: fit-content !important;
+    }
+  
+
+    /*CONFIGURAÇÕES CONCURSO TRABALHOS TECNICOS*/
+    .mainTecnicos {        
+        margin: 0 8px 0 !important;
+    }
+
+    .tecnicos {
+        display: block !important;
+        margin: 30px 3px !important;
+    }
+    .trilhaPesquisa, .trilhaExtensao {
+        margin: 30px 0 !important;        
+    }
+
+    .tecnicos h3 {
+       font-size: 36px !important;
+       
+    }
+
+    .mainTecnicos h4 {
+        text-align: start;
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+    .mainTecnicos h6 {
+        margin-top: 10px !important;
+        text-align: start;
+    }
+
+    .trilhaPesquisa div, .trilhaExtensao div {
+        border-left: 0.1px solid #568763;  
+        margin: 0 !important;
+        padding-left: 8px !important;
+        
+    }
+    
+    .tecnicos p br {
+         display: auto !important;
+        
+    }
+    
 
 }
 
@@ -562,7 +628,7 @@ header nav{
     margin-top: 10px;
 }
 
-                /* CONFIGURAÇÕES MENINAS DIGITAIS*/
+                /* CONFIGURAÇÕES PAGINA MENINAS DIGITAIS*/
 
 .cabecalho-meninas {    
     display: flex;
@@ -668,7 +734,7 @@ header nav{
     list-style-type: none;
 }
 
-                /*CONFIGURAÇÕES PAINEL*/
+                /*CONFIGURAÇÕES PAGINA PAINEL*/
 
 .containerPainel {   
     margin: 50px 40px;  
@@ -699,7 +765,7 @@ header nav{
     border-left: 4px solid hsl(136, 62%, 90%); 
 }
 
-                /*CONFIGURAÇÕES SESSÕES TÉCNICAS */
+                /*CONFIGURAÇÕES PAGINA SESSÕES TÉCNICAS */
 
 .mainTecnicas {
     margin: 0 60px;
@@ -737,9 +803,9 @@ header nav{
 
 /* Obs.: configuração de largura da tabela nao responde*/
 #myTable {
-    width: 60%;
+    width: 60% !important;
     border: 1px solid black;
-    margin: 45px auto;
+    margin: 0 auto;
     font-size: 16px;    
   }
 
@@ -749,6 +815,7 @@ header nav{
     border: 1px solid black;
     background-color: hsl(136, 62%, 90%); 
     font-size: 20px;
+    
   }
 
  #myTable th:hover {
@@ -784,17 +851,7 @@ header nav{
 }
 
 @media only screen and (max-width: 480px), (orientation: landscape) {
-    #myTable {
-      width: 95%;    
-    }  
-
-    #myTable .valor {
-        width: 15%;    
-    } 
-
-    #myTable th {
-        font-size: 16px;    
-    } 
+  
     
   }
 
@@ -903,7 +960,7 @@ header nav{
     margin-bottom: 20px;
 }
 
-.datasTrilha, .trilhaCoord {
+.datasTrilha ul, .trilhaCoord {
     border-left: 4px solid #8ec49d;;    
 }
 
