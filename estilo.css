@@ -5,7 +5,14 @@ body {
     font-size: 18px;
     color: #333;
 }
-
+@media only screen and(max-width: 1400px) {
+    #menuNav li{   
+        display: inline-block;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
 
 @media only screen and (max-width: 1370px) {
    body{
@@ -26,23 +33,49 @@ body {
     }
 }
 
+@media only screen and (max-width: 480px), (orientation: landscape) { 
+     
+
+    
+  }
+
+
 @media only screen and (max-width: 400px) {
-    body {
-        width: fit-content;
+            /*CONFIGURAÇÕES GERAIS*/
+    ul {
+        margin-bottom: 5px !important;
+        padding-left: 0px !important; 
+        padding-right:8px !important;  
+        text-align: justify;     
     }
+    li{
+        list-style-type: none;   
+    }
+    p {
+        margin-bottom: 5px;
+    }
+    hr {
+        margin-top: -40px !important;  
+        margin-bottom: 15px !important;
+    }
+    br {
+        display: none; 
+    } 
     h1{
         font-size: 40px !important;
     }
+            /*configurações de cabeçalho padrão*/
+    
     header nav {
         height: 180px !important;
     }
     nav.navbar{
         padding: 0px 5px !important;
     }
-    #menuNav li{ 
+    #menuNav li{
         padding: 5px !important;
     }
-    #menuNav li a { 
+    #menuNav li a {
         font-size: 14px !important;
         margin: 0px !important
     }
@@ -53,10 +86,23 @@ body {
     #menuChamadas {
         margin: 0px -170px !important;
     }
+    #menuProgramacao{
+        margin: 0 -25px !important;
+    }
+                /*configurações index*/
     #cabecalhoIndex {
-        width: 100% !important;
-        background-size: contain !important;
-        background-repeat: no-repeat;
+        background-image: none !important;
+        height: 300px !important;
+    }
+    #tituloHome{
+        background-image: url(fotos/praia3.jpg);
+        background-size: cover;
+        height: 300px;
+        margin: 0 0 100px !important;
+    }
+    #tituloHome h1, #tituloHome h4{
+        text-align: center;
+        color: rgb(22, 18, 31) !important;   
     }
     .intro-link-foto {
         display: none !important;
@@ -64,6 +110,7 @@ body {
     .apresentacao {
         width: 100% !important;
         padding: 0 !important;
+        margin-top: 100px !important;
     }
 
     .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
@@ -74,8 +121,6 @@ body {
     .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
         display: block !important;
     }
-
-
     .palestras {
         padding: 1px 15px !important;
     }
@@ -149,15 +194,10 @@ body {
     .autor1-foto img {
         width: 70% !important;
     }
-    
-    br {
-        display: none;
-    } 
-
     .autor2-foto img, .autor3-foto img {
         width:55%;
     }
-
+                /*configuração de footer*/
     footer img {
         margin: 0 5px !important;
         padding: 0 5px !important;
@@ -172,13 +212,14 @@ body {
     #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
         margin: 45px 0 !important;
     }
-    /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
+                /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
     #tabelaProgramacao {
         display: contents !important;
         margin: 0px !important;
     }
     #tabelaDia{
         margin: 30px 0px 0px !important; 
+        font-size: 16px !important;
     }
     #horarioGrade, #stGrade, #mcGrade, #cbGrade, #palestraGrade, #almocoGrade, #workshopGrade, #tracoGrade, #concursoGrade{
         padding: 0px !important;
@@ -200,14 +241,14 @@ body {
     #imgSurf{
         display: none;
     }
-    /*CONFIGURAÇÃO ORGANIZAÇÃO*/
+             /*CONFIGURAÇÃO ORGANIZAÇÃO*/
     #organizacao {
         margin: 10px!important;
         padding: 0px !important;
     }
 
 
-    /*CONFIGURAÇÃO MENINAS DIGITAIS */
+            /*CONFIGURAÇÃO MENINAS DIGITAIS */
     #meninasCorpo {
         font-size: 16px !important;
         padding: 0 5px !important;
@@ -295,7 +336,7 @@ body {
         
     }
 
-    /*CONFIGURAÇÕES PAINEL*/
+             /*CONFIGURAÇÕES PAINEL*/
     .containerPainel {
         margin: 15px 15px !important;
     }
@@ -335,7 +376,7 @@ body {
         margin-top: 20px !important;
     }
 
-    /*SESSOES TEC. - ARTIGOS COMPLETOS */
+             /*SESSOES TEC. - ARTIGOS COMPLETOS */
 
     .mainTecnicas {
         margin: 0px 16px !important;
@@ -372,23 +413,23 @@ body {
         margin-bottom: 0px !important;
         
     }
-    ul {
-        margin-bottom: 5px !important;
-        padding-left: 0px !important; 
-        padding-right:8px !important;  
-        text-align: justify;     
-    }
-    p {
-        margin-bottom: 5px;
-    }
-    hr {
-        margin-top: -40px !important;
-        margin-bottom: 15px !important;
-    }
-    /*CONFIGURAÇÕES RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
+             /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
-    /*CONFIGURAÇÕES INSCRIÇÕES */    
+            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. PROGRAMAÇÃO*/
+    .mainTecnicos .tecnicos {
+    margin: 0px !important;
+    display: unset !important;
+}
 
+            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
+    .mainChamadas{
+        margin: 0 10px !important;
+    }
+    .introChamadas li{
+        margin-left: 10px;
+    }
+
+            /*CONFIGURAÇÕES INSCRIÇÕES */
     .mainInscricoes td {
         padding: 5px 3px !important;
     }
@@ -401,54 +442,58 @@ body {
     .mainTecnicos {        
         margin: 0 8px 0 !important;
     }
-
-    .tecnicos {
-        display: block !important;
-        margin: 30px 3px !important;
+    #myTable th {
+        font-size: 14px !important;    
+    } 
+            /*CONFIGURAÇÕES ANAIS*/
+    #anais{
+        margin: 30px !important;
     }
-    .trilhaPesquisa, .trilhaExtensao {
-        margin: 30px 0 !important;        
-    }
-
-    .tecnicos h3 {
-       font-size: 36px !important;
-       
-    }
-
-    .mainTecnicos h4 {
-        text-align: start;
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .mainTecnicos h6 {
-        margin-top: 10px !important;
-        text-align: start;
+            /*CONFIGURAÇÕES LOCAL HOSPEDAGEM*/
+    #hospedagem {
+        margin: 15px 20px !important;
+        padding-left: 0px !important;
     }
 
-    .trilhaPesquisa div, .trilhaExtensao div {
-        border-left: 0.1px solid #568763;  
-        margin: 0 !important;
-        padding-left: 8px !important;
-        
+            /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
+    .mainTrilha {
+        margin: 0 10px !important;
     }
-    
-    .tecnicos p br {
-         display: auto !important;
-        
+    .datasTrilha li {
+        margin-left: 10px;
     }
-    
-
+    .colTopicos{
+        margin: 0px;
+    }
+    .topicos {
+        margin: 0px 20px !important;
+    }
+    .topicos li {
+        list-style-type: circle;
+    }
+    .trilhaCoord li{
+        margin-left: 10px;
+    }
+    .linksTrilha{
+        margin: 0px !important;
+    }
+}
+@media only screen and (max-width: 352px) {
+    #menuChamadas {
+        margin: 0px !important;
+    }
+    #menuProgramacao{
+        margin: 0 -150px!important;
+    }
 }
 
-            /*CONFIGURAÇÕES CABEÇALJO INDEX */
+         /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
     background-image: url("fotos/praia3.jpg");
     background-size: cover;
     height: 800px;
 }
-
-
 #tituloHome{
     margin: 400px 100px;
 }
@@ -463,8 +508,8 @@ body {
     font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
-    
 }
+
 
                /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
@@ -489,6 +534,7 @@ header nav{
 #menuProgramacao, #menuChamadas{
     margin: 0;
     background-color: #0F0F0C;
+    opacity: 0.9;
 }
 #menuProgramacao a, #menuChamadas a{
     font-size: 15px;
@@ -825,7 +871,7 @@ header nav{
   
  #myTable th, #myTable td {
     text-align: left;
-    padding: 8px 20px;
+    padding: 8px 0px;
     max-width: 100px;
     border: 1px solid black;
   }
@@ -849,14 +895,6 @@ header nav{
     font-size: 26px;
     
 }
-
-@media only screen and (max-width: 480px), (orientation: landscape) {
-  
-    
-  }
-
-
-
                 /*CONFIGURAÇÕES CHAMADAS*/
 
 .mainChamadas {
@@ -1238,14 +1276,15 @@ blockquote {
     text-align: center;
     font-weight: none;
 }
-
-
 #itensPessoas{
     padding-right: 20px;
     padding-left: 10px;
     margin-left: 55px;
     margin-top: 40px;
 }
+#itensPessoas li{
+    list-style-type: none;
+    }
                 /*CONFIGURAÇÕES DA PAGINA GRADE DE PROGRAMAÇÃO*/
 
 #tabelaProgramacao{
@@ -1346,13 +1385,4 @@ footer h1{
 
 
 }
-                /*CONFIGURAÇÕES MEDIA*/
 
-@media only screen and(max-width: 1400px) {
-    #menuNav li{   
-        display: inline-block;
-        padding: 10px 5px;
-        text-transform: uppercase;
-        font-weight: bolder;
-    }
-}
