@@ -59,7 +59,7 @@ body {
         margin-bottom: 15px !important;
     }
     br {
-        display: none; 
+         
     } 
     h1{
         font-size: 40px !important;
@@ -197,7 +197,7 @@ body {
     .autor2-foto img, .autor3-foto img {
         width:55%;
     }
-                /*configuração de footer*/
+                /*CONFIGURAÇÕES FOOTER*/
     footer img {
         margin: 0 5px !important;
         padding: 0 5px !important;
@@ -212,6 +212,8 @@ body {
     #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
         margin: 45px 0 !important;
     }
+
+
                 /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
     #tabelaProgramacao {
         display: contents !important;
@@ -245,6 +247,9 @@ body {
     #organizacao {
         margin: 10px!important;
         padding: 0px !important;
+    }
+    #organizacao .col-sm{
+        margin: 20px 0 !important;
     }
 
 
@@ -379,15 +384,9 @@ body {
              /*SESSOES TEC. - ARTIGOS COMPLETOS */
 
     .mainTecnicas {
-        margin: 0px 16px !important;
+        margin: 0px 8px !important;
     }
-    .mainTecnicas #tituloPadrao {
-        margin-top: 15px !important;
-    }
-    .mainTecnicas #tituloPadrao h2 {
-        font-size: 30px;
-       
-    }
+    
     .mainTecnicas h2 {
         font-size: 26px !important;
         margin-bottom: 3px !important;
@@ -402,7 +401,14 @@ body {
     .sTecnicas {
         margin-top: 20px !important;
         margin-left: 0px !important;
-        margin-right: 15px !important;       
+        margin-right: 0px !important;       
+    }
+
+    .sTecnicas li {
+        list-style-type: circle !important;
+    }
+    .sTecnicas b {
+        color: #568763;
     }
     
     #stHead {
@@ -416,10 +422,32 @@ body {
              /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
             /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. PROGRAMAÇÃO*/
-    .mainTecnicos .tecnicos {
-    margin: 0px !important;
-    display: unset !important;
-}
+    .mainTecnicos .tecnicos  {
+    display: block !important;
+    margin: 0 3px !important;
+    }
+
+    .trilhaPesquisa, .trilhaExtensao {
+        margin: 20px 3px !important;
+    }
+    .trilhaPesquisa div, .trilhaExtensao div {
+        margin: 0 5px !important;
+    }
+    .trilhaPesquisa h3, .trilhaExtensao h3 {        
+        font-size: 32px !important;
+        
+    }
+    .trilhaPesquisa h4, .trilhaExtensao h4 {
+        text-align: left !important;
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+    .trilhaPesquisa h6, .trilhaExtensao h6 {
+        margin-top: 10px !important;
+        text-align: left !important;
+    }
+
+
 
             /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
     .mainChamadas{
