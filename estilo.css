@@ -63,7 +63,6 @@ body {
     }
     #logo{
         width: 40% !important;
-        margin: 10px;
     }
     #menuNav li{
         padding: 5px !important;
@@ -532,9 +531,9 @@ body {
 
                /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
-header nav{
+#menuNav{
     height: 130px;  
-    background-color: #0F0F0C;
+    background-color: #0F0F0C ;
     
 }
 #menuNav{
@@ -686,7 +685,7 @@ header nav{
     font-weight: bold;
 }
 
-.atividades h6, a {
+.atividades h6 a {   
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
@@ -973,7 +972,7 @@ header nav{
     margin-top: 35px;
 }
 
-.mainTrilha ul, a {
+.mainTrilha ul a {          
     font-weight: normal;
     list-style-type: circle;
     color: inherit;
