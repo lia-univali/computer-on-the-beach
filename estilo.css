@@ -5,7 +5,14 @@ body {
     font-size: 18px;
     color: #333;
 }
-
+@media only screen and(max-width: 1400px) {
+    #menuNav li{   
+        display: inline-block;
+        padding: 10px 5px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+}
 
 @media only screen and (max-width: 1370px) {
    body{
@@ -25,6 +32,13 @@ body {
         width: 25% !important;
     }
 }
+
+@media only screen and (max-width: 480px), (orientation: landscape) { 
+     
+
+    
+  }
+
 
 @media only screen and (max-width: 400px) {
             /*CONFIGURAÇÕES GERAIS*/
@@ -374,11 +388,21 @@ body {
     }
              /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
-            /*CONFIGURAÇÕES INSCRIÇÕES */
+            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
+    .mainChamadas{
+        margin: 0 10px !important;
+    }
+    .introChamadas li{
+        margin-left: 10px;
+    }
 
+            /*CONFIGURAÇÕES INSCRIÇÕES */
     .mainInscricoes td {
         padding: 2px 3px !important;
     }
+    #myTable th {
+        font-size: 14px !important;    
+    } 
             /*CONFIGURAÇÕES ANAIS*/
     #anais{
         margin: 30px !important;
@@ -388,7 +412,6 @@ body {
         margin: 15px 20px !important;
         padding-left: 0px !important;
     }
-            /*CONFIGURAÇÕES ORGANIZAÇÃO, CASO FOR NECESSARIO, CONFIGURAR ABAIXO*/
 
             /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
     .mainTrilha {
@@ -413,6 +436,15 @@ body {
         margin: 0px !important;
     }
 }
+@media only screen and (max-width: 352px) {
+    #menuChamadas {
+        margin: 0px !important;
+    }
+    #menuProgramacao{
+        margin: 0 -150px!important;
+    }
+}
+
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
@@ -460,6 +492,7 @@ header nav{
 #menuProgramacao, #menuChamadas{
     margin: 0;
     background-color: #0F0F0C;
+    opacity: 0.9;
 }
 #menuProgramacao a, #menuChamadas a{
     font-size: 15px;
@@ -819,19 +852,6 @@ header nav{
     font-size: 26px;
     
 }
-
-@media only screen and (max-width: 480px), (orientation: landscape) {
-    #myTable {
-      width: 95%;    
-    }  
-    #myTable th {
-        font-size: 14px;    
-    } 
-    
-  }
-
-
-
                 /*CONFIGURAÇÕES CHAMADAS*/
 
 .mainChamadas {
@@ -1322,13 +1342,4 @@ footer h1{
 
 
 }
-                /*CONFIGURAÇÕES MEDIA*/
 
-@media only screen and(max-width: 1400px) {
-    #menuNav li{   
-        display: inline-block;
-        padding: 10px 5px;
-        text-transform: uppercase;
-        font-weight: bolder;
-    }
-}
