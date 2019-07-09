@@ -251,7 +251,7 @@ body {
             /*CONFIGURAÇÃO MENINAS DIGITAIS */
     #meninasCorpo {
         font-size: 16px !important;
-        padding: 0 5px !important;
+        padding: 0px !important;
         text-align: justify;
     }
 
@@ -264,7 +264,7 @@ body {
     }
 
     #meninasCorpo #tituloPadrao h2 {
-        font-size: 26px;
+        font-size: 23px;
         margin-bottom: 0 !important;
     }
     #meninasCorpo #tituloPadrao hr {
@@ -303,22 +303,22 @@ body {
     .meninas-parte1 {
         position: relative;
         left: -2px;
-        margin: -25px 15px 0 -8px !important;
+        margin: -15px 15px 0 -8px !important;
         text-align: justify;
         padding-right: 0 !important;
        
     }
-    .descricao-meninas p {
-        margin-bottom: 0 !important;
+       
+    .meninas-parte1 h6, .meninas-parte2 h6 {
+        text-align: left;
     }
     .meninas-parte2 {
-        margin-top: 15px;
-        margin-left: -5px !important;
+        margin-top: 30px;
+        margin-left: 0px !important;
         padding: 0 5px !important;
         border-left: none !important;
     }
-    .meninas-parte2 img {
-        margin-top: 25px !important;
+    .meninas-parte2 img {        
         width: 60% !important;  
     }
     .meninas-bio1 {
@@ -327,30 +327,23 @@ body {
         font-size: 16px !important;
     }
     .meninas-bio1 p {
-        margin: 15px 0 -14px !important;
-        padding: 0 3px !important;
+        margin: 15px -5px -14px !important;
+        padding: 0 1px !important;
         padding-bottom: 30px !important;
         font-size: 18px !important;
-        border-bottom: 0.1px solid #568763;
-        box-shadow: 0 20px 25px -25px #568763;
+        
         
     }
 
              /*CONFIGURAÇÕES PAINEL*/
     .containerPainel {
-        margin: 15px 15px !important;
+        margin: 15px 8px !important;
     }
-   
-    .containerPainel #tituloPadrao {
     
-        margin: 5px !important;
-    }
-    .containerPainel #tituloPadrao h2 {        
-        font-size: 26px !important;
-        text-align: center;        
-    }
+    
     .containerPainel #tituloPadrao h5 {        
-        text-align: left;        
+        text-align: left;   
+        margin-left: 5px !important; 
     }
     .containerPainel hr {        
         margin-top: -43px !important;  
@@ -484,9 +477,19 @@ body {
             /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
     .mainTrilha {
         margin: 0 10px !important;
+
+    }
+
+    .datasTrilha ul {
+        margin-left: 5px;
+        padding-left: 30px;
     }
     .datasTrilha li {
-        margin-left: 10px;
+        list-style-type: circle !important;
+    }
+
+    .mainTrilha h2 {
+        margin: 0 !important;
     }
     .colTopicos{
         margin: 0px;
