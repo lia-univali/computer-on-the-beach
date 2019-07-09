@@ -56,9 +56,18 @@ body {
     }
                 /*configurações index*/
     #cabecalhoIndex {
-        width: 100% !important;
-        background-size: contain !important;
-        background-repeat: no-repeat;
+        background-image: none !important;
+        height: 300px !important;
+    }
+    #tituloHome{
+        background-image: url(fotos/praia3.jpg);
+        background-size: cover;
+        height: 300px;
+        margin: 0 0 100px !important;
+    }
+    #tituloHome h1, #tituloHome h4{
+        text-align: center;
+        color: rgb(22, 18, 31) !important;   
     }
     .intro-link-foto {
         display: none !important;
@@ -66,6 +75,7 @@ body {
     .apresentacao {
         width: 100% !important;
         padding: 0 !important;
+        margin-top: 100px !important;
     }
 
     .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
@@ -391,8 +401,6 @@ body {
     background-size: cover;
     height: 800px;
 }
-
-
 #tituloHome{
     margin: 400px 100px;
 }
@@ -407,8 +415,8 @@ body {
     font-size: 30px;
     font-weight: bolder;
     text-transform: uppercase;
-    
 }
+
 
                /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
 
