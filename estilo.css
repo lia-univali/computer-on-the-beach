@@ -388,6 +388,12 @@ body {
     }
              /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
+            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. PROGRAMAÇÃO*/
+    .mainTecnicos .tecnicos {
+    margin: 0px !important;
+    display: unset !important;
+}
+
             /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
     .mainChamadas{
         margin: 0 10px !important;
