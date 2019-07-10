@@ -416,27 +416,7 @@ body {
     margin: 0 3px !important;
     }
 
-    .trilhaPesquisa, .trilhaExtensao {
-        margin: 20px 3px !important;
-    }
-    .trilhaPesquisa div, .trilhaExtensao div {
-        margin: 0 5px !important;
-    }
-    .trilhaPesquisa h3, .trilhaExtensao h3 {        
-        font-size: 32px !important;
-        
-    }
-    .trilhaPesquisa h4, .trilhaExtensao h4 {
-        text-align: left !important;
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .trilhaPesquisa h6, .trilhaExtensao h6 {
-        margin-top: 10px !important;
-        text-align: left !important;
-    }
-
-
+   
 
             /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
     .mainChamadas{
@@ -470,7 +450,7 @@ body {
     }
   
 
-    /*CONFIGURAÇÕES CONCURSO TRABALHOS TECNICOS*/
+            /*CONFIGURAÇÕES CONCURSO TRABALHOS TECNICOS*/
     .mainTecnicos {        
         margin: 0 8px 0 !important;
     }
@@ -493,7 +473,7 @@ body {
     #hospedagem ul {
         padding-left: 18px !important;
     }
-            /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
+            /*CONFIGURAÇÕES TRILHA */
 
     
     .mainTrilha {
@@ -505,7 +485,7 @@ body {
         margin-left: 5px;
         padding-left: 30px;
     }
-    .datasTrilha li {
+    .datasTrilha li, .trilhaCoord li {
         list-style-type: circle !important;
     }
 
@@ -525,13 +505,19 @@ body {
     .topicos li {
         list-style-type: circle;
     }
+    .trilhaCoord h5 {
+        padding-left: 10px !important;
+    }
     .trilhaCoord li{
-        margin-left: 10px;
+        margin-left: -10px;
     }
     .linksTrilha{
         margin: 0px !important;
     }
-    /*CONFIGURAÇÕES LOCAL */
+    
+
+            /*CONFIGURAÇÕES LOCAL */
+
     #local h3 {
         width: 90% !important;
     }
@@ -539,6 +525,7 @@ body {
         width: 80% !important;
     }
 }
+    /*FIM DAS CONFIGURAÇÕES @MEDIA */
 
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
@@ -957,10 +944,6 @@ body {
     
 }
 
-
-
-
-
                 /*CONFIGURAÇÕES CHAMADAS*/
 
 .mainChamadas {
@@ -1097,6 +1080,26 @@ body {
     color: #568763;
     margin-top: 35px;
     margin-bottom: 40px;
+}
+
+.trilhaPesquisa, .trilhaExtensao {
+    margin: 20px 3px !important;
+}
+.trilhaPesquisa div, .trilhaExtensao div {
+    margin: 0 5px !important;
+}
+.trilhaPesquisa h3, .trilhaExtensao h3 {        
+    font-size: 32px !important;
+    
+}
+.trilhaPesquisa h4, .trilhaExtensao h4 {
+    text-align: left !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+.trilhaPesquisa h6, .trilhaExtensao h6 {
+    margin-top: 10px !important;
+    text-align: left !important;
 }
 
                 /*CONFIGURAÇÕES PROGRAMAÇÃO TRAB. TÉCNICOS*/
