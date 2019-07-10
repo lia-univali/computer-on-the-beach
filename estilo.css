@@ -327,7 +327,7 @@ body {
         font-size: 16px !important;
     }
     .meninas-bio1 p {
-        margin: 15px -5px -14px !important;
+        margin: 15px -5px -80px !important;
         padding: 0 1px !important;
         padding-bottom: 30px !important;
         font-size: 18px !important;
@@ -398,9 +398,7 @@ body {
     .sTecnicas li {
         list-style-type: circle !important;
     }
-    .sTecnicas b {
-        color: #568763;
-    }
+   
     
     #stHead {
         margin-top: 5px !important;
@@ -442,13 +440,28 @@ body {
 
             /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
     .mainChamadas{
-        margin: 0 10px !important;
+        margin: 10px 10px !important;
+        
     }
     .introChamadas li{
-        margin-left: 10px;
+        margin-left: 5px;
+        list-style-type: circle !important;
+    }
+   
+  
+            /*CONFIGURAÇÕES INSCRIÇÕES */
+    #myTable {
+        width: 97% !important;
     }
 
-            /*CONFIGURAÇÕES INSCRIÇÕES */
+    #myTable th {
+        font-size: 14px !important; 
+        padding: 4px !important;   
+    } 
+    #myTable .valor {
+        width: 24% !important;
+    }
+
     .mainInscricoes td {
         padding: 5px 3px !important;
     }
@@ -461,9 +474,8 @@ body {
     .mainTecnicos {        
         margin: 0 8px 0 !important;
     }
-    #myTable th {
-        font-size: 14px !important;    
-    } 
+   
+
             /*CONFIGURAÇÕES ANAIS*/
     #anais{
         margin: 30px !important;
@@ -472,9 +484,18 @@ body {
     #hospedagem {
         margin: 15px 20px !important;
         padding-left: 0px !important;
+        text-align: justify;
+    }
+    #hospedagem li {
+        list-style-type: circle !important;
     }
 
+    #hospedagem ul {
+        padding-left: 18px !important;
+    }
             /*CONFIGURAÇÕES TRILHA PRINCIPAL*/
+
+    
     .mainTrilha {
         margin: 0 10px !important;
 
@@ -491,6 +512,10 @@ body {
     .mainTrilha h2 {
         margin: 0 !important;
     }
+
+    .mainTrilha h4 {
+        margin-top: 15px !important;
+    }
     .colTopicos{
         margin: 0px;
     }
@@ -505,6 +530,13 @@ body {
     }
     .linksTrilha{
         margin: 0px !important;
+    }
+    /*CONFIGURAÇÕES LOCAL */
+    #local h3 {
+        width: 90% !important;
+    }
+    #local h4 {
+        width: 80% !important;
     }
 }
 
@@ -739,6 +771,12 @@ body {
     margin: 50px 10px;  
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    list-style-type: circle;
+}
+.meninas-main li {
+    list-style-type: circle;
+    margin-left: 20px !important;
+    padding-left: 5px !important;
 }
 
 .meninas-parte1 {    
@@ -755,7 +793,7 @@ body {
 .meninas-parte2 {    
     margin-left: 25px; 
     padding: 0 50px;
-    border-left: 4px solid #639672;   
+    border-left: 4px solid #8ec49d;   
 }
 
 #fotoMeninaParte2 {
@@ -780,7 +818,7 @@ body {
     font-family: 'Roboto', sans-serif; 
     text-align: justify;
     padding: 0 5px;
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 .meninas-bio1 span {
@@ -792,13 +830,12 @@ body {
     font-size: 14px;
     padding: 0 30px;
     margin-top: 25px;
+    margin-bottom: 0;
     text-align: justify;
     
 }
 
-.meninas-main ul {
-    list-style-type: none;
-}
+
 
                 /*CONFIGURAÇÕES PAGINA PAINEL*/
 
@@ -869,12 +906,18 @@ body {
 
 /* Obs.: configuração de largura da tabela nao responde*/
 #myTable {
-    width: 60% !important;
+    width: 60%;
     border: 1px solid black;
     margin: 0 auto;
     font-size: 16px;    
   }
+  #myTable .periodo {
+    width: 38%;
+} 
 
+  #myTable .valor {
+    width: 18%;
+}
   
   #myTable th {
     cursor: pointer;
@@ -891,8 +934,7 @@ body {
   
  #myTable th, #myTable td {
     text-align: left;
-    padding: 8px 0px;
-    max-width: 100px;
+    padding: 10px;    
     border: 1px solid black;
   }
   
@@ -905,9 +947,8 @@ body {
     position: relative;
     margin: 15px auto;
     display: flex;
-    justify-content: center;  
-   
-   
+    justify-content: center;   
+     
 }
 
   .mainInscricoes a:hover {
@@ -915,17 +956,26 @@ body {
     font-size: 26px;
     
 }
+
+
+
+
+
                 /*CONFIGURAÇÕES CHAMADAS*/
 
 .mainChamadas {
     margin: 0 80px;
     font-size: 17px;
-    text-align: justify;      
+    text-align: justify; 
+   
 }
 
 .introChamadas {
     margin-top: 50px;
     font-weight: normal;
+}
+.introChamadas div p {
+    margin: 10px 0 !important;
 }
 
 .introChamadas ul {
@@ -933,7 +983,7 @@ body {
     margin-top: 10px;
     text-align: justify;
     border-left: 4px solid #8ec49d;
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .introChamadas h5 {
@@ -947,6 +997,10 @@ body {
     color: #0e3519;
     font-size: 22px;
     
+}
+.linkSubmissao i {
+    font-size: 62px !important;
+    margin-bottom: 20px;
 }
 
 .linkSubmissao a:hover {
@@ -962,8 +1016,8 @@ body {
 }
 
 .mainTrilha p {
-    margin-top: 30px;
     font-weight: normal;
+    margin-top: 30px;
     text-align: justify;
 }
 
@@ -975,22 +1029,28 @@ body {
     margin-top: 35px;
 }
 
-.mainTrilha ul a {          
-    font-weight: normal;
+
+.mainTrilha ul  {          
     list-style-type: circle;
     color: inherit;
     margin-top: 15px;
-        
+    font-weight: 500; 
+}
+
+.mainTrilha .datasTrilha a {
+    color: inherit;
+    text-decoration-line: none;
 }
 
 .mainTrilha .datasTrilha a:hover {
     color: #568763;
+    font-weight:600;
     text-decoration-line: none;
 }
 
 .mainTrilha h5 {
     margin-top: 25px;
-    font-weight: bold;
+   font-weight: 600;
 }
 
 .mainTrilha #tituloPadrao h2 {
@@ -1045,6 +1105,9 @@ body {
     margin: 45px 50px;
     display: flex;      
 
+}
+.sTecnicas b {
+    color: #568763;
 }
 
 .mainTecnicos .tecnicos div {
@@ -1253,12 +1316,16 @@ blockquote {
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
-    margin: 10px 0;
+    
+    width: 75%;
+    margin: 0 auto;
 }
 #local h4 {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
+   
+    color: #0F0F0C;
+    font-size: 18px;
+    width: 55%;
+    margin: 0 auto;
 }
 #mapa{
     text-align: center;
