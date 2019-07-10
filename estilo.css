@@ -5,6 +5,7 @@ body {
     font-size: 18px;
     color: #333;
 }
+
 @media only screen and(max-width: 1400px) {
     #menuNav li{   
         display: inline-block;
@@ -41,7 +42,7 @@ body {
 
 
 @media only screen and (max-width: 400px) {
-            /*CONFIGURAÇÕES GERAIS*/
+            /*CONFIGURAÇÕES GERAIS @MEDIA*/
     li{
         list-style-type: none;   
     }
@@ -53,7 +54,7 @@ body {
         
     } 
     
-            /*configurações de cabeçalho padrão*/
+            /*CONFIGURAÇÕES @MEDIA CABEÇALHO PADRÃO*/
     
     header nav {
         height: 180px !important;
@@ -82,7 +83,7 @@ body {
     #menuProgramacao{
         margin: 0 -40px !important;
     }
-                /*configurações index*/
+                /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
         background-image: none !important;
         height: 300px !important;
@@ -191,7 +192,7 @@ body {
     .autor2-foto img, .autor3-foto img {
         width:55%;
     }
-                /*CONFIGURAÇÕES FOOTER*/
+                /*CONFIGURAÇÕES @MEDIA FOOTER*/
     footer img {
         margin: 0px !important;
         padding: 0px !important;
@@ -209,7 +210,7 @@ body {
     }
 
 
-                /*CONFIGURAÇÃO GRADE DE PROGRAMAÇÃO*/
+                /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
     #tabelaProgramacao {
         display: contents !important;
         margin: 0px !important;
@@ -238,7 +239,7 @@ body {
     #imgSurf{
         display: none;
     }
-             /*CONFIGURAÇÃO ORGANIZAÇÃO*/
+             /*CONFIGURAÇÃO @MEDIA  ORGANIZAÇÃO*/
     #organizacao {
         margin: 10px!important;
         padding: 0px !important;
@@ -248,7 +249,7 @@ body {
     }
 
 
-            /*CONFIGURAÇÃO MENINAS DIGITAIS */
+            /*CONFIGURAÇÃO @MEDIA MENINAS DIGITAIS */
     #meninasCorpo {
         font-size: 16px !important;
         padding: 0px !important;
@@ -305,8 +306,7 @@ body {
         left: -2px;
         margin: -15px 15px 0 -8px !important;
         text-align: justify;
-        padding-right: 0 !important;
-       
+        padding-right: 0 !important;       
     }
        
     .meninas-parte1 h6, .meninas-parte2 h6 {
@@ -330,16 +330,13 @@ body {
         margin: 15px -5px -80px !important;
         padding: 0 1px !important;
         padding-bottom: 30px !important;
-        font-size: 18px !important;
-        
-        
+        font-size: 18px !important;      
     }
 
-             /*CONFIGURAÇÕES PAINEL*/
+             /*CONFIGURAÇÕES @MEDIA PAINEL*/
     .containerPainel {
         margin: 15px 8px !important;
-    }
-    
+    }    
     
     .containerPainel #tituloPadrao h5 {        
         text-align: left;   
@@ -357,24 +354,21 @@ body {
         padding: 0 12px !important;
         margin-bottom: 25px !important;
     }
-
     .containerPainel footer img {
         margin: 0 5px !important;
         padding: 0 5px !important;
         width: 150px !important;
         display: inline-block;
     }
-
     .containerPainel footer h1 {
         margin-top: 20px !important;
     }
 
-             /*SESSOES TEC. - ARTIGOS COMPLETOS */
+             /*SESSOES @MEDIA TEC. - ARTIGOS COMPLETOS */
 
     .mainTecnicas {
         margin: 0px 8px !important;
     }
-    
     .mainTecnicas h2 {
         font-size: 26px !important;
         margin-bottom: 3px !important;
@@ -397,8 +391,7 @@ body {
 
     .sTecnicas li {
         list-style-type: circle !important;
-    }
-   
+    } 
     
     #stHead {
         margin-top: 5px !important;
@@ -408,9 +401,10 @@ body {
         margin-bottom: 0px !important;
         
     }
-             /*RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
 
-            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. PROGRAMAÇÃO*/
+             /*CONFIGURAÇÃO @MEDIA RESUMOS ESTENDIDOS:"MESMAS CLASSES ACIMA */
+
+            /*CONFIGURAÇÃO @MEDIA CONCURSO DE TRAB. TEC. PROGRAMAÇÃO*/
     .mainTecnicos .tecnicos  {
     display: block !important;
     margin: 0 3px !important;
@@ -418,7 +412,7 @@ body {
 
    
 
-            /*CONFIGURAÇÃO CONCURSO DE TRAB. TEC. CHAMADAS*/
+            /*CONFIGURAÇÃO @MEDIA CONCURSO DE TRAB. TEC. CHAMADAS*/
     .mainChamadas{
         margin: 10px 10px !important;
         
@@ -429,7 +423,7 @@ body {
     }
    
   
-            /*CONFIGURAÇÕES INSCRIÇÕES */
+            /*CONFIGURAÇÕES @MEDIA INSCRIÇÕES */
     #myTable {
         width: 97% !important;
     }
@@ -450,17 +444,17 @@ body {
     }
   
 
-            /*CONFIGURAÇÕES CONCURSO TRABALHOS TECNICOS*/
+            /*CONFIGURAÇÕES @MEDIA CONCURSO TRABALHOS TECNICOS*/
     .mainTecnicos {        
         margin: 0 8px 0 !important;
     }
    
 
-            /*CONFIGURAÇÕES ANAIS*/
+            /*CONFIGURAÇÕES @MEDIA ANAIS*/
     #anais{
         margin: 30px !important;
     }
-            /*CONFIGURAÇÕES LOCAL HOSPEDAGEM*/
+            /*CONFIGURAÇÕES @MEDIA LOCAL HOSPEDAGEM*/
     #hospedagem {
         margin: 15px 20px !important;
         padding-left: 0px !important;
@@ -473,7 +467,7 @@ body {
     #hospedagem ul {
         padding-left: 18px !important;
     }
-            /*CONFIGURAÇÕES TRILHA */
+            /*CONFIGURAÇÕES @MEDIA TRILHA */
 
     
     .mainTrilha {
@@ -516,7 +510,7 @@ body {
     }
     
 
-            /*CONFIGURAÇÕES LOCAL */
+            /*CONFIGURAÇÕES @MEDIA LOCAL */
 
     #local h3 {
         width: 90% !important;
@@ -538,9 +532,11 @@ body {
     margin: 400px 100px;
 }
 #tituloHome h1 {
-    color: #568763;
+    color: #b88526;
     font-size: 65px;
     font-weight: 700;
+    font-family: 'Frijole', cursive;
+    /*font-family: 'Nosifer', cursive;*/
     
 }
 #tituloHome h4 {
@@ -606,10 +602,11 @@ body {
     text-align: center;
 }
 #tituloPadrao h1{
-    color: #568763;
+    color: #b88526;
     font-size: 50px;
-   font-weight: 600;
-   transform:(-45deg);
+    font-weight: 600;
+    -ms-transform:(-45deg);
+    font-family: 'Frijole', cursive;
 }
 #tituloPadrao h2{
     color: #568763;
@@ -618,7 +615,7 @@ body {
 
 }
 
-        /* MAIN INDEX */
+        /* CONFIGURAÇÃO MAIN INDEX */
 .introducao {
     display: flex;
     margin: 30px 40px;  
@@ -891,7 +888,6 @@ body {
 
                         /*CONFIGURAÇÕES DE INSCRIÇÕES*/
 
-/* Obs.: configuração de largura da tabela nao responde*/
 #myTable {
     width: 60%;
     border: 1px solid black;
@@ -910,14 +906,12 @@ body {
     cursor: pointer;
     border: 1px solid black;
     background-color: hsl(136, 62%, 90%); 
-    font-size: 20px;
-    
+    font-size: 20px;    
   }
 
  #myTable th:hover {
       background-color: rgb(158, 207, 158);
-  }
-  
+  }  
   
  #myTable th, #myTable td {
     text-align: left;
@@ -929,8 +923,7 @@ body {
     background-color: #f2f2f2
   }
 
-/* Estilo no css causa aumento de tamanho do texto (inscreva-se) no hover. No html nao ocorre*/
-  .mainInscricoes h6 {
+ .mainInscricoes h6 {
     position: relative;
     margin: 15px auto;
     display: flex;
@@ -949,8 +942,7 @@ body {
 .mainChamadas {
     margin: 0 80px;
     font-size: 17px;
-    text-align: justify; 
-   
+    text-align: justify;    
 }
 
 .introChamadas {
@@ -1179,7 +1171,6 @@ hr {
     padding-bottom: 0;
     cursor: pointer;
 }
-
 
  .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2  {   
   font-size: 16px;
