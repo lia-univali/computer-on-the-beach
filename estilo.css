@@ -89,14 +89,14 @@ body {
         height: 300px !important;
     }
     #tituloHome{
-        background-image: url(fotos/praia3.jpg);
+        background-image: url(fotos/praia6.jpg);
         background-size: cover;
         height: 300px;
         margin: 0 0 100px !important;
     }
     #tituloHome h1, #tituloHome h4{
         text-align: center;
-        color: rgb(22, 18, 31) !important;
+        color: #568763 !important;
         font-size: 30px !important;   
     }
     .intro-link-foto {
@@ -524,7 +524,7 @@ body {
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
-    background-image: url("fotos/praia3.jpg");
+    background-image: url("fotos/praia6.jpg");
     background-size: cover;
     height: 800px;
 }
@@ -532,7 +532,7 @@ body {
     margin: 400px 100px;
 }
 #tituloHome h1 {
-    color: #b88526;
+    color: #568763;
     font-size: 65px;
     font-weight: 700;
     font-family: 'Frijole', cursive;
@@ -602,7 +602,7 @@ body {
     text-align: center;
 }
 #tituloPadrao h1{
-    color: #b88526;
+    color: #568763;
     font-size: 50px;
     font-weight: 600;
     -ms-transform:(-45deg);
