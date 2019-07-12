@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #333;
+    
 }
 
         /*INICIO CONFIGURAÇÕES @MEDIA */
@@ -41,12 +42,15 @@ body {
 
 @media only screen and (max-width: 400px) {
             /*CONFIGURAÇÕES GERAIS @MEDIA*/
+    body {
+        width: 100% !important;
+    }
     li{
         list-style-type: none;   
     }
     p {
-        margin-bottom: 5px;
-    }
+        margin: 21px 3px 15px 3px !important;
+   }
     hr {
         margin-top: -40px !important;  
         
@@ -57,8 +61,10 @@ body {
     header nav {
         height: 180px !important;
     }
+
+    
     nav.navbar{
-        padding: 0 5px !important;
+        padding: 0px !important;
     }
     #logo{
         width: 40% !important;
@@ -93,10 +99,14 @@ body {
         height: 300px;
         margin: 0 0 100px !important;
     }
-    #tituloHome h1, #tituloHome h4{
+    #tituloHome h1 {
         text-align: center;
-        color: #568763 !important;
+        color: whitesmoke !important;
         font-size: 30px !important;   
+    }
+
+    #tituloHome h4{
+        font-size: 12px !important;  
     }
     .intro-link-foto {
         display: none !important;
@@ -106,17 +116,25 @@ body {
         padding: 0 !important;
         margin-top: 100px !important;
     }
+    .introducao {
+        margin: 0 5px !important;
+     
+    }
 
     .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
         position: relative;
-        top: 80px;
+        top: 90px;
     }
 
     .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
         display: block !important;
     }
+    .atividades {
+        margin: 0 5px !important;
+        padding: 0 5px !important;
+    }
     .palestras {
-        padding: 1px 15px !important;
+        padding: 1px 5px !important;
     }
 
     .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
@@ -132,9 +150,8 @@ body {
     .palestras .descIntro1.col {
         padding: 0 0px !important;
     }
-
-    .atividades p {
-        margin: 0 -20px;
+    .atividades h2 {
+        font-size: 46px !important;
     }
 
     .workshop p, .minicursos p {
@@ -159,9 +176,7 @@ body {
         margin-left: 12px !important;
     }
 
-    .atividades {
-        margin: -30px 0 !important;
-    }
+    
 
     .atividades h3 {
         margin-top: 38px !important;
@@ -532,12 +547,12 @@ body {
 }
 #tituloHome h1 {
     color: whitesmoke;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 700;
     transform: rotate(-7deg);
     position: absolute;
     bottom: 120px;
-    left: 30px;
+    left: 25px;
     width: 60%;
     font-family: 'Rammetto One', cursive;
     /*font-family: 'Frijole', cursive;*/    
@@ -546,15 +561,15 @@ body {
 }
 #tituloHome h4 {
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
     text-transform: uppercase;
     transform: rotate(-7deg);  
     font-family: 'Rammetto One', cursive;
     position: absolute;
-    bottom: 60px;
-    left: 15px;
-    width: 70%;
+    bottom: 90px;    
+    width: 65%;
+    
 }
 
 
@@ -1472,7 +1487,9 @@ footer h1{
 #logoFim{
     background-color: #3f3f3d;
     margin-top: 50px;
+}
 
-
+.navbar{
+    padding: 0 !important;
 }
 
