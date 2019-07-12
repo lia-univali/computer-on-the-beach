@@ -42,7 +42,11 @@ body {
     hr {
         margin-top: -40px !important;  
         
-    } 
+    }
+                /*CONFIGURAÇÕES GERAIS DE HEADER*/
+    .navbar-nav{
+        margin-left: 0px !important;
+    }
                 /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
         background-image: none !important;
@@ -510,6 +514,9 @@ body {
 }
 .navbar-nav .nav-link {
     padding-left: 10px;
+}
+.navbar-nav{
+    margin-left: 100px;
 }
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
