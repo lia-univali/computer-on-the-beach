@@ -9,25 +9,13 @@ body {
         /*INICIO CONFIGURAÇÕES @MEDIA */
 
 @media only screen and(max-width: 1400px) {
-    #menuNav li{   
-        display: inline-block;
-        padding: 10px 5px;
-        text-transform: uppercase;
-        font-weight: bolder;
-    }
+   
 }
 
 @media only screen and (max-width: 1370px) {
    body{
        width: 100%;
    }
-    #menuNav li a { 
-       font-size: 15px !important;
-   }
-   #menuNav li { 
-    padding: 10px 5px;
-    }
-
     #imgSurf {
         position: absolute;
         left: 60%;
@@ -51,37 +39,6 @@ body {
         margin-top: -40px !important;  
         
     } 
-    
-            /*CONFIGURAÇÕES @MEDIA CABEÇALHO PADRÃO*/
-    
-    header nav {
-        height: 180px !important;
-    }
-    nav.navbar{
-        padding: 0 5px !important;
-    }
-    #logo{
-        width: 40% !important;
-    }
-    #menuNav li{
-        padding: 5px !important;
-    }
-    #menuNav li a {
-        font-size: 14px !important;
-        margin: 0px !important
-    }
-    #menuNav ul {
-        margin: -10px 0 !important;
-        padding: 0 !important;
-        display: inline-table !important;
-    }
-    #menuChamadas {
-        margin: 0px -170px !important;
-    }
-    #menuProgramacao{
-        margin: 0 -40px !important;
-    }
-
                 /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
         background-image: none !important;
@@ -516,9 +473,14 @@ body {
     }
     #local h4 {
         width: 80% !important;
-    }
+    }   
 }
     /*FIM DAS CONFIGURAÇÕES @MEDIA */
+
+        /*CONFIGURAÇÃO DE HEADER PADRÃO*/  
+.nav-item.dropdown .dropdown-menu{
+    background-color: #cbdbcb;
+}
 
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
@@ -555,56 +517,6 @@ body {
     bottom: 60px;
     left: 15px;
     width: 70%;
-}
-
-
-               /*CONFIGURAÇÕES DE HEADER DE TODAS PAGINAS*/
-
-#menuNav{
-    height: 130px;  
-    background-color: #0F0F0C ;
-    
-}
-#menuNav{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-#logo{
-    width: 20%;
-}
-#menuNav ul{
-    color: white;
-    display: inline-block;  
-    margin-top: 40px;
-}
-#menuProgramacao, #menuChamadas{
-    margin: 0;
-    background-color: #0F0F0C;
-}
-#menuProgramacao a, #menuChamadas a{
-    font-size: 15px;
-    margin: 0;
-    padding: 7px 20px;
-}
-#menuNav li{   
-    display: inline-block;
-    padding: 10px 15px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-#menuNav a{
-    color: white;
-}
-#menuNav a:hover, #menuNav .dropdown-toggle:hover{
-    color: #4bb463;
-    text-decoration: none;
-    transition: 0.5s;
-    
-}
-#menuNav .dropdown-item:hover{   
-    background-color: #4bb463;
-    color: white;
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
 
