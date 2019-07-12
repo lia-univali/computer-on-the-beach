@@ -52,16 +52,23 @@ body {
         background-image: url(fotos/praia6.jpg);
         background-size: cover;
         height: 300px;
-        margin: 0 0 100px !important;
+        margin: 0 0 50px !important;
+    
     }
     #tituloHome h1 {
         text-align: center;
         color: whitesmoke !important;
-        font-size: 30px !important;   
+        font-size: 30px !important;
+        position: relative;
+        top: 55px;
+        left: 30px;
     }
 
     #tituloHome h4{
         font-size: 12px !important;  
+        position: relative;
+        top: 55px;
+        left: 30px;
     }
     .intro-link-foto {
         display: none !important;
@@ -494,7 +501,16 @@ body {
 .nav-item.dropdown .dropdown-menu{
     background-color: #cbdbcb;
 }
-
+.logo{
+    width: 150px;
+    margin: 25px;
+}
+.navbar-toggler{
+    margin-left: 20px;
+}
+.navbar-nav .nav-link {
+    padding-left: 10px;
+}
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
@@ -504,19 +520,16 @@ body {
 }
 #tituloHome{    
     text-align: center;
+    margin: 200px 100px;
 }
 #tituloHome h1 {
     color: whitesmoke;
     font-size: 55px;
     font-weight: 700;
     transform: rotate(-7deg);
-    position: absolute;
-    bottom: 120px;
-    left: 25px;
     width: 60%;
     font-family: 'Rammetto One', cursive;
-    /*font-family: 'Frijole', cursive;*/    
-    /*font-family: 'Nosifer', cursive;*/
+    
     
 }
 #tituloHome h4 {
@@ -525,9 +538,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     transform: rotate(-7deg);  
-    font-family: 'Rammetto One', cursive;
-    position: absolute;
-    bottom: 90px;    
+    font-family: 'Rammetto One', cursive;    
     width: 65%;
     
 }
@@ -556,6 +567,7 @@ body {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #333;
+    position: relative;
 }
 
 .introducao .apresentacao p {
