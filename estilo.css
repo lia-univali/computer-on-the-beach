@@ -6,6 +6,8 @@ body {
     color: #333;
 }
 
+        /*INICIO CONFIGURAÇÕES @MEDIA */
+
 @media only screen and(max-width: 1400px) {
     #menuNav li{   
         display: inline-block;
@@ -23,7 +25,7 @@ body {
        font-size: 15px !important;
    }
    #menuNav li { 
-    padding: 10px 5px !important;
+    padding: 10px 5px;
     }
 
     #imgSurf {
@@ -34,11 +36,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 480px), (orientation: landscape) { 
-     
 
-    
-  }
 
 
 @media only screen and (max-width: 400px) {
@@ -60,7 +58,7 @@ body {
         height: 180px !important;
     }
     nav.navbar{
-        padding: 0px 5px !important;
+        padding: 0 5px !important;
     }
     #logo{
         width: 40% !important;
@@ -83,6 +81,7 @@ body {
     #menuProgramacao{
         margin: 0 -40px !important;
     }
+
                 /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
         background-image: none !important;
@@ -526,24 +525,36 @@ body {
 #cabecalhoIndex {
     background-image: url("fotos/praia6.jpg");
     background-size: cover;
-    height: 800px;
+    height: 600px;
 }
-#tituloHome{
-    margin: 400px 100px;
+#tituloHome{    
+    text-align: center;
 }
 #tituloHome h1 {
-    color: #568763;
+    color: whitesmoke;
     font-size: 65px;
     font-weight: 700;
-    font-family: 'Frijole', cursive;
+    transform: rotate(-7deg);
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+    width: 60%;
+    font-family: 'Rammetto One', cursive;
+    /*font-family: 'Frijole', cursive;*/    
     /*font-family: 'Nosifer', cursive;*/
     
 }
 #tituloHome h4 {
-    color: #568763;
-    font-size: 30px;
-    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 500;
     text-transform: uppercase;
+    transform: rotate(-7deg);  
+    font-family: 'Rammetto One', cursive;
+    position: absolute;
+    bottom: 60px;
+    left: 15px;
+    width: 70%;
 }
 
 
@@ -605,8 +616,6 @@ body {
     color: #568763;
     font-size: 50px;
     font-weight: 600;
-    -ms-transform:(-45deg);
-    font-family: 'Frijole', cursive;
 }
 #tituloPadrao h2{
     color: #568763;
