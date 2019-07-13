@@ -50,7 +50,7 @@ body {
                 /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
         background-image: none !important;
-        height: 300px !important;
+        height: auto !important;
     }
     #tituloHome{
         background-image: url(fotos/praia6.jpg);
@@ -80,7 +80,7 @@ body {
     .apresentacao {
         width: 100% !important;
         padding: 0 !important;
-        margin-top: 100px !important;
+        margin-top: 0px !important;
     }
     .introducao {
         margin: 0 5px !important;
