@@ -22,10 +22,11 @@
 }
 
 
+
 @media only screen  and (min-width: 410px) and (max-height: 731px) {
     /*CONFIGURAÇÕES GERAIS @MEDIA PIXEL2*/
     body {
-        width: 100% !important;
+        max-width: 411px !important;
     }
     #logoFim img {
         max-width: 411px !important;
@@ -34,29 +35,29 @@
         background-image: none !important;
         height: auto !important;
     }
-
     #tituloHome{
         background-image: url(fotos/praia6.jpg);
         background-size: cover;
-        height: 300px !important;
+        height: 330px !important;
         margin: 0  !important;  
-        width: 100% !important;  
+        position: static !important;      
     }
+
     #tituloHome h1 {        
         color: whitesmoke !important;
         font-size: 30px !important;
         position: relative;
-        top: 65px !important;
-        left: 30px;        
+        top: 120px !important;
+        left: 30px !important;           
     }
 
     #tituloHome h4{
         font-size: 12px !important;  
-        position: relative !important;
-        top: 55px !important;
-        left: 30px;
+        position: relative;
+        top: 120px !important;
+        left: 30px !important;           
     }
-    .intro-link-foto {
+    .introducao .intro-link-foto {
         display: none !important;
     }
 
@@ -75,7 +76,7 @@
         margin: 20px 10px !important;
     }
     h3 {
-        margin-top: 20px !important;
+        margin-top: 30px !important;
     }
     .atividades {
         padding: 10px !important;
@@ -142,9 +143,9 @@
     #tabelaProgramacao {
         display: block !important;
         max-width: 98% !important;
-        margin: 30px 0 !important;
-       
+        margin: 30px 0 !important;       
     }
+
     #legendaProgramacao {
         margin: 20px !important;
     }
@@ -172,12 +173,179 @@
    .descricao-meninas  {
        width: 100% !important;
    }
+
+
+
 } /*FIM CONFIGURAÇÕES @MEDIA PIXEL2 */
 
 @media only screen and (max-width: 411px) and (max-height: 823px) {
     /*CONFIGURAÇÕES GERAIS @MEDIA PIXEL2 XL*/
 
-}  
+    body {
+        max-width: 411px !important;
+    }
+    #cabecalhoIndex {
+        background-image: none !important;
+        height: auto !important;
+    }
+    #tituloHome{
+        background-image: url(fotos/praia6.jpg);
+        background-size: cover;
+        height: 330px !important;
+        margin: 0  !important;  
+        position: static !important;      
+    }
+
+    #tituloHome h1 {        
+        color: whitesmoke !important;
+        font-size: 30px !important;
+        position: relative;
+        top: 120px !important;
+        left: 30px !important;           
+    }
+
+    #tituloHome h4{
+        font-size: 12px !important;  
+        position: relative;
+        top: 120px !important;
+        left: 30px !important;           
+    }
+    .introducao .intro-link-foto {
+        display: none !important;
+    }
+
+    .introducao, .atividades {
+        margin: 0 !important;
+    }
+    .apresentacao {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .apresentacao h3 {
+        font-size: 32px !important;
+    }
+    .apresentacao p {
+        margin: 20px 10px !important;
+    }
+    h3 {
+        margin-top: 30px !important;
+    }
+    .atividades {
+        padding: 10px !important;
+    }
+    .atividades h2 {
+        font-size: 46px !important;
+    }
+    .atividades h5{
+        padding: 25px 10px 15px 10px !important; 
+        margin: 0 !important;    }
+    .atividades div {
+        margin: 0px !important;
+    }
+    .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
+        display: block !important;
+    }
+    .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .frontFotoMc1 div, .frontFotoMc2 div {
+        width: 95% !important;
+        padding-right:  0px !important;
+        margin: 0 auto !important;
+    }
+   
+    .autor1-foto img {
+        justify-content: center !important;
+        width: 60% !important;
+    }
+    .palestras {
+        padding: 0 !important;
+    }
+    .autor1-main {
+        margin: 0 !important;
+    }
+    .workshop {
+        padding: 12px 8px !important;
+    }
+    .minicursos {
+        padding: 10px 2px !important;
+    }
+    .demais-atividades {
+        padding: 10px !important;
+    }
+    footer img {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 45% !important;
+    }
+
+    #logoFim {
+        max-width: 411px !important;
+        margin-top: 20px !important;
+        position: relative;
+        bottom: 50px !important;
+    }
+    #logoFim img {
+        position: relative;
+        justify-content: center;
+    }
+
+    #organizacao {
+        margin: 10px !important;
+    }
+
+    #local h3, #local h4 {
+        width: 80% !important;
+    }
+    #hospedagem {
+        margin: 30px !important;
+        padding-left: 0 !important;
+        justify-content: center !important;
+        text-align: justify !important;
+    }
+    #anais {
+        margin: 30px !important;
+    }
+    #tabelaProgramacao {
+        display: block !important;
+        max-width: 98% !important;
+        margin: 30px 0 !important;       
+    }
+
+    #legendaProgramacao {
+        margin: 20px !important;
+    }
+    #legendaProgramacao ul {
+        padding-left: 0 !important;
+    }
+    #atividadesProgramacao {
+        margin: 0 !important;
+    }
+    #cardsProgramacao {
+        margin: 40px !important;
+    }
+   #tabelaDia  {
+       margin:0 !important;
+   }
+   
+   .navbar {
+       max-width: 411px !important;
+   }
+
+   .cabecalho-meninas {
+       display: block !important;
+       margin: 0 auto !important;
+   }
+   .descricao-meninas  {
+       width: 100% !important;
+   }
+
+
+
+   #logoFim  {
+    max-width: 411px !important;
+    margin-top: 20px !important;
+}
+} 
+
 
 
 @media only screen and (max-width: 400px) {
@@ -189,7 +357,7 @@
         list-style-type: none;   
     }
     p {
-        margin: 21px 3px 15px 3px !important;
+        margin: 10px 3px 15px 3px !important;
    }
     hr {
         margin-top: -40px !important;  
@@ -198,6 +366,7 @@
                 /*CONFIGURAÇÕES GERAIS DE HEADER*/
     .navbar-nav{
         margin-left: 0px !important;
+        
     }
                 /*CONFIGURAÇÕES @MEDIA INDEX*/
     #cabecalhoIndex {
@@ -207,25 +376,24 @@
     #tituloHome{
         background-image: url(fotos/praia6.jpg);
         background-size: cover;
-        height: 300px !important;
-        margin: 0 0 50px !important;
-
-    
+        height: 330px !important;
+        margin: 0  !important;  
+        position: static !important;      
     }
+
     #tituloHome h1 {        
         color: whitesmoke !important;
         font-size: 30px !important;
         position: relative;
-        top: 90px;
-        left: 30px;
-        
+        top: 120px !important;
+        left: 30px !important;           
     }
 
     #tituloHome h4{
         font-size: 12px !important;  
         position: relative;
-        top: 80px;
-        left: 30px;
+        top: 120px !important;
+        left: 30px !important;           
     }
     .intro-link-foto {
         display: none !important;
@@ -233,7 +401,8 @@
     .apresentacao {
         width: 100% !important;
         padding: 0 !important;
-        margin-top: 0px !important;
+        margin-top: -70px !important;
+      
     }
     .introducao {
         margin: 0 5px !important;
@@ -249,13 +418,13 @@
         display: block !important;
     }
     .atividades {
-        margin: 0 5px !important;
+        margin: 30px 5px !important;
         padding: 0 5px !important;
     }
     .palestras {
-        padding: 1px 5px !important;
+        padding: 1px 2px !important;
     }
-
+  
     .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
         margin: 25px 0 !important;
        
@@ -273,11 +442,11 @@
         font-size: 46px !important;
     }
 
-    .workshop p, .minicursos p {
-        margin: 0 -5px;
+    .workshop p, .minicursos p, .demais-atividades p {
+        margin: 0 5px;
     }
     .workshop {
-        padding: 25px 15px!important;
+        padding: 25px 2px!important;
     }
     .wformato {
         padding-left: 0 !important;
@@ -299,19 +468,22 @@
         margin-top: 38px !important;
     }
      .minicursos {
-         padding: 0 15px !important;
+         padding: 10px 5px !important;
+         
      }
 
-     .minicursos h5 {
-         padding-top: 35px !important;
+     .workshop h5, .minicursos h5, .demais-atividades h5 {
+         padding: 15px 5px !important;
+         text-align: left !important;
      }
 
      .demais-atividades {
+
          margin-bottom: 30px !important;
-         padding: 30px 15px !important;
+         padding-bottom: 25px !important;
      }
      .demais-atividades p {
-         margin: 0px !important;
+         margin: 0 !important;
      }
 
     .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
@@ -324,20 +496,34 @@
         width:55%;
     }
                 /*CONFIGURAÇÕES @MEDIA FOOTER*/
+    footer {
+        margin-top: 20px !important;
+        
+    }
     footer img {
         margin: 0px !important;
         padding: 0px !important;
-        width: 150px !important;
+        width: 100px !important;
         display: inline-block;
-    }
-
-    footer h1 {
-        margin-top: 20px !important;
-        font-size: 40px !important;
+        
     }
 
     #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
-        margin: 45px 0 !important;
+        margin: 35px 0 !important;
+    }
+    #realizacoes h1, #patrocinio h1, #apoio h1, #apoioInstitucional h1 {
+        margin-top: 20px !important;
+        font-size: 37px !important;
+    }
+
+    #logoFim {
+        max-width: 360px !important;
+        margin-top: 20px !important;
+    }
+
+    #logoFim img {
+        width: 200px !important;
+        height: auto !important;
     }
 
 
@@ -555,9 +741,10 @@
    
   
             /*CONFIGURAÇÕES @MEDIA INSCRIÇÕES */
-    #myTable {
+    
+     #myTable {
         width: 97% !important;
-    }
+    }    
 
     #myTable th {
         font-size: 14px !important; 
@@ -572,8 +759,7 @@
     }
     .mainInscricoes th {
         max-width: fit-content !important;
-    }
-  
+    }  
 
             /*CONFIGURAÇÕES @MEDIA CONCURSO TRABALHOS TECNICOS*/
     .mainTecnicos {        
@@ -650,4 +836,4 @@
         width: 80% !important;
     }   
 }
-    /*FIM DAS CONFIGURAÇÕES @MEDIA */
+    /*FIM DAS CONFIGURAÇÕES @MEDIA IPHONE 5 / SE*/
