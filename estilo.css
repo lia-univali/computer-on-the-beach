@@ -39,7 +39,7 @@ body {
 }
 #tituloHome{    
     position: relative;
-    top: 208px;
+    top: 228px;
     left: 50px;
 
 }
@@ -48,19 +48,17 @@ body {
     font-size: 55px;
     font-weight: 700;
     transform: rotate(-7deg);
-    width: 65%;
-    font-family: 'Rammetto One', cursive;
-    
-    
+    width: 40%;
+    font-family: 'Rammetto One', cursive;    
 }
 #tituloHome h4 {
     color: whitesmoke;
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
     text-transform: uppercase;
     transform: rotate(-7deg);  
     font-family: 'Rammetto One', cursive;    
-    width: 70%;
+    width: 60%;
     
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
@@ -781,8 +779,7 @@ blockquote {
     width: 75%;
     margin: 0 auto;
 }
-#local h4 {
-   
+#local h4 {   
     color: #0F0F0C;
     font-size: 18px;
     width: 55%;
