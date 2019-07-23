@@ -8,6 +8,7 @@
   }); 
 });*/
 
+
 $(document).ready(function(){
 
       $("#autor1Main").click(function(){
