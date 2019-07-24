@@ -33,13 +33,13 @@ body {
 #cabecalhoIndex {
     background-image: url("fotos/praia6.jpg");
     background-size: cover;
-    height: 600px;
+    height: 500px;
     width: auto !important;
     
 }
-#tituloHome{    
+#tituloHome {    
     position: relative;
-    top: 180px;
+    top: 55px;
     left: 50px;
 
 }
@@ -48,17 +48,17 @@ body {
     font-size: 55px;
     font-weight: 700;
     transform: rotate(-7deg);
-    width: 45%;
+    width: 40%;
     font-family: 'Rammetto One', cursive;    
 }
 #tituloHome h4 {
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     transform: rotate(-7deg);  
     font-family: 'Rammetto One', cursive;    
-    width: 60%;
+    width: 50%;
     
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
@@ -99,7 +99,7 @@ body {
     text-align: justify;
     padding: 0 5px;
     text-transform: none;
-    margin: 40px 15px;
+    margin: 40px 15px 0 15px;
 }
 .apresentacao  {
     text-align: center;
@@ -107,7 +107,7 @@ body {
     padding: 0 25px;   
 }
 .apresentacao h3 {
-    font-size: 38px;
+    font-size: 32px;
     color: #568763;
     text-transform: uppercase;
     font-weight: bold;
@@ -132,8 +132,8 @@ body {
 .atividades {
     font-size: 18px;
     font-style: normal;
-    padding: 10px 25px;
-    margin: 5px 25px;
+    padding: 0 15px;
+    margin: 0 15px;
     color: black;    
 }
 
@@ -141,20 +141,20 @@ body {
 .palestras {
     background-color: #f3fff3;
     width: 100%;
-    padding: 3px 55px;
+    padding: 3px 35px;
     font-size: 16px;
 }
 
 .atividades h2 {
     text-align: center;
-    font-size: 66px;
+    font-size: 50px;
     font-weight: 600;
     color: #568763;;
-    margin: 0px 0;
+    margin: 0px;
 }
 .atividades h3 {
     text-align: center;
-    font-size: 42px;
+    font-size: 34px;
     font-weight: bold;
     color: #568763;;
     margin-top: 55px;
@@ -634,7 +634,7 @@ hr {
   }
 
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1, .mc2 {
-    margin: 40px 0;
+    margin: 30px 0;
     padding-bottom: 0;
     cursor: pointer;
 }
@@ -709,7 +709,7 @@ i, .workshop a, .minicursos a, .demais-atividades a {
 .workshop, .demais-atividades {
     background-color: #f3fff3;
     width: 100%;
-    padding: 51px 50px;
+    padding: 25px 30px;
     margin: 10px 0;    
     cursor: pointer;
     text-align: justify;
@@ -733,28 +733,30 @@ i, .workshop a, .minicursos a, .demais-atividades a {
 .minicursos {
     background-color: #f3fff3;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 55px;
-    padding-right:55px;
-    padding-left: 55px;
+    padding: 5px 30px 30px 30px;
     margin-top: 15px;     
     cursor: pointer;
     color: #000000
 }
 
 .minicursos h5 {
-    padding-top: 65px;
+    padding-top: 25px;
     
 }
                 /*CONFIGURAÇÕES PAGINA ANAIS*/
 #anais{
-    margin: 100px;
+    margin: 50px 80px;
     color: #568763;
 }
+
 #anais h2{
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
 }
+#anais h3{
+    font-size: 18px;
+}
+
 blockquote {
     padding: 5px 10px;
     margin: 0 0 20px;
