@@ -2,7 +2,7 @@
 
         /*INDICE DE CONFIGURAÇÕES MEDIA TELAS PEQUENAS (MODELOS MENORES EMBAIXO, FEITOS PRIMEIRO) */
 
-        /*  
+        /*  LARGE DEVICES (min-width: 900px); 
             KINDLEFIRE, NEXUS 10 (min-width: 800px) and (max-height: 1280px); 
             BLACKBERRY PLAYBOOK (min-width: 600px) and (max-height: 1024px); 
             PIXEL2, PIXEL2XL, IPHONE 6/7/8 PLUS(min-width: 410px) and (max-height: 823px);  
@@ -73,8 +73,7 @@
                 color: whitesmoke !important;
                 font-size: 49px !important;
                 position: relative;
-                top: 187px !important;
-                left: 30px !important;
+                top: 187px !important;        
                 width: 57% !important;
             }
     
@@ -82,8 +81,7 @@
                 font-size: 28px !important;
                 font-weight: bold !important;
                 position: relative;
-                top: 189px !important;
-                left: 30px !important;
+                top: 189px !important;                
                 width: 66% !important;
             }
 
@@ -620,7 +618,6 @@
                 font-size: 36px !important;
                 position: relative;
                 top: 110px !important;
-                left: 30px !important;
                 width: 55% !important;
             }
     
@@ -629,7 +626,6 @@
                 font-weight: bold !important;
                 position: relative;
                 top: 100px !important;
-                left: 30px !important;
                 width: 66% !important;
             }
             .intro-link-foto {
@@ -1152,7 +1148,6 @@
                 font-size: 32px !important;
                 position: relative;
                 top: 123px !important;
-                left: 20px !important;
                 width: 81% !important;
             }
     
@@ -1161,7 +1156,6 @@
                 font-weight: bold !important;
                 position: relative;
                 top: 120px !important;
-                left: 20px !important;
                 width: 84% !important;
             }
             .intro-link-foto {
@@ -1660,7 +1654,6 @@
             font-size: 32px !important;
             position: relative;
             top: 100px !important;
-            left: 20px !important;
             width: 85% !important;
             }
     
@@ -1668,8 +1661,7 @@
             font-size: 18px !important;
             font-weight: bold !important;
             position: relative;
-            top: 100px !important;
-            left: 20px !important;
+            top: 100px !important;            
             width: 88% !important;
             }
             .intro-link-foto {
@@ -2184,8 +2176,7 @@
             color: whitesmoke !important;
             font-size: 32px !important;
             position: relative;
-            top: 100px !important;
-            left: 20px !important;
+            top: 100px !important;            
             width: 85% !important;
             }
     
@@ -2193,18 +2184,18 @@
             font-size: 18px !important;
             font-weight: bold !important;
             position: relative;
-            top: 100px !important;
-            left: 20px !important;
+            top: 100px !important;           
             width: 88% !important;
             }
+
             .intro-link-foto {
             display: none !important;
             }
             #tituloPadrao h1 {
-                font-size: 36px !important;
+            font-size: 36px !important;
             }
             #tituloPadrao h2 {
-                font-size: 26px !important;
+            font-size: 26px !important;
             }
             .apresentacao {
             width: 100% !important;
@@ -2707,7 +2698,6 @@
             font-size: 32px !important;
             position: relative;
             top: 85px !important;
-            left: 20px !important;
             width: 78% !important;
         }
 
@@ -2716,7 +2706,6 @@
             font-weight: bold !important;
             position: relative;
             top: 81px !important;
-            left: 20px !important;
             width: 87% !important;
         }
         .intro-link-foto {

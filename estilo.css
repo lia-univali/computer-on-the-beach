@@ -7,10 +7,17 @@ body {
     
 }
 
-        /*CONFIGURAÇÃO DE HEADER PADRÃO*/  
-.nav-item.dropdown .dropdown-menu{
-    background-color: #cbdbcb;
+        /*CONFIGURAÇÃO DE HEADER PADRÃO*/
+
+.nav-item.dropdown .dropdown-menu, .nav-item.dropdown .dropdown-menu a{
+    background-color: whitesmoke;
+    font-weight: 500 !important;
 }
+.nav-item.dropdown .dropdown-menu a:hover{
+    background-color: #c0dac0;
+    transition: ease-in-out 0.3s; 
+}
+
 .logo{
     width: 150px;
     margin: 25px;
@@ -26,7 +33,7 @@ body {
 }
 
 .navbar-nav{
-    margin-left: 100px;
+    margin-left: 60px;
 }
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
@@ -39,17 +46,17 @@ body {
 }
 #tituloHome {    
     position: relative;
-    top: 55px;
-    left: 50px;
-
+    top: 65px;
+    
 }
 #tituloHome h1 {
     color: whitesmoke;    
-    font-size: 55px;
+    font-size: 52px;
     font-weight: 700;
     transform: rotate(-7deg);
-    width: 40%;
-    font-family: 'Rammetto One', cursive;    
+    width: 43%;
+    font-family: 'Rammetto One', cursive;  
+    margin-left: 35px !important;  
 }
 #tituloHome h4 {
     color: whitesmoke;
@@ -59,6 +66,7 @@ body {
     transform: rotate(-7deg);  
     font-family: 'Rammetto One', cursive;    
     width: 50%;
+    margin-left: 35px !important;
     
 }
                 /*CONFIGURAÇÃO TITULO PADRAO*/
@@ -182,8 +190,7 @@ body {
 .cabecalho-meninas {    
     display: flex;
     justify-content: center;
-    margin: 20px 10px 0px; 
- 
+    margin: 20px 10px 0px;  
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 
@@ -194,18 +201,27 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 35px;
-    margin-right: 20px;
+    margin: 25px 45px;
+
 }
 
-.descricao-meninas {
-    
+#fotoMeninas img{
+
+    transform: scale(1.1);
+    /* transition: ease-in-out 0.2s;  */
+}
+
+/* #fotoMeninas img:hover{
+    transform: scale(1.5);
+} */
+.descricao-meninas {    
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #333;
     font-weight: normal;    
     width: 40%;
     padding: 0 5px;
-    margin: 30px 15px;
+    margin: 20px 45px;
 
 }  
 
@@ -914,16 +930,20 @@ footer {
 }
 footer h1{
     font-weight: 700;   
-    font-size: 52px;
-
+    font-size: 36px;
 }
+#realizacoes img {
+    transform: scale(1.7);
+    padding-top: 20px;
+}
+
 #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
     margin: 70px 0;
     
 }
 #realizacoes img, #patrocinio img, #apoio img, #apoioInstitucional img {
     height: auto;
-    width: 280px;
+    width: 200px;
     padding: 0 30px;
     margin: 0 15px;
 }
