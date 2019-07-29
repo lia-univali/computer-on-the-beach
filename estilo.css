@@ -19,8 +19,18 @@
         margin-top: 5px !important;
         transform: scale(1.15);
     }
+    .autor1-foto, .autor2-foto, .autor3-foto, .autor4-foto, .autor5-foto, .autor6-foto, .autormc1-foto, .autormc2-foto   {
+        width: 65% !important;
+    } 
     .atividades {
         margin-top: 70px !important;
+    }
+    #imgSurf {
+        position: absolute;
+        left: 43%;
+        top: 2000px !important;
+        width: 20%;
+        transform: scale(1.5);
     }
 
 }
@@ -29,7 +39,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #333;
-    
+    background-color: #f3fff3 !important;
 }
 
         /*CONFIGURAÇÃO DE HEADER PADRÃO*/
@@ -170,29 +180,34 @@ body {
     margin: 0 15px;
     color: black;    
 }
+h6 {
+    font-size: 17px;
+}
 
         /* CONFIGURAÇÕES PALESTRAS - ATIVIDADES */
-.palestras {
+.palestras, .workshop, .demais-atividades  {
     background-color: #f3fff3;
     width: 100%;
-    padding: 3px 35px;
-    font-size: 16px;
+    padding: 3px 20px;
+    font-size: 18px;
 }
 
 .atividades h2 {
     text-align: center;
-    font-size: 50px;
+    font-family: 'Rammetto One', cursive;  
+    font-size: 42px;
     font-weight: 600;
     color: #568763;;
     margin: 0px;
 }
 .atividades h3 {
     text-align: center;
+    font-family: 'Rammetto One', cursive;  
     font-size: 34px;
     font-weight: bold;
     color: #568763;;
-    margin-top: 55px;
-    margin-bottom: 15px;
+    margin-top: 35px;
+    margin-bottom: -10px;
 }
 .atividades h5, .demais-atividades h5 {
     font-size: 26px;
@@ -651,17 +666,14 @@ body {
 hr {
     border:none;
     height: 5px;
-    width: 60%;
+    width: 65%;
     height: 50px;
     border-bottom: 0.1px solid #568763;
     box-shadow: 0 20px 25px -20px #568763;
     margin: 0px auto;
     margin-top: -20px;
   }
-
-#workShop div {
-    margin-left: 20px;
-}
+ 
 
 .p1, .p2, .p3, .p4, .p5, .p6, .wshop-detalhes1 {
     
@@ -674,14 +686,18 @@ hr {
       margin-left: 20px;
   }
 
-.autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1, .mc2 {
-    margin: 30px 0;
-    padding-bottom: 0;
+.autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1-main, .mc2-main, .workshop-main, .demais-atividades-main {
+    margin: 25px 0px;
+    padding: 20px;
     cursor: pointer;
+    background-color: rgb(235, 247, 234);
+    border-radius: 10px;
 }
 
- .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2  {   
-  font-size: 16px;
+
+
+ .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .inscricao, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {   
+  font-size: 18px;
   font-weight: normal;
   text-align: justify;  
   text-transform: none;
@@ -710,7 +726,7 @@ hr {
 
 .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
     margin-left: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -745,18 +761,9 @@ i, .workshop a, .minicursos a, .demais-atividades a {
      cursor: pointer;
    }
    
-
-
-.workshop, .demais-atividades {
-    background-color: #f3fff3;
-    width: 100%;
-    padding: 25px 30px;
-    margin: 10px 0;    
-    cursor: pointer;
-    text-align: justify;
-}
 .wshop-detalhes h6 {
     color: #568763;
+    font-size: 18px;
 }
 
 .workshop hr {
@@ -773,17 +780,15 @@ i, .workshop a, .minicursos a, .demais-atividades a {
 
 .minicursos {
     background-color: #f3fff3;
+    font-size: 18px !important;
     width: 100%;
     padding: 5px 30px 30px 30px;
-    margin-top: 15px;     
+ 
     cursor: pointer;
     color: #000000
 }
 
-.minicursos h5 {
-    padding-top: 25px;
-    
-}
+
                 /*CONFIGURAÇÕES PAGINA ANAIS*/
 #anais{
     margin: 50px 80px;
@@ -835,8 +840,9 @@ blockquote {
     margin: 50px 0;
 }
 #mapa  img{
-    height: 450px;
-    width: 70%;
+    width: 30%;
+    height: auto;
+    
 }
 #hospedagem{
     margin: 30px 100px;
@@ -847,14 +853,20 @@ blockquote {
                 /*CONFIGURAÇÕES DA PAGINA DE ORGANIZAÇÃO*/
 
 #organizacao{
-    margin: 80px;
+    margin: 30px 40px 80px;
     padding-top: 20px;
     padding-bottom: 40px;
     box-shadow: 0px 20px 20px gray;
+    font-size: 16px;
 }
+#organizacao ul {
+    text-align: center;
+    list-style-type: none;
+}
+
 #organizacao h1{
     color: #568763;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
     margin: 35px 0 0;
     text-align: center;
@@ -879,14 +891,17 @@ blockquote {
 
 #tabelaProgramacao{
     display: flex;
-    margin: 60px 15px;
+    justify-content: center;
+    margin: 30px 15px;
 }
 #tabelaDia{
-    margin: 0 20px;
+    display: inline-block;   
+    margin: 0 10px;
 }
 #tabelaDia th, #tabelaDia td {
     text-align: center;
-    vertical-align: middle;    
+    vertical-align: middle;  
+    padding: 7px;  
 }
 .stGrade{
    background-color:#f2c90f;
@@ -910,7 +925,8 @@ blockquote {
     background-color: rgb(228, 208, 208);
 }
 #legendaProgramacao {
-    margin: 10px 50px;
+    margin: 10px 50px 50px;
+    width: 70%;
 }
 #legendaProgramacao ul{
     list-style-type: none;
@@ -932,18 +948,21 @@ blockquote {
     color: rgb(17, 83, 17);
 }
 #atividadesProgramacao{
-    margin: 65px 0px 70px 80px;
+    margin: 25px 0px 70px 50px;
 }
 #cardsProgramacao{
     margin: 10px 10px;
     display: inline-table;
     background-color: #f3fff3;  
 }
+
+
 #imgSurf{
     position: absolute;
-    left: 43%;
-    top: 2100px;
+    left: 50%;
+    top: 1700px;
     width: 20%;
+    opacity: 0.9;
 }
  
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
@@ -953,6 +972,7 @@ footer {
     color: #161A08;
 
 }
+
 footer h1{
     font-weight: 700;   
     font-size: 36px;

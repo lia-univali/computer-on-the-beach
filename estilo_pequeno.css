@@ -32,6 +32,7 @@
         /*CONFIGURAÇÕES GERAIS @MEDIA KINDLEFIRE HDX / NEXUS 10 */  
         body {
             width: 100% !important;
+            background-color: white !important;
             }
             li{
             list-style-type: none;   
@@ -108,99 +109,131 @@
                 }
         
                 .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-                display: block !important;
-                }
-                .atividades {
-                margin: 0 5px !important;
-                padding: 0 5px !important;
-                }
-                .palestras {
-                padding: 1px 2px !important;
-                }
-                .palestras p {
-                    font-size:17px !important;
-                }
-        
-                .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-                margin: 25px 0 !important;
-        
-                }
-        
-                .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-                margin-left: 0px !important;
-        
-                }
-                .atividades h2 {
-                    font-size: 35px !important;
-                }
-                .atividades h3 {
-                    font-size: 30px !important;
-                    margin-top: 22px !important;
-                }
-                .palestras .descIntro1.col {
-                padding: 0 0px !important;
-                }
-                
-                .palestras h5 {
-                    font-size: 22px !important;
-                }
-                .palestras h6 {
-                    font-size: 17px !important;
-                }
-                .workshop p, .minicursos p, .demais-atividades p {
-                margin: 0 5px;
-                }
-                .workshop {
-                padding: 25px 2px!important;
-                }
-                .wformato {
-                padding-left: 0 !important;
-                }
-                #workShop div {
-                margin: 0 3px !important;
-                }
-                .wshop-detalhes h6 {
-                margin-left: -7px !important;
-                }
-                .wconceito {
-                padding-right: 6px !important;
-                }
-                .wshop-detalhes ul {
-                margin-left: 12px !important;
-                }    
-        
-                .minicursos {
-                padding: 15px 5px !important;
-                }
-                .minicursos hr {
-                margin-top: 0px !important;
-                }
-                .workshop h5, .minicursos h5 {
-                padding: 15px 5px !important;
-                text-align: left !important;
-                }
+                    display: block !important;        
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    }
+                    
             
-                .demais-atividades {
-                margin-bottom: 30px !important;
-                padding: 30px 20px !important;
-                }
-                .demais-atividades h5 {
-                padding: 5px !important;
-                }
-                .demais-atividades p {
-                margin: 0 !important;
-                }
-        
-                .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
-                width: 98% !important;
-                }
-                .autor1-foto img {
-                width: 70% !important;
-                }
-                .autor2-foto img, .autor3-foto img {
-                width:55%;
-                }
+                    .atividades {
+                    margin: 10px 0 !important;
+                    padding: 0px !important;
+                    }
+                    .atividades h2 {
+                        margin: 0 5px !important;
+                    }
+                    .palestras {
+                    padding: 0px !important;
+                    background-color: white !important;
+                    }
+                    .pDetalhes {
+                        width: 100% !important;
+                    }
+                    .workshop, .minicursos {
+                    padding: 10px !important;
+                    margin-top: -10px !important;
+                    background-color: white !important;
+            
+                    }
+                    .workshop-main {
+                        margin: 0 !important;
+                        padding: 5px !important;
+                        background-color:  #f3fff3;
+                    }
+                    .mc1-main, .mc2-main {
+                        margin: 15px 0 !important;
+                        padding: 20px 5px !important;
+                        background-color:  #f3fff3;
+                    }
+                    .workshop-main p{
+                        text-align: justify !important;
+                    }
+            
+                    .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+                    margin: 10px !important;
+                    padding: 10px !important;
+                    background-color: #f3fff3 !important;
+                    }
+                     .wformato ul, .inscricao ul {
+                         padding-left: 0 !important;
+                         list-style-type: circle !important;
+                     }
+            
+                    .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+                    margin-left: 0px !important;
+            
+                    }
+                    .atividades h2 {
+                        font-size: 35px !important;
+                    }
+                    .atividades h3 {
+                        font-size: 30px !important;
+                        margin: 22px 10px 8px 10px !important;
+                    }
+                    .palestras .descIntro1.col {
+                    padding: 0px !important;
+                    }
+                    
+                    .palestras h5 {
+                        font-size: 22px !important;
+                    }
+                   
+                    .workshop p, .minicursos p, .demais-atividades p {
+                    margin: 0 5px;
+                    }
+                    .demais-atividades-main {
+                        margin: 0 !important;
+                        background-color:  #f3fff3;
+                    }
+                    
+                    .wformato {
+                    padding-left: 0 !important;
+                    }
+                   
+                    .wshop-detalhes h6 {
+                    margin-left: -7px !important;
+                    }
+                    .wconceito {
+                    padding-right: 6px !important;
+                    }
+                    .wshop-detalhes ul {
+                    margin-left: 12px !important;
+                    }    
+            
+                   
+                    .workshop h5, .minicursos h5 {
+                    padding: 15px 5px !important;
+                    text-align: left !important;
+                    }
+            
+                    .demais-atividades {
+                    margin-top: -20px !important;
+                    margin-bottom: 30px !important;
+                    padding: 20px 10px !important;
+                    background-color: white !important;
+                    }
+                    .demais-atividades h5 {
+                    padding: 5px !important;
+                    }
+                    
+                    .demais-atividades p {
+                    margin: 0 !important;
+                    }
+            
+                    .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
+                    width: 98% !important;
+                    }
+                    .autor1-foto img {
+                    width: 55% !important;
+                    }
+                    .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+                    width:45% !important;
+                    }
+
+
                         /*CONFIGURAÇÕES @MEDIA FOOTER*/
+
+             
                 footer {
                 margin-top: 60px !important;
                 }
@@ -208,9 +241,11 @@
                 footer img {
                 margin: 0px !important;
                 padding: 0px !important;
-                width: 30% !important;   
+                width: 20% !important;   
         
                 }
+
+
                
                 #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
                 margin: 35px 0 !important;
@@ -230,18 +265,21 @@
         
                         /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
                 #tabelaProgramacao {
-                display: contents !important;
-                margin: 0px !important;
+                display: block !important;
+                margin: 25px 5px !important;      
                 }
-                #tabelaDia{
-                margin: 30px 0px 0px !important; 
+                                
+                #tabelaDia{           
                 font-size: 16px !important;
+                display: flex !important;
+                justify-content: center !important;
                 }
+
                 .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
                 padding: 0px !important;
                 }
                 #legendaProgramacao{
-                margin: 10px 0px !important;
+                margin: 10px 20px !important;
                 }
                 #legendaProgramacao ul{
                 margin: 0px !important;
@@ -582,6 +620,7 @@
         /*CONFIGURAÇÕES GERAIS @MEDIA BLACKBERRY PLAYBOOK */    
         body {
             width: 100% !important;
+            background-color: white !important;
             }
             li{
             list-style-type: none;   
@@ -650,101 +689,131 @@
             .introducao p {
                 margin-top: 25px !important;
             }
-    
-            .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-            display: block !important;
-            }
-            .atividades {
-            margin: 0 5px !important;
-            padding: 0 5px !important;
-            }
-            .palestras {
-            padding: 1px 2px !important;
-            }
-            .palestras p {
-                font-size:17px !important;
-            }
-    
-            .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-            margin: 25px 0 !important;
-    
-            }
-    
-            .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-            margin-left: 0px !important;
-    
-            }
-            .atividades h2 {
-                font-size: 35px !important;
-            }
-            .atividades h3 {
-                font-size: 30px !important;
-                margin-top: 22px !important;
-            }
-            .palestras .descIntro1.col {
-            padding: 0 0px !important;
-            }
-            
-            .palestras h5 {
-                font-size: 22px !important;
-            }
-            .palestras h6 {
-                font-size: 17px !important;
-            }
-            .workshop p, .minicursos p, .demais-atividades p {
-            margin: 0 5px;
-            }
-            .workshop {
-            padding: 25px 2px!important;
-            }
-            .wformato {
-            padding-left: 0 !important;
-            }
-            #workShop div {
-            margin: 0 3px !important;
-            }
-            .wshop-detalhes h6 {
-            margin-left: -7px !important;
-            }
-            .wconceito {
-            padding-right: 6px !important;
-            }
-            .wshop-detalhes ul {
-            margin-left: 12px !important;
-            }    
-    
-           .minicursos {
-            padding: 15px 5px !important;
-            }
-            .minicursos hr {
-            margin-top: 0px !important;
-            }
-            .workshop h5, .minicursos h5 {
-            padding: 15px 5px !important;
-            text-align: left !important;
-            }
-        
-            .demais-atividades {
-            margin-bottom: 30px !important;
-            padding: 25px 10px !important;
-            }
-            .demais-atividades h5 {
-            padding: 5px !important;
-            }
 
-            .demais-atividades p {
-            margin: 0 !important;
-            }
-    
-            .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
-            width: 98% !important;
-            }
-            .autor1-foto img {
-            width: 70% !important;
-            }
-            .autor2-foto img, .autor3-foto img {
-            width:55%;
-            }
+            .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
+                display: block !important;        
+                margin: 0 !important;
+                padding: 0 !important;
+                }
+                
+        
+                .atividades {
+                margin: 10px 0 !important;
+                padding: 0px !important;
+                }
+                .atividades h2 {
+                    margin: 0 5px !important;
+                }
+                .palestras {
+                padding: 0px !important;
+                background-color: white !important;
+                }
+                .pDetalhes {
+                    width: 100% !important;
+                }
+                .workshop, .minicursos {
+                padding: 10px !important;
+                margin-top: -10px !important;
+                background-color: white !important;
+        
+                }
+                .workshop-main {
+                    margin: 0 !important;
+                    padding: 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .mc1-main, .mc2-main {
+                    margin: 15px 0 !important;
+                    padding: 20px 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .workshop-main p{
+                    text-align: justify !important;
+                }
+        
+                .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+                margin: 10px !important;
+                padding: 10px !important;
+                background-color: #f3fff3 !important;
+                }
+                 .wformato ul, .inscricao ul {
+                     padding-left: 0 !important;
+                     list-style-type: circle !important;
+                 }
+        
+                .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+                margin-left: 0px !important;
+        
+                }
+                .atividades h2 {
+                    font-size: 35px !important;
+                }
+                .atividades h3 {
+                    font-size: 30px !important;
+                    margin: 22px 10px 8px 10px !important;
+                }
+                .palestras .descIntro1.col {
+                padding: 0px !important;
+                }
+                
+                .palestras h5 {
+                    font-size: 22px !important;
+                }
+               
+                .workshop p, .minicursos p, .demais-atividades p {
+                margin: 0 5px;
+                }
+                .demais-atividades-main {
+                    margin: 0 !important;
+                    background-color:  #f3fff3;
+                }
+                
+                .wformato {
+                padding-left: 0 !important;
+                }
+               
+                .wshop-detalhes h6 {
+                margin-left: -7px !important;
+                }
+                .wconceito {
+                padding-right: 6px !important;
+                }
+                .wshop-detalhes ul {
+                margin-left: 12px !important;
+                }    
+        
+               
+                .workshop h5, .minicursos h5 {
+                padding: 15px 5px !important;
+                text-align: left !important;
+                }
+        
+                .demais-atividades {
+                margin-top: -20px !important;
+                margin-bottom: 30px !important;
+                padding: 20px 10px !important;
+                background-color: white !important;
+                }
+                .demais-atividades h5 {
+                padding: 5px !important;
+                }
+                
+                .demais-atividades p {
+                margin: 0 !important;
+                }
+        
+                .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
+                width: 98% !important;
+                }
+                .autor1-foto img {
+                width: 65% !important;
+                }
+                .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+                width:55% !important;
+                }
+
+
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
             footer {
             margin-top: 60px !important;
@@ -774,18 +843,21 @@
     
                     /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
             #tabelaProgramacao {
-            display: contents !important;
-            margin: 0px !important;
+            display: block !important;
+            margin: 25px 5px !important;      
             }
-            #tabelaDia{
-            margin: 30px 0px 0px !important; 
+                            
+            #tabelaDia{           
             font-size: 16px !important;
+            display: flex !important;
+            justify-content: center !important;
             }
+
             .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
             padding: 0px !important;
             }
             #legendaProgramacao{
-            margin: 10px 0px !important;
+            margin: 10px 20px !important;
             }
             #legendaProgramacao ul{
             margin: 0px !important;
@@ -1112,6 +1184,7 @@
            /*CONFIGURAÇÕES GERAIS @MEDIA PIXEL2, PIXEL2XL & IPHONE 6,7,8 PLUS*/
            body {
             width: 100% !important;
+            background-color: white !important;
             }
             li{
             list-style-type: none;   
@@ -1186,93 +1259,129 @@
             top: 90px;
             }
     
+
             .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-            display: block !important;
-            }
-            .atividades {
-            margin: 0 5px !important;
-            padding: 0 5px !important;
-            }
-            .palestras {
-            padding: 1px 2px !important;
-            }
-    
-            .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-            margin: 25px 0 !important;
-    
-            }
-    
-            .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-            margin-left: 0px !important;
-    
-            }
-            .atividades h2 {
-                font-size: 35px !important;
-            }
-            .atividades h3 {
-                font-size: 30px !important;
-                margin-top: 22px !important;
-            }
-            .palestras .descIntro1.col {
-            padding: 0 0px !important;
-            }
-            
-            .palestras h5 {
-                font-size: 22px !important;
-            }
-            .workshop p, .minicursos p, .demais-atividades p {
-            margin: 0 5px;
-            }
-            .workshop {
-            padding: 25px 2px!important;
-            }
-            .wformato {
-            padding-left: 0 !important;
-            }
-            #workShop div {
-            margin: 0 3px !important;
-            }
-            .wshop-detalhes h6 {
-            margin-left: -7px !important;
-            }
-            .wconceito {
-            padding-right: 6px !important;
-            }
-            .wshop-detalhes ul {
-            margin-left: 12px !important;
-            }    
-    
-            .minicursos {
-            padding: 15px 5px !important;
-            }
-            .minicursos hr {
-            margin-top: -10px !important;
-            }
-            .workshop h5, .minicursos h5 {
-            padding: 15px 5px !important;
-            text-align: left !important;
-            }
+                display: block !important;        
+                margin: 0 !important;
+                padding: 0 !important;
+                }
+                
         
-            .demais-atividades {
-            margin-bottom: 30px !important;
-            padding: 20px 10px !important;
-            }
-            .demais-atividades h5 {
-            padding: 5px !important;
-            }
-            .demais-atividades p {
-            margin: 0 !important;
-            }
-    
-            .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
-            width: 98% !important;
-            }
-            .autor1-foto img {
-            width: 70% !important;
-            }
-            .autor2-foto img, .autor3-foto img {
-            width:55%;
-            }
+                .atividades {
+                margin: 10px 0 !important;
+                padding: 0px !important;
+                }
+                .atividades h2 {
+                    margin: 0 5px !important;
+                }
+                .palestras {
+                padding: 0px !important;
+                background-color: white !important;
+                }
+                .pDetalhes {
+                    width: 100% !important;
+                }
+                .workshop, .minicursos {
+                padding: 10px !important;
+                margin-top: -10px !important;
+                background-color: white !important;
+        
+                }
+                .workshop-main {
+                    margin: 0 !important;
+                    padding: 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .mc1-main, .mc2-main {
+                    margin: 15px 0 !important;
+                    padding: 20px 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .workshop-main p{
+                    text-align: justify !important;
+                }
+        
+                .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+                margin: 10px !important;
+                padding: 10px !important;
+                background-color: #f3fff3 !important;
+                }
+                 .wformato ul, .inscricao ul {
+                     padding-left: 0 !important;
+                     list-style-type: circle !important;
+                 }
+        
+                .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+                margin-left: 0px !important;
+        
+                }
+                .atividades h2 {
+                    font-size: 35px !important;
+                }
+                .atividades h3 {
+                    font-size: 30px !important;
+                    margin: 22px 10px 8px 10px !important;
+                }
+                .palestras .descIntro1.col {
+                padding: 0px !important;
+                }
+                
+                .palestras h5 {
+                    font-size: 22px !important;
+                }
+               
+                .workshop p, .minicursos p, .demais-atividades p {
+                margin: 0 5px;
+                }
+                .demais-atividades-main {
+                    margin: 0 !important;
+                    background-color:  #f3fff3;
+                }
+                
+                .wformato {
+                padding-left: 0 !important;
+                }
+               
+                .wshop-detalhes h6 {
+                margin-left: -7px !important;
+                }
+                .wconceito {
+                padding-right: 6px !important;
+                }
+                .wshop-detalhes ul {
+                margin-left: 12px !important;
+                }    
+        
+               
+                .workshop h5, .minicursos h5 {
+                padding: 15px 5px !important;
+                text-align: left !important;
+                }
+        
+                .demais-atividades {
+                margin-top: -20px !important;
+                margin-bottom: 30px !important;
+                padding: 20px 10px !important;
+                background-color: white !important;
+                }
+                .demais-atividades h5 {
+                padding: 5px !important;
+                }
+                
+                .demais-atividades p {
+                margin: 0 !important;
+                }
+        
+                .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
+                width: 98% !important;
+                }
+                .autor1-foto img {
+                width: 95% !important;
+                }
+                .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+                width:85% !important;
+                }
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
             footer {
             margin-top: 20px !important;
@@ -1303,18 +1412,21 @@
     
                     /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
             #tabelaProgramacao {
-            display: contents !important;
-            margin: 0px !important;
+            display: block !important;
+            margin: 25px 5px !important;      
             }
-            #tabelaDia{
-            margin: 30px 0px 0px !important; 
+                            
+            #tabelaDia{           
             font-size: 16px !important;
+            display: flex !important;
+            justify-content: center !important;
             }
+
             .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
             padding: 0px !important;
             }
             #legendaProgramacao{
-            margin: 10px 0px !important;
+            margin: 10px 20px !important;
             }
             #legendaProgramacao ul{
             margin: 0px !important;
@@ -1691,94 +1803,132 @@
             position: relative;
             top: 90px;
             }
+
     
             .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-            display: block !important;
-            }
-            .atividades {
-            margin: 0 5px !important;
-            padding: 0 5px !important;
-            }
-            .palestras {
-            padding: 1px 2px !important;
-            }
-    
-            .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-            margin: 25px 0 !important;
-    
-            }
-    
-            .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-            margin-left: 0px !important;
-    
-            }
-            .atividades h2 {
-                font-size: 35px !important;
-            }
-            .atividades h3 {
-                font-size: 30px !important;
-                margin-top: 22px !important;
-            }
-            .palestras .descIntro1.col {
-            padding: 0 0px !important;
-            }
-            
-            .palestras h5 {
-                font-size: 22px !important;
-            }
-            .workshop p, .minicursos p, .demais-atividades p {
-            margin: 0 5px;
-            }
-            .workshop {
-            padding: 25px 2px!important;
-            }
-            .wformato {
-            padding-left: 0 !important;
-            }
-            #workShop div {
-            margin: 0 3px !important;
-            }
-            .wshop-detalhes h6 {
-            margin-left: -7px !important;
-            }
-            .wconceito {
-            padding-right: 6px !important;
-            }
-            .wshop-detalhes ul {
-            margin-left: 12px !important;
-            }    
-    
-            .minicursos {
-            padding: 15px 5px !important;
-            }
-            .minicursos hr {
-            margin-top: -10px !important;
-            }
-            .workshop h5, .minicursos h5 {
-            padding: 15px 5px !important;
-            text-align: left !important;
-            }
+                display: block !important;        
+                margin: 0 !important;
+                padding: 0 !important;
+                }
+                
         
-            .demais-atividades {
-            margin-bottom: 30px !important;
-            padding: 20px 10px !important;
-            }
-            .demais-atividades h5 {
-            padding: 5px !important;
-            }
-            .demais-atividades p {
-            margin: 0 !important;
-            }
-    
-            .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
-            width: 98% !important;
-            }
-            .autor1-foto img {
-            width: 70% !important;
-            }
-            .autor2-foto img, .autor3-foto img {
-            width:55%;
-            }
+                .atividades {
+                margin: 10px 0 !important;
+                padding: 0px !important;
+                }
+                .atividades h2 {
+                    margin: 0 5px !important;
+                }
+                .palestras {
+                padding: 0px !important;
+               f
+                }
+                .pDetalhes {
+                    width: 100% !important;
+                }
+                .workshop, .minicursos {
+                padding: 10px !important;
+                margin-top: -10px !important;
+               
+        
+                }
+                .workshop-main {
+                    margin: 0 !important;
+                    padding: 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .mc1-main, .mc2-main {
+                    margin: 15px 0 !important;
+                    padding: 20px 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .workshop-main p{
+                    text-align: justify !important;
+                }
+        
+                .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+                margin: 10px !important;
+                padding: 10px !important;
+                background-color: #f3fff3 !important;
+                }
+                 .wformato ul, .inscricao ul {
+                     padding-left: 0 !important;
+                     list-style-type: circle !important;
+                 }
+        
+                .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+                margin-left: 0px !important;
+        
+                }
+                .atividades h2 {
+                    font-size: 35px !important;
+                }
+                .atividades h3 {
+                    font-size: 30px !important;
+                    margin: 22px 10px 8px 10px !important;
+                }
+                .palestras .descIntro1.col {
+                padding: 0px !important;
+                }
+                
+                .palestras h5 {
+                    font-size: 22px !important;
+                }
+               
+                .workshop p, .minicursos p, .demais-atividades p {
+                margin: 0 5px;
+                }
+                .demais-atividades-main {
+                    margin: 0 !important;
+                    background-color:  #f3fff3;
+                }
+                
+                .wformato {
+                padding-left: 0 !important;
+                }
+               
+                .wshop-detalhes h6 {
+                margin-left: -7px !important;
+                }
+                .wconceito {
+                padding-right: 6px !important;
+                }
+                .wshop-detalhes ul {
+                margin-left: 12px !important;
+                }    
+        
+               
+                .workshop h5, .minicursos h5 {
+                padding: 15px 5px !important;
+                text-align: left !important;
+                }
+        
+                .demais-atividades {
+                margin-top: -20px !important;
+                margin-bottom: 30px !important;
+                padding: 20px 10px !important;
+                background-color: white !important;
+                }
+                .demais-atividades h5 {
+                padding: 5px !important;
+                }
+                
+                .demais-atividades p {
+                margin: 0 !important;
+                }
+        
+                .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
+                width: 98% !important;
+                }
+                .autor1-foto img {
+                width: 95% !important;
+                }
+                .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+                width:85% !important;
+                }
+
+
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
             footer {
             margin-top: 20px !important;
@@ -1809,19 +1959,17 @@
     
                     /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
             #tabelaProgramacao {
-            display: contents !important;
-            margin: 0px !important;
+            display: block !important;
+            margin: 25px 5px !important;      
             }
-            #tabelaDia{
-            margin: 30px 0px 0px !important; 
+                
+            #tabelaDia{           
             font-size: 16px !important;
-            }
-            .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
-            padding: 0px !important;
-            }
-            #legendaProgramacao{
-            margin: 10px 0px !important;
-            }
+            display: flex !important;
+            justify-content: center !important;
+            }           
+
+
             #legendaProgramacao ul{
             margin: 0px !important;
             padding: 0px !important;
@@ -2133,14 +2281,20 @@
 
     } /*FIM CONFIGURAÇÕES @MEDIA LG OPTIMUS L70 */    
 
-
-
+    @media only screen  and (max-width: 384px) and (max-height: 640px) {
+        /*CONFIGURAÇÕES GERAIS @MEDIA IPHONE LG OPTIMUS L70*/
+        body {
+         width: 100% !important;
+         background-color: white !important;
+         }
+    }
 
        
     @media only screen  and (max-width: 375px) and (max-height: 812px) {
            /*CONFIGURAÇÕES GERAIS @MEDIA IPHONE 6,7,8, X */
            body {
             width: 100% !important;
+            background-color: white !important;
             }
             li{
             list-style-type: none;   
@@ -2217,92 +2371,129 @@
             }
     
             .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-            display: block !important;
-            }
-            .atividades {
-            margin: 0 5px !important;
-            padding: 0 5px !important;
-            }
-            .palestras {
-            padding: 1px 2px !important;
-            }
-    
-            .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-            margin: 25px 0 !important;
-    
-            }
-    
-            .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-            margin-left: 0px !important;
-    
-            }
-            .atividades h2 {
-                font-size: 35px !important;
-            }
-            .atividades h3 {
-                font-size: 30px !important;
-                margin-top: 22px !important;
-            }
-            .palestras .descIntro1.col {
-            padding: 0 0px !important;
-            }
-            
-            .palestras h5 {
-                font-size: 22px !important;
-            }
-            .workshop p, .minicursos p, .demais-atividades p {
-            margin: 0 5px;
-            }
-            .workshop {
-            padding: 25px 2px!important;
-            }
-            .wformato {
-            padding-left: 0 !important;
-            }
-            #workShop div {
-            margin: 0 3px !important;
-            }
-            .wshop-detalhes h6 {
-            margin-left: -7px !important;
-            }
-            .wconceito {
-            padding-right: 6px !important;
-            }
-            .wshop-detalhes ul {
-            margin-left: 12px !important;
-            }    
-    
-            .minicursos {
-            padding: 15px 5px !important;
-            }
-            .minicursos hr {
-            margin-top: -10px !important;
-            }
-            .workshop h5, .minicursos h5 {
-            padding: 15px 5px !important;
-            text-align: left !important;
-            }
+                display: block !important;        
+                margin: 0 !important;
+                padding: 0 !important;
+                }
+                
         
-            .demais-atividades {
-            margin-bottom: 30px !important;
-            padding: 20px 10px !important;
-            }
-            .demais-atividades h5 {
-            padding: 5px !important;
-            }
-            .demais-atividades p {
-            margin: 0 !important;
-            }
-    
-            .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
-            width: 98% !important;
-            }
-            .autor1-foto img {
-            width: 70% !important;
-            }
-            .autor2-foto img, .autor3-foto img {
-            width:55%;
-            }
+                .atividades {
+                margin: 10px 0 !important;
+                padding: 0px !important;
+                }
+                .atividades h2 {
+                    margin: 0 5px !important;
+                }
+                .palestras {
+                padding: 0px !important;
+                background-color: white !important;
+                }
+                .pDetalhes {
+                    width: 100% !important;
+                }
+                .workshop, .minicursos {
+                padding: 10px !important;
+                margin-top: -10px !important;
+                background-color: white !important;
+        
+                }
+                .workshop-main {
+                    margin: 0 !important;
+                    padding: 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .mc1-main, .mc2-main {
+                    margin: 15px 0 !important;
+                    padding: 20px 5px !important;
+                    background-color:  #f3fff3;
+                }
+                .workshop-main p{
+                    text-align: justify !important;
+                }
+        
+                .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+                margin: 10px !important;
+                padding: 10px !important;
+                background-color: #f3fff3 !important;
+                }
+                 .wformato ul, .inscricao ul {
+                     padding-left: 0 !important;
+                     list-style-type: circle !important;
+                 }
+        
+                .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
+                margin-left: 0px !important;
+        
+                }
+                .atividades h2 {
+                    font-size: 35px !important;
+                }
+                .atividades h3 {
+                    font-size: 30px !important;
+                    margin: 22px 10px 8px 10px !important;
+                }
+                .palestras .descIntro1.col {
+                padding: 0px !important;
+                }
+                
+                .palestras h5 {
+                    font-size: 22px !important;
+                }
+               
+                .workshop p, .minicursos p, .demais-atividades p {
+                margin: 0 5px;
+                }
+                .demais-atividades-main {
+                    margin: 0 !important;
+                    background-color:  #f3fff3;
+                }
+                
+                .wformato {
+                padding-left: 0 !important;
+                }
+               
+                .wshop-detalhes h6 {
+                margin-left: -7px !important;
+                }
+                .wconceito {
+                padding-right: 6px !important;
+                }
+                .wshop-detalhes ul {
+                margin-left: 12px !important;
+                }    
+        
+               
+                .workshop h5, .minicursos h5 {
+                padding: 15px 5px !important;
+                text-align: left !important;
+                }
+        
+                .demais-atividades {
+                margin-top: -20px !important;
+                margin-bottom: 30px !important;
+                padding: 20px 10px !important;
+                background-color: white !important;
+                }
+                .demais-atividades h5 {
+                padding: 5px !important;
+                }
+                
+                .demais-atividades p {
+                margin: 0 !important;
+                }
+        
+                .frontFoto1 div, .frontFoto2 div, .frontFoto3 div, .frontFoto4 div, .frontFoto5 div, .frontFoto6 div, .autormc1-foto, .autormc2-foto, .frontFotoMc1 div, .frontFotoMc2 div {
+                width: 98% !important;
+                }
+                .autor1-foto img {
+                width: 95% !important;
+                }
+                .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+                width:85% !important;
+                }
+
+
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
             footer {
             margin-top: 20px !important;
@@ -2314,7 +2505,8 @@
             width: 30% !important;   
     
             }
-    
+
+                
             #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
             margin: 35px 0 !important;
             }
@@ -2333,19 +2525,23 @@
     
                     /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
             #tabelaProgramacao {
-            display: contents !important;
-            margin: 0px !important;
+            display: block !important;
+            margin: 25px 5px !important;      
             }
-            #tabelaDia{
-            margin: 30px 0px 0px !important; 
+                
+            #tabelaDia{           
             font-size: 16px !important;
+            display: flex !important;
+            justify-content: center !important;
             }
+
             .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
             padding: 0px !important;
             }
             #legendaProgramacao{
-            margin: 10px 0px !important;
+            margin: 0px 20px !important;       
             }
+            
             #legendaProgramacao ul{
             margin: 0px !important;
             padding: 0px !important;
@@ -2662,6 +2858,7 @@
             /*CONFIGURAÇÕES GERAIS @MEDIA IPHONE 5/SE, GALAXY S5*/
         body {
         width: 100% !important;
+        background-color: white !important;
         }
         li{
         list-style-type: none;   
@@ -2734,20 +2931,52 @@
         }
 
         .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
-        display: block !important;
+        display: block !important;        
+        margin: 0 !important;
+        padding: 0 !important;
         }
+        
+
         .atividades {
-        margin: 0 5px !important;
-        padding: 0 5px !important;
+        margin: 10px 0 !important;
+        padding: 0px !important;
         }
         .palestras {
-        padding: 1px 2px !important;
+        padding: 10px 0px !important;
+        background-color: white !important;
+        }
+        .pDetalhes {
+            width: 100% !important;
+        }
+        .workshop, .minicursos {
+        padding: 10px !important;
+        margin-top: 0px !important;
+        background-color: white !important;
+
+        }
+        .workshop-main {
+            margin: 0 !important;
+            padding: 5px !important;
+            background-color:  #f3fff3;
+        }
+        .workshop-main, .mc1-main, .mc2-main, .demais-atividades-main {
+            margin: 15px 0 !important;
+            padding: 20px 5px !important;
+            background-color:  #f3fff3;
+        }
+        .workshop-main p{
+            text-align: justify !important;
         }
 
-        .autor1, .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
-        margin: 25px 0 !important;
-
+        .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .wconceito, .wformato, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {
+        margin: 10px !important;
+        padding: 10px !important;
+        background-color: #f3fff3 !important;
         }
+         .wformato ul, .inscricao ul {
+             padding-left: 0 !important;
+             list-style-type: circle !important;
+         }
 
         .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
         margin-left: 0px !important;
@@ -2758,7 +2987,8 @@
         }
         .atividades h3 {
             font-size: 30px !important;
-            margin-top: 22px !important;
+            margin: 22px 5px 0 5px !important;
+
         }
         .palestras .descIntro1.col {
         padding: 0 0px !important;
@@ -2767,18 +2997,19 @@
         .palestras h5 {
             font-size: 22px !important;
         }
+       
         .workshop p, .minicursos p, .demais-atividades p {
         margin: 0 5px;
         }
-        .workshop {
-        padding: 25px 2px!important;
+
+        .demais-atividades-main {            
+            background-color:  #f3fff3;
         }
+        
         .wformato {
         padding-left: 0 !important;
         }
-        #workShop div {
-        margin: 0 3px !important;
-        }
+       
         .wshop-detalhes h6 {
         margin-left: -7px !important;
         }
@@ -2789,19 +3020,17 @@
         margin-left: 12px !important;
         }    
 
-       .minicursos {
-        padding: 10px 5px !important;
-        
-        }
-
+       
         .workshop h5, .minicursos h5 {
-        padding: 15px 5px !important;
+        padding: 5px !important;
         text-align: left !important;
         }
 
         .demais-atividades {
+        margin-top: -20px !important;
         margin-bottom: 30px !important;
         padding: 20px 10px !important;
+        background-color: white !important;
         }
         .demais-atividades h5 {
         padding: 5px !important;
@@ -2815,21 +3044,22 @@
         width: 98% !important;
         }
         .autor1-foto img {
-        width: 70% !important;
+        width: 95% !important;
         }
-        .autor2-foto img, .autor3-foto img {
-        width:55%;
+        .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
+        width:85% !important;
         }
                 /*CONFIGURAÇÕES @MEDIA FOOTER*/
+
         footer {
         margin-top: 20px !important;
-
+        
         }
+       
         footer img {
         margin: 0px !important;
         padding: 0px !important;
         width: 30% !important;   
-
         }
 
         #realizacoes, #patrocinio, #apoio, #apoioInstitucional {
@@ -2850,19 +3080,23 @@
 
                 /*CONFIGURAÇÃO @MEDIA GRADE DE PROGRAMAÇÃO*/
         #tabelaProgramacao {
-        display: contents !important;
-        margin: 0px !important;
+        display: block !important;
+        margin: 35px 5px !important;      
         }
-        #tabelaDia{
-        margin: 30px 0px 0px !important; 
+                        
+        #tabelaDia{           
         font-size: 16px !important;
+        display: flex !important;
+        justify-content: center !important;
         }
+
         .horarioGrade, .stGrade, .mcGrade, .cbGrade, .palestraGrade, .almocoGrade, .workshopGrade, .tracoGrade, .concursoGrade{
         padding: 0px !important;
         }
         #legendaProgramacao{
-        margin: 10px 0px !important;
+        margin: 20px !important;       
         }
+
         #legendaProgramacao ul{
         margin: 0px !important;
         padding: 0px !important;
