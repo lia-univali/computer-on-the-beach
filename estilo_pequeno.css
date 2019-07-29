@@ -613,6 +613,7 @@
                 #hospedagem {
                     margin: 15px 30px !important;
                 }  
+               
          /*FIM CONFIGURAÇÕES KINDLEFIRE HDX, NEXUS 10 */
     }
 
@@ -1174,7 +1175,12 @@
             }
             #local h4 {
             width: 80% !important;
-            }     
+            }    
+            #mapa iframe {
+                width: 480px !important;
+                height: 350px !important;
+                text-align: center !important;
+            }
        /*FIM CONFIGURAÇÕES BLACKBERRY PLAYBOOK */
     }
      
@@ -1736,6 +1742,11 @@
             #local h4 {
             width: 80% !important;
             }   
+            #mapa iframe {
+                width: 380px !important;
+                height: 300px !important;
+                text-align: center !important;
+            }
        
        } /*FIM CONFIGURAÇÕES @MEDIA PIXEL2, PIXEL2XL, IPHONE 6,7,8 PLUS */
 
@@ -1821,7 +1832,7 @@
                 }
                 .palestras {
                 padding: 0px !important;
-               f
+               
                 }
                 .pDetalhes {
                     width: 100% !important;
@@ -2278,17 +2289,15 @@
             #local h4 {
             width: 80% !important;
             }   
+            #mapa iframe {
+                width: 360px !important;
+                height: 340px !important;
+                text-align: center !important;
+            }
 
     } /*FIM CONFIGURAÇÕES @MEDIA LG OPTIMUS L70 */    
 
-    @media only screen  and (max-width: 384px) and (max-height: 640px) {
-        /*CONFIGURAÇÕES GERAIS @MEDIA IPHONE LG OPTIMUS L70*/
-        body {
-         width: 100% !important;
-         background-color: white !important;
-         }
-    }
-
+  
        
     @media only screen  and (max-width: 375px) and (max-height: 812px) {
            /*CONFIGURAÇÕES GERAIS @MEDIA IPHONE 6,7,8, X */
@@ -2850,6 +2859,12 @@
             #local h4 {
             width: 80% !important;
             }   
+            #mapa iframe {
+                width: 365px !important;
+                height: 350px !important;
+                text-align: center !important;
+            }
+       
 
     } /*FIM CONFIGURAÇÕES @MEDIA IPHONE X / 6/7/8 */    
 
@@ -3404,6 +3419,11 @@
         }
         #local h4 {
         width: 80% !important;
-        }   
+        }  
+        #mapa iframe {
+            width: 310px !important;
+            height: 300px !important;
+            text-align: center !important;
+        }
 }
 /*FIM DAS CONFIGURAÇÕES @MEDIA IPHONE 5/SE, GALAXY S5 */
