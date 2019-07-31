@@ -153,6 +153,14 @@
                     margin: 10px !important;
                     padding: 10px !important;
                     background-color: #f3fff3 !important;
+                    opacity: 1.0 !important;
+                    }
+
+                    .autor1-main:hover, .autor2-main:hover, .autor3-main:hover, .autor4-main:hover, .autor5-main:hover, .autor6-main:hover, .mc1-main:hover, .mc2-main:hover, .workshop-main:hover, .demais-atividades-main:hover {
+                        background-color: rgb(247, 247, 247);
+                        transform: scale(1.00) !important;
+                        border-radius: 0px !important;
+                        opacity: 1.0;
                     }
                      .wformato ul, .inscricao ul {
                          padding-left: 0 !important;

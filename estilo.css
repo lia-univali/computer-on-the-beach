@@ -36,7 +36,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 18px;
     color: #333;
     background-color: #f3fff3 !important;
@@ -59,6 +59,7 @@ body {
 }
 .navbar{
     padding: 0 !important;
+        
 }
 .navbar-toggler{
     margin-left: 20px;
@@ -69,6 +70,7 @@ body {
 
 .navbar-nav{
     margin-left: 60px;
+    
 }
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
@@ -77,8 +79,13 @@ body {
     background-size: cover;
     height: 500px;
     width: auto !important;
-    
+   
 }
+/*
+.autor2-main, .autor3-main{
+    width:49%;
+    display: inline-block;
+}*/
 #tituloHome {    
     position: relative;
     top: 65px;
@@ -146,12 +153,12 @@ body {
 }
 .apresentacao  {
     text-align: center;
-    width: 80%;
+    width: 70%;
     padding: 0 25px;   
 }
 .apresentacao h3 {
     font-size: 32px;
-    color: #568763;
+    color: #61776c;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -164,7 +171,7 @@ body {
 
   .intro-link-foto h4 {
     text-align: center;
-    color: #568763;
+    color: #61776c;
     font-weight: 600;
   }
 
@@ -184,7 +191,7 @@ h6 {
     font-size: 17px;
 }
 
-        /* CONFIGURAÇÕES PALESTRAS - ATIVIDADES */
+        /* CONFIGURAÇÕES PALESTRAS - ATIVIDADES */  
 .palestras, .workshop, .demais-atividades  {
     background-color: #f3fff3;
     width: 100%;
@@ -197,7 +204,7 @@ h6 {
     font-family: 'Rammetto One', cursive;  
     font-size: 42px;
     font-weight: 600;
-    color: #568763;;
+    color: #61776c;
     margin: 0px;
 }
 .atividades h3 {
@@ -205,14 +212,14 @@ h6 {
     font-family: 'Rammetto One', cursive;  
     font-size: 34px;
     font-weight: bold;
-    color: #568763;;
+    color: #7f9e8f;
     margin-top: 35px;
     margin-bottom: -10px;
 }
 .atividades h5, .demais-atividades h5 {
     font-size: 26px;
     font-weight: bold;
-    color: #568763;
+    color: #61776c;
   
 }
 .atividades h4 {
@@ -236,6 +243,8 @@ h6 {
     font-family: 'Roboto', sans-serif;
 
 }
+
+
 
 #fotoMeninas {
     position: relative;
@@ -685,15 +694,24 @@ hr {
       text-align: justify;
       margin-left: 20px;
   }
+ 
 
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1-main, .mc2-main, .workshop-main, .demais-atividades-main {
     margin: 25px 0px;
     padding: 20px;
     cursor: pointer;
-    background-color: rgb(235, 247, 234);
-    border-radius: 10px;
+    background-color: rgba(250, 233, 237, 0);    
+    transition: all 0.6s ease;
+    opacity: 0.85;
+
 }
 
+.autor1-main:hover, .autor2-main:hover, .autor3-main:hover, .autor4-main:hover, .autor5-main:hover, .autor6-main:hover, .mc1-main:hover, .mc2-main:hover, .workshop-main:hover, .demais-atividades-main:hover {
+    background-color: rgb(225, 243, 235);
+    transform: scale(1.03);
+    border-radius: 10px;
+    opacity: 1.0;
+}
 
 
  .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .inscricao, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {   
