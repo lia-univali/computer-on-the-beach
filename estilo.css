@@ -19,6 +19,10 @@
         margin-top: 5px !important;
         transform: scale(1.15);
     }
+
+    .atividades h2 {
+        width: 55% !important;
+    }
     .autor1-foto, .autor2-foto, .autor3-foto, .autor4-foto, .autor5-foto, .autor6-foto, .autormc1-foto, .autormc2-foto   {
         width: 65% !important;
     } 
@@ -32,15 +36,17 @@
         width: 20%;
         transform: scale(1.5);
     }
-
 }
+
 
 body {
     font-family: 'Roboto', sans-serif !important;
     font-size: 18px;
     color: #333;
-    background-color: #f3fff3 !important;
+    background-color: white !important;
 }
+
+
 
         /*CONFIGURAÇÃO DE HEADER PADRÃO*/
 
@@ -50,7 +56,7 @@ body {
 }
 .nav-item.dropdown .dropdown-menu a:hover{
     background-color: #c0dac0;
-    transition: ease-in-out 0.3s; 
+    transition: ease-in-out 0.5s; 
 }
 
 .logo{
@@ -64,8 +70,23 @@ body {
 .navbar-toggler{
     margin-left: 20px;
 }
-.navbar-nav .nav-link {
-    padding-left: 10px;
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background-color: white;
+    transition: all ease-in-out .2s;
+    text-decoration: none;
+    border: none;  
+}
+
+.nav-item a:hover:hover::after {
+    width: 100%;
+    left: 0;
+
 }
 
 .navbar-nav{
@@ -75,11 +96,24 @@ body {
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
-    background-image: url("fotos/praia6.jpg");
+    background-image: url("fotos/malibu.jpg");
     background-size: cover;
+    background-position-y: center;
     height: 500px;
     width: auto !important;
-   
+    }
+
+#credit{
+    position: absolute;
+    right: -32px;
+    transform: rotate(-90deg);    
+    opacity: 0.7;
+    transition: .1s ease;
+    font-size: 8px !important;    
+}
+
+#credit:hover{
+    opacity: 1;
 }
 /*
 .autor2-main, .autor3-main{
@@ -92,7 +126,8 @@ body {
     
 }
 #tituloHome h1 {
-    color: whitesmoke;    
+    color: whitesmoke;
+    -webkit-text-stroke: 1px #333;
     font-size: 52px;
     font-weight: 700;
     transform: rotate(-7deg);
@@ -102,6 +137,7 @@ body {
 }
 #tituloHome h4 {
     color: whitesmoke;
+    -webkit-text-stroke: 1px #333;
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
@@ -136,7 +172,7 @@ body {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #333;
-    position: relative;
+    margin-top: 60px;
 }
 
 .introducao .apresentacao p {
@@ -154,7 +190,7 @@ body {
 .apresentacao  {
     text-align: center;
     width: 70%;
-    padding: 0 25px;   
+    padding: 0 8px;   
 }
 .apresentacao h3 {
     font-size: 32px;
@@ -184,7 +220,7 @@ body {
     font-size: 18px;
     font-style: normal;
     padding: 0 15px;
-    margin: 0 15px;
+    margin: 30px 15px;
     color: black;    
 }
 h6 {
@@ -192,11 +228,12 @@ h6 {
 }
 
         /* CONFIGURAÇÕES PALESTRAS - ATIVIDADES */  
-.palestras, .workshop, .demais-atividades  {
-    background-color: #f3fff3;
+.palestras, .workshop, .minicursos, .demais-atividades  {
+    background-color: white;
     width: 100%;
-    padding: 3px 20px;
+    padding: 3px 20px !important;
     font-size: 18px;
+
 }
 
 .atividades h2 {
@@ -206,15 +243,20 @@ h6 {
     font-weight: 600;
     color: #61776c;
     margin: 0px;
+    border: 4px solid #61776c;
+    border-radius: 10px;
+    padding: 9px;
+    width: 45%;
+    margin: 0 auto;
 }
 .atividades h3 {
-    text-align: center;
+    text-align: left;
     font-family: 'Rammetto One', cursive;  
     font-size: 34px;
     font-weight: bold;
     color: #7f9e8f;
-    margin-top: 35px;
-    margin-bottom: -10px;
+    margin: 35px 0 -10px 20px;
+    
 }
 .atividades h5, .demais-atividades h5 {
     font-size: 26px;
@@ -243,8 +285,6 @@ h6 {
     font-family: 'Roboto', sans-serif;
 
 }
-
-
 
 #fotoMeninas {
     position: relative;
@@ -663,8 +703,7 @@ h6 {
     margin-bottom: 5px;
 }
 
-.mainTecnicos .tecnicos p {
-    
+.mainTecnicos .tecnicos p {    
     font-size: 17px;
     font-weight: 500; 
    
@@ -699,17 +738,17 @@ hr {
 .autor1-main, .autor2-main, .autor3-main, .autor4-main, .autor5-main, .autor6-main, .mc1-main, .mc2-main, .workshop-main, .demais-atividades-main {
     margin: 25px 0px;
     padding: 20px;
-    cursor: pointer;
-    background-color: rgba(250, 233, 237, 0);    
+    cursor: pointer;     
     transition: all 0.6s ease;
     opacity: 0.85;
 
 }
 
 .autor1-main:hover, .autor2-main:hover, .autor3-main:hover, .autor4-main:hover, .autor5-main:hover, .autor6-main:hover, .mc1-main:hover, .mc2-main:hover, .workshop-main:hover, .demais-atividades-main:hover {
-    background-color: rgb(225, 243, 235);
-    transform: scale(1.03);
+    background-color: white; 
+    transform: scale(1.02);
     border-radius: 10px;
+    border: 1px solid #61776c;
     opacity: 1.0;
 }
 
@@ -739,14 +778,13 @@ hr {
 
 .autor1-foto img, .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img {
     padding-left: 65px;
-    margin: 20px 5px 0;
+    margin: 20px 5px 0;     
 }
 
 .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
-    margin-left: 30px;
+    margin-left: 30px;    
     font-size: 16px;
 }
-
 
 i, .workshop a, .minicursos a, .demais-atividades a {
     color:  #568763;
@@ -794,16 +832,6 @@ i, .workshop a, .minicursos a, .demais-atividades a {
 
 .wformato {
     padding-left: 20px;
-}
-
-.minicursos {
-    background-color: #f3fff3;
-    font-size: 18px !important;
-    width: 100%;
-    padding: 5px 30px 30px 30px;
- 
-    cursor: pointer;
-    color: #000000
 }
 
 
@@ -983,8 +1011,11 @@ blockquote {
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 
 footer {    
+    margin-top: 35px !important;
+    padding-top: 10px;
     text-align: center;
     color: #161A08;
+    background-color: #fafafa;
 
 }
 
