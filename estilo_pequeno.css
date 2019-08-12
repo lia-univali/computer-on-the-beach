@@ -4,6 +4,7 @@
 
         /*  LARGE DEVICES (min-width: 900px); 
             KINDLEFIRE, NEXUS 10 (min-width: 800px) and (max-height: 1280px); 
+            IPAD (min-width: 724px) and (max-height: 1024px); (PEGA O ESTILO DO TAMANHO MENOR, BLACKBERRY)
             BLACKBERRY PLAYBOOK (min-width: 600px) and (max-height: 1024px); 
             PIXEL2, PIXEL2XL, IPHONE 6/7/8 PLUS(min-width: 410px) and (max-height: 823px);  
             LG OPTIMUS L70 (max-width: 409px) and (max-height: 823px);  
@@ -25,7 +26,7 @@
                width: 25% !important;
            }
     }   
-
+/*  */
  
 
     @media only screen  and (min-width: 800px) and (max-height: 1280px) {
@@ -85,13 +86,30 @@
                 width: 86% !important;
             }
             #credit{
-                display: none !important;
+                top: 550px;
+                right: -28px !important;
+                opacity: 0.5 !important;
                
             }        
-            
             .intro-link-foto {
-            display: none !important;
+               position: relative;
+               top: 80px;
+              display: inline-flex;
+              width: 100% !important;
             }
+            
+            #introLinkFoto div {
+                width: 48% !important;
+                margin: 0 auto;
+            }
+            #introLinkFoto video, #introLinkFoto img {
+                width: 90%;
+            }
+            .intro-link-foto h4 {
+                margin: 5px 0 !important;                
+                width: 100% !important;                
+            }
+            
             #tituloPadrao h1 {
                 font-size: 36px !important;
             }
@@ -106,12 +124,18 @@
             }
             .introducao {
             margin: 0 5px !important;
-    
+            display: block;
+            }  
+
+           
+            .apresentacao h4 {
+                position: relative;
+                top: 90px;
             }
-    
-            .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
+           
+            .introducao h3, .introducao hr, .introducao p, .atividades {
             position: relative;
-            top: 90px;
+            top: 100px;
             }
     
             .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
@@ -132,6 +156,7 @@
             border: 1px solid #61776c;
             border-radius: 10px;
             }
+            
             .pDetalhes {
                 width: 100% !important;
             }
@@ -204,7 +229,27 @@
             .workshop p, .minicursos p, .demais-atividades p {
             margin: 0 5px;
             }
-    
+            .carousel {
+                position: relative;
+                bottom: 35px !important;                 
+                transform: scale(0.8);               
+            }
+            #pixabay {
+                position: relative;
+                top: 180px;
+                left: 280px !important;
+                text-align: center;
+                width: 15% !important;
+                margin: 0 auto;
+                color: white;
+                border: 1px solid white;
+                opacity: 0.5;
+            }
+            #pixabay p {
+                margin: 0 auto !important;
+                text-align: center !important;
+                font-size: 11px !important;
+            }
             .demais-atividades-main {            
                 padding: 10px !important;
             }
@@ -632,23 +677,27 @@
                
          /*FIM CONFIGURAÇÕES KINDLEFIRE HDX, NEXUS 10 */
     }
-    @media only screen  and (min-width: 768px) and (max-height: 1024px) {
+    @media only screen  and (width: 768px) and (height: 1024px) {
         /*CONFIGURAÇÕES GERAIS @MEDIA IPAD */    
         #tituloHome h1 {
-            color: whitesmoke !important;
-            font-size: 42px !important;
+        color: whitesmoke !important;
+        font-size: 42px !important;
+        position: relative;
+        top: 100px !important;            
+        width: 55% !important;
+        }
+
+        #tituloHome h4{
+        font-size: 28px !important;
+        font-weight: bold !important;
+        position: relative;
+        top: 100px !important;           
+        width: 58% !important;
+        }
+        .pixabay {
             position: relative;
-            top: 100px !important;            
-            width: 55% !important;
-            }
-    
-            #tituloHome h4{
-            font-size: 28px !important;
-            font-weight: bold !important;
-            position: relative;
-            top: 100px !important;           
-            width: 58% !important;
-            }
+            left: 150px !important;
+        }
 
     }
    
@@ -698,7 +747,7 @@
             font-size: 38px !important;
             position: relative;
             top: 100px !important;            
-            width: 85% !important;
+            width: 70% !important;
             }
     
             #tituloHome h4{
@@ -706,16 +755,35 @@
             font-weight: bold !important;
             position: relative;
             top: 100px !important;           
-            width: 88% !important;
+            width: 68% !important;
             }
             #credit{
-                display: none !important;
-               
-            }        
+                top: 370px;
+                right: -28px !important;
+                opacity: 0.5 !important;
+            }   
+            
             
             .intro-link-foto {
-            display: none !important;
-            }
+                position: relative;
+                top: 80px;
+               display: inline-flex;
+               width: 100% !important;
+               padding: 0 4px !important;
+             }
+             
+             #introLinkFoto div {
+                 width: 48% !important;
+                 margin: 0 auto;
+             }
+             #introLinkFoto video, #introLinkFoto img {
+                 width: 90%;
+             }
+             .intro-link-foto h4 {
+                 margin: 0 auto!important;                
+                 width: 95% !important;
+                 font-size: 14px !important;             }          
+           
             #tituloPadrao h1 {
                 font-size: 36px !important;
             }
@@ -730,12 +798,19 @@
             }
             .introducao {
             margin: 0 5px !important;
-    
+            display: block;
+            }   
+
+            .apresentacao h4 {
+                position: relative;
+                top: 90px;
             }
-    
-            .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
+
+
+            
+            .introducao h3, .introducao hr, .introducao p, .atividades {
             position: relative;
-            top: 90px;
+            top: 100px;
             }
     
             .frontFoto1, .descAutor1, .frontFoto2, .descAutor2, .frontFoto3, .descAutor3, .frontFoto4, .descAutor4, .frontFoto5, .descAutor5, .frontFoto6, .descAutor6, .wshop-detalhes1, .frontFotoMc1, .descAutorMc1, .frontFotoMc2, .descAutorMc2 {
@@ -828,7 +903,26 @@
             .workshop p, .minicursos p, .demais-atividades p {
             margin: 0 5px;
             }
-    
+            .carousel {
+                position: relative;
+                bottom: 25px !important;                  
+            }
+            #pixabay {
+                position: relative;
+                top: 140px;
+                left: 202px !important;
+                text-align: center;
+                width: 15% !important;
+                margin: 0 auto;
+                color: white;
+                border: 1px solid white;
+                opacity: 0.5;
+            }
+            #pixabay p {
+                margin: 0 auto !important;
+                text-align: center !important;
+                font-size: 9px !important;
+            }
             .demais-atividades-main {            
                 padding: 10px !important;
             }
@@ -1300,13 +1394,36 @@
         margin-left: 15px !important;
         }
         #credit{
-            display: none !important;
-            
-        }        
+            top: 360px;
+            right: -28px !important;
+            opacity: 0.5 !important;          
+        }     
         
         .intro-link-foto {
-        display: none !important;
+        position: relative;
+        top: 60px !important;
+        display: block;
+        width: 100% !important;
+        padding: 0 4px !important;
         }
+        
+        #introLinkFoto div {
+            width: 90% !important;
+            margin: 0 auto;
+        }
+        #introLinkFoto video, #introLinkFoto img {
+            width: 90%;
+        }
+        .intro-link-foto h4 {
+            margin: 0 auto!important;                
+            width: 100% !important;
+            font-size: 19px !important; 
+            position: relative;
+            top: 5px !important;            
+        }    
+        
+        
+        
         #tituloPadrao h1 {
             font-size: 36px !important;
         }
@@ -1321,7 +1438,12 @@
         }
         .introducao {
         margin: 0 5px !important;
+        display: block;
+        }   
 
+        .apresentacao h4 {
+            position: relative;
+            top: 90px;
         }
 
         .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
@@ -1388,9 +1510,7 @@
         .autor1-main:hover, .autor2-main:hover, .autor3-main:hover, .autor4-main:hover, .autor5-main:hover, .autor6-main:hover, .mc1-main:hover, .mc2-main:hover, .workshop-main:hover, .demais-atividades-main:hover {      
             transform: scale(1.0);          
             border: none;           
-        }
-
-            
+        }            
 
         .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
             padding: 0px !important;
@@ -1398,13 +1518,13 @@
         }
 
         .atividades h2 {
-            font-size: 35px !important;
+            font-size: 30px !important;
             text-align: center !important;
             width: 90%;
             margin: 0 auto !important;
         }
         .atividades h3 {
-            font-size: 30px !important;
+            font-size: 26px !important;
             margin: 22px 10px 0 10px !important;
 
         }
@@ -1419,7 +1539,26 @@
         .workshop p, .minicursos p, .demais-atividades p {
         margin: 0 5px;
         }
-
+        .carousel {
+            position: relative;
+            bottom: 25px !important;                  
+        }
+        #pixabay {
+            position: relative;
+            top: 80px;
+            left: 127px !important;
+            text-align: center;
+            width: 25% !important;
+            margin: 0 auto;
+            color: white;
+            border: 1px solid white;
+            opacity: 0.5;
+        }
+        #pixabay p {
+            margin: 0 auto !important;
+            text-align: center !important;
+            font-size: 9px !important;
+        }
         .demais-atividades-main {            
             padding: 10px !important;
         }
@@ -1463,20 +1602,22 @@
         width: 75% !important;
         }
         .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
-        width:70% !important;
-        }
+            position: relative;
+            left: 30px !important;
+            top: 10px !important;    
+            width:65% !important;        
+        } 
+
                 /*CONFIGURAÇÕES @MEDIA FOOTER*/
 
         footer {
-        margin-top: 100px !important;
-        
+        margin-top: 100px !important;        
         }
         
         footer img {
         margin: 0px !important;
         padding: 0px !important;
         width: 30% !important;   
-
         }
 
             
@@ -1876,12 +2017,39 @@
             }
 
             #credit{
-                display: none !important;               
-            }        
+                top: 350px;
+                right: -28px !important;
+                opacity: 0.5 !important;            
+            }     
+
             
             .intro-link-foto {
-            display: none !important;
+            position: relative;
+            top: 80px !important;
+            display: block;
+            width: 100% !important;
+            padding: 0 4px !important;
             }
+            
+            #introLinkFoto div {
+                width: 90% !important;
+                margin: 0 auto;
+            }
+            #introLinkFoto video, #introLinkFoto img {
+                width: 90%;
+                font-size: 16px !important;
+            }
+            #introLinkFoto h4 {
+               font-size: 17px !important;
+            }
+            .intro-link-foto h4 {
+                margin: 0 auto!important;                
+                width: 100% !important;               
+                position: relative;
+                top: 5px !important;            
+            }   
+
+
             #tituloPadrao h1 {
                 font-size: 36px !important;
             }
@@ -1896,9 +2064,11 @@
             }
             .introducao {
             margin: 0 5px !important;
-    
+            display: block !important;
             }
-    
+            .introducao h4 {
+                font-size: 18px !important;
+            }
             .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
             position: relative;
             top: 90px;
@@ -1912,7 +2082,7 @@
             
     
             .atividades {
-            margin: 10px 10px !important;
+            margin: 30px 10px !important;
             padding: 0px !important;
             }
             .palestras, .workshop, .minicursos, .demais-atividades {
@@ -1972,13 +2142,13 @@
             margin-left: 0px !important;
             }
             .atividades h2 {
-                font-size: 35px !important;
+                font-size: 28px !important;
                 text-align: center !important;
                 width: 90%;
                 margin: 0 auto !important;
             }
             .atividades h3 {
-                font-size: 30px !important;
+                font-size: 25px !important;
                 margin: 22px 10px 0 10px !important;
     
             }
@@ -1992,6 +2162,26 @@
            
             .workshop p, .minicursos p, .demais-atividades p {
             margin: 0 5px;
+            }
+            .carousel {
+                position: relative;
+                bottom: 25px !important;                  
+            }
+            #pixabay {
+                position: relative;
+                top: 80px;
+                left: 115px !important;
+                text-align: center;
+                width: 25% !important;
+                margin: 0 auto;
+                color: white;
+                border: 1px solid white;
+                opacity: 0.5;
+            }
+            #pixabay p {
+                margin: 0 auto !important;
+                text-align: center !important;
+                font-size: 9px !important;
             }
     
             .demais-atividades-main {            
@@ -2037,8 +2227,12 @@
             width: 75% !important;
             }
             .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
-            width:70% !important;
-            }
+                position: relative;
+                left: 30px !important;
+                top: 10px !important;    
+                width:65% !important;        
+            } 
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
     
             footer {
@@ -2458,29 +2652,35 @@
             margin-left: 15px !important;
             }
             #credit{
-                display: none !important;
+                right: -28px !important;
                
             }        
             
             .intro-link-foto {
-            display: none !important;
-            }
-            #tituloPadrao h1 {
-                font-size: 36px !important;
-            }
-            #tituloPadrao h2 {
-                font-size: 26px !important;
-            }
-            .apresentacao {
+            position: relative;
+            top: 60px !important;
+            display: block;
             width: 100% !important;
-            padding: 0 !important;
-            margin-top: -70px !important;
-    
+            padding: 0 4px !important;
             }
-            .introducao {
-            margin: 0 5px !important;
-    
+            
+            #introLinkFoto div {
+                width: 90% !important;
+                margin: 0 auto;
             }
+            #introLinkFoto video, #introLinkFoto img {
+                width: 90%;
+                font-size: 16px !important;
+            }
+            #introLinkFoto h4 {
+               font-size: 17px !important;
+            }
+            .intro-link-foto h4 {
+                margin: 0 auto!important;                
+                width: 100% !important;               
+                position: relative;
+                top: 5px !important;            
+            }  
     
             .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
             position: relative;
@@ -2554,13 +2754,13 @@
     
             }
             .atividades h2 {
-                font-size: 35px !important;
+                font-size: 27px !important;
                 text-align: center !important;
                 width: 90%;
                 margin: 0 auto !important;
             }
             .atividades h3 {
-                font-size: 30px !important;
+                font-size: 23px !important;
                 margin: 22px 10px 0 10px !important;
     
             }
@@ -2574,6 +2774,26 @@
            
             .workshop p, .minicursos p, .demais-atividades p {
             margin: 0 5px;
+            }
+            .carousel {
+                position: relative;
+                bottom: 25px !important;                  
+            }
+            #pixabay {
+                position: relative;
+                top: 80px;
+                left: 112px !important;
+                text-align: center;
+                width: 25% !important;
+                margin: 0 auto;
+                color: white;
+                border: 1px solid white;
+                opacity: 0.5;
+            }
+            #pixabay p {
+                margin: 0 auto !important;
+                text-align: center !important;
+                font-size: 9px !important;
             }
     
             .demais-atividades-main {            
@@ -2616,11 +2836,15 @@
             }
     
             .autor1-foto img {
-            width: 75% !important;
-            }
+                width: 75% !important;
+                }
             .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
-            width:70% !important;
-            }
+                position: relative;
+                left: 30px !important;
+                top: 10px !important;    
+                width:65% !important;        
+            } 
+
                     /*CONFIGURAÇÕES @MEDIA FOOTER*/
     
             footer {
@@ -3040,29 +3264,38 @@
             margin-left: 6px !important;
         }
         #credit{
-            display: none !important;
-           
+            top: 370px;
+            right: -28px !important;
+            opacity: 0.6 !important;
         }        
         
+
         .intro-link-foto {
-        display: none !important;
+            position: relative;
+            top: 60px !important;
+            display: block;
+            width: 100% !important;
+            padding: 0 4px !important;
         }
-        #tituloPadrao h1 {
-            font-size: 36px !important;
+        
+        #introLinkFoto div {
+            width: 90% !important;
+            margin: 0 auto;
         }
-        #tituloPadrao h2 {
-            font-size: 26px !important;
+        #introLinkFoto video, #introLinkFoto img {
+            width: 90%;
+            font-size: 16px !important;
         }
-        .apresentacao {
-        width: 100% !important;
-        padding: 0 !important;
-        margin-top: -70px !important;
-
+        #introLinkFoto h4 {
+            font-size: 14px !important;
+           width: 100% !important;
         }
-        .introducao {
-        margin: 0 5px !important;
-
-        }
+        .intro-link-foto h4 {
+            margin: 0 auto!important;                
+            width: 100% !important;               
+            position: relative;
+            top: 5px !important;            
+        }  
 
         .introducao h3, .introducao h4, .introducao hr, .introducao p, .atividades {
         position: relative;
@@ -3135,13 +3368,13 @@
 
        
         .atividades h2 {
-            font-size: 35px !important;
+            font-size: 22px !important;
             text-align: center !important;
             width: 90%;
             margin: 0 auto !important;
         }
         .atividades h3 {
-            font-size: 30px !important;
+            font-size: 20px !important;
             margin: 22px 10px 0 10px !important;
 
         }
@@ -3158,6 +3391,26 @@
        }
         .workshop p, .minicursos p, .demais-atividades p {
         margin: 0 5px;
+        }
+        .carousel {
+            position: relative;
+            bottom: 25px !important;                  
+        }
+        #pixabay {
+            position: relative;
+            top: 65px;
+            left: 100px !important;
+            text-align: center;
+            width: 32% !important;
+            margin: 0 auto;
+            color: white;
+            border: 1px solid white;
+            opacity: 0.5;
+        }
+        #pixabay p {
+            margin: 0 auto !important;
+            text-align: center !important;
+            font-size: 9px !important;
         }
 
         .demais-atividades-main {            
@@ -3203,11 +3456,15 @@
         }
 
         .autor1-foto img {
-        width: 95% !important;
+        width: 75% !important;
         }
         .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img    {
-        width:85% !important;
-        }
+            position: relative;
+            left: 30px !important;
+            top: 10px !important;    
+            width:65% !important;        
+        }    
+        
                 /*CONFIGURAÇÕES @MEDIA FOOTER*/
 
         footer {

@@ -1,7 +1,34 @@
 @charset "UTF-8";
 
+@media only screen  and (width: 1440px) and (height: 900px) {
+    /*CONFIGURAÇÕES GERAIS LAPTOP COM HIDPI SCREEN */    
+   #pixabay {
+       position: relative;
+       left: 235px !important;
+       top: 150px !important;
+   }
+}
+@media only screen  and (width: 1280px) and (height: 800px) {
+    /*CONFIGURAÇÕES GERAIS LAPTOP COM MDPI SCREEN */    
+   #pixabay {
+       position: relative;
+       left: 205px !important;
+       top: 140px !important;
+   }
+}
+
 @media only screen  and (min-width: 995px) and (max-width: 1100px) {
-    /*CONFIGURAÇÕES GERAIS @MEDIA TELAS PADRÃO UNIVALI (1024 X 768) */  
+    /*CONFIGURAÇÕES GERAIS @MEDIA TELAS PADRÃO UNIVALI (1024 X 768) */ 
+    body {
+        width: 100% !important;        
+    } 
+    .navbar-nav {
+        margin-left: 0px !important;
+    }
+    #credit{
+        position: absolute;
+        right: -28px !important;         
+    }
     .introducao {
         display: block !important;
     }
@@ -9,16 +36,22 @@
         width: 100% !important;
         padding: 0 !important;
     }
+    .intro-link-foto {
+        display: inline-flex;
+        width: 100% !important;
+    }
+    #introLinkFoto div {
+        width: 45% !important;
+        margin: 0 auto;
+    }
     .intro-link-foto h4 {
-        margin: 45px 0 !important;
-        color: #568763;
-        font-size: 28px;
-        font-weight: 600;
+        margin: 10px 0 !important;
+        width: 100% !important;
     }
-    .intro-link-foto img {
-        margin-top: 5px !important;
-        transform: scale(1.15);
+    #introLinkFoto video, #introLinkFoto img {
+        width: 90%;
     }
+    
 
     .atividades h2 {
         width: 55% !important;
@@ -26,8 +59,28 @@
     .autor1-foto, .autor2-foto, .autor3-foto, .autor4-foto, .autor5-foto, .autor6-foto, .autormc1-foto, .autormc2-foto   {
         width: 65% !important;
     } 
-    .atividades {
-        margin-top: 70px !important;
+    
+    #pixabay {
+        position: relative;
+        top: 110px !important;
+        left: 158px !important;
+        text-align: center;
+        width: 20% !important;
+        margin: 0 auto;
+        color: white !important;
+        border: 2px solid white !important;
+        opacity: 0.5 !important;
+    }
+    .carousel {
+        position: relative;
+        top: 30px;
+        transform: scale(1.15) !important;
+    }
+    #pixabay p {
+        margin: 0 auto !important;
+        text-align: center !important;
+        font-size: 10px !important;
+        font-weight: bolder !important;
     }
     #imgSurf {
         position: absolute;
@@ -43,20 +96,56 @@ body {
     font-family: 'Roboto', sans-serif !important;
     font-size: 18px;
     color: #333;
-    background-color: white !important;
+    
 }
 
 
 
         /*CONFIGURAÇÃO DE HEADER PADRÃO*/
 
+
+   /* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: rgb(185, 184, 184);
+    height: 3px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    max-width: 95%;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+    
+  }     
+
 .nav-item.dropdown .dropdown-menu, .nav-item.dropdown .dropdown-menu a{
     background-color: whitesmoke;
     font-weight: 500 !important;
+   
 }
 .nav-item.dropdown .dropdown-menu a:hover{
-    background-color: #c0dac0;
-    transition: ease-in-out 0.5s; 
+    background-color: #ffbfac;
+    transition: ease-in-out 0.5s;   
+    font-weight: bolder !important;
 }
 
 .logo{
@@ -68,46 +157,32 @@ body {
         
 }
 .navbar-toggler{
-    margin-left: 20px;
-}
-.nav-item a::after {
-    content: '';
-    position: absolute;
-    width: 0px;
-    height: 5px;
-    left: 50%;
-    bottom:0;
-    background-color: white;
-    transition: all ease-in-out .2s;
-    text-decoration: none;
-    border: none;  
+    margin-left: 10px;
 }
 
-.nav-item a:hover:hover::after {
-    width: 100%;
-    left: 0;
-
-}
 
 .navbar-nav{
-    margin-left: 60px;
-    
+    margin-left: 20px;    
+}
+.navbar-nav li {
+    margin: 0 6px;
+    padding:
 }
          /*CONFIGURAÇÕES CABEÇALHO INDEX */
 
 #cabecalhoIndex {
     background-image: url("fotos/malibu.jpg");
     background-size: cover;
-    background-position-y: center;
+    background-position-y: center;   
     height: 500px;
     width: auto !important;
     }
 
 #credit{
     position: absolute;
-    right: -32px;
+    right: -30px;
     transform: rotate(-90deg);    
-    opacity: 0.7;
+    opacity: 0.6;
     transition: .1s ease;
     font-size: 8px !important;    
 }
@@ -123,7 +198,7 @@ body {
 #tituloHome {    
     position: relative;
     top: 65px;
-    
+    width: 100%;
 }
 #tituloHome h1 {
     color: whitesmoke;
@@ -134,6 +209,7 @@ body {
     width: 43%;
     font-family: 'Rammetto One', cursive;  
     margin-left: 35px !important;  
+   
 }
 #tituloHome h4 {
     color: whitesmoke;
@@ -157,6 +233,7 @@ body {
     color: #568763;
     font-size: 40px;
     font-weight: 600;
+    text-shadow: 2px 2px 8px #50885f;
 }
 #tituloPadrao h2{
     color: #568763;
@@ -165,15 +242,56 @@ body {
 
 }
 
+
         /* CONFIGURAÇÃO MAIN INDEX */
 .introducao {
     display: flex;
-    margin: 30px 40px;  
+    margin: 40px 40px;  
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin-top: 60px;
 }
+
+.gradient-border h3 {      
+    -webkit-text-stroke: 1px #333;
+    font-style: italic;
+    --borderWidth: 8px;
+    position: relative;
+    border-radius: var(--borderWidth);
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    color: rgb(136, 134, 134) !important;
+}
+.gradient-border h3:after {      
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #8d8c8c, #3a3838, #272625, #46433d, #8a8471, #413b37, #96918a, #f36404, #693102);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+/*#f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
+/*#bde9c3, #96cea3, #73c994, #55c070, #3b8547, #33613e, */
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 .introducao .apresentacao p {
     font-size: 18px;
@@ -205,22 +323,33 @@ body {
     
   }
 
+
   .intro-link-foto h4 {
     text-align: center;
-    color: #61776c;
+    color: rgb(136, 134, 134) !important;
+    border: 5px solid rgb(136, 134, 134);
+    border-radius: 10px;
     font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    width: 85%;
+    margin: 30px 0;     
+    font-style: italic;
   }
-
-  .intro-link-foto img {
-    margin-top: 5px;
-    width: 512px; 
-    height: 288px;
-}
+  .video h4 {
+      margin: 0 auto;
+  }
+  .video video, .video img {
+      margin-top: 15px;
+      width: 80%;
+      height: auto;
+  }
+ 
 .atividades {
     font-size: 18px;
     font-style: normal;
     padding: 0 15px;
-    margin: 30px 15px;
+    margin: 70px 15px 10px;
     color: black;    
 }
 h6 {
@@ -242,7 +371,6 @@ h6 {
     font-size: 42px;
     font-weight: 600;
     color: #61776c;
-    margin: 0px;
     border: 4px solid #61776c;
     border-radius: 10px;
     padding: 9px;
@@ -752,8 +880,41 @@ hr {
     opacity: 1.0;
 }
 
+.carousel-item img {
+    margin: 0 auto !important;
+    width: 80% !important;
+    height: auto;
+}
+#pixabay {
+    position: relative;
+    top: 145px;
+    left: 222px;
+    text-align: center;
+    font-size: 5px !important;
+    color: white;
+    font-weight: bold !important;
+    z-index: 10 !important;    
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 0 auto;
+    width: 16%;
+    transform: rotate(-90deg);
+    opacity: 0.5;
+}
+#pixabay p {
+    text-align: center;
+    margin: 0 auto !important;
+    padding: 0px;
+    font-size: 9px !important;
+    font-weight: bolder;
+}
+/* Class para efeito glow em hover nas fotos da Home page, efeito no jquery.js */
+.glow-made{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
 
- .autor2, .autor3, .autor4, .autor5, .autor6, .wconceito, .wformato, .inscricao, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {   
+ .autor2, .autor3, .autor4, .autor5, .autor6, .works p, .wconceito, .wformato, .inscricao, .autormc1, .autormc2, .descAutor1, .descAutor2, .descAutor3, .descAutor4, .descAutor5, .descAutor6, .descAutorMc1, .descAutorMc2 {   
   font-size: 18px;
   font-weight: normal;
   text-align: justify;  
@@ -773,12 +934,14 @@ hr {
     align-items: flex-start;
     font-size: 14px;
     text-align: justify;
-    width: 45%;
+    width: 35%;
+    padding: 20px 0px;
 }
 
-.autor1-foto img, .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img {
-    padding-left: 65px;
-    margin: 20px 5px 0;     
+ .autor2-foto img, .autor3-foto img, .autor4-foto img, .autor5-foto img, .autor6-foto img, .autormc1-foto img, .autormc2-foto img {   
+       position: relative;
+       left: 80px !important;
+       top: 10px !important;
 }
 
 .autor1-bio, .autor2-bio, .autor3-bio, .autor4-bio, .autor5-bio, .autor6-bio, .autormc1-bio, .autormc2-bio {
@@ -1011,7 +1174,7 @@ blockquote {
                 /*CONFIGURAÇÕES DE FOOTER DE TODAS PAGINAS*/
 
 footer {    
-    margin-top: 35px !important;
+    margin-top: 0 !important;
     padding-top: 10px;
     text-align: center;
     color: #161A08;
@@ -1047,6 +1210,7 @@ footer h1{
 #logoFim img {
     width: 250px !important;
 }
+
 
 
 

@@ -7,10 +7,15 @@
       $('#p1michel').hide();
   }); 
 });*/
+window.onload = () => {
+    document.getElementById("video").playbackRate = 0.7;
+  document.getElementById("body").style.visibility="visible";
+
+  
+}
 
 
 $(document).ready(function(){
-
       $("#autor1Main").click(function(){
         if($("#p1").css('display') == 'none'){
           $("#p1").show();
@@ -83,10 +88,10 @@ $(document).ready(function(){
       });
 
       $('#programacao.dropdown').on('mouseenter', () => {
-        $("#menuProgramacao").show()
+        $("#menuProgramacao").show();
       });
       $('#chamadas').on('mouseenter', () => {
-        $("#menuChamadas").show()
+        $("#menuChamadas").show();
       });
       
       $('#programacao').on('mouseleave', () => {
@@ -95,7 +100,54 @@ $(document).ready(function(){
       $('#chamadas').on('mouseleave', () => {
         $("#menuChamadas").hide();
       });
-
+      $('#autor1Main').on('mouseenter', () => {
+        $('#img1').addClass("glow-made");
+      });
+      $('#autor1Main').on('mouseleave', () => {
+        $('#img1').removeClass("glow-made");
+      });
+      $('#autor2Main').on('mouseenter', () => {
+        $('#img2').addClass("glow-made");
+      });
+      $('#autor2Main').on('mouseleave', () => {
+        $('#img2').removeClass("glow-made");
+      });
+      $('#autor3Main').on('mouseenter', () => {
+        $('#img3').addClass("glow-made");
+      });
+      $('#autor3Main').on('mouseleave', () => {
+        $('#img3').removeClass("glow-made");
+      });
+      $('#autor4Main').on('mouseenter', () => {
+        $('#img4').addClass("glow-made");
+      });
+      $('#autor4Main').on('mouseleave', () => {
+        $('#img4').removeClass("glow-made");
+      });
+      $('#autor5Main').on('mouseenter', () => {
+        $('#img5').addClass("glow-made");
+      });
+      $('#autor5Main').on('mouseleave', () => {
+        $('#img5').removeClass("glow-made");
+      });
+      $('#autor6Main').on('mouseenter', () => {
+        $('#img6').addClass("glow-made");
+      });
+      $('#autor6Main').on('mouseleave', () => {
+        $('#img6').removeClass("glow-made");
+      });
+      $('#mc1Main').on('mouseenter', () => {
+        $('#imgMc1').addClass("glow-made");
+      });
+      $('#mc1Main').on('mouseleave', () => {
+        $('#imgMc1').removeClass("glow-made");
+      });
+      $('#mc2Main').on('mouseenter', () => {
+        $('#imgMc2').addClass("glow-made");
+      });
+      $('#mc2Main').on('mouseleave', () => {
+        $('#imgMc2').removeClass("glow-made");
+      });
   });
 
 /*bloco tabela inscrições */
