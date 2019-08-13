@@ -7,13 +7,28 @@
       $('#p1michel').hide();
   }); 
 });*/
-window.onload = () => {
-    document.getElementById("video").playbackRate = 0.7;
-  document.getElementById("body").style.visibility="visible";
 
-  
+window.onload = () => {
+    document.getElementById("video").playbackRate = 0.6;
+  document.getElementById("body").style.visibility="visible";  
 }
 
+$(document).ready(() => {    
+
+  $('#video').on('mouseenter', () => {
+    $('.video-h4').hide();
+  })
+  $('#video').on('mouseleave', () => {
+    $('.video-h4').show();
+  })  
+  $('#img').on('mouseenter', () => {
+    $('.image-h4').hide();
+  })
+  $('#img').on('mouseleave', () => {
+    $('.image-h4').show();
+  })
+
+});
 
 $(document).ready(function(){
       $("#autor1Main").click(function(){

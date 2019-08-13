@@ -102,12 +102,24 @@
                 width: 48% !important;
                 margin: 0 auto;
             }
-            #introLinkFoto video, #introLinkFoto img {
-                width: 90%;
+            
+            .intro-link-foto video, .intro-link-foto img {
+                width: 100% !important;
+                height: auto;
+                opacity: 1;
             }
+            .intro-link-foto video:hover, .intro-link-foto img:hover {  
+                transform: scale(1);
+                visibility: visible !important;
+            }
+            
             .intro-link-foto h4 {
+                font-size: 19px !important;
                 margin: 5px 0 !important;                
                 width: 100% !important;                
+            }
+            .intro-link-foto h4:hover {
+                visibility: visible !important;               
             }
             
             #tituloPadrao h1 {
@@ -776,13 +788,22 @@
                  width: 48% !important;
                  margin: 0 auto;
              }
-             #introLinkFoto video, #introLinkFoto img {
-                 width: 90%;
-             }
+             .intro-link-foto video, .intro-link-foto img {
+                width: 100% !important;
+                height: auto;
+                opacity: 1;
+            }
+            .intro-link-foto video:hover, .intro-link-foto img:hover {  
+                transform: scale(1);
+                visibility: visible !important;
+            }
+
+
              .intro-link-foto h4 {
                  margin: 0 auto!important;                
                  width: 95% !important;
-                 font-size: 14px !important;             }          
+                 font-size: 15px !important;             
+            }          
            
             #tituloPadrao h1 {
                 font-size: 36px !important;
@@ -1398,6 +1419,10 @@
             right: -28px !important;
             opacity: 0.5 !important;          
         }     
+        #video, #img {
+            width: 100% !important;
+        }
+
         
         .intro-link-foto {
         position: relative;
@@ -1415,11 +1440,11 @@
             width: 90%;
         }
         .intro-link-foto h4 {
-            margin: 0 auto!important;                
+            margin: 5px 0 !important;                  
             width: 100% !important;
             font-size: 19px !important; 
             position: relative;
-            top: 5px !important;            
+            top: 3px !important;            
         }    
         
         
@@ -2021,7 +2046,9 @@
                 right: -28px !important;
                 opacity: 0.5 !important;            
             }     
-
+            #video, #img {
+                width: 100% !important;
+            }
             
             .intro-link-foto {
             position: relative;
@@ -2043,7 +2070,7 @@
                font-size: 17px !important;
             }
             .intro-link-foto h4 {
-                margin: 0 auto!important;                
+                margin: 5px 0 !important;                  
                 width: 100% !important;               
                 position: relative;
                 top: 5px !important;            
@@ -2655,7 +2682,9 @@
                 right: -28px !important;
                
             }        
-            
+            #video, #img {
+                width: 100% !important;
+            }
             .intro-link-foto {
             position: relative;
             top: 60px !important;
@@ -2676,7 +2705,7 @@
                font-size: 17px !important;
             }
             .intro-link-foto h4 {
-                margin: 0 auto!important;                
+                margin: 5px 0 !important;                  
                 width: 100% !important;               
                 position: relative;
                 top: 5px !important;            
@@ -3269,7 +3298,9 @@
             opacity: 0.6 !important;
         }        
         
-
+        #video, #img {
+            width: 100% !important;
+        }
         .intro-link-foto {
             position: relative;
             top: 60px !important;
@@ -3291,7 +3322,7 @@
            width: 100% !important;
         }
         .intro-link-foto h4 {
-            margin: 0 auto!important;                
+            margin: 5px 0 !important;                 
             width: 100% !important;               
             position: relative;
             top: 5px !important;            
