@@ -1,732 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-      <head>
-            <title>Computer on the Beach</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="CSS/bootstrap.css">
-            <script src="JS/jquery-3.3.1.js" ></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <script src="main.js"></script>
-            <link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
-            <link rel="stylesheet" type="text/css" href="estilo.css">
-            <link rel="stylesheet" type="text/css" href="estilo_pequeno.css" media="only screen and (min-width: 320px) and (max-width: 995px)"/> 
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-            <link href="https://fonts.googleapis.com/css?family=Frijole|Nosifer&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css?family=Rammetto+One&display=swap" rel="stylesheet">
-      </head>
-      <body id="body" style="visibility:hidden">
-            <header id="cabecalhoIndex">
-                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#menuNav">
-                              <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <a href="index.html"><img src="fotos/logo.png" class="logo"></a>
-                        <div class="collapse navbar-collapse" id="menuNav">
-                              <a class="nav-brand hvr-underline-from-center" href="index.html"></a>
-                              <ul class="navbar-nav">
-                                    <li class="nav-item" >
-                                          <a class="nav-link hvr-underline-from-center" href="index.html">HOME</a>
-                                    </li>
-                                    <li class="nav-item dropdown" >
-                                          <a class="nav-link dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" data-target="#menuProgramacao" href="gradeDeProgramacao.html">PROGRAMAÇÃO
-                                                <span class="caret"></span>
-                                          </a>
-                                    <div class="dropdown-menu" aria-labelledby="menuProgramacao">
-                                          <a class="dropdown-item" href="gradeDeProgramacao.html">GRADE DE PROGRAMAÇÃO</a>
-                                          <a class="dropdown-item" href="workshopMeninasDigitais.html">WORKSHOP MENINAS<br> DIGITAIS</a>
-                                          <a class="dropdown-item" href="painel.html">PAINEL</a>
-                                          <a class="dropdown-item" href="sessoesTecnicas.html">SESSÕES TÉCNICAS</a>
-                                          <a class="dropdown-item" href="resumosEstendidos.html">RESUMOS ESTENDIDOS</a>
-                                          <a class="dropdown-item" href="programacaoConcursoTrabalhosTecnicos.html">CONCURSO DE TRABALHOS<br> TÉCNICOS</a>
-                                          <a class="dropdown-item" href="localEHospedagem.html">LOCAL E HOSPEDAGEM</a>
-                                    </div>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle hvr-underline-from-center" data-toggle="dropdown" data-target="#menuChamadas" href="gradeDeProgramacao.html">CHAMADAS
-                                          <span class="caret"></span>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="menuChamadas">
-                                          <a class="dropdown-item" href="trilhaPrincipal.html">TRILHA PRINCIPAL</a>
-                                          <a class="dropdown-item" href="chamadaConcursoTrabalhosTecnicos.html">CONCURSO DE TRABALHOS<br> TÉCNICOS</a>
-                                    </div>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link hvr-underline-from-center" href="inscricoes.html">INSCRIÇÕES</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link hvr-underline-from-center " href="organizacao.html">ORGANIZAÇÃO</a>
-                                    </li>                        
-                                    <li class="nav-item ">
-                                    <a class="nav-link hvr-underline-from-center" href="anais.html">ANAIS</a>
-                                    </li>
-                              </ul>
-                        </div>
-                  </nav>             
-                  <div id="tituloHome">
-                        <h1>COMPUTER ON THE BEACH 2020</h1>
-                        <h4 >De 04 a 06 de abril, em Baln. Camboriu, SC.</h4>
-                        <a id="credit" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont,'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@trapnation?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Andre Benz"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Andre Benz</span></a>
-                  </div>
-                  
-            </header>
-            <main>
-                  <div class="introducao">
-                        <div class="apresentacao gradient-border">
-                              <h3>Conheça o evento</h3>
-                              <br>
-                              <div>
-                                    <h4><b>11º Edição</b></h4>
-                              </div>
-                              
-                              <p>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.<br>
-                                    Trata-se de um evento técnico-científico que visa reunir profissionais, pesquisadores e acadêmicos da área de computação, a fim de discutir as tendências de pesquisa e mercado da computação em suas mais diversas áreas.<br>
-                                    O evento procura unir o útil ao agradável em prol de um intercâmbio de experiências, discutindo de maneira informal, porém técnica, misturando atividades técnico-científicas com atividades de lazer, ao ar livre, das quais se pode desfrutar das belezas de Florianópolis durante o verão.<br>
-                                    Em 2019, esperamos por você para aproveitar conosco a 10ª edição do Computer on the Beach.
-                              </p>
-                        </div>
-                        <br>
-                        <div class="intro-link-foto" id="introLinkFoto" style="width:60%">
-                              <div class="video">
-                                    <h4 class="video-h4">Retro Computer on the Beach</h4>    
-                                                          
-                                    <video id="video" loop="true" autoplay="autoplay" width=80% height="auto" muted >
-                                          <source src="fotos/retrospectiva2019.mp4" type="video/mp4" >
-                                          Your browser does not support the video tag.
-                                    </video>                                   
-                              </div>
-                              <br>
-                              
-                              <div class="image" >
-                                    <h4 class="image-h4">Turma 2019</h4>                                                               
-                                    <img id="img" src="fotos/grupo.jpg"  style="width:80%; height:auto">
-                              </div>
-                        </div>
-                  </div>
-
-                 
-
-                  <div class="atividades">
-                  <h2>Atividades 2020</h2>
-                  
-                  <h3>Palestras</h3>
-                  <div class="palestras">     
-               
-                        <div class="autor1-main" id="autor1Main">
-                              
-                              <h5>ABERTURA: Você é mesmo feliz?</h5>
-                              <div class="frontFoto1"title="Saiba mais" >
-                                    <div class="pDetalhes" style="width: 80%">
-                                    
-                                    <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Robson Freire (UNIVALI).</h6>
-                                    <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6>    
-                                    <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                                    <br>        
-                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Para o Professor Robson Freire falar de felicidade é um papo sério. Todo mundo quer ser feliz, não quer? Vivemos nesta busca incessante e a cada dia, cada minuto, cada segundo somos bombardeados por uma série de informações que nos dizem que devemos e precisamos ser felizes. Diversos estímulos – dinheiro, amor, sexo, peso, joias, status, desempenho acadêmico e profissional, ou tamanho da casa – podem influenciar muito ou pouco a nossa satisfação com a vida.</p>
-
-                                    <div id="saibaMais">
-                                          <i class="fas fa-chevron-down"></i>
-                                          <a class="p1abre" id="p1abre"><i>Saiba mais...</i></a>
-                                    </div>
-                              
-                                    </div>
-
-                                    <div class="autor1-foto">
-                                          <img id="img1" src="fotos/robson.png" height="auto" width="60%"/>
-                                    
-                                    </div>
-
-                              </div> 
-                              <br>
-                              
-
-                              <div class="p1" id="p1" style="display: none">                              
-                                    <div class="autor1" title="Fechar">
-                                          <div class="descAutor1 row">
-                                                
-                                                <div class="descIntro1 col"> 
-                                                      <br>
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Uma pesquisa realizada com jovens acadêmicos identificou que cerca de 35% dos estudantes têm pelo menos um tipo de transtorno mental, que pode causar consequências psicológicas por toda a vida, enquanto 31% desses jovens apresentam alguma desordem emocional temporária. A ideia desse estudo partiu da Organização Mundial da Saúde (OMS), preocupada com esses jovens universitários que sofrem também com a insegurança em relação ao futuro.<br>
-                                                      O que disputa a sua atenção? Afinal, vivemos o imperativo da felicidade. Você é feliz? O que é felicidade para você? O que nos mantém saudáveis e felizes? Para refletir sobre esse tema tão complexo, o professor Robson Freire, na palestra intitulada “Na vibe da felicidade”, combina o rigor das pesquisas científicas realizadas na economia e na psicologia com o avanço de estudos recentes da ciência comportamental. Um apelo apaixonado para que a busca da satisfação com a vida esteja em primeiro lugar</p>
-                                                      <br>
-                                                </div>
-                                          
-                                                
-                                                <div class="autor1-bio col">   
-                                                      <br>  
-                                                      <h6><i>Robson Freire</i></h6>                  
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Mestre em Administração, pela Univali, e pós-graduado em Gestão de Recursos Humanos, Marketing para Gestão Empresarial, pela UFSC, Robson oferece, com base em suas próprias experiências de vida e na docência, algumas respostas sobre a felicidade que mostram a importância da busca do equilíbrio entre o prazer e o propósito para a satisfação pessoal. Pioneiro no Brasil a propor, desenvolver e lecionar a disciplina Felicidade em nível acadêmico – graduação e pós-graduação lato sensu. Também atua como professor de graduação e pós-graduação nas disciplinas de Gestão de Pessoas, Relacionamento Interpessoal, Pesquisa de Mercado, Marketing, Gestão estratégica, Gestão de Projetos, Empreendedorismo, Metodologia de Pesquisa e pelos Trabalhos de Conclusão de Curso. É consultor de empresas, palestrante e possui capítulos de livros e artigos publicados em congressos nacionais e internacionais.</p>                        
-                                                </div>
-                                          </div>
-                                          
-                                          <div id="saibaMais">
-                                                <i class="fas fa-chevron-up"></i>
-                                                <a class="p1fecha" id="p1fecha"><i>&nbsp;Fechar</i></a>  
-                                          </div>
-                                         
-                                    </div>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        Computer on the Beach
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="hero">
             
-                                                            
-                              </div>
-            
-                        </div>  
-
-
-                        <div class="autor2-main" id="autor2Main" >
-                              
-                              <h5>2ª PALESTRA: Tratando milhões de eventos de missão crítica por mês em tempo real.</h5>
-                              <div class="frontFoto2" title="Saiba mais">
-                                    <div style="width: 40%">
-                                    
-                                    <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Michel Reips (Segware)</h6>
-                                    <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6>
-                                    <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                                    <br>
-                                    <div id="saibaMais">
-                                                <i class="fas fa-chevron-down"></i>
-                                                <a class="p2abre" id="p2abre"><i>Saiba mais...</i></a>
-                                    </div>
-                                    </div>
-                                    
-                                    
-
-                                    <div class="autor2-foto">
-                                          <img id="img2" src="fotos/michel.png" height="auto" width="45%"/>
-                                                
-                                    </div>
-                              </div>
-                              <br>
-                              
-                              <div class="p2" id="p2" style="display: none">
-                        
-                                    <div class="autor2" title="Fechar">
-                                    <div class="descAutor2 row">     
-                                                <div class="descIntro2 col"> 
-                                                <br>
-                                                      
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Como podemos receber, processar e armazenar milhões de eventos diariamente de forma assíncrona, garantindo ordem de entrega e rapidez? Vamos mostrar como fizemos tudo isso usando micro serviços, mensageria clusterizada e banco de NoSQL.</p>
-                                                </div>
-                                                                  
-                                                <div class="autor2-bio col"> 
-                                                <br>  
-                                                <h6><i>Michel Reips</i></h6>               
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Formado em Desenvolvimento de Jogos Digitais pela Univali no ano de 2013. Desenvolvedor com experiência desde a comunicação com o hardware até em aplicativos para usuário final, atualmente, Líder de Integrações na empresa Segware.</p>    
-                                                </div>             
-                                          </div>   
-                                                
-                                          <br>
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-up"></i>
-                                          <a class="p2fecha" id="p2fecha"><i>&nbsp;Fechar</i></a>  
-                                          </div>    
-
-                                                    
-                                    </div>
-                              
-                                          
-                              </div>
-                              
-                        </div>
-                        
-
-                        <div class="autor3-main" id="autor3Main">
-                              
-                              <h5>3ª PALESTRA: A proteção dos dados pessoais e as novas tecnologias: caos ou oportunidades?</h5>
-                              <div class="frontFoto3" title="Saiba mais">
-                                    <div style="width: 40%">
-                                          
-                                          <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrantes:  Andrea Willemin e Ramicés da Silva.</h6>
-                                          <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6> 
-                                          <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                                          <br>
-                                          <div id="saibaMais">
-                                                <i class="fas fa-chevron-down"></i>
-                                                <a class="p3abre" id="p3abre"><i>Saiba mais...</i></a>
-                                          </div>
-                                    </div>
-                                    <div class="autor3-foto">
-                                          <img id="img3" src="fotos/luciana.jpeg" height="auto" width="45%"/>
-                                    
-                                    </div>
-                              </div>
-                              <br>
-                        
-                              <div class="p3" id="p3" style="display: none">
-                              
-                                    <div class="autor3" title="Fechar">   
-                                          <div class="descAutor3 row">
-                                                <div class="descIntro3 col">
-                                                      <br>
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Em Agosto de 2020, entra em vigor a Lei Geral de Proteção de Dados(LGPD). Além de criar novos direitos para pessoas físicas, como o direito à
-                                                      exclusão de dados e portabilidade entre serviços semelhantes, a lei prevê
-                                                      diversas mudanças na forma como o tratamento de dados deve ser feito em
-                                                      instituições públicas e privadas.
-                                                      O que são, afinal, dados pessoais? Quais são as mudanças que as empresas
-                                                      que fazem tratamento de dados pessoais devem atentar neste momento?
-                                                      Quais são as consequências de não-cumprimento das medidas previstas na
-                                                      lei? Quais dificuldades técnicas desenvolvedores, designers e gestores
-                                                      enfrentarão para adequar seus serviços e projetos?
-                                                      Mais do que uma inovação legislativa, a LGPD representa uma mudança de
-                                                      cultura em privacidade no Brasil. Os impactos dessa lei vão desde cadastros
-                                                      internos no setor de RH de empresas, dados médicos sensíveis de pacientes
-                                                      em hospitais, cadastros em sites de compras e até mesmo bancos de dados de
-                                                      prefeituras. Compreender as mudanças necessárias e os aspectos gerais da lei
-                                                      é essencial para empresas e serviços que fazem tratamento de dados
-                                                      pessoais.</p>
-                                                </div>
-
-                                                <br>                                    
-                                                
-                                                <div class="autor3-bio col">  
-                                                      <br>
-                                                      <h6><i>Andrea Willemin </i></h6>          
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Andrea é Advogada, Data Protection Officer, certificada pela Comunidade Europeia, Doutoranda em Ciência da Informação e Tecnologia pela Universidade Federal de Santa Catarina, Mestre em Direito da Sociedade de Informação e Propriedade Intelectual pela Universidade Federal de Santa Catarina – UFSC, pós-graduada em Proteção de Dados e em Segurança da Informação pela Universidade de Maastrischt/ Holanda e EPFL/Suíça; graduada em Direito pela Pontifícia Universidade Católica de São Paulo – PUC/SP e Université de Neuchâtel – Suíça; Economista formada pela Université de Savois – França e Université Genève – Suíça; Executive MBA Université de Genève.</p>                        
-                                                </div>
-                                          </div>
-                                          <br>
-                                          <div id="saibaMais">
-                                                <i class="fas fa-chevron-up"></i>
-                                                <a class="p3fecha" id="p3fecha"><i>&nbsp;Fechar</i></a>
-                                          </div>                   
-                                                
-                                    </div>
-                                    
-                              </div>  
-                        </div>
-
-                        <div class="autor4-main" id="autor4Main">
-                              
-                              <h5>4ª PALESTRA: Segurança da Informação em Cooperativas de Credito Sistema Sicoob.</h5>
-                              <div class="frontFoto4" title="Saiba mais">
-                                    <div style="width:40%">
-                                          
-                                          <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Paulo Silva (Tracker Consultoria)</h6>
-                                          <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6>     
-                                          <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>               
-                                          <br>
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-down"></i>
-                                          <a class="p4abre" id="p4abre"><i>Saiba mais...</i></a>
-                                          </div> 
-                                    </div>
-
-                                    <div class="autor4-foto">
-                                          <img id="img4" src="fotos/paulo.jpg" height="auto" width="44%"/>
-                                          
-                                    </div>
-                              </div>
-                              <br>
-                              
-                              <div class="p4" id="p4" style="display: none">
-                              
-                                    <div class="autor4" title="Fechar">
-                                          <div class="descAutor4 row">  
-                                                <div class="descIntro4 col">
-                                                      <p>Descrição da palestra etc......</p>
-                                                </div>                                   
-                                                                              
-                                                <div class="autor4-bio col"> 
-                                                      <br>      
-                                                      <h6><i>Paulo Silva </i></h6>        
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Paulo Silva é Doutor pela Universidade Federal de Santa Catarina, Diretor de Consultoria da Tracker Segurança da Informação e Auditor Líder 27001 pelo British Standards Institution. Com mais de 14 anos de experiência em consultoria e auditoria em Gestão de Segurança da Informação; Gestão de Tecnologia da Informação e Gerenciamento de Projetos. Realizou mais de 150 projetos em empresas como SICOOB-SC/RS, CECRESP, UNIMED, FIESC, FECOAGRO, Senior Sistemas, Altenburg Têxtil, Electro Aço Altona, Grupo Lunelli, entre outras. Professor de Pós-Graduação há mais de 14 anos, atuando em instituições como FURB, UNIVALI, SENAC/SC, Estácio, entre outras. Autor de vários artigos publicados em eventos e periódicos nacionais e internacionais, incluindo Estados Unidos, Canadá, Austrália, França e Espanha.</p>                        
-                                                </div>
-                                          </div>
-                                          
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-up"></i>
-                                          <a class="p4fecha" id="p4fecha"><i>&nbsp;Fechar</i></a>
-                                          </div>
-                                                                            
-                                    </div>
-                                    
-                              </div>  
-                        </div>
-
-                        <div class="autor5-main" id="autor5Main">
-                              
-                              <h5>5ª PALESTRA: Para que serve uma blockchain e por que eu devo me preocupar com isto?</h5>
-                              <div class="frontFoto5" title="Saiba mais" >
-                                    <div style="width:40%">
-                                          
-                                          <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Alexandre Melo Braga (UNICAMP)</h6>
-                                          <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6> 
-                                          <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>    
-                                          
-                                          <br>                 
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-down"></i>
-                                          <a class="p5abre" id="p5abre"><i>Saiba mais...</i></a>                  
-                                          </div>
-                                    </div>
-                                    <div class="autor5-foto">
-                                          <img id="img5" src="fotos/alexandre.png" height="auto" width="45%"/>           
-                                    </div>
-                              </div>
-                              <br>
-                              
-                              <div class="p5" id="p5" style="display: none">
-                              
-                                    <div class="autor5" title="Fechar"> 
-                                          <div class="descAutor5 row" >
-                                                <div class="descIntro5 col">
-                                                <br>
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Esta palestra conta como eu me envolvi com a tecnologia Blockchain e oferece uma visão pragmática da utilidade desta tecnologia, discutindo quais os casos de uso viáveis, como ela pode ser usada com sucesso, e onde seu uso não faz sentido, fazendo relação com as questões de confiança, segurança e privacidade envolvidas. O objetivo da palestra e alimentar o senso crítico da plateia em uma discussão sobre o potencial de uso da tecnologia blockchain ilustrada por erros, armadilhas, mitos e acertos, sem exageros e com os pés no chão.</p>
-                                                </div>                             
-                                    
-                                          
-                                                <div class="autor5-bio col"> 
-                                                <br>
-                                                <h6><i>Alexandre Melo Braga</i></h6>            
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;Doutor em ciência da computação nas áreas de criptografia aplicada, segurança de software e desenvolvimento de software seguro. Com 20 anos de experiência, já atuou como pesquisador e consultor em projetos para telecomunicações, bancos, operadoras de cartão de crédito, operadoras de planos de saúde, agências governamentais, forças armadas e comércio de varejo, sempre voltado para a utilização correta da criptografia e segurança de software sobre tecnologias específicas, tais como, software embarcado, meios de pagamento, smartTVs, aplicações móveis, IoT e Blockchain. Possui as certificações PMP, CISSP, CSSLP.</p>             
-                                                </div>
-                                          </div>
-                                          <br>
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-up"></i>
-                                          <a class="p5fecha" id="p5fecha"><i>&nbsp;Fechar</i></a> 
-                                          </div>  
-                                                                 
-                                          
-                                    </div>
-                                    
-                              </div>  
-
-                        </div>
-
-                        <div class="autor6-main" id="autor6Main" >
-                              
-                              <h5>6ª PALESTRA: Papel da Inteligência Artificial e Máquinas de Aprendizado na CyberSegurança na atualidade.</h5>
-                              <div class="frontFoto6" title="Saiba mais">
-                                    <div style="width:40%">
-                                          
-                                          <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Rafael Righi (Suntech).</h6>
-                                          <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6>    
-                                          <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>      <br>             
-                                          <div id="saibaMais">
-                                                <i class="fas fa-chevron-down"></i>
-                                                <a class="p6abre" id="p6abre"><i>Saiba mais...</i></a>                  
-                                          </div>
-                                    </div>
-                                    <div class="autor6-foto">
-                                          <img id="img6" src="fotos/rafael.jpg" height="auto" width="45%"/>
-                                          
-                                    </div>
-                              </div>      
-                              <br>
-                              
-                              <div class="p6" id="p6" style="display: none">  
-                                    
-                                    <br>                               
-                                    <div class="autor6" title="Fechar">
-                                          <div class="descAutor6 row">                                                
-                                                <div class="descIntro col">                                                      
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Os desafios de segurança na atualidade são imensos. Os vetores de ataque são em maior quantidade e complexidade (por onde vem o ataque). A complexidade dos ataques também tem aumentado e ataques direcionados e aqueles considerados APT são uma realidade. Também destacamos a avalanche de informações, alertas e logs gerados pelas ferramentas de segurança e sensores. Nesse cenário fica praticamente inviável que soluções de segurança obtenham sucesso sem utilizar recursos de automação e inteligência para ganhar escala e assertividade nas suas missões. Essa palestra irá falar sobre o cenário atual de segurança e como a inteligência artificial (e seu ramo Machine Learning) tem ajudado na construção de soluções de segurança mais preparadas para os desafios de hoje!</p>
-                                                </div>                                    
-                                                
-                                                <div class="autor6-bio col">   
-                                                      <h6><i>Rafael Righi</i></h6> 
-                                                      <p>&nbsp;&nbsp;&nbsp;&nbsp;Graduado em Ciência da Computação pela UFSM e Mestre em Ciência da Computação pela UFSC, com ênfase em segurança de sistemas computacionais, Rafael é Gerente de Soluções na Verint com atuação em soluções de cibersegurança para o governo e setor corporativo. Trabalhou para RNP, SENAI, Brasil Telecom e Oi com infra-estrutura de redes e segurança da informação. Além disso, Rafael também atua como professor da Academia Cisco.</p>                        
-                                                </div>
-                                          </div>
-
-                                          <div id="saibaMais">
-                                          <i class="fas fa-chevron-up"></i>
-                                          <a class="p6fecha" id="p6fecha"><i>&nbsp;Fechar</i></a> 
-                                          </div>
-                                                    
-                                                
-                                    </div>
-                                    
-                              </div>  
-                        
-                        </div>               
-               </div>   
-                  
-
-      <h3>Workshop</h3>
-            <div class="workshop" id="workShop">
-                  <div class="workshop-main">
-                        <h5>Threat Defense Workshops</h5>
-                                    
-                        <div title="Detalhes">
-                              <div class="works row">
-                                    
-                                    <div class="col-sm-12 col-md-12 col-lg-6 ml-1">                                        
-                                          <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Ministrantes: Amanda Veras e Tatiana Borher.</h6>
-                                          <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Auditório</h6>    
-                                          <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>                                                     <br> 
-                                    
-                                          <p>
-                                          &nbsp;&nbsp;&nbsp;&nbsp;O 'Threat Defense Workshop' trata-se de uma simulação de ciberataque, para “pensar como hacker” e aprender como proteger-se! É extremamente difícil fazer uma simulação de um ciberataque no dia a dia, por isso estamos convidando-o(a) para executar esse ciberataque em um ambiente controlado, com as mesmas ferramentas e técnicas usadas pelos hackers e, logo depois, planejar e implementar a segurança necessária para bloquear esse tipo de ataque.
-                                          </p> 
-                                    </div>
-                                    
-                                    <div class="carousel slide carousel-fade col" data-ride="carousel">
-                                          <br>
-                                          <br>
-                                          <div class="carousel-item active">
-                                                <img class="d-block w-100" src="fotos/pixabay1peixes.jpg" alt="Peixes">
-                                          </div>
-                                          <div class="carousel-item">
-                                                <img class="d-block w-100" src="fotos/pixabay2coral.jpg" alt="Coral">
-                                          </div>
-                                          <div class="carousel-item">
-                                                <img class="d-block w-100" src="fotos/pixabay3costa.jpg" alt="Costa">
-                                          </div>                                                                        <div class="carousel-item">
-                                                      <img class="d-block w-100" src="fotos/pixabay4jellyfish.jpg" alt="Costa">
-                                          </div> 
-                                          
-                                          <div class="carousel-item">
-                                                      <img class="d-block w-100" src="fotos/pixabay6sunrise.jpg" alt="Costa">                                                
-                                          </div> 
-                                          <div id="pixabay" style="font-size: 8px">
-                                                <p>Fotos: Pixabay</p> 
-                                          </div>    
-                                    </div>
-                                    
-
-                              </div>                 
-                              <br>
-                              <div id="saibaMais">
-                                    <i class="fas fa-chevron-down"></i>
-                                    <a class="wshopabre" id="wshopAbre"><i>Detalhes...</i></a>                  
-                              </div>
-                              <br>
-                              <a href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/2836" target="_blank" style="text-decoration-line: none" ><i class='fas fa-upload'></i>&nbsp;&nbsp;Inscrição</a></a>   
-                                                
-                        </div>
-                        
-
-                        <div class="wshop-detalhes" id="wsDetalhes" style="display: none" title="Fechar">
-                              
-                              <div class="wshop-detalhes1">
-                                    
-                                    <div class="wconceito">
-                                    
-                                    <h6>Conceito</h6>
-                                    <p>O Threat Defense Workshop trata-se de uma simulação de ciberataque, para “pensar como hacker” e aprender como proteger-se! É extremamente difícil fazer uma simulação de um ciberataque no dia a dia, por isso estamos convidando-o(a) para executar esse ciberataque em um ambiente controlado, com as mesmas ferramentas e técnicas usadas pelos hackers e, logo depois, planejar e implementar a segurança necessária para bloquear esse tipo de ataque.
-                                    </p>
-                                    <br>
-                                    <h6>Objetivo</h6>
-                                    <p>
-                                    Este evento tempo objetivo estimular a comunidade da área de TI no que tange ao desenvolvimento de soluções para segurança cibernética. Através de um desafio busca-se preparar as pessoas para este cenário que tanto aflige a todos em um mundo conectado, fazendo com que as mesmas sejam replicadoras da segurança cibernética e as possibilidades de soluções para a segurança cibernética da população em geral.
-                                    </p>
-                                    <br>
-                                    <h6>Sobre os Ministrantes</h6>
-                                    <p>
-                                    <b><i>Amanda Veras</i></b> é coordenadora do setor de .......<br>
-                                    <b><i>Tatiana Bohrer</i></b> é professora e especialista no campo de ....
-                                    </p>
-                                    </div>
-                              
-                                    <div class="wformato">
-                                    <h6>Formato</h6>
-                                    <ul>
-                                          <li>Os participantes serão divididos em equipes de 4 ou 5 pessoas.</li>
-                                          <li>Cada equipe terá a missão de atacar e se defender, como se fossem hackers.</li>
-                                          <li>Desta forma terão a oportunidade de compreenderem melhor as técnicas utilizadas pelos invasores virtuais.</li>
-                                          <li>Durante 5 horas as equipes multidisciplinares competirão entre si para resolver a maior quantidade de desafios de ataque e defesa. Com o auxílio de um especialista da área.</li>
-                                    </ul>
-                                    <br>
-                                    <h6>Pre-requisitos</h6>
-                                    <p>Desejável ter conhecimento técnico nos seguintes temas:</p>
-                                    <ul>
-                                    <li>Comandos básicos de Windows e Linux;</li> 
-                                    <li>Conhecimento de Redes;</li>
-                                    <li>Conhecimento básico sobre ameaças.</li>
-                                    </ul>
-
-                                    <p>Cada participante deve trazer seu notebook com a seguinte configuração mínima:</p>
-                                    <ul>
-                                    <li>4G de RAM; 1CPU, 50G de Disco Rígido;</li> 
-                                    <li>Sistema Operativo Windows, Linux, MAC;</li>
-                                    <li>Navegador de Internet (Internet Explorer, Firefox, Chrome, Safari) sem restrições de PROXY;</li>
-                                    <li>Rede sem fio.</li>
-                                    </ul>
-
-                                    </div>
-                              </div>
-                              <div class="inscricao">                  
-                                    <h6>VALOR DA INSCRIÇÃO</h6>
-                                    <ul>
-                                          <li>Pessoas já inscritas no Computer on the Beach: Isento.</li>
-                                          <li>Pessoas não inscritas no Computer on the Beach: R$ 70,00.</li>
-                                    </ul>
-                              </div>
-                                          
-                              
-                              <br>
-                              <div id="saibaMais">
-                              <i class="fas fa-chevron-up"></i>
-                              <a class="p6fecha" id="p6fecha"><i>&nbsp;Fechar</i></a> 
-                              </div>             
-                        </div>            
-                        
-                      
-                  </div>
-            </div>  
-
-      
-
-      <h3>Minicursos</h3>
-         <div class="minicursos">
-            <div class="mc1-main" id="mc1Main">
-               <h5>MC1: Detectando dados úteis na Web e trabalhando com eles.</h5>
-                  <div class="frontFotoMc1" title="Detalhes">
-                        <div style="width: 50%">
-                              <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Carina F. Dorneles</h6>
-                              <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Sala 05</h6>
-                              <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>
-                              
-                              <p>&nbsp;&nbsp;&nbsp;&nbsp;Neste minicurso, serão discutidas questões referentes à natureza, detecção e ao uso do “Big Data”, mais especificamente, do Big Data presente na Web.</p>
-                              
-                              <div id="saibaMais">
-                                    <i class="fas fa-chevron-down"></i>
-                                    <a class="mini1abre" id="mini1Aabre"><i>Detalhes...</i></a>                  
-                              </div>    
-                              <br>
-                              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-Q9gkYwKKmmNZjxbievJRboaNJ4bz9-uzzIwwSWS8R09i5Q/closedform" target="_blank" style="text-decoration-line: none"><i class='fas fa-upload'></i>&nbsp;&nbsp;Pré-inscrição</a> 
-                        </div>
-                        <div class="autormc1-foto">
-                              <img id="imgMc1" src="fotos/carinaDorneles.jpg" height="auto" width="45%"/>
-                        </div>
-
-                  </div>                   
-                  
-               <div class="mc1" id="idMc1" style="display: none" title="Fechar">
-                        
-                        
-                        <div class="autormc1">   
-                              <div class="descAutorMc1 row">
-                                    <div class="descIntroMc1 col">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;Neste minicurso, serão discutidas questões referentes à natureza, detecção e ao uso do “Big Data”, mais especificamente, do Big Data presente na Web. O objetivo geral é introduzir o público na área de detecção e extração de conteúdo Web. Para isso, são mostrados: uma visão geral do conceito de Big Data sob o ponto de vista de sua natureza não estruturada, compreensão dos formatos de dados disponíveis, detecção de conteúdo útil e extração de dados, além de uma breve introdução de alguns aspectos de análise e identificação de conteúdo útil, usando web crawling/scraping. Similaridade e deduplicação de dados, resolução de entidade e reconhecimento de entidades nomeadas também serão discutidos.</p>
-                                    </div>
-                        
-                                    
-                                    <div class="autormc1-bio col">   
-                                          <h6><i>Carina F. Dorneles</i></h6>       
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;Professora no Departamento de Informática e Estatística (INE) da UFSC. Membro da Comissão Especial de Banco de Dados da SBC. Membro da Comissão de Avaliação Quadrienal Capes – 2017. Atua em pesquisa, ensino e orientação nos níveis de IC, graduação, mestrado e doutorado. Seus interesses de pesquisa incluem as áreas de Gerenciamento de Dados, Recuperação de Informação, Mineração de Dados com ênfase na Web, Descoberta de Conhecimento e Extração e Matching de Informação.</p>                        
-                                    </div>                             
-                                        
-                                    
-                              </div>
-
-                              <div id="saibaMais">
-                                    <i class="fas fa-chevron-up"></i>
-                                    <a class="mc1fechafecha" id="mc1Fecha"><i>&nbsp;Fechar</i></a> 
-                              </div>   
-                        </div>
-                        
-                  </div>  
-                 
-            </div>   
-
-            
-            <div class="mc2-main" id="mc2Main">
-               <h5>MC2: Introdução às tecnologias blockchain e suas aplicações</h5>
-               <div class="frontFotoMc2" title="Detalhes">   
-                     <div style="width: 50%">       
-                        <h6><i class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;Palestrante: Alexandre Melo Braga (UNICAMP)</h6>
-                        <h6><i class="fas fa-map-marker-alt"></i></i>&nbsp;&nbsp;&nbsp;&nbsp;Local: Sala 05</h6>
-                        <h6><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;Data / Horário: 01/06/2020 às 16:00 hrs.</h6>
-                        
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;Este minicurso aborda as tecnologias componentes de uma blockchain de modo introdutório e amplo, indo além das criptomoedas como o Bitcoin, proporcionando ao participante uma visão geral sobre o assunto.</p>
-                  
-                        <div id="saibaMais">
-                              <i class="fas fa-chevron-down"></i>
-                        <a class="pmini2abre" id="pmini2Abre"><i>Detalhes...</i></a>  
-                        </div>
-                        <br>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-Q9gkYwKKmmNZjxbievJRboaNJ4bz9-uzzIwwSWS8R09i5Q/closedform" target="_blank" style="text-decoration-line: none"><i class='fas fa-upload'></i>&nbsp;&nbsp;Pré-inscrição</a> 
-                     </div>
-                     <div class="autormc2-foto">
-                        <img id="imgMc2" src="fotos/alexandre.png" height="auto" width="45%"/>
-                     </div>
-               </div>
-                  <div class="mc2" id="idMc2" style="display: none" title="Fechar">
-                        
-                        
-                        <div class="autormc2">   
-                              <div class="descAutorMc2 row">
-                                    <div class="descIntroMc2 col">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;Este minicurso aborda as tecnologias componentes de uma blockchain de modo introdutório e amplo, indo além das criptomoedas como o Bitcoin, proporcionando ao participante uma visão geral sobre o assunto. O minicurso tem o objetivo de introduzir os participantes aos aspectos práticos do conjunto de tecnologias que formam uma blockchain e que são necessárias ao desenvolvimento de aplicações confiáveis, facilitando o aprofundamento em estudos futuros. Neste contexto, as criptomoedas são tratadas como exemplos específicos das tecnologias blockchain. Além disso, o minicurso explica os conceitos fundamentais de blockchain, descreve as plataformas modernas, como Hyperledger e Ethereum, mostra programas de computador para smart contracts e aborda as arquiteturas de aplicação para blockchain e seus protocolos de consenso. Finalmente, o minicurso também discute aspectos de segurança inerentes à tecnologia..</p>
-                                    </div>    
-                              
-                                          
-                                    <div class="autormc2-bio col">  
-                                          <h6><i>Alexandre Braga</i></h6> 
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;Doutor em ciência da computação nas áreas de criptografia aplicada, segurança de software e desenvolvimento de software seguro. Com 20 anos de experiência, já atuou como pesquisador e consultor em projetos para telecomunicações, bancos, operadoras de cartão de crédito, operadoras de planos de saúde, agências governamentais, forças armadas e comércio de varejo, sempre voltado para a utilização correta da criptografia e segurança de software sobre tecnologias específicas, tais como, software embarcado, meios de pagamento, smartTVs, aplicações móveis, IoT e Blockchain. Possui as certificações PMP, CISSP, CSSLP.</p>                        
-                                    </div>
-                              </div>
-                              <div id="saibaMais">
-                                    <i class="fas fa-chevron-up"></i>
-                                    <a class="mc2fecha" id="mc2Fecha"><i>&nbsp;Fechar</i></a> 
-                              </div>             
-                                          
-                        </div>
-                              
-                  </div>  
+        <div class="content">
+            <img src="img/logo.png" height="150px"/>
+            <div class="data-hora">
+                <h2>Balneário Camboriú <span>1-3 de abril de 2020</span></h2>
             </div>
-               
-      </div>   
-      
-      <h3>Demais Atividades</h3>
-         <div class="demais-atividades">
-               <div class="demais-atividades-main">
-                  
-                  <h5>Programação Detalhada</h5>
-
-                  <p>Painel, Sessões Técnicas, Concurso de Trabalhos Técnicos.</p>
-                  <br>
-                  <a href="gradeDeProgramacao.html" target="_blank" style="text-decoration-line: none" ><i>Acesse aqui...</i></a>
-               </div>
-
-         </div>     
-
-
-      </div>
-
-      
-      </main>
-      <br>
-
-      <footer>
-             <br>
-            <div id="realizacoes">
-                <h1>Realização</h1>
-                <br>
-                <img src="fotos/univali.png" />
+        </div>
+        
+    </div>
+    <nav>
+        <img src="img/logo.png"/>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">Chamadas</a>
+            </li>
+            <li>
+                <a href="">Conheça BC</a>
+            </li>
+            <li>
+                <a href="">Organização</a>
+            </li>
+            <li>
+                <a href="">Anais</a>
+            </li>
+            <li>
+                <a href="">2019</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="evento">
+        <h2>Conheça o Evento <span>11º Edição</span></h2>
+        
+        <p>A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.</p>
+        <p>Trata-se de um evento técnico-científico que visa reunir profissionais, pesquisadores e acadêmicos da área de computação, a fim de discutir as tendências de pesquisa e mercado da computação em suas mais diversas áreas.</p>
+        <p>O evento procura unir o útil ao agradável em prol de um intercâmbio de experiências, discutindo de maneira informal, porém técnica, misturando atividades técnico-científicas com atividades de lazer, ao ar livre, das quais se pode desfrutar das belezas de Florianópolis durante o verão.</p>
+        <p class="lead">Em 2020, esperamos por você para aproveitar conosco a 11ª edição do Computer on the Beach.</p>
+        <div class="galeria">
+            <img src="img/foto1.jpg" />
+            <img src="img/foto2.jpg" />
+            <img src="img/foto1.jpg" />
+        </div>
+    </section>
+    <section id="balneario">
+        <div class="grid">
+            <h2>Conheça Balneário Camboriú</h2>
+            <div class="texto">
+                <p>A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.</p>
+               <p class="lead">Em 2019, esperamos por você para aproveitar conosco a 10ª edição do Computer on the Beach.</p>
             </div>
-
-            <div id="patrocinio">
-                <h1>Patrocínio</h1>
-                <img src="fotos/sicoob.png"/>
-                <img src="fotos/exact.png" />
-                <img src="fotos/segware.png" />
-                <img src="fotos/suntech.png" />
-                <img src="fotos/trendmicro.png"/>
+            <div class="image">
+                <img src="img/foto1.jpg">
             </div>
-
-            <div id="apoio">
-                <h1>Apoio</h1>
-                <img src="fotos/sicoob.png" />
-                <img src="fotos/exact.png" />
-                <img src="fotos/segware.png" />
-            </div>
-
-            <div id="apoioInstitucional">
-                <h1>Apoio Institucional</h1>
-                <img src="fotos/sicoob.png" />
-                <img src="fotos/exact.png" />
-                <img src="fotos/segware.png"/>
-            </div>  
-            
-            <div id="logoFim">
-                <a href="index.html"><img src="fotos/logo.png" class="logo"></a>               
-            </div>
-      </footer>
-  </body>
-  
-  </html>
+        </div>
+        
+    </section>
+    <footer>
+        <h2>Realização</h2>
+        <div class="marcas">
+            <img src="img/liab.svg"/>
+            <img src="img/liab.svg"/>
+            <img src="img/liab.svg"/>
+            <img src="img/liab.svg"/>
+            <img src="img/liab.svg"/>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
