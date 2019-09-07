@@ -1,0 +1,126 @@
+$coral: rgba(250, 114, 104, 1);
+$preto: rgba(10, 17, 40, 1);
+$menta: rgba(143, 214, 189, 1);
+$hortela: rgba(0, 178, 169, 1);
+$branco: rgba(255, 255, 255, 1);
+$branco-smoke:rgba(240, 246, 247, 1);
+
+$hero-gradient-opacity: .3;
+$hero-local-gradient-opacity: .7;
+
+$break-large: 800px;
+nav{
+    margin: 30px;
+    margin-top: -50px;
+    transition: .3s ease;
+    border-radius: 5px;
+    &.is-fixed-top{
+        border-radius: 0;
+        margin: 0;
+        border-bottom: 3px solid $menta;
+    }
+    .navbar-item{
+        color: $hortela;
+        transition: .9s ease;
+        &:hover{
+            background-color: $menta;
+            color: $preto;
+            transform: scale(1.05);
+        }
+        img{
+            max-height: 3rem;
+        }
+    }
+}
+.floating-date{
+    margin-top: -50px;
+    text-align: right;
+    color: $branco;
+    background-color: $hortela;
+}
+section{
+    &.section{
+        .container{
+            @media screen and (min-width: $break-large) {
+                padding: 50px 15%;
+            }
+        }
+    }
+    
+    .title{
+        color: $hortela;
+        font-size: 2rem;
+    }
+    .subtitle{
+        font-size: 1.2rem;
+        color: $menta;
+    }
+    p{
+        text-align: justify;
+        &.lead{
+            font-style: italic;
+            color: $hortela;
+            font-size: 1.3rem;
+        }
+    }
+    &.hero{
+        &.is-primary{
+            &.is-bold{
+                background-image: url('img/bg3.jpg');
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        }
+        .hero-body{
+            background-image: linear-gradient(to bottom right,rgba($coral,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity));
+            .container{
+                text-align: center;
+            }
+        }
+    }
+    &#evento{
+        .galeria{
+            margin-top: 20px;
+        }
+        img{
+            opacity: .7;
+            max-width: 100%;
+            transition: .6s ease-in-out;
+            z-index: 1;
+            &:hover{
+                z-index: 2;
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+footer{
+    padding: 20px 10px;
+    @media screen and (min-width: $break-large) {
+        padding: 75px 15%;
+    }
+    text-align: center;
+    h2{
+        color: $hortela;
+        display: inline;
+        font-size: 2rem;
+        text-align: center;
+        span{
+            display: block;
+            font-size: 1.2rem;
+            color: $menta;
+        }
+    }
+    background-color: $preto;
+    .marcas{
+        margin-top: 30px;
+        img{
+            max-width: 100%;
+            opacity: .7;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+nav {
+  margin: 30px;
+  margin-top: -50px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border-radius: 5px;
+}
+
+nav.is-fixed-top {
+  border-radius: 0;
+  margin: 0;
+  border-bottom: 3px solid #8fd6bd;
+}
+
+nav .navbar-item {
+  color: #00b2a9;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+nav .navbar-item:hover {
+  background-color: #8fd6bd;
+  color: #0a1128;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+nav .navbar-item img {
+  max-height: 3rem;
+}
+
+.floating-date {
+  margin-top: -50px;
+  text-align: right;
+  color: white;
+  background-color: #00b2a9;
+}
+
+@media screen and (min-width: 800px) {
+  section.section .container {
+    padding: 50px 15%;
+  }
+}
+
+section .title {
+  color: #00b2a9;
+  font-size: 2rem;
+}
+
+section .subtitle {
+  font-size: 1.2rem;
+  color: #8fd6bd;
+}
+
+section p {
+  text-align: justify;
+}
+
+section p.lead {
+  font-style: italic;
+  color: #00b2a9;
+  font-size: 1.3rem;
+}
+
+section.hero.is-primary.is-bold {
+  background-image: url("img/bg3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.hero .hero-body {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.3)), to(rgba(143, 214, 189, 0.3)));
+  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.3), rgba(143, 214, 189, 0.3));
+}
+
+section.hero .hero-body .container {
+  text-align: center;
+}
+
+section#evento .galeria {
+  margin-top: 20px;
+}
+
+section#evento img {
+  opacity: .7;
+  max-width: 100%;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
+  z-index: 1;
+}
+
+section#evento img:hover {
+  z-index: 2;
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #0a1128;
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    padding: 75px 15%;
+  }
+}
+
+footer h2 {
+  color: #00b2a9;
+  display: inline;
+  font-size: 2rem;
+  text-align: center;
+}
+
+footer h2 span {
+  display: block;
+  font-size: 1.2rem;
+  color: #8fd6bd;
+}
+
+footer .marcas {
+  margin-top: 30px;
+}
+
+footer .marcas img {
+  max-width: 100%;
+  opacity: .7;
+}
+
+footer .marcas img:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=styles.css.map */
