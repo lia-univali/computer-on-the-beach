@@ -13,3 +13,9 @@ function onScroll() {
         $('body').css("padding-top", 0)
     }
 }
+
+$(window).on('scroll', function () {
+    var pixs = $(document).scrollTop()
+    pixs = 1- pixs / $('.hero-body').height()/1.5;
+    $(".hero-body").css({"opacity": pixs })     
+});

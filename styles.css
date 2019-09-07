@@ -69,8 +69,8 @@ section.hero.is-primary.is-bold {
 }
 
 section.hero .hero-body {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.3)), to(rgba(143, 214, 189, 0.3)));
-  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.3), rgba(143, 214, 189, 0.3));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.6)), to(rgba(143, 214, 189, 0.6)));
+  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.6), rgba(143, 214, 189, 0.6));
 }
 
 section.hero .hero-body .container {
