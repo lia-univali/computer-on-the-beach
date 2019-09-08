@@ -3,7 +3,8 @@ nav {
   margin-top: -50px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 5px 20px;
 }
 
 nav.is-fixed-top {
@@ -27,6 +28,18 @@ nav .navbar-item:hover {
 
 nav .navbar-item img {
   max-height: 3rem;
+  height: 42px;
+}
+
+nav #nav-logo-name {
+  height: 0;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+}
+
+nav.is-fixed-top #nav-logo-name {
+  max-height: 3rem;
+  height: 42px;
 }
 
 .floating-date {
@@ -69,31 +82,35 @@ section.hero.is-primary.is-bold {
 }
 
 section.hero .hero-body {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.6)), to(rgba(143, 214, 189, 0.6)));
-  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.6), rgba(143, 214, 189, 0.6));
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.4)), to(rgba(143, 214, 189, 0.4)));
+  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.4), rgba(143, 214, 189, 0.4));
 }
 
 section.hero .hero-body .container {
   text-align: center;
 }
 
-section#evento .galeria {
+section .galeria {
   margin-top: 20px;
 }
 
-section#evento img {
+section .galeria img {
   opacity: .7;
   max-width: 100%;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
   z-index: 1;
 }
 
-section#evento img:hover {
+section .galeria img:hover {
   z-index: 2;
   opacity: 1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+section#balneario {
+  background-color: #f0f6f7;
 }
 
 footer {

@@ -5,7 +5,7 @@ $hortela: rgba(0, 178, 169, 1);
 $branco: rgba(255, 255, 255, 1);
 $branco-smoke:rgba(240, 246, 247, 1);
 
-$hero-gradient-opacity: .6;
+$hero-gradient-opacity: .4;
 $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
@@ -13,7 +13,8 @@ nav{
     margin: 30px;
     margin-top: -50px;
     transition: .3s ease;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 5px 20px ;
     &.is-fixed-top{
         border-radius: 0;
         margin: 0;
@@ -29,6 +30,17 @@ nav{
         }
         img{
             max-height: 3rem;
+            height: 42px;
+        }
+    }
+    #nav-logo-name{
+        height: 0;
+        transition: .6s ease;
+    }
+    &.is-fixed-top{
+        #nav-logo-name{
+            max-height: 3rem;
+            height: 42px;
         }
     }
 }
@@ -78,14 +90,12 @@ section{
             }
         }
     }
-    &#evento{
-        .galeria{
-            margin-top: 20px;
-        }
+    .galeria{
+        margin-top: 20px;
         img{
             opacity: .7;
             max-width: 100%;
-            transition: .6s ease-in-out;
+            transition: .3s ease-in-out;
             z-index: 1;
             &:hover{
                 z-index: 2;
@@ -93,6 +103,13 @@ section{
                 transform: scale(1.1);
             }
         }
+    }
+    &#evento{
+        
+        
+    }
+    &#balneario{
+        background-color: $branco-smoke;
     }
 }
 footer{

@@ -16,6 +16,8 @@ function onScroll() {
 
 $(window).on('scroll', function () {
     var pixs = $(document).scrollTop()
-    pixs = 1- pixs / $('.hero-body').height()/1.5;
-    $(".hero-body").css({"opacity": pixs })     
+    var scr = pixs/2
+    pixs = 1- pixs / $('.hero-body').height()/7;
+    $(".hero-body").css({"opacity": pixs })
+    $('#hero-logo').css({"transform": 'translateY('+scr+'px)'})
 });
