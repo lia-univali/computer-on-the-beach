@@ -9,6 +9,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="menu.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
     <script src="main.js"></script>
   </head>
   <body>
@@ -77,9 +79,9 @@
         <p>O evento procura unir o útil ao agradável em prol de um intercâmbio de experiências, discutindo de maneira informal, porém técnica, misturando atividades técnico-científicas com atividades de lazer, ao ar livre, das quais se pode desfrutar das belezas de Florianópolis durante o verão.</p>
         <p class="lead">Em 2020, esperamos por você para aproveitar conosco a 11ª edição do Computer on the Beach.</p>
         <div class="columns is-desktop galeria">
-          <div class="column"><img src="img/cotb1.jpg" /></div>
-          <div class="column"><img src="img/cotb2.jpg" /></div>
-          <div class="column"><img src="img/cotb3.jpg" /></div>
+            <div class="column"><a href="img/full/cotb1.png" data-lightbox="computer"><img src="img/cotb1.jpg" /></a></div>
+            <div class="column"><a href="img/full/cotb2.jpg" data-lightbox="computer"><img src="img/cotb2.jpg" /></a></div>
+            <div class="column"><a href="img/full/cotb3.jpg" data-lightbox="computer"><img src="img/cotb3.jpg" /></a></div>
         </div>
       </div>
     </section>
@@ -89,31 +91,48 @@
         <h1 class="title">Conheça Balneário</h1>
         <div class="columns is-desktop is-8">
           <div class="column">
-            <p>A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.</p>
+            <img src="img/bc.png" />
           </div>
           <div class="column">
-              <img src="img/bc.png" />
+            <p>A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.</p>
           </div>
-          
         </div>
         <div class="columns is-desktop galeria">
-          <div class="column"><img src="img/bc1.jpg" /></div>
-          <div class="column"><img src="img/bc2.jpg" /></div>
-          <div class="column"><img src="img/bc3.jpg" /></div>
+          <div class="column"><a href="img/full/bc1.jpg" data-lightbox="bc"><img src="img/bc1.jpg" /></a></div>
+          <div class="column"><a href="img/full/bc2.jpg" data-lightbox="bc"><img src="img/bc2.jpg" /></a></div>
+          <div class="column"><a href="img/full/bc3.jpg" data-lightbox="bc"><img src="img/bc3.jpg" /></a></div>
         </div>
       </div>
     </section>
-
-    <footer>
-      <h2>Realização</h2>
-      <div class="columns is-desktop marcas">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"><img src="img/liab.svg" /></div>
-        <div class="column"><img src="img/liab.svg" /></div>
-        <div class="column"><img src="img/liab.svg" /></div>
-        <div class="column"></div>
-        <div class="column"></div>
-  </footer>
+    <section class="section" id="realizacao">
+      <div class="container">
+        <h1 class="title">Realização</h1>
+        <div class="columns is-desktop marcas">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"><img src="img/liab.svg" /></div>
+          <div class="column"><img src="img/liab.svg" /></div>
+          <div class="column"><img src="img/liab.svg" /></div>
+          <div class="column"></div>
+          <div class="column"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <span class="icon has-text-info">
+              <i class="fas fa-code"></i>
+          </span> with 
+          <span class="icon has-text-danger">
+            <i class="far fa-heart"></i>
+          </span>
+          <a href="https://alissonsteffens.com">Alisson</a>, 
+          <a href="https://alissonsteffens.com">Djony</a> and 
+          <a href="https://alissonsteffens.com">Alex</a> at
+          <a href="http://opensource.org/licenses/mit-license.php"><img src="img/lia.svg" /></a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
