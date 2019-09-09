@@ -6,7 +6,7 @@ $(document).ready(function() {
 function onScroll() {
     if (navOffsetTop < $(window).scrollTop() && !$('nav').hasClass('is-fixed-top')) {
         $('nav').addClass('is-fixed-top')
-        $('body').css("padding-top", $('nav').height()-50)
+        $('body').css("padding-top", $('nav').height())
     }
     if (navOffsetTop > $(window).scrollTop() && $('nav').hasClass('is-fixed-top')) {
         $('nav').removeClass('is-fixed-top')

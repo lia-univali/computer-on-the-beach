@@ -10,10 +10,10 @@ $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
 nav{
-    margin: 30px;
-    margin-top: -50px;
     transition: .3s ease;
-    border-radius: 10px;
+    &.navbar{
+        background-color: $branco-smoke;
+    }
     
     &.is-fixed-top{
         border-radius: 0;
@@ -35,6 +35,18 @@ nav{
         img{
             max-height: 3rem;
             height: 42px;
+        }
+    }
+    .navbar-item, .button.is-primary{
+        font-size: 1.35rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .button.is-primary{
+        background-image: linear-gradient(to bottom right,$menta, $hortela);
+        transition: 0.6s ease;
+        &:hover{
+            background: $hortela;
         }
     }
     #nav-logo-name{
