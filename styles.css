@@ -120,6 +120,7 @@ section.hero.is-primary.is-bold {
   background-image: url("img/bg3.jpg");
   background-size: cover;
   background-attachment: fixed;
+  background-position-y: 85%;
 }
 
 section.hero .hero-body {
