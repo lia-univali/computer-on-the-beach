@@ -33,7 +33,7 @@ nav .menu-real .navbar-item:hover {
 
 nav .menu-real .navbar-item img {
   max-height: 3rem;
-  height: 42px;
+  height: 48px;
 }
 
 nav .navbar-item, nav .button.is-primary {
@@ -59,16 +59,31 @@ nav #nav-logo-name {
   transition: .6s ease;
 }
 
-nav.is-fixed-top #nav-logo-name {
-  max-height: 3rem;
-  height: 42px;
+nav #nav-logo-icon {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+nav.is-fixed-top #nav-logo-name, nav.is-fixed-top #nav-logo-icon {
+  height: 32px;
+  -webkit-transform: scale(2) translateX(0.5rem);
+          transform: scale(2) translateX(0.5rem);
+}
+
+nav.is-fixed-top #nav-logo-icon {
+  -webkit-transform: scale(1.7) translateX(2rem);
+          transform: scale(1.7) translateX(2rem);
 }
 
 .floating-date {
   margin-top: -50px;
   text-align: right;
-  color: #fadbdb;
+  color: white;
   background-color: #00b2a9;
+}
+
+section {
+  font-size: 20px;
 }
 
 @media screen and (min-width: 800px) {
@@ -97,6 +112,10 @@ section p.lead {
   font-size: 1.3rem;
 }
 
+section.hero {
+  overflow: hidden;
+}
+
 section.hero.is-primary.is-bold {
   background-image: url("img/bg3.jpg");
   background-size: cover;
@@ -112,8 +131,17 @@ section.hero .hero-body .container {
   text-align: center;
 }
 
+section #logobc {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
 section .galeria {
   margin-top: 20px;
+}
+
+section .galeria .column {
+  text-align: center;
 }
 
 section .galeria img {
@@ -139,19 +167,52 @@ section#balneario {
 }
 
 section#realizacao {
+  text-align: center;
   background-color: #0a1128;
 }
 
 section#realizacao .marcas {
   margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+}
+
+section#realizacao .marcas.linha1 {
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+section#realizacao .marcas.linha2 {
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+section#realizacao .marcas .logo-span {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
 }
 
 section#realizacao .marcas img {
-  max-width: 100%;
-  opacity: .7;
+  max-height: 25px;
+  -webkit-filter: grayscale(100%) brightness(10000000%);
+          filter: grayscale(100%) brightness(10000000%);
+  opacity: 1;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+@media screen and (min-width: 800px) {
+  section#realizacao .marcas img {
+    max-height: 32px;
+  }
 }
 
 section#realizacao .marcas img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   opacity: 1;
 }
 

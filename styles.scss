@@ -2,7 +2,7 @@ $coral: rgba(250, 114, 104, 1);
 $preto: rgba(10, 17, 40, 1);
 $menta: rgba(143, 214, 189, 1);
 $hortela: rgba(0, 178, 169, 1);
-$branco: rgb(250, 219, 219);
+$branco: rgb(255, 255, 255);
 $branco-smoke:rgba(240, 246, 247, 1);
 
 $hero-gradient-opacity: .5;
@@ -23,6 +23,7 @@ nav{
     .navbar-brand{
         padding-left: 20px;
         padding-top: 5px;
+        
     }
     .menu-real .navbar-item{
         color: $hortela;
@@ -34,7 +35,7 @@ nav{
         }
         img{
             max-height: 3rem;
-            height: 42px;
+            height: 48px;
         }
     }
     .navbar-item, .button.is-primary{
@@ -52,11 +53,18 @@ nav{
     #nav-logo-name{
         height: 0;
         transition: .6s ease;
+
+    }
+    #nav-logo-icon{
+        transform: scale(1.7);
     }
     &.is-fixed-top{
-        #nav-logo-name{
-            max-height: 3rem;
-            height: 42px;
+        #nav-logo-name, #nav-logo-icon{
+            height: 32px;
+            transform: scale(2) translateX(.5rem);
+        }
+        #nav-logo-icon{
+            transform: scale(1.7) translateX(2rem);
         }
     }
 }
@@ -67,6 +75,7 @@ nav{
     background-color: $hortela;
 }
 section{
+    font-size: 20px;
     &.section{
         .container{
             @media screen and (min-width: $break-large) {
@@ -92,6 +101,7 @@ section{
         }
     }
     &.hero{
+        overflow: hidden;
         &.is-primary{
             &.is-bold{
                 background-image: url('img/bg3.jpg');
@@ -106,9 +116,13 @@ section{
             }
         }
     }
+    #logobc{
+        transform: scale(.8);
+    }
     .galeria{
         margin-top: 20px;
         .column{
+            text-align: center;
         }
         img{
             opacity: .7;
@@ -132,13 +146,32 @@ section{
         background-color: $branco-smoke;
     }
     &#realizacao{
-        background-color: $preto;
-        .marcas{
-            margin-top: 30px;
+        text-align: center;
+        background-color: $preto;        
+        .marcas{            
+            margin-top: 30px;            
+            display: grid;
+            &.linha1{
+                grid-template-columns: auto auto auto; 
+            }
+            &.linha2{
+                grid-template-columns: auto auto auto auto; 
+            }
+            .logo-span{
+                grid-column-start: 2;
+            }                      
+            grid-gap: 10px;
             img{
-                max-width: 100%;
-                opacity: .7;
+                max-height: 25px;
+                @media screen and (min-width: $break-large) {
+                    max-height: 32px;
+                }
+                filter: grayscale(100%) brightness(10000000%);
+                opacity: 1;
+                transition: .2s ease;
                 &:hover{
+                    filter: none;
+                    transform: scale(1.01);
                     opacity: 1;
                 }
             }

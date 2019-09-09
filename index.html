@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Computer on the Beach</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="menu.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
     <script src="main.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
     <section class="hero is-medium is-primary is-bold">
@@ -87,32 +88,45 @@
     <section class="section" id="balneario">
       <div class="container">
         <h1 class="title">Conheça Balneário</h1>
-        <div class="columns is-desktop is-8">
-          <div class="column">
-            <img src="img/bc.png" />
+        <div class="columns is-desktop is-8 is-vcentered">
+          <div class="column ">
+            <img src="img/bc.png" id="logobc"/>
           </div>
           <div class="column">
-            <p>A Universidade do Vale do Itajaí – UNIVALI e a EMCT- Escola do Mar, Ciência e Tecnologia, através dos seus cursos de Ciência da Computação Campus Kobrasol e Engenharia de Computação do Campus Itajaí realizam anualmente o COMPUTER ON THE BEACH.</p>
+            <p>Balneário Camboriú é uma cidade turística no estado de Santa Catarina, no sul do Brasil. É conhecida pelos grandes edifícios e por praias como a Praia Central. Bares, restaurantes e lojas preenchem a Avenida Atlântica, uma avenida movimentada junto à praia. O Parque Unipraias fica na foz do Rio Camboriú e oferece vistas a partir das tirolesas e dos teleféricos. O monumento Cristo Luz, uma enorme estátua de Cristo, contempla a cidade.</p>
           </div>
         </div>
         <div class="columns is-desktop galeria">
-          <div class="column"><a href="img/full/bc1.jpg" data-lightbox="bc"><img src="img/bc1.jpg" /></a></div>
-          <div class="column"><a href="img/full/bc2.jpg" data-lightbox="bc"><img src="img/bc2.jpg" /></a></div>
-          <div class="column"><a href="img/full/bc3.jpg" data-lightbox="bc"><img src="img/bc3.jpg" /></a></div>
+          <div class="column"><a href="img/full/bc1.jpg" data-lightbox="bc" data-title="Ilha das Cabras"><img src="img/bc1.jpg" /></a></div>
+          <div class="column"><a href="img/full/bc2.jpg" data-lightbox="bc" data-title="Praia do Estaleirinho" ><img src="img/bc2.jpg" /></a></div>
+          <div class="column"><a href="img/full/bc3.jpg" data-lightbox="bc"  data-title="Praia Central"><img src="img/bc3.jpg" /></a></div>
         </div>
       </div>
     </section>
     <section class="section" id="realizacao">
       <div class="container">
         <h1 class="title">Realização</h1>
-        <div class="columns is-desktop marcas">
-          <div class="column"></div>
-          <div class="column"></div>
-          <div class="column"><img src="img/liab.svg" /></div>
-          <div class="column"><img src="img/liab.svg" /></div>
-          <div class="column"><img src="img/liab.svg" /></div>
-          <div class="column"></div>
-          <div class="column"></div>
+        <div class="marcas">
+          <div class=""><img src="img/liab.svg" /></div>          
+        </div>
+        <h1 class="title">Patrocinio</h1>
+        <div class="marcas linha1">
+          <div class="logo"><img src="img/sicobc.png" /></div>  
+          <div class="logo"><img src="img/sicobc.png" /></div>
+          <div class="logo"><img src="img/sicobc.png" /></div>
+          
+        </div>
+        <div class="marcas linha2">
+          <div class="logo-span"><img src="img/sicobc.png" /></div>
+          <div class="logo"><img src="img/sicobc.png" /></div>
+        </div>
+        <h1 class="title">Apoio</h1>
+        <div class="marcas">
+          <div class=""><img src="img/liab.svg" /></div>     
+        </div>
+        <h1 class="title">Apoio Institucional</h1>
+        <div class="marcas">
+          <div class=""><img src="img/liab.svg" /></div>     
         </div>
       </div>
     </section>
