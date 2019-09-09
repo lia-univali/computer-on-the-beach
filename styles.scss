@@ -14,13 +14,17 @@ nav{
     margin-top: -50px;
     transition: .3s ease;
     border-radius: 10px;
-    padding: 5px 20px ;
+    
     &.is-fixed-top{
         border-radius: 0;
         margin: 0;
         border-bottom: 3px solid $menta;
     }
-    .navbar-item{
+    .navbar-brand{
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .menu-real .navbar-item{
         color: $hortela;
         transition: .9s ease;
         &:hover{

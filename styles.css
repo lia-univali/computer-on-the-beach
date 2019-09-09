@@ -4,7 +4,6 @@ nav {
   -webkit-transition: .3s ease;
   transition: .3s ease;
   border-radius: 10px;
-  padding: 5px 20px;
 }
 
 nav.is-fixed-top {
@@ -13,20 +12,25 @@ nav.is-fixed-top {
   border-bottom: 3px solid #8fd6bd;
 }
 
-nav .navbar-item {
+nav .navbar-brand {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+nav .menu-real .navbar-item {
   color: #00b2a9;
   -webkit-transition: .9s ease;
   transition: .9s ease;
 }
 
-nav .navbar-item:hover {
+nav .menu-real .navbar-item:hover {
   background-color: #8fd6bd;
   color: #0a1128;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
-nav .navbar-item img {
+nav .menu-real .navbar-item img {
   max-height: 3rem;
   height: 42px;
 }
