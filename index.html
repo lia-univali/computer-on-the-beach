@@ -16,23 +16,26 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
-    <section class="hero is-medium is-primary is-bold">
+    <section class="hero is-medium is-primary is-bold" id="hero">
       <div class="hero-body">
+          
         <div class="container">
           <h1 class="title">
-            <img src="img/logowhite.png" id="hero-logo"/>
+            <img src="img/logo.png" id="hero-logo"/>
           </h1>
+          
         </div>
       </div>
     </section>
     
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="#">
+        <a class="navbar-item" href="#hero">
           <img src="img/logofirst.png" id="nav-logo-name">
           <img src="img/logoicon.png" id="nav-logo-icon">
+          
         </a>
-    
+        
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -41,17 +44,19 @@
       </div>
     
       <div id="navbarBasicExample" class="navbar-menu">
+          
         <div class="menu-real navbar-end">
-          <a class="navbar-item">
-            Home
+          <a class="navbar-item" href="#evento">
+            Evento
           </a>
-          <a class="navbar-item">
-            Chamadas
-          </a>
-          <a class="navbar-item">
+          <a class="navbar-item" href="#balneario">
             Balneário
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item" href="#chamadas">
+            Chamadas
+          </a>
+          
+          <a class="navbar-item" href="#realizacao">
             Organização
           </a>
           <a class="navbar-item">
@@ -104,6 +109,65 @@
         </div>
       </div>
     </section>
+
+    <section class="section" id="chamadas">
+      <div class="container">
+        <h1 class="title">Chamadas</h1>
+          <div class="tile is-ancestor">
+            <div class="tile is-5 is-vertical is-parent">
+              <div class="tile is-child box" id="datas-importantes">
+                <p class="title">Datas Importantes</p>
+                <ul>
+                  <li><strong class="data">15/10/2019</strong> Registro dos trabalhos</li>
+                  <li><strong class="data">19/10/2019</strong> Submissão do texto completo</li>
+                  <li><strong class="data">15/12/2019</strong> Notificação de aceite</li>
+                  <li><strong class="data">12/02/2020</strong> Versão final</li>
+                  <li><strong class="data">01/04/2020</strong> Início do Evento</li>
+                </ul>  
+              </div>
+              <div class="tile is-child box is-vcentered" id="autores">
+                <p class="title">Instruções para Autores</p>
+                <a class="button is-primary is-inverted is-medium is-fullwidth">Artigos Completos</a>
+                <a class="button is-primary is-medium is-fullwidth">Resumos Estendidos</a>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <div class="tile is-child box" id="topicos">
+                <p class="title">Topicos</p>
+                <p>Os autores estão convidados a submeter trabalhos originais de suas pesquisas científicas ou tecnológicas na forma de artigo científico ou resumo estendido nos seguintes tópicos abaixo sugeridos (mas não limitados a estes):</p>
+                <ul>
+                  <li>Automação de sistemas</li>
+                  <li>Banco de dados</li>
+                  <li>Ciência de dados</li>
+                  <li>Computação Gráfica</li>
+                  <li>Computação móvel</li>
+                  <li>Cultura Digital</li>
+                  <li>Engenharia de software</li>
+                  <li>Inclusão Digital</li>
+                  <li>Informática na Educação</li>
+                  <li>Inteligência Artificial</li>
+                  <li>Interação Humano-Computador</li>
+                  <li>Jogos Digitais</li>
+                  <li>Jogos Educativos</li>
+                  <li>Mulheres na Computação</li>
+                  <li>Processamento Digital de Imagens</li>
+                  <li>Redes de computadores</li>
+                  <li>Segurança e Privacidade em Sistemas Computacionais</li>
+                  <li>Sistemas de informações</li>
+                  <li>Sistemas distribuídos</li>
+                  <li>Sistemas embarcados</li>
+                  <li>Sistemas Multimídia</li>
+                  <li>Visão Computacional</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
     <section class="section" id="realizacao">
       <div class="container">
         <h1 class="title">Realização</h1>

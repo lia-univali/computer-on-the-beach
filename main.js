@@ -1,6 +1,14 @@
 var navOffsetTop
 $(document).ready(function() {
     navOffsetTop = $('nav').offset().top
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
     $(window).on('scroll', onScroll)
 })
 function onScroll() {
@@ -21,3 +29,4 @@ $(window).on('scroll', function () {
     $(".hero-body").css({"opacity": pixs })
     $('#hero-logo').css({"transform": 'translateY('+scr+'px)'})
 });
+

@@ -152,15 +152,10 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: url("img/bg3.jpg");
+  background-image: url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position-y: 100%;
-}
-
-section.hero .hero-body {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(250, 114, 104, 0.5)), to(rgba(143, 214, 189, 0.5)));
-  background-image: linear-gradient(to bottom right, rgba(250, 114, 104, 0.5), rgba(143, 214, 189, 0.5));
 }
 
 section.hero .hero-body .container {
@@ -168,8 +163,10 @@ section.hero .hero-body .container {
 }
 
 section.hero img {
-  max-height: 100%;
-  height: 200px;
+  max-width: 100%;
+  width: 500px;
+  -webkit-filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(-1px 0 white) drop-shadow(1px 1px 0 white) drop-shadow(-2px 0 white) drop-shadow(0px 0 white) drop-shadow(-1px 1px 0 white);
+          filter: drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(-1px 0 white) drop-shadow(1px 1px 0 white) drop-shadow(-2px 0 white) drop-shadow(0px 0 white) drop-shadow(-1px 1px 0 white);
 }
 
 section #logobc {
@@ -205,6 +202,97 @@ section .galeria img:hover {
 
 section#balneario {
   background-color: #f0f6f7;
+}
+
+section#chamadas p.title {
+  font-size: 1.9rem;
+  text-align: center;
+  font-weight: 600;
+  color: #00a897;
+}
+
+section#chamadas ul li {
+  font-weight: 500;
+}
+
+section#chamadas ul li strong {
+  font-weight: 700;
+}
+
+section#chamadas .tile {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+section#chamadas .tile#datas-importantes {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#8fd6bd), to(#00a897));
+  background-image: linear-gradient(to top right, #8fd6bd, #00a897);
+}
+
+section#chamadas .tile#datas-importantes .title {
+  color: white;
+}
+
+section#chamadas .tile#datas-importantes li {
+  background-color: white;
+  color: #0a1128;
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1rem;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+section#chamadas .tile#datas-importantes li strong {
+  display: block;
+  color: #00a897;
+  font-size: 1.2rem;
+}
+
+section#chamadas .tile#datas-importantes li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section#chamadas .tile#autores {
+  background: #0a1128;
+  color: white;
+}
+
+section#chamadas .tile#autores .title {
+  color: white;
+}
+
+section#chamadas .tile#autores a {
+  margin-top: 1rem;
+}
+
+section#chamadas .tile#topicos ul {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+section#chamadas .tile#topicos ul li {
+  font-size: .9rem;
+}
+
+section#chamadas .tile#topicos ul li:before {
+  color: #8fd6bd;
+  font-size: 1rem;
+  content: "\26ac";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
 }
 
 section#realizacao {

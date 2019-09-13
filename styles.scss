@@ -9,6 +9,9 @@ $hero-gradient-opacity: .5;
 $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
+$logo-border-weight: 1px;
+$date-text-stroke: 3px;
+$date-text-color: $branco;
 nav{
     transition: .3s ease;
     &.navbar{
@@ -57,6 +60,7 @@ nav{
             100% { transform: scale(1); }
         }
     }
+   
     #nav-logo-name{
         height: 0;
         transition: .6s ease;
@@ -115,21 +119,25 @@ section{
         overflow: hidden;
         &.is-primary{
             &.is-bold{
-                background-image: url('img/bg3.jpg');
+                background-image: url('img/bg.jpg');
                 background-size: cover;
                 background-attachment: fixed;
                 background-position-y:100%;
             }
         }
         .hero-body{
-            background-image: linear-gradient(to bottom right,rgba($coral,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity));
+            //background-image: linear-gradient(to bottom right,rgba($coral,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity));
             .container{
                 text-align: center;
+                
             }
+           
         }
         img{
-            max-height: 100%;
-            height: 200px;
+            max-width: 100%;
+            width: 500px;
+            filter: drop-shadow($logo-border-weight 0 0 white) drop-shadow(-$logo-border-weight 0 0 white) drop-shadow(0 $logo-border-weight 0 white) drop-shadow(0 -$logo-border-weight 0 white) 
+            drop-shadow($logo-border-weight $logo-border-weight 0 white) drop-shadow(-$logo-border-weight -$logo-border-weight 0 white) drop-shadow($logo-border-weight -$logo-border-weight 0 white) drop-shadow(-$logo-border-weight $logo-border-weight 0 white);
         }
     }
     #logobc{
@@ -160,6 +168,82 @@ section{
     }
     &#balneario{
         background-color: $branco-smoke;
+    }
+    &#chamadas{
+        p{
+            &.title{
+                font-size: 1.9rem;
+                text-align: center;
+                font-weight: 600;
+                color: $hortela;
+            }   
+        }
+        ul{
+            li{
+                font-weight: 500;
+                strong{
+                    font-weight: 700;
+                }
+            }
+        }
+        .tile{
+            padding: 1rem;
+            border-radius: 1rem;
+            border: none;
+            &#datas-importantes{
+                background-image: linear-gradient(to top right,$menta, $hortela);
+                .title{
+                    color: $branco;
+                }
+                li{
+                    background-color: $branco;
+                    color: $preto;
+                    margin-top: 1rem;
+                    padding: .5rem 1rem;
+                    text-align: center;
+                    border-radius: 1rem;
+                    font-size: 1rem;
+                    strong{
+                        display: block;
+                        color: $hortela;
+                        font-size: 1.2rem;
+                    }
+                    transition: .3s ease;
+                    &:hover{
+                        transform: scale(1.05);
+                    }
+                }
+            }
+            &#autores{
+                background: $preto;
+                .title{
+                    color: $branco;
+                }
+                color: $branco;
+                a{
+                    margin-top: 1rem;
+                }
+            }
+            &#topicos{
+                ul{
+                    padding-top: 1rem;
+                    padding-left: 2rem;
+                    list-style-type: none;
+                    li{
+                        &:before{
+                            color: $menta;
+                            font-size: 1rem;
+                            content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                            font-weight: bold; /* If you want it to be bold */
+                            display: inline-block; /* Needed to add space between the bullet and the text */
+                            width: 1em; /* Also needed for space (tweak if needed) */
+                            margin-left: -1em; /* Also needed for space (tweak if needed) */
+                        }
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
     }
     &#realizacao{
         text-align: center;
