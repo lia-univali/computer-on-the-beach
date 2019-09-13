@@ -1,7 +1,7 @@
 $coral: rgba(250, 114, 104, 1);
 $preto: rgba(10, 17, 40, 1);
 $menta: rgba(143, 214, 189, 1);
-$hortela: rgba(0, 178, 169, 1);
+$hortela: rgb(0, 168, 151);
 $branco: rgb(255, 255, 255);
 $branco-smoke:rgba(240, 246, 247, 1);
 
@@ -44,10 +44,17 @@ nav{
         padding-right: 1rem;
     }
     .button.is-primary{
+        border: 0;
         background-image: linear-gradient(to bottom right,$menta, $hortela);
-        transition: 0.6s ease;
+        transition: 0.5s ease;
         &:hover{
             background: $hortela;
+            animation: btnanimation .4s;
+        }
+        @keyframes btnanimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
     }
     #nav-logo-name{
@@ -75,7 +82,6 @@ nav{
     background-color: $hortela;
 }
 section{
-    font-size: 20px;
     &.section{
         .container{
             @media screen and (min-width: $break-large) {
@@ -86,14 +92,19 @@ section{
     
     .title{
         color: $hortela;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .subtitle{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: $menta;
     }
     p{
+        font-size: 1.1rem;
         text-align: justify;
+        strong{
+            font-weight: 500;
+            color: $hortela;
+        }
         &.lead{
             font-style: italic;
             color: $hortela;
@@ -115,6 +126,10 @@ section{
             .container{
                 text-align: center;
             }
+        }
+        img{
+            max-height: 100%;
+            height: 200px;
         }
     }
     #logobc{
