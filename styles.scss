@@ -12,6 +12,7 @@ $break-large: 800px;
 $logo-border-weight: 1px;
 $date-text-stroke: 3px;
 $date-text-color: $branco;
+
 nav{
     transition: .3s ease;
     &.navbar{
@@ -42,9 +43,10 @@ nav{
         }
     }
     .navbar-item, .button.is-primary{
-        font-size: 1.35rem;
+        font-size: 1.05rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        //font-weight: 700;
     }
     .button.is-primary{
         border: 0;
@@ -166,7 +168,7 @@ section{
         
         
     }
-    &#balneario{
+    &#balneario, &#anais{
         background-color: $branco-smoke;
     }
     &#chamadas{
@@ -245,6 +247,9 @@ section{
             }
         }
     }
+    &#anais{
+        background-color: $branco-smoke;
+    }
     &#realizacao{
         text-align: center;
         background-color: $preto;        
@@ -260,12 +265,13 @@ section{
             .logo-span{
                 grid-column-start: 2;
             }                      
-            grid-gap: 10px;
+            grid-gap: 10px;                     
+            
             img{
                 max-height: 25px;
                 @media screen and (min-width: $break-large) {
                     max-height: 32px;
-                }
+                } 
                 filter: grayscale(100%) brightness(10000000%);
                 opacity: 1;
                 transition: .2s ease;
