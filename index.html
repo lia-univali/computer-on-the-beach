@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
     <script src="main.js"></script>
+    <script src="modal.js"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
   </head>
   <body>
@@ -53,10 +54,7 @@
             Balneário
           </a>
           <a class="navbar-item" href="#chamadas">
-            Chamadas COB
-          </a>
-          <a class="navbar-item" href="#chamadas-tecnicos">
-            Chamadas Trab. Técnicos
+            Chamadas
           </a>
           <a class="navbar-item" href="#realizacao">
             Organização
@@ -68,7 +66,7 @@
     
           <div class="navbar-item">
             <div class="buttons"  >
-              <a class="button is-primary" href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/2724" >
+              <a class="button is-primary" target="_blank" href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/2724" >
                 <strong>Increva-se</strong>
               </a>
             </div>
@@ -113,23 +111,23 @@
 
     <section class="section" id="chamadas">
       <div class="container">
-        <h1 class="title">Chamadas COB</h1>
+        <h1 class="title">Chamadas</h1>
           <div class="tile is-ancestor">
             <div class="tile is-5 is-vertical is-parent">
               <div class="tile is-child box" id="datas-importantes">
                 <p class="title">Datas Importantes</p>
                 <ul>
-                  <li><strong class="data">15/10/2019</strong> Registro dos trabalhos (cadastro do abstract no JEMS)</li>
-                  <li><strong class="data">19/10/2019</strong> Submissão do texto completo</li>
-                  <li><strong class="data">15/12/2019</strong> Notificação de aceite</li>
-                  <li><strong class="data">12/02/2020</strong> Versão final</li>
+                  <li><strong class="data">27/10/2019</strong> Registro dos trabalhos <small>(cadastro do abstract no JEMS)</small></li>
+                  <li><strong class="data">03/11/2019</strong> Submissão do texto completo</li>
+                  <li><strong class="data">10/02/2020</strong> Notificação de aceite</li>
+                  <li><strong class="data">20/02/2020</strong> Versão final</li>
                   <li><strong class="data">01/04/2020</strong> Início do Evento</li>
                 </ul>  
               </div>
               <div class="tile is-child box is-vcentered" id="autores">
                 <p class="title">Instruções para Autores</p>
-                <a class="button is-primary is-inverted is-medium is-fullwidth">Trilha Geral</a>
-                <a class="button is-primary is-medium is-fullwidth">Concursos de Trab. Técnicos</a>
+                <a class="button is-primary is-inverted is-medium is-fullwidth open-modal" data-modal-id="#modal-principal">Trilha Geral</a>
+                <a class="button is-primary is-medium is-fullwidth open-modal" data-modal-id="#modal-trabalhos"> Concursos de Trab. Técnicos</a>
               </div>
             </div>
             <div class="tile is-parent">
@@ -168,52 +166,32 @@
       </div>
     </section>
 
-    <section class="section" id="balneario" id="chamadas-tecnicos" >
-        <div class="container">
-          <h1 class="title">Chamadas Trabalhos Técnicos</h1>
-          
-        </div>
-      </section>
 
-    <section class="section" id="anais">
+    <section class="section" id="anais" >
       <div class="container">
-        <h1 class="title">Anais</h1>
-        <h2 class="subtitle">
-          Anais da edição 2019. <a>Clique aqui.</a>
-        </h2>
-        <h2 class="subtitle">
-          Anais da edição 2018. <a>Clique aqui.</a>
-        </h2>
-        <h2 class="subtitle">
-          Anais das edições anteriores. <a>Clique aqui.</a>
-        </h2>
-      </div>
-    </section>  
+        <h1 class="title">Anais <span class="subtitle">- Edições</span></h1>
 
-    <section class="section" id="balneario" id="anais" >
-      <div class="container">
-        <h1 class="title">Anais</h1>
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title"></p>
-              <p class="subtitle">Edição 2019, <br><a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/533">acesse aqui</a>.</p>
-            </article>
+        <div class="columns">
+          <div class="column">
+            <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/533" target="_blank">
+              <article class="">
+                <p class="title">2019</p>
+              </article>
+            </a>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title"></p>
-              <p class="subtitle">Edição 2018,<br> <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/488">acesse aqui</a>.</p>
-            </article>
+          <div class="column">
+            <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/488" target="_blank">
+              <article class="">
+                <p class="title">2018</p>
+              </article>
+            </a>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title"></p>
-              <p class="subtitle">Edições anteriores, <br><a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/archive" >acesse aqui</a>.</p>
-              <div class="content">
-                <p></p>
-              </div>
-            </article>
+          <div class="column">
+            <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/archive" target="_blank">
+              <article class="">
+                <p class="title">Anteriores</p>
+              </article>
+            </a>
           </div>
         </div>
       </div>
@@ -223,7 +201,7 @@
       <div class="container">
         <h1 class="title">Realização</h1>
         <div class="marcas">
-          <div class=""><img src="img/univali.png" /></div>          
+          <div class="" ><img id="univali-logo" src="img/univali.svg" /></div>          
         </div>
         <h1 class="title">Patrocinio</h1>
         <div class="marcas linha1">
@@ -262,5 +240,200 @@
         </p>
       </div>
     </footer>
+
+    <div class="modal" id="modal-principal">
+      <div class="modal-background" data-modal-id="#modal-principal"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Trilha Principal</p>
+          <button class="delete close-modal" data-modal-id="#modal-principal" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <h2>CHAMADA DE TRABALHOS</h2>
+            <h3>Computer on the Beach 2020 – 11ª Edição - Conferência Qualis B4</h3>
+            <h5>Balneário Camboriu SC – Brasil</h5>
+            <h5>1 a 4 de abril, 2020</h5>
+            <h5>www.computeronthebeach.com.br</h5>
+            <br>
+            <p>O Computer on the Beach é um evento técnico-científico, classificado no estrato B4 no Qualis Conferências na área de Computação, que visa reunir profissionais, pesquisadores e acadêmicos da área de computação, a fim de discutir as tendências de pesquisa e mercado da computação aplicada, tendo como pano de fundo a educação, o entretenimento, a saúde, o meio ambiente e a cultura digital. Em 2020, estaremos comemorando 11 anos do evento.</p>
+            <br>
+            <h5><a href="https://submissoes.sbc.org.br/home.cgi?c=3195" title="Registre e submeta" target="_blank" ><i class="fas fa-external-link-alt"></i> Registro e submissão</a></h5>
+            <br>
+            <p>Os autores estão convidados a submeter trabalhos originais de suas pesquisas científicas ou tecnológicas na forma de artigo científico ou resumo estendido nos seguintes tópicos abaixo sugeridos (mas não limitados a estes): </p>
+            <br>
+            <h3>INSTRUÇÕES PARA AUTORES</h3>
+            <br>            
+            <p>Há dois tipos de submissão:</p>
+            <br>
+            <ul>
+              <li><strong>Artigos Completos:</strong> o artigo deve descrever atividades de pesquisa, relatos de experiências relevantes e estudos de casos e deve ter no máximo 10 (dez) páginas. Os artigos aceitos serão apresentados em sessões técnicas (oralmente).</li>
+              <li><strong>Resumo Estendido:</strong> o resumo deve descrever trabalhos em andamento que ainda não apresentaram resultados consolidados e deve ter até 2 (duas) páginas. Os trabalhos aceitos serão apresentados em sessões de pôsteres.  <a href="https://www.computeronthebeach.com.br/wp-content/uploads/2019/02/Banner-cotb_2019.pptx" title="Download do Modelo"><i class="fas fa-download"></i> Download do modelo</a>.</li>
+            </ul>
+            <br>
+            <p>Os trabalhos podem ser escritos em português ou inglês e submetidos exclusivamente em formato PDF. A formatação do texto deve seguir o padrão da SBC para escrita de artigos, disponível em <a  href="http://www.sbc.org.br/" title="SBC - Modelo Artigo Completo" target="_blank"> <i class="fas fa-external-link-alt"></i>  www.sbc.org.br (Modelo Artigo Completo)</a>. Trabalhos fora do formato não serão aceitos para avaliação. Quanto ao formato dos resumos estendidos, estes não precisam do resumo inicial, mas devem conter o abstract e no mínimo as seções Introdução, Solução Proposta, Considerações Finais e Referências. As submissões eletrônicas deverão ser feitas através do <a href="https://submissoes.sbc.org.br/home.cgi?c=3195" title="Sistema JEMS da SBC" target="_blank"><i class="fas fa-external-link-alt"></i> sistema JEMS da SBC</a>.</p>
+            <br>
+            <p>Todos os trabalhos devem ser submetidos de forma anônima, ou seja, devem evitar qualquer informação no cabeçalho do artigo, no texto e nas referências que vinculem o artigo à identidade dos autores e suas instituições. Trabalhos que não cumprirem esta regra serão rejeitados. Todos os trabalhos serão avaliados por um corpo de revisores, seguindo um processo de revisão duplamente cega (sem identificação dos autores, revisores e suas instituições). Serão observados os critérios de originalidade, relevância, apresentação e qualidade técnica no julgamento dos trabalhos.</p>
+            <br>
+            <p><strong>Importante:</strong> Os trabalhos aceitos deverão ser apresentados no evento por um dos autores para que possam ser publicados nos anais do Computer on the Beach. Uma comissão de avaliação escolherá os melhores dentre os artigos completos e resumos estendidos aceitos e apresentados no evento. Para cada artigo ou resumo aceito para publicação no Computer on the Beach é necessário, no mínimo, a inscrição de um dos autores (inscrição como autor de trabalho) até o dia <strong>(qual a data)</strong>.</p>
+
+            <p>Para submeter o seu trabalho, acesse:</p>
+            <br>
+            <h6><a href="https://submissoes.sbc.org.br/home.cgi?c=3198" title="Link para submissão" target="_blank"><i class="fas fa-external-link-alt"></i> Link para submissão</a></h6>
+            <h6><a href="https://www.computeronthebeach.com.br/wp-content/uploads/2019/02/Banner-cotb_2019.pptx" title="Modelo do poster para o evento" target="_blank"><i class="fas fa-download"></i> Download do modelo do poster</a></h6>            
+            <br>
+            <h3>Coordenação Geral:</h3>
+            <h6>Anita Maria da Rocha Fernandes (UNIVALI)</h6>
+            <br>
+            <h3>Coordenação do Comitê de Programa:</h3>
+            <h6>Fabiane Benitti (UFSC)</h6>
+            <h6>Michelle S. Wangham (UNIVALI)</h6>
+            <br>
+            <p><strong>Contato:</strong> <a href="malito:computeronthebeach@univali.br" target="_blank"; text-decoration-line: none > computeronthebeach@univali.br</a></p> 
+            <br>
+            <h3>Comite de Programa:</h3>            
+            <div class="tile" id="comitePrograma">
+
+              <ul>
+                  <li>Adriana Alves UNIVALI</li>
+                  <li>Aldebaro Klautau UFPA</li>
+                  <li>Aldelir Fernando Luiz IFC</li>
+                  <li>Alessandro Bovo UTFPR</li>
+                  <li>Alessandro Copetti UFF</li>
+                  <li>Alexandre Gonçalves Silva UFSC</li>
+                  <li>Alexandre Prusch Züge UFPR</li>
+                  <li>Ana Cláudia Gomes de Oliveira </li>
+
+                  <li>Diego Rocha UFMG</li>
+                  <li>Edelberto Silva UFJF</li>
+                  <li>Eden Dosciatti UTFPR</li>
+                  <li>Edgard Correa UFRN</li>
+                  <li>Edson Bez UNIVALI</li>
+                  <li>Edson Tavares de Camargo UTFPR</li>
+                  <li>Eduardo Damasceno UTFPR</li>
+                  <li>Eduardo Feitosa UFAM</li>
+
+                  <li>Kathya Linares UTFPR</li>
+                  <li>Kelvin Dias UFPE</li>
+                  <li>Leonardo Medeiros IFAL</li>
+                  <li>Leticia Leite UNB</li>
+                  <li>Lucas Wanner UNICAMP</li>
+                  <li>Luciana Frigo UFSC</li>
+                  <li>Luciana Rech UFSC</li>
+                  <li>Luciano Bertini UFF</li>
+
+                  <li>Raimundo Teive UNIVALI</li>
+                  <li>Raqueline Penteado UEM</li>
+                  <li>Razer Montaño UFPR</li>
+                  <li>Ríad Nassiffe IFC</li>
+                  <li>Rúbia Ascari UTFPR</li>
+                  <li>Rebeca Schroeder UDESC</li>
+                  <li>Renato Balancieri UEM</li>
+                  <li>Ricardo Pfitscher UFRGS</li>
+              </ul>
+            </div>
+
+        </section>
+        <footer class="modal-card-foot">          
+          <button class="button close-modal" data-modal-id="#modal-principal" >Fechar</button>
+        </footer>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-trabalhos">
+      <div class="modal-background" data-modal-id="#modal-trabalhos"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Trabalhos Técnicos</p>
+          <button class="delete close-modal" data-modal-id="#modal-trabalhos" aria-label="close"></button>
+        </header> 
+        <section class="modal-card-body">
+            <h2>CHAMADA PRELIMINAR DE TRABALHOS</h2>
+            <h3>8° CONCURSO DE TRABALHOS TÉCNICOS EM INFORMÁTICA – Computer on the Beach 2020 – 11a Edição</h3>
+            <h5>Balneário Camboriu SC – Brasil</h5>
+            <h5>1 a 4 de abril, 2020</h5>
+            <h5>www.computeronthebeach.com.br</h5>
+            <br>
+            <p>O 8º Concurso de Trabalhos Técnicos em Informática, inserido no contexto do evento
+                Computer on the Beach, premiará os trabalhos desenvolvidos por alunos matriculados no ano
+                de 2019 em cursos técnicos da área da tecnologia da informação, do ensino médio (integrado
+                ou concomitante) e pós-médio (subsequente).</p>
+            <br>
+            <p>Os trabalhos deverão ser orientados por pelo menos 1 (um) professor, atuante no curso em
+                que os alunos estão matriculados; e deverão ser desenvolvidos por no mínimo 1 (um) aluno do
+                curso técnico da área da tecnologia da informação. Os demais alunos poderão estar
+                matriculados em cursos e/ou campi diferentes. Não é permitida a participação de alunos de
+                graduação ou pós-graduação, bem como especialistas externos.</p>
+            <br>
+            <p>A avaliação será conduzida em duas fases. Na primeira, os trabalhos submetidos (ver detalhes
+                abaixo) serão avaliados, a fim de selecionar os melhores trabalhos. Cada trabalho será
+                avaliado por, pelo menos, dois especialistas. Os trabalhos aceitos serão apresentados e
+                publicados nos anais do evento. Na segunda fase, deverá ser realizada a apresentação oral do
+                trabalho, na qual será considerada a qualidade da apresentação feita pelos autores.</p>
+            <br>
+            <p>Os autores que não submeterem a versão final e/ou não apresentarem o trabalho no evento
+                serão eliminados do concurso (casos especiais serão analisados pela comissão organizadora).
+                Poderão apresentar os trabalhos apenas os alunos autores.</p>
+            <br>
+            <p>Serão admitidos trabalhos nas seguintes categorias:</p>
+            <br>
+            <ul>
+              <li><strong>Pesquisa:</strong> o trabalho deve deixar claro qual é a contribuição na área da tecnologia da
+                  informação e a originalidade do tema.</li>
+              <li><strong>Extensão:</strong> o trabalho deverá mostrar a articulação entre a ação e a comunidade.</li>
+              <li>Ao final, uma discussão envolvendo os integrantes do Comitê do Concurso decidirá o melhor
+                  trabalho em cada categoria: pesquisa e extensão. O anúncio dos trabalhos premiados será
+                  feito no encerramento do evento.</li>
+            </ul>
+            <br>
+            <h3>INSTRUÇÕES PARA AUTORES</h3>
+            <br>
+            <p>Cada trabalho submetido deverá conter dois arquivos (em formato PDF):</p>
+            <br>
+            <ul>
+              <li><strong>Artigo Completo:</strong> o artigo deve descrever atividades de pesquisa, relatos deexperiências relevantes e estudos de casos e deve ter no máximo 4 (quatro) páginas.</li>
+              <li><strong>Declaração de matrícula</strong> contendo os nomes dos alunos em curso técnico.</li>
+            </ul>
+            <br>
+            <p>Os artigos podem ser escritos em português ou inglês e submetidos exclusivamente em
+                formato PDF. Todas as submissões devem estar no formato Adobe Portable Document Format
+                (PDF) e devem estar de acordo com o formato ACM de 2 colunas (ACM_SigConf) disponível na <a href="http://www.acm.org/publications/proceedings-template" target="_blank">acm.org</a>. Eles não devem ter mais de 4
+                páginas, incluindo todas as figuras e referências. Trabalhos fora do formato não serão aceitos
+                para avaliação. </p>
+            <br>
+            <p>O trabalho deve apresentar obrigatoriamente: título, autor, curso, instituição, orientador, com as
+                respectivas afiliações, resumo/abstract, texto e referências.</p>
+            <br>
+            <p><strong>Todos trabalhos devem ser submetidos de forma anônima</strong>, ou seja, devem evitar qualquer
+                informação no cabeçalho do artigo, no texto e nas referências que vinculem o artigo à
+                identidade dos autores e suas instituições. Essas informações devem ser cadastradas apenas
+                na plataforma de submissão. Apenas após a aceitação do artigo é que a versão final deve
+                conter os autores e as instituições.</p>
+            <br>
+            <p>Todos os artigos serão avaliados por um corpo de revisores, seguindo um processo de revisão
+                duplamente cega (sem identificação dos autores, revisores e suas instituições). Serão
+                observados os critérios de originalidade, relevância, apresentação e qualidade técnica no
+                julgamento dos trabalhos.</p>
+            <br>
+            <p><strong>Importante:</strong> Os trabalhos aceitos deverão ser apresentados no evento por um dos autores
+                para que possam ser publicados nos anais do Computer on the Beach. Uma comissão de
+                avaliação escolherá os melhores dentre os artigos aceitos e apresentados no evento. Para
+                cada artigo ou resumo aceito para publicação no Computer on the Beach é necessário, no
+                mínimo, a inscrição de um dos autores (inscrição como autor de trabalho) até o dia 10 de
+                março.</p>            
+            <br>
+            <h3>Coordenação Geral:</h3>
+            <h6>Anita Maria da Rocha Fernandes (UNIVALI)</h6>
+            <br>
+            <h3>Coordenação do Comitê de Programa:</h3>
+            <h6>Leonardo Ronald Perin Rauta, IFSC</h6>
+            <br>
+            <p><strong>Contato:</strong> <a href="malito:computeronthebeach@univali.br" target="_blank"; text-decoration-line: none; >  computeronthebeach@univali.br</a></p>    
+              
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button close-modal" data-modal-id="#modal-trabalhos" >Fechar</button>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>

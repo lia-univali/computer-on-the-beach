@@ -37,7 +37,7 @@ nav .menu-real .navbar-item img {
 }
 
 nav .navbar-item, nav .button.is-primary {
-  font-size: 1.35rem;
+  font-size: 1.05rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -131,17 +131,17 @@ section .subtitle {
   color: #8fd6bd;
 }
 
-section p {
+section p, section li {
   font-size: 1.1rem;
   text-align: justify;
 }
 
-section p strong {
+section p strong, section li strong {
   font-weight: 500;
   color: #00a897;
 }
 
-section p.lead {
+section p.lead, section li.lead {
   font-style: italic;
   color: #00a897;
   font-size: 1.3rem;
@@ -200,7 +200,7 @@ section .galeria img:hover {
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.541);
 }
 
-section#balneario {
+section#balneario, section#anais {
   background-color: #f0f6f7;
 }
 
@@ -270,29 +270,33 @@ section#chamadas .tile#autores a {
   margin-top: 1rem;
 }
 
-section#chamadas .tile#topicos ul {
-  padding-top: 1rem;
-  padding-left: 2rem;
-  list-style-type: none;
+section#anais {
+  background-color: #f0f6f7;
 }
 
-section#chamadas .tile#topicos ul li {
-  font-size: .9rem;
+section#anais .column article {
+  background-color: #00a897;
+  padding: 2rem 1rem;
+  border-radius: 20px;
+  height: 100%;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
-section#chamadas .tile#topicos ul li:before {
-  color: #8fd6bd;
-  font-size: 1rem;
-  content: "\26ac";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  font-weight: bold;
-  /* If you want it to be bold */
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
-  width: 1em;
-  /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
-  /* Also needed for space (tweak if needed) */
+section#anais .column article .title {
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+}
+
+section#anais .column article:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #8fd6bd;
+}
+
+section#anais .column article:hover .title {
+  color: white;
 }
 
 section#realizacao {
@@ -331,9 +335,16 @@ section#realizacao .marcas img {
   transition: .2s ease;
 }
 
+section#realizacao .marcas img#univali-logo {
+  max-height: 32px;
+}
+
 @media screen and (min-width: 800px) {
   section#realizacao .marcas img {
     max-height: 32px;
+  }
+  section#realizacao .marcas img#univali-logo {
+    max-height: 45px;
   }
 }
 
@@ -345,8 +356,65 @@ section#realizacao .marcas img:hover {
   opacity: 1;
 }
 
+#topicos ul, #comitePrograma ul {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+#topicos ul li, #comitePrograma ul li {
+  font-size: .9rem;
+}
+
+#topicos ul li:before, #comitePrograma ul li:before {
+  color: #8fd6bd;
+  font-size: 1rem;
+  content: "\26ac";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
 footer img {
   max-width: 100%;
   height: 1rem;
+}
+
+div#modal-principal .modal-card-foot, div#modal-principal .modal-card-head, div#modal-trabalhos .modal-card-foot, div#modal-trabalhos .modal-card-head {
+  background-color: #8fd6bd;
+}
+
+div#modal-principal .modal-card-foot p, div#modal-principal .modal-card-head p, div#modal-trabalhos .modal-card-foot p, div#modal-trabalhos .modal-card-head p {
+  color: #00a897;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+div#modal-principal h2, div#modal-trabalhos h2 {
+  color: #00a897;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+div#modal-principal h3, div#modal-trabalhos h3 {
+  color: #00a897;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+div#modal-principal h5, div#modal-trabalhos h5 {
+  color: #00a897;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+div#modal-principal a, div#modal-trabalhos a {
+  color: #00a897;
 }
 /*# sourceMappingURL=styles.css.map */
