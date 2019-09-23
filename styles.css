@@ -304,7 +304,8 @@ section#realizacao {
 }
 
 section#realizacao img {
-  max-height: 75px;
+  max-height: 90px;
+  max-width: 160px;
 }
 
 section#realizacao .marcas {
