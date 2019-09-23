@@ -104,8 +104,8 @@ nav.is-fixed-top #nav-logo-name, nav.is-fixed-top #nav-logo-icon {
 }
 
 nav.is-fixed-top #nav-logo-icon {
-  -webkit-transform: scale(1.7) translateX(2rem);
-          transform: scale(1.7) translateX(2rem);
+  -webkit-transform: scale(1.7) translateX(1.9rem) translateY(-0.1rem);
+          transform: scale(1.7) translateX(1.9rem) translateY(-0.1rem);
 }
 
 .floating-date {
@@ -252,14 +252,13 @@ section#chamadas .tile#datas-importantes li strong {
   font-size: 1.2rem;
 }
 
-section#chamadas .tile#datas-importantes li:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 section#chamadas .tile#autores {
   background: #0a1128;
   color: white;
+}
+
+section#chamadas .tile#autores .open-modal {
+  color: #0a1128;
 }
 
 section#chamadas .tile#autores .title {
@@ -292,7 +291,7 @@ section#anais .column article .title {
 section#anais .column article:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #8fd6bd;
+  background-color: #0a1128;
 }
 
 section#anais .column article:hover .title {
@@ -301,7 +300,11 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: #0a1128;
+  background-color: white;
+}
+
+section#realizacao img {
+  max-height: 75px;
 }
 
 section#realizacao .marcas {
@@ -381,40 +384,67 @@ section#realizacao .marcas img:hover {
   /* Also needed for space (tweak if needed) */
 }
 
+footer.footer {
+  background-color: #0a1128;
+  color: white;
+}
+
 footer img {
   max-width: 100%;
   height: 1rem;
 }
 
-div#modal-principal .modal-card-foot, div#modal-principal .modal-card-head, div#modal-trabalhos .modal-card-foot, div#modal-trabalhos .modal-card-head {
-  background-color: #8fd6bd;
+#modal-principal ul, #modal-trabalhos ul {
+  list-style: disc;
+  padding-left: 2rem;
 }
 
-div#modal-principal .modal-card-foot p, div#modal-principal .modal-card-head p, div#modal-trabalhos .modal-card-foot p, div#modal-trabalhos .modal-card-head p {
+#modal-principal .modal-card, #modal-trabalhos .modal-card {
+  border-radius: 1rem;
+}
+
+#modal-principal .modal-card-foot, #modal-principal .modal-card-head, #modal-trabalhos .modal-card-foot, #modal-trabalhos .modal-card-head {
+  background-color: #0a1128;
+}
+
+#modal-principal .modal-card-foot p, #modal-principal .modal-card-head p, #modal-trabalhos .modal-card-foot p, #modal-trabalhos .modal-card-head p {
   color: #00a897;
   font-size: 2rem;
   font-weight: 900;
 }
 
-div#modal-principal h2, div#modal-trabalhos h2 {
+#modal-principal .big-link, #modal-trabalhos .big-link {
+  text-align: center;
+}
+
+#modal-principal .big-link .this-icon, #modal-trabalhos .big-link .this-icon {
+  font-size: 3rem;
+  display: block;
+}
+
+#modal-principal .big-link .text, #modal-trabalhos .big-link .text {
+  display: block;
+}
+
+#modal-principal h2, #modal-trabalhos h2 {
   color: #00a897;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-div#modal-principal h3, div#modal-trabalhos h3 {
+#modal-principal h3, #modal-trabalhos h3 {
   color: #00a897;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-div#modal-principal h5, div#modal-trabalhos h5 {
+#modal-principal h5, #modal-trabalhos h5 {
   color: #00a897;
   font-size: 1rem;
   font-weight: 500;
 }
 
-div#modal-principal a, div#modal-trabalhos a {
+#modal-principal a, #modal-trabalhos a {
   color: #00a897;
 }
 /*# sourceMappingURL=styles.css.map */

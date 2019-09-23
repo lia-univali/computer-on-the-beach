@@ -77,7 +77,7 @@ nav{
             transform: scale(2) translateX(.5rem);
         }
         #nav-logo-icon{
-            transform: scale(1.7) translateX(2rem);
+            transform: scale(1.7) translateX(1.9rem) translateY(-.1rem);
         }
     }
 }
@@ -207,12 +207,15 @@ section{
                         font-size: 1.2rem;
                     }
                     transition: .3s ease;
-                    &:hover{
-                        transform: scale(1.05);
-                    }
+                    // &:hover{
+                    //     transform: scale(1.05);
+                    // }
                 }
             }
             &#autores{
+                .open-modal{
+                    color: $preto;
+                }
                 background: $preto;
                 .title{
                     color: $branco;
@@ -241,7 +244,7 @@ section{
                 transition: .3s ease;
                 &:hover{
                     transform: scale(1.05);
-                    background-color: $menta;
+                    background-color: $preto;
                     .title{
                         color: $branco;
                     }
@@ -252,7 +255,10 @@ section{
     }
     &#realizacao{
         text-align: center;
-        background-color: $preto;        
+        background-color: $branco;
+        img{
+            max-height: 75px;
+        }    
         .marcas{            
             margin-top: 30px;            
             display: grid;
@@ -311,42 +317,61 @@ section{
     }
 }
 footer{
+    &.footer{
+        background-color: $preto;
+        color: $branco;
+    }
+    
     img{
         max-width: 100%;
         height: 1rem;
         
     }
 }
-div{
-    &#modal-principal, &#modal-trabalhos{
-        .modal-card-foot, .modal-card-head {            
-            background-color: $menta;
-            p{
-                color: $hortela;
-                font-size: 2rem;
-                font-weight: 900;
-            }
-        }
-        h2{
+#modal-principal, #modal-trabalhos{
+    ul{
+        list-style: disc;
+        padding-left: 2rem;
+    }
+    .modal-card{
+        border-radius: 1rem;
+    }
+    .modal-card-foot, .modal-card-head {            
+        background-color: $preto;
+        p{
             color: $hortela;
-            font-size: 1.4rem;
-            font-weight: 700;            
-        }
-        h3{
-            color: $hortela;
-            font-size: 1.2rem;
-            font-weight: 600;            
-        }
-        h5{
-            color: $hortela;
-            font-size: 1rem;
-            font-weight: 500;            
-        }
-        a{
-            color: $hortela;
+            font-size: 2rem;
+            font-weight: 900;
         }
     }
-
+    .big-link{
+        text-align: center;
+        .this-icon{
+            font-size: 3rem;
+            display: block;
+        }
+        .text{
+            display: block;
+        }
+    }
+    h2{
+        color: $hortela;
+        font-size: 1.4rem;
+        font-weight: 700;            
+    }
+    h3{
+        color: $hortela;
+        font-size: 1.2rem;
+        font-weight: 600;            
+    }
+    h5{
+        color: $hortela;
+        font-size: 1rem;
+        font-weight: 500;            
+    }
+    a{
+        color: $hortela;
+    }
 }
 
 
