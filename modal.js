@@ -1,5 +1,4 @@
 function toggleModalClasses(event) {
-  console.log("entou")
   var modalId = event.currentTarget.dataset.modalId;
   var modal = $(modalId);
   modal.toggleClass('is-active');
