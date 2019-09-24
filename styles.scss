@@ -321,6 +321,15 @@ footer{
     &.footer{
         background-color: $preto;
         color: $branco;
+        a{
+            color: $hortela;
+        }
+        .fa-code{
+            color: $menta;
+        }
+        .fa-heart{
+            color: $coral;
+        }
     }
     
     img{

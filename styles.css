@@ -390,6 +390,18 @@ footer.footer {
   color: white;
 }
 
+footer.footer a {
+  color: #00a897;
+}
+
+footer.footer .fa-code {
+  color: #8fd6bd;
+}
+
+footer.footer .fa-heart {
+  color: #fa7268;
+}
+
 footer img {
   max-width: 100%;
   height: 1rem;
