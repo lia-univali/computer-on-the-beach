@@ -308,6 +308,11 @@ section#realizacao img {
   max-width: 160px;
 }
 
+section#realizacao img.logo-lia {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
 section#realizacao .marcas {
   margin-top: 30px;
   display: -ms-grid;
