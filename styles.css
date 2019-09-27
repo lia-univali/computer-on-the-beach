@@ -268,18 +268,18 @@ section#chamadas .tile#datas-importantes li .columns .column .data {
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data:before {
-  content: 'Principal';
-  margin-top: -1.2rem;
+  content: 'Trilha Principal';
+  margin-top: -1rem;
   position: absolute;
   text-align: center;
   width: 90px;
   background-color: white;
-  font-size: 1rem;
+  font-size: .6rem;
 }
 
 @media screen and (min-width: 800px) {
   section#chamadas .tile#datas-importantes li .columns .column .data:before {
-    font-size: .87rem;
+    font-size: .6rem;
   }
 }
 
@@ -288,7 +288,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalho
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos:before {
-  content: 'Trabalhos';
+  content: 'Concurso Trab. Tec.';
 }
 
 section#chamadas .tile#autores {
