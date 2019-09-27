@@ -13,6 +13,8 @@ $logo-border-weight: 1px;
 $date-text-stroke: 3px;
 $date-text-color: $branco;
 
+$important-dates-fade-out: .1;
+
 nav{
     transition: .3s ease;
     &.navbar{
@@ -189,10 +191,13 @@ section{
             border-radius: 1rem;
             border: none;
             &#datas-importantes{
-                background-image: linear-gradient(to top right,$menta, $hortela);
+                background-image: linear-gradient(to top right,fade-out($menta, $important-dates-fade-out), fade-out($hortela, $important-dates-fade-out));
+                //background-image: linear-gradient(to top right,$menta, $hortela);
+                //background-color: fade-out($hortela, 0.4);
                 .title{
                     color: $branco;
                 }
+                
                 li{
                     background-color: $branco;
                     color: $preto;
@@ -210,6 +215,44 @@ section{
                     // &:hover{
                     //     transform: scale(1.05);
                     // }
+                    h4{
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                    }
+                    .columns{
+                        .column{
+                            padding: 1.5rem .5rem ;
+                            
+                            .data{
+                                border: 2px solid $hortela;
+                                border-radius: 10px;
+                                padding: .5rem .5rem;
+                                &:before{
+                                    content:'Trilha Principal';
+                                    margin-top: -1rem;
+                                    position: absolute;
+                                    text-align: center;
+                                    width: 90px;
+                                    background-color: $branco;
+                                    font-size: .6rem;
+                                    @media screen and (min-width: $break-large) {
+                                        font-size: .6rem;
+                                    }
+                                    
+                                }
+                                &.data-trabalhos{
+                                    border-color: $hortela;
+                                    &:before{
+                                        content:'Concurso Trab. Tec.';
+                                    }
+                                }
+                                &.data-principal{
+            
+                                }
+                            }
+                            
+                        }
+                    }
                 }
             }
             &#autores{

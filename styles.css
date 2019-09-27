@@ -226,8 +226,8 @@ section#chamadas .tile {
 }
 
 section#chamadas .tile#datas-importantes {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#8fd6bd), to(#00a897));
-  background-image: linear-gradient(to top right, #8fd6bd, #00a897);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(143, 214, 189, 0.9)), to(rgba(0, 168, 151, 0.9)));
+  background-image: linear-gradient(to top right, rgba(143, 214, 189, 0.9), rgba(0, 168, 151, 0.9));
 }
 
 section#chamadas .tile#datas-importantes .title {
@@ -250,6 +250,45 @@ section#chamadas .tile#datas-importantes li strong {
   display: block;
   color: #00a897;
   font-size: 1.2rem;
+}
+
+section#chamadas .tile#datas-importantes li h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+section#chamadas .tile#datas-importantes li .columns .column {
+  padding: 1.5rem .5rem;
+}
+
+section#chamadas .tile#datas-importantes li .columns .column .data {
+  border: 2px solid #00a897;
+  border-radius: 10px;
+  padding: .5rem .5rem;
+}
+
+section#chamadas .tile#datas-importantes li .columns .column .data:before {
+  content: 'Trilha Principal';
+  margin-top: -1rem;
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  background-color: white;
+  font-size: .6rem;
+}
+
+@media screen and (min-width: 800px) {
+  section#chamadas .tile#datas-importantes li .columns .column .data:before {
+    font-size: .6rem;
+  }
+}
+
+section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos {
+  border-color: #00a897;
+}
+
+section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos:before {
+  content: 'Concurso Trab. Tec.';
 }
 
 section#chamadas .tile#autores {
