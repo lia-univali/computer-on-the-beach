@@ -165,10 +165,10 @@ section.hero .hero-body .container {
 
 section.hero .hero-body .container h2 {
   color: #00a897;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   font-weight: 900;
   font-style: italic;
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 3px white;
   position: relative;
   top: -25px;
 }
@@ -309,7 +309,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalho
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos:before {
-  content: 'Concurso Trab. Tec.';
+  content: 'Concurso Trab.';
 }
 
 section#chamadas .tile#autores {

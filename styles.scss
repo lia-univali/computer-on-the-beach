@@ -136,10 +136,10 @@ section{
                 margin-bottom: -5%;
                 h2{
                     color: $hortela;
-                    font-size: 2.3rem;
+                    font-size: 2.4rem;
                     font-weight: 900;
                     font-style: italic;
-                    -webkit-text-stroke: 2px $branco;
+                    -webkit-text-stroke: 3px $branco;
                     position: relative;
                     top: -25px;
                 }
@@ -262,7 +262,7 @@ section{
                                 &.data-trabalhos{
                                     border-color: $hortela;
                                     &:before{
-                                        content:'Concurso Trab. Tec.';
+                                        content:'Concurso Trab.';
                                     }
                                 }
                                 &.data-principal{
