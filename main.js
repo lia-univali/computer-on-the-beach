@@ -27,6 +27,6 @@ $(window).on('scroll', function () {
     var scr = pixs/2
     pixs = 1- pixs / $('.hero-body').height()/7;
     $(".hero-body").css({"opacity": pixs })
-    $('#hero-logo').css({"transform": 'translateY('+scr+'px)'})
+    $("#hero-title").css({"transform": 'translateY('+scr+'px)'})
 });
 
