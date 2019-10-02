@@ -472,57 +472,63 @@ footer img {
   height: 1rem;
 }
 
-#modal-principal ul, #modal-trabalhos ul {
+.modal ul {
   list-style: disc;
   padding-left: 2rem;
 }
 
-#modal-principal .modal-card, #modal-trabalhos .modal-card {
+.modal .modal-card {
   border-radius: 1rem;
 }
 
-#modal-principal .modal-card-foot, #modal-principal .modal-card-head, #modal-trabalhos .modal-card-foot, #modal-trabalhos .modal-card-head {
+@media screen and (min-width: 800px) {
+  .modal .modal-card {
+    width: 75%;
+  }
+}
+
+.modal .modal-card-foot, .modal .modal-card-head {
   background-color: #0a1128;
 }
 
-#modal-principal .modal-card-foot p, #modal-principal .modal-card-head p, #modal-trabalhos .modal-card-foot p, #modal-trabalhos .modal-card-head p {
+.modal .modal-card-foot p, .modal .modal-card-head p {
   color: #00a897;
   font-size: 2rem;
   font-weight: 900;
 }
 
-#modal-principal .big-link, #modal-trabalhos .big-link {
+.modal .big-link {
   text-align: center;
 }
 
-#modal-principal .big-link .this-icon, #modal-trabalhos .big-link .this-icon {
+.modal .big-link .this-icon {
   font-size: 3rem;
   display: block;
 }
 
-#modal-principal .big-link .text, #modal-trabalhos .big-link .text {
+.modal .big-link .text {
   display: block;
 }
 
-#modal-principal h2, #modal-trabalhos h2 {
+.modal h2 {
   color: #00a897;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-#modal-principal h3, #modal-trabalhos h3 {
+.modal h3 {
   color: #00a897;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-#modal-principal h5, #modal-trabalhos h5 {
+.modal h5 {
   color: #00a897;
   font-size: 1rem;
   font-weight: 500;
 }
 
-#modal-principal a, #modal-trabalhos a {
+.modal a {
   color: #00a897;
 }
 /*# sourceMappingURL=styles.css.map */
