@@ -9,6 +9,7 @@ $hero-gradient-opacity: .5;
 $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
+$break-extra-large: 1200px;
 $logo-border-weight: 1px;
 $date-text-stroke: 3px;
 $date-text-color: $branco;
@@ -126,7 +127,7 @@ section{
                 background-image: url('img/bg.jpg');
                 background-size: cover;
                 background-attachment: fixed;
-                background-position-y:100%;
+                background-position: center;
             }
         }
         .hero-body{
@@ -189,6 +190,9 @@ section{
         background-color: $branco-smoke;
     }
     &#chamadas{
+        .container{
+                   
+        }
         p{
             &.title{
                 font-size: 1.9rem;
@@ -239,31 +243,31 @@ section{
                         font-weight: 500;
                     }
                     .columns{
+                        padding:.5rem;
                         .column{
-                            padding: 1.5rem .5rem ;
+                            padding: .5rem .5rem ;
                             
                             .data{
                                 border: 2px solid $hortela;
                                 border-radius: 10px;
                                 padding: .5rem .5rem;
-                                &:before{
-                                    content:'Trilha Principal';
-                                    margin-top: -1rem;
-                                    position: absolute;
-                                    text-align: center;
-                                    width: 90px;
-                                    background-color: $branco;
-                                    font-size: .6rem;
+                                padding-top: .2rem;
+                                legend{
+                                    padding: .2rem .7rem;
+                                    padding-bottom: 0;
+                                    font-size: 1rem;
                                     @media screen and (min-width: $break-large) {
                                         font-size: .6rem;
                                     }
+                                    @media screen and (min-width: $break-extra-large) {
+                                        font-size: .9rem;
+                                    } 
                                     
+                                    color: #555;
                                 }
                                 &.data-trabalhos{
                                     border-color: $hortela;
-                                    &:before{
-                                        content:'Concurso Trab.';
-                                    }
+                                    
                                 }
                                 &.data-principal{
             
@@ -287,6 +291,14 @@ section{
                     margin-top: 1rem;
                 }
             }
+            
+        }
+        #main-tile{
+            @media screen and (min-width: $break-large) {
+                padding: 0;
+                margin-left: -7%;
+                width: 114%;
+            } 
             
         }
     }

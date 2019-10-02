@@ -155,7 +155,7 @@ section.hero.is-primary.is-bold {
   background-image: url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position-y: 100%;
+  background-position: center;
 }
 
 section.hero .hero-body .container {
@@ -278,38 +278,42 @@ section#chamadas .tile#datas-importantes li h4 {
   font-weight: 500;
 }
 
+section#chamadas .tile#datas-importantes li .columns {
+  padding: .5rem;
+}
+
 section#chamadas .tile#datas-importantes li .columns .column {
-  padding: 1.5rem .5rem;
+  padding: .5rem .5rem;
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data {
   border: 2px solid #00a897;
   border-radius: 10px;
   padding: .5rem .5rem;
+  padding-top: .2rem;
 }
 
-section#chamadas .tile#datas-importantes li .columns .column .data:before {
-  content: 'Trilha Principal';
-  margin-top: -1rem;
-  position: absolute;
-  text-align: center;
-  width: 90px;
-  background-color: white;
-  font-size: .6rem;
+section#chamadas .tile#datas-importantes li .columns .column .data legend {
+  padding: .2rem .7rem;
+  padding-bottom: 0;
+  font-size: 1rem;
+  color: #555;
 }
 
 @media screen and (min-width: 800px) {
-  section#chamadas .tile#datas-importantes li .columns .column .data:before {
+  section#chamadas .tile#datas-importantes li .columns .column .data legend {
     font-size: .6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section#chamadas .tile#datas-importantes li .columns .column .data legend {
+    font-size: .9rem;
   }
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos {
   border-color: #00a897;
-}
-
-section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos:before {
-  content: 'Concurso Trab.';
 }
 
 section#chamadas .tile#autores {
@@ -327,6 +331,14 @@ section#chamadas .tile#autores .title {
 
 section#chamadas .tile#autores a {
   margin-top: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  section#chamadas #main-tile {
+    padding: 0;
+    margin-left: -7%;
+    width: 114%;
+  }
 }
 
 section#anais {
