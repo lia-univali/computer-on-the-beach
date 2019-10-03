@@ -416,6 +416,21 @@ footer{
     }
 }
 .modal{
+    &#modal-inscricoes{
+        .table{
+            th{
+                color: $hortela;
+            }
+            strong{
+                color: rgb(223, 57, 57);
+                font-size: .9rem;
+            }
+            vertical-align: middle;
+            .nahora{
+                background-color: lighten($menta,25%);
+            }
+        }
+    }
     ul{
         list-style: disc;
         padding-left: 2rem;

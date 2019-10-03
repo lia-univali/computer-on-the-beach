@@ -484,6 +484,23 @@ footer img {
   height: 1rem;
 }
 
+.modal#modal-inscricoes .table {
+  vertical-align: middle;
+}
+
+.modal#modal-inscricoes .table th {
+  color: #00a897;
+}
+
+.modal#modal-inscricoes .table strong {
+  color: #df3939;
+  font-size: .9rem;
+}
+
+.modal#modal-inscricoes .table .nahora {
+  background-color: #ecf8f4;
+}
+
 .modal ul {
   list-style: disc;
   padding-left: 2rem;
