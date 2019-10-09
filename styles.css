@@ -234,6 +234,7 @@ section#chamadas p.title {
 
 section#chamadas ul li {
   font-weight: 500;
+  text-align: left;
 }
 
 section#chamadas ul li strong {
@@ -383,6 +384,16 @@ section#realizacao img {
 section#realizacao img.logo-lia {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
+}
+
+section#realizacao img.logo-emct {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+section#realizacao img.logo-univali {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 section#realizacao img.logo-asse {
