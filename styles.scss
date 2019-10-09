@@ -204,6 +204,7 @@ section{
         ul{
             li{
                 font-weight: 500;
+                text-align: left;
                 strong{
                     font-weight: 700;
                 }
@@ -335,6 +336,12 @@ section{
             max-width: 160px;
             &.logo-lia{
                 transform: scale(.7);
+            }
+            &.logo-emct{
+                transform: scale(1.5);
+            }
+            &.logo-univali{
+                transform: scale(1.1);
             }
             &.logo-asse{
                 transform: scale(1.2);
