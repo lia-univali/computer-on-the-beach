@@ -90,6 +90,11 @@ nav{
     color: $branco;
     background-color: $hortela;
 }
+.link-marambaia{
+    color: $coral;
+    font-weight: 600;
+    text-decoration: underline;
+}
 section{
     &.section{
         .container{
