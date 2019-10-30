@@ -90,6 +90,11 @@ nav{
     color: $branco;
     background-color: $hortela;
 }
+.link-marambaia{
+    color: $coral;
+    font-weight: 600;
+    text-decoration: underline;
+}
 section{
     &.section{
         .container{
@@ -426,6 +431,19 @@ footer{
     }
 }
 .modal{
+    .dados-hotel{
+        padding: 2rem;
+        p{
+            margin: 0.5rem;
+        }
+        img{
+            border-radius: 20px;
+        }
+    }
+    .mapa{
+        margin: -1rem;
+        margin-bottom: 3rem;
+    }
     &#modal-inscricoes{
         .table{
             th{
@@ -460,6 +478,17 @@ footer{
             font-weight: 900;
         }
     }
+    .card-host{
+        margin: 2rem;
+        background-color: $coral;
+        border-radius: 20px;
+        .subtitle{
+            color: $branco;
+        }
+    }
+    .diarias{
+        margin-top: 1rem;
+    }
     .big-link{
         text-align: center;
         .this-icon{
@@ -468,6 +497,15 @@ footer{
         }
         .text{
             display: block;
+        }
+        &.extreme{
+            margin-top: 2rem;
+            .this-icon{
+                font-size: 5rem;
+            }
+            .text{
+                font-size: 2rem;
+            }
         }
     }
     h2{

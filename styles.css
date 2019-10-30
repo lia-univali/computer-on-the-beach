@@ -115,6 +115,12 @@ nav.is-fixed-top #nav-logo-icon {
   background-color: #00a897;
 }
 
+.link-marambaia {
+  color: #fa7268;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 800px) {
   section.section .container {
     padding: 50px 15%;
@@ -500,6 +506,23 @@ footer img {
   height: 1rem;
 }
 
+.modal .dados-hotel {
+  padding: 2rem;
+}
+
+.modal .dados-hotel p {
+  margin: 0.5rem;
+}
+
+.modal .dados-hotel img {
+  border-radius: 20px;
+}
+
+.modal .mapa {
+  margin: -1rem;
+  margin-bottom: 3rem;
+}
+
 .modal#modal-inscricoes .table {
   vertical-align: middle;
 }
@@ -542,6 +565,20 @@ footer img {
   font-weight: 900;
 }
 
+.modal .card-host {
+  margin: 2rem;
+  background-color: #fa7268;
+  border-radius: 20px;
+}
+
+.modal .card-host .subtitle {
+  color: white;
+}
+
+.modal .diarias {
+  margin-top: 1rem;
+}
+
 .modal .big-link {
   text-align: center;
 }
@@ -553,6 +590,18 @@ footer img {
 
 .modal .big-link .text {
   display: block;
+}
+
+.modal .big-link.extreme {
+  margin-top: 2rem;
+}
+
+.modal .big-link.extreme .this-icon {
+  font-size: 5rem;
+}
+
+.modal .big-link.extreme .text {
+  font-size: 2rem;
 }
 
 .modal h2 {
