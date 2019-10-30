@@ -500,6 +500,19 @@ footer img {
   height: 1rem;
 }
 
+.modal .dados-hotel {
+  padding: 2rem;
+}
+
+.modal .dados-hotel p {
+  margin: 0.5rem;
+}
+
+.modal .mapa {
+  margin: -2rem -2rem;
+  margin-bottom: 3rem;
+}
+
 .modal#modal-inscricoes .table {
   vertical-align: middle;
 }

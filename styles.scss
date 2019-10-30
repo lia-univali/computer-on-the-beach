@@ -426,6 +426,16 @@ footer{
     }
 }
 .modal{
+    .dados-hotel{
+        padding: 2rem;
+        p{
+            margin: 0.5rem;
+        }
+    }
+    .mapa{
+        margin: -2rem -2rem;
+        margin-bottom: 3rem;
+    }
     &#modal-inscricoes{
         .table{
             th{
