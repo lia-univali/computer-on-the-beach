@@ -431,9 +431,12 @@ footer{
         p{
             margin: 0.5rem;
         }
+        img{
+            border-radius: 20px;
+        }
     }
     .mapa{
-        margin: -2rem -2rem;
+        margin: -1rem;
         margin-bottom: 3rem;
     }
     &#modal-inscricoes{
@@ -470,6 +473,17 @@ footer{
             font-weight: 900;
         }
     }
+    .card-host{
+        margin: 2rem;
+        background-color: $coral;
+        border-radius: 20px;
+        .subtitle{
+            color: $branco;
+        }
+    }
+    .diarias{
+        margin-top: 1rem;
+    }
     .big-link{
         text-align: center;
         .this-icon{
@@ -478,6 +492,15 @@ footer{
         }
         .text{
             display: block;
+        }
+        &.extreme{
+            margin-top: 2rem;
+            .this-icon{
+                font-size: 5rem;
+            }
+            .text{
+                font-size: 2rem;
+            }
         }
     }
     h2{
