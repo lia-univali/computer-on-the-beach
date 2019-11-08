@@ -408,6 +408,12 @@ section#realizacao img.logo-asse {
           transform: scale(1.2);
 }
 
+section#realizacao img.logo-sico {
+  margin-top: 25px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 section#realizacao .marcas {
   margin-top: 30px;
   display: -ms-grid;
