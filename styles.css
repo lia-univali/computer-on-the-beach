@@ -379,7 +379,7 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: white;
+  background-color: #f0f6f7;
 }
 
 section#realizacao img {
@@ -478,13 +478,13 @@ section#realizacao .marcas img:hover {
   opacity: 1;
 }
 
-#topicos ul, #comitePrograma ul {
+#topicos ul {
   padding-top: 1rem;
   padding-left: 2rem;
   list-style-type: none;
 }
 
-#topicos ul li, #comitePrograma ul li {
+#topicos ul li {
   font-size: .9rem;
 }
 
@@ -501,6 +501,18 @@ section#realizacao .marcas img:hover {
   /* Also needed for space (tweak if needed) */
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
+}
+
+#comitePrograma ul {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    list-style-type: none;
+}
+
+#comitePrograma ul li{
+    font-size: .8rem;
+    font-weight: 500;
+    text-align: left;
 }
 
 footer.footer {

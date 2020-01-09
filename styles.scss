@@ -335,7 +335,7 @@ section{
     }
     &#realizacao{
         text-align: center;
-        background-color: $branco;
+        background-color: $branco-smoke;
         img{
             max-height: 90px;
             max-width: 160px;
@@ -403,7 +403,7 @@ section{
         }
     }    
 }
-#topicos, #comitePrograma{
+#topicos{
     ul{
         padding-top: 1rem;
         padding-left: 2rem;
@@ -422,6 +422,32 @@ section{
         }
     }
 }
+
+#comitePrograma{
+    ul{
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        list-style-type: none;
+        li{
+            &:before{
+                color: $menta;
+                font-size: 1rem;
+                content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                font-weight: bold; /* If you want it to be bold */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                width: 1em; /* Also needed for space (tweak if needed) */
+                margin-left: -1em; /* Also needed for space (tweak if needed) */
+            }
+            font-size: .8rem;
+            font-weight: 500;
+            text-align: left;
+            strong{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
 footer{
     &.footer{
         background-color: $preto;
