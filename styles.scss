@@ -4,6 +4,7 @@ $menta: rgba(143, 214, 189, 1);
 $hortela: rgb(0, 168, 151);
 $branco: rgb(255, 255, 255);
 $branco-smoke:rgba(240, 246, 247, 1);
+$cinza: rgb(85,85,85);
 
 $hero-gradient-opacity: .5;
 $hero-local-gradient-opacity: .7;
@@ -269,7 +270,7 @@ section{
                                         font-size: .9rem;
                                     } 
                                     
-                                    color: #555;
+                                    color: $cinza;
                                 }
                                 &.data-trabalhos{
                                     border-color: $hortela;
@@ -401,7 +402,40 @@ section{
                 }
             }
         }
-    }    
+    }
+    &#comitePrograma{
+        ul{
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+            list-style-type: none;
+            li{
+                &:before{
+                    color: $menta;
+                    font-size: 1rem;
+                    content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                    font-weight: bold; /* If you want it to be bold */
+                    display: inline-block; /* Needed to add space between the bullet and the text */
+                    width: 1em; /* Also needed for space (tweak if needed) */
+                    margin-left: -1em; /* Also needed for space (tweak if needed) */
+                }
+                font-size: .9rem;
+                font-weight: 500;
+                text-align: left;
+                strong{
+                    color: $cinza;
+                    font-weight: 700;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .tile{
+            &#membros {
+                p {
+                    margin-bottom: .2rem;
+                }
+            }
+        }
+    }
 }
 #topicos{
     ul{
@@ -419,31 +453,6 @@ section{
                 margin-left: -1em; /* Also needed for space (tweak if needed) */
             }
             font-size: .9rem;
-        }
-    }
-}
-
-#comitePrograma{
-    ul{
-        padding-left: 2rem;
-        padding-bottom: 2rem;
-        list-style-type: none;
-        li{
-            &:before{
-                color: $menta;
-                font-size: 1rem;
-                content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-                font-weight: bold; /* If you want it to be bold */
-                display: inline-block; /* Needed to add space between the bullet and the text */
-                width: 1em; /* Also needed for space (tweak if needed) */
-                margin-left: -1em; /* Also needed for space (tweak if needed) */
-            }
-            font-size: .8rem;
-            font-weight: 500;
-            text-align: left;
-            strong{
-                font-weight: 700;
-            }
         }
     }
 }
