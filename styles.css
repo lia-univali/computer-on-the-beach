@@ -304,7 +304,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data legend {
   padding: .2rem .7rem;
   padding-bottom: 0;
   font-size: 1rem;
-  color: #555;
+  color: #555555;
 }
 
 @media screen and (min-width: 800px) {
@@ -408,6 +408,12 @@ section#realizacao img.logo-asse {
           transform: scale(1.2);
 }
 
+section#realizacao img.logo-pulses {
+  margin-top: 2px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 section#realizacao img.logo-seg {
   margin-top: 25px;
   -webkit-transform: scale(1.2);
@@ -483,11 +489,13 @@ section#comitePrograma ul {
   padding-bottom: 2rem;
   list-style-type: none;
 }
+
 section#comitePrograma ul li {
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-weight: 500;
   text-align: left;
 }
+
 section#comitePrograma ul li:before {
   color: #8fd6bd;
   font-size: 1rem;
@@ -502,13 +510,15 @@ section#comitePrograma ul li:before {
   margin-left: -1em;
   /* Also needed for space (tweak if needed) */
 }
+
 section#comitePrograma ul li strong {
-  color: #555;
+  color: #555555;
   font-weight: 700;
   font-size: 1rem;
 }
+
 section#comitePrograma .tile#membros p {
-  margin-bottom: 0.2rem;
+  margin-bottom: .2rem;
 }
 
 #topicos ul {
