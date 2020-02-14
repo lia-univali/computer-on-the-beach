@@ -45,7 +45,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
     <script src="main.js"></script>
     <script src="modal.js"></script>
+
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    
   </head>
   <body>
     <section class="hero is-medium is-primary is-bold" id="hero">
@@ -318,6 +320,7 @@
     <section class="section" id="comitePrograma">
       <div class="container">
         <h1 class="title">Comitê</h1>
+        
         <div class="tile is-ancestor">
           <div class="tile is-parent">
 
@@ -341,7 +344,7 @@
               </ul>
 
               <p class="subtitle">Comitê Técnico - Trilha Principal</p>
-              <ul>
+              <ul class="ul-two">
                 <li><strong>Adriana Alves</strong> - Universidade do Vale do Itajaí</li>
                 <li><strong>Alexandre Gonçalves Silva</strong> - Universidade Federal de Santa Catarina</li>
                 <li><strong>Alexandre Prusch Züge</strong> - Universidade Federal do Paraná</li>
@@ -463,7 +466,7 @@
               </ul>
 
               <p class="subtitle">Revisores - Trilha Principal</p>
-              <ul>
+              <ul class="ul-two">
                 <li><strong>Alisson Henrique</strong> - Universidade do Vale de Itajaí</li>
                 <li><strong>Caciano Machado</strong> - Universidade Federal de Santa Catarina</li>
                 <li><strong>Daniel Adriano</strong> - Universidade do Vale do Itajaí</li>
@@ -491,6 +494,8 @@
     </section>
 
 
+
+  
     <section class="section" id="realizacao">
       <div class="container">
         <h1 class="title">Realização</h1>
@@ -506,30 +511,42 @@
           <div class="column"><a href="https://www.ifsc.edu.br" target="_blank"><img src="img/logos/ifsc.png" /></a></div>
           <div class="column"><a href="https://ufsc.br" target="_blank"><img src="img/logos/ufsc.png" /></a></div>
         </div>
-      </div>
-      <h1 class="title">Patrocínio</h1>
-        <div class="columns">
-          <div class="column"></div>
-          <div class="column"><a href="https://www.suntech.com.br/" target="_blank"><img class="logo-sunt" src="img/logos/suntech.png" /></a></div> 
-          <div class="column"><a href="https://www.segware.com.br/" target="_blank"><img class="logo-seg" src="img/logos/seg.png" /></a></div> 
-          <div class="column"><a href="https://www.sicoob.com.br/" target="_blank"><img class="logo-sico" src="img/logos/sicoob.png" /></a></div>
-          <div class="column"></div>
-        </div>
-        <div class="columns">
-          <div class="column"></div>
-          <div class="column"><a href="http://www.sistran.com.br/" target="_blank"><img class="logo-sist" src="img/logos/sistran.png" /></a></div>
-          <div class="column"><a href="https://www.pulses.com.br/" target="_blank"><img class="logo-pulses" src="img/logos/pulses.png" /></a></div> 
-          <div class="column"><a href="https://asseinfo.com.br/" target="_blank"><img class="logo-asse" src="img/logos/asseinfo.png" /></a></div>
-          <div class="column"></div>
-        </div>
-        <div class="columns">
-          <div class="column"></div>
-          <div class="column"><a href="https://www.tiki.com.br/" target="_blank"><img class="" src="img/logos/tiki.svg" /></a></div> 
-          <div class="column"><a href="https://www.alisioscrm.com.br/" target="_blank"><img class="logo-ali" src="img/logos/hbtec-alisios.png" /></a></div>
-          <div class="column"></div>
-        </div>
+        
+        <h1 class="title">Patrocínio</h1>
+        <fieldset class="categoria diamante">
+          <legend>Diamante</legend>
+          <div class="columns">
+            <div class="column"><a href="https://www.suntech.com.br/" target="_blank"><img class="logo-sunt" src="img/logos/suntech.png" /></a></div> 
+            <div class="column"><a href="https://www.segware.com.br/" target="_blank"><img class="logo-seg" src="img/logos/seg.png" /></a></div> 
+          </div>
+          <div class="columns">
+            <div class="column"><a href="https://www.sicoob.com.br/" target="_blank"><img class="logo-sico" src="img/logos/sicoob.png" /></a></div>
+            <div class="column"><a href="http://www.sistran.com.br/" target="_blank"><img class="logo-sist" src="img/logos/sistran.png" /></a></div>  
+          </div>
+        </fieldset>  
+        <fieldset class="categoria ouro">
+          <legend>Ouro</legend>
+          <div class="columns">
+            <div class="column"><a href="https://www.pulses.com.br/" target="_blank"><img class="logo-pulses" src="img/logos/pulses.png" /></a></div> 
+          </div>
+        </fieldset>
+        <fieldset class="categoria prata">
+          <legend>Prata</legend>
+          <div class="columns">
+            <div class="column"><a href="https://asseinfo.com.br/" target="_blank"><img class="logo-asse" src="img/logos/asseinfo.png" /></a></div>
+          </div>
+        </fieldset>  
+        <fieldset class="categoria bronze">
+          <legend>Bronze</legend>
+          <div class="columns">
+            <div class="column"><a href="https://www.tiki.com.br/" target="_blank"><img class="" src="img/logos/tiki.svg" /></a></div> 
+            <div class="column"><a href="https://www.alisioscrm.com.br/" target="_blank"><img class="logo-ali" src="img/logos/hbtec-alisios.png" /></a></div>
+          </div>
+        </fieldset>  
+        
       </div>
     </section>
+    
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
@@ -902,5 +919,7 @@
         
       </div>
     </div>
+
+    
   </body>
 </html>

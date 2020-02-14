@@ -196,9 +196,6 @@ section{
         background-color: $branco-smoke;
     }
     &#chamadas{
-        .container{
-                   
-        }
         p{
             &.title{
                 font-size: 1.9rem;
@@ -276,9 +273,7 @@ section{
                                     border-color: $hortela;
                                     
                                 }
-                                &.data-principal{
-            
-                                }
+                               
                             }
                             
                         }
@@ -337,47 +332,7 @@ section{
     &#realizacao{
         text-align: center;
         background-color: $branco-smoke;
-        img{
-            max-height: 90px;
-            max-width: 160px;
-            &.logo-lia{
-                transform: scale(.7);
-            }
-            &.logo-emct{
-                transform: scale(1.5);
-            }
-            &.logo-univali{
-                transform: scale(1.1);
-            }
-            &.logo-asse{
-                margin-top: 30px;
-                transform: scale(1.2);
-            }
-            &.logo-pulses{
-                margin-top: 2px;
-                transform: scale(.9);
-            }
-            &.logo-sist{
-                margin-top: 35px;
-                transform: scale(1.3);
-            }
-            &.logo-ali{
-                margin-top: 15px;
-                transform: scale(1.2);
-            }
-            &.logo-seg{
-                margin-top: 25px;
-                transform: scale(1.2);
-            }
-            &.logo-sunt{
-                margin-top: 15px;
-                transform: scale(1.2);
-            }
-            &.logo-sico{
-                margin-top: 25px;
-                transform: scale(1.2);
-            }
-        }    
+           
         .marcas{            
             margin-top: 30px;            
             display: grid;
@@ -414,9 +369,72 @@ section{
                 }
             }
         }
+        img{
+            max-height: 90px;
+            max-width: 160px;  
+        } 
+        .categoria{
+            margin-top: 20px;
+            vertical-align: center;
+            border: 2px solid $hortela;
+            border-radius: 0px;
+            padding: 1rem;
+            padding-bottom: 1.5rem;
+            border-left: none;
+            border-right: none;
+            legend{
+                padding: .2rem .7rem;
+                padding-bottom: 0;
+                font-size: 1.5rem;
+                
+                color: $cinza;
+            }
+            
+            img{
+                vertical-align: center;
+                transition: .2s ease;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+            
+            &.diamante{
+                border-color: $hortela;
+                img{
+                    max-height: 150px;
+                    max-width: 200px;  
+                }
+                .logo-seg{
+                    margin-top: 15px;
+                }
+                .logo-sist{
+                    margin-top: 7px;
+                }
+            }
+            &.ouro{
+                border-color: $menta;
+                
+            }
+            &.prata{
+                border-color: $cinza;
+                
+            }
+            &.bronze{
+                border-color: $branco;
+                
+                .logo-ali{
+                    margin-top: 15px;
+                }
+            }
+            border-bottom: 2px solid #ccc !important;            
+        }
+        
     }
     &#comitePrograma{
         ul{
+            &.ul-two{
+                columns: 2;
+            }
             padding-left: 2rem;
             padding-bottom: 2rem;
             list-style-type: none;
@@ -430,8 +448,8 @@ section{
                     width: 1em; /* Also needed for space (tweak if needed) */
                     margin-left: -1em; /* Also needed for space (tweak if needed) */
                 }
-                font-size: .9rem;
-                font-weight: 500;
+                font-size: .8rem;
+                color: $cinza;
                 text-align: left;
                 strong{
                     color: $cinza;
