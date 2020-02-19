@@ -444,6 +444,12 @@ section#realizacao img.logo-sico {
           transform: scale(1.2);
 }
 
+section#realizacao img.logo-qualy {
+  margin-top: 25px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 section#realizacao .marcas {
   margin-top: 30px;
   display: -ms-grid;
