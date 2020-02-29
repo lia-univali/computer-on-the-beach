@@ -304,8 +304,11 @@ section{
             
         }
     }
-    &#anais{
+    &#programacao{
         background-color: $branco-smoke;
+    }
+    &#anais{
+        background-color: $branco;
         .column{
             article{
                 background-color: $hortela;
@@ -331,7 +334,7 @@ section{
     }
     &#realizacao{
         text-align: center;
-        background-color: $branco-smoke;
+        background-color: $branco;
         img{
             max-height: 90px;
             max-width: 160px;
@@ -415,6 +418,7 @@ section{
         }
     }
     &#comitePrograma{
+        background-color: $branco-smoke;
         ul{
             &.ul-two{
                 columns: 2;
@@ -492,6 +496,27 @@ footer{
         
     }
 }
+
+.big-link{
+    text-align: center;
+    .this-icon{
+        font-size: 3rem;
+        display: block;
+    }
+    .text{
+        display: block;
+    }
+    &.extreme{
+        margin-top: 2rem;
+        .this-icon{
+            font-size: 5rem;
+        }
+        .text{
+            font-size: 2rem;
+        }
+    }
+}
+
 .modal{
     .dados-hotel{
         padding: 2rem;

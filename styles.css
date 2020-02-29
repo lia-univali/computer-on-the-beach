@@ -348,8 +348,12 @@ section#chamadas .tile#autores a {
   }
 }
 
-section#anais {
+section#programacao {
   background-color: #f0f6f7;
+}
+
+section#anais {
+  background-color: white;
 }
 
 section#anais .column article {
@@ -379,7 +383,7 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: #f0f6f7;
+  background-color: white;
 }
 
 section#realizacao img {
@@ -502,6 +506,10 @@ section#realizacao .marcas img:hover {
   opacity: 1;
 }
 
+section#comitePrograma {
+  background-color: #f0f6f7;
+}
+
 section#comitePrograma ul {
   padding-left: 2rem;
   padding-bottom: 2rem;
@@ -589,6 +597,31 @@ footer.footer .fa-heart {
 footer img {
   max-width: 100%;
   height: 1rem;
+}
+
+.big-link {
+  text-align: center;
+}
+
+.big-link .this-icon {
+  font-size: 3rem;
+  display: block;
+}
+
+.big-link .text {
+  display: block;
+}
+
+.big-link.extreme {
+  margin-top: 2rem;
+}
+
+.big-link.extreme .this-icon {
+  font-size: 5rem;
+}
+
+.big-link.extreme .text {
+  font-size: 2rem;
 }
 
 .modal .dados-hotel {
