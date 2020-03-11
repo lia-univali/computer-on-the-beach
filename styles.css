@@ -412,6 +412,10 @@ section#realizacao img.logo-rnp {
           transform: scale(1.1);
 }
 
+section#realizacao img.logo-polo {
+  margin-top: 20px;
+}
+
 section#realizacao img.logo-asse {
   margin-top: 30px;
   -webkit-transform: scale(1.2);
