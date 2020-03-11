@@ -406,6 +406,12 @@ section#realizacao img.logo-univali {
           transform: scale(1.1);
 }
 
+section#realizacao img.logo-rnp {
+  margin-top: 20px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 section#realizacao img.logo-asse {
   margin-top: 30px;
   -webkit-transform: scale(1.2);
