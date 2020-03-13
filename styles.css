@@ -392,18 +392,18 @@ section#realizacao img {
 }
 
 section#realizacao img.logo-lia {
-  -webkit-transform: scale(0.7);
-          transform: scale(0.7);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 section#realizacao img.logo-emct {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 section#realizacao img.logo-univali {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 section#realizacao img.logo-rnp {
