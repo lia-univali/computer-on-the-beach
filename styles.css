@@ -651,6 +651,31 @@ footer img {
   margin-bottom: 3rem;
 }
 
+.modal#modal-aviso .modal-card-head {
+  background-color: #f00;
+}
+
+.modal#modal-aviso .modal-card-head p {
+  color: #fff;
+}
+
+.modal#modal-aviso h1, .modal#modal-aviso strong {
+  color: #f00 !important;
+}
+
+.modal#modal-aviso .modal-card-body p {
+  margin: 1rem 0;
+}
+
+.modal#modal-aviso .btns {
+  padding: 1rem;
+  text-align: right;
+}
+
+.modal#modal-aviso a {
+  color: #f00 !important;
+}
+
 .modal#modal-inscricoes .table {
   vertical-align: middle;
 }

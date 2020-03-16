@@ -538,6 +538,30 @@ footer{
         margin: -1rem;
         margin-bottom: 3rem;
     }
+    &#modal-aviso{
+        .modal-card-head{
+            background-color: #f00;
+            p{
+                color: #fff;       
+            }
+        }
+        h1, strong{
+            color: #f00 !important;
+        }
+        .modal-card-body{
+            p{
+                margin: 1rem 0;
+            }
+        }
+        
+        .btns{
+            padding: 1rem;
+            text-align: right;
+        }
+        a{
+            color: #f00 !important;
+        }
+    }
     &#modal-inscricoes{
         .table{
             th{
