@@ -540,12 +540,18 @@ footer{
     }
     &#modal-aviso{
         .modal-card-head{
-            background-color: #f00;
+            background-color: $hortela;
             p{
                 color: #fff;       
             }
         }
-        h1, strong{
+        .small{
+            font-size: .8rem;
+        }
+        h1{
+            color: $hortela !important;
+        } 
+        strong{
             color: #f00 !important;
         }
         .modal-card-body{
@@ -557,6 +563,12 @@ footer{
         .btns{
             padding: 1rem;
             text-align: right;
+            .is-danger{
+                background-color: $hortela;
+                &:hover{
+                    background-color: $menta;    
+                }
+            }
         }
         a{
             color: #f00 !important;

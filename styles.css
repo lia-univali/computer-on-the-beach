@@ -652,14 +652,22 @@ footer img {
 }
 
 .modal#modal-aviso .modal-card-head {
-  background-color: #f00;
+  background-color: #00a897;
 }
 
 .modal#modal-aviso .modal-card-head p {
   color: #fff;
 }
 
-.modal#modal-aviso h1, .modal#modal-aviso strong {
+.modal#modal-aviso .small {
+  font-size: .8rem;
+}
+
+.modal#modal-aviso h1 {
+  color: #00a897 !important;
+}
+
+.modal#modal-aviso strong {
   color: #f00 !important;
 }
 
@@ -670,6 +678,14 @@ footer img {
 .modal#modal-aviso .btns {
   padding: 1rem;
   text-align: right;
+}
+
+.modal#modal-aviso .btns .is-danger {
+  background-color: #00a897;
+}
+
+.modal#modal-aviso .btns .is-danger:hover {
+  background-color: #8fd6bd;
 }
 
 .modal#modal-aviso a {
