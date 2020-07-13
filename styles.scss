@@ -1,7 +1,7 @@
 $coral: rgba(250, 114, 104, 1);
 $preto: rgba(10, 17, 40, 1);
-$menta: rgba(143, 214, 189, 1);
-$hortela: rgb(0, 168, 151);
+$menta: #8fd6bd;
+$hortela: #00a897;
 $branco: rgb(255, 255, 255);
 $branco-smoke:rgba(240, 246, 247, 1);
 $cinza: rgb(85,85,85);
@@ -166,8 +166,6 @@ section{
         img{
             max-width: 100%;
             width: 500px;
-            filter: drop-shadow($logo-border-weight 0 0 white) drop-shadow(-$logo-border-weight 0 0 white) drop-shadow(0 $logo-border-weight 0 white) drop-shadow(0 -$logo-border-weight 0 white) 
-            drop-shadow($logo-border-weight $logo-border-weight 0 white) drop-shadow(-$logo-border-weight -$logo-border-weight 0 white) drop-shadow($logo-border-weight -$logo-border-weight 0 white) drop-shadow(-$logo-border-weight $logo-border-weight 0 white);
         }
     }
     #logobc{
