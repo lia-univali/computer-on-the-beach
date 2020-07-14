@@ -225,7 +225,7 @@ section .galeria img:hover {
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.541);
 }
 
-section#balneario, section#anais {
+section#balneario, section#anais, section#chamadas, section#realizacao {
   background-color: #f0f6f7;
 }
 
@@ -345,13 +345,13 @@ section#chamadas .tile#autores a {
     width: 114%;
   }
 }
-
+/*
 section#programacao {
   background-color: #f0f6f7;
 }
-
+*/
 section#anais {
-  background-color: white;
+  background-color: #f0f6f7;
 }
 
 section#anais .column article {
@@ -381,7 +381,6 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: white;
 }
 
 section#realizacao img {
@@ -512,10 +511,6 @@ section#realizacao .marcas img:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
   opacity: 1;
-}
-
-section#comitePrograma {
-  background-color: #f0f6f7;
 }
 
 section#comitePrograma ul {
