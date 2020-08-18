@@ -500,7 +500,7 @@ section#programacao .card.palestra.is-active .card-header .card-header-icon {
 }
 
 section#programacao .card.palestra.is-active .card-content {
-  max-height: 100vh;
+  max-height: none;
   padding: 2rem;
 }
 
@@ -529,7 +529,7 @@ section#programacao .card.palestra .palestrante p {
 section#programacao .card.palestra img {
   border-radius: 50%;
   width: 120px;
-  height: 120px;
+  height: auto;
 }
 
 section#anais {

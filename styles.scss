@@ -432,7 +432,7 @@ section{
                         }
                     }
                     .card-content{
-                        max-height: 100vh;
+                        max-height: none;
                         padding: 2rem;
                     }
                     
@@ -457,7 +457,7 @@ section{
                 img{
                     border-radius: 50%;
                     width: 120px;
-                    height: 120px;
+                    height: auto;
                 }
             }
         }
