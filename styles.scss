@@ -304,6 +304,163 @@ section{
     }
     &#programacao{
         background-color: $branco-smoke;
+        .card{
+            margin: 2rem 0;
+            border-radius: 15px;
+            .resumo{
+                margin: 30px 10px;
+            }
+            .card-header{
+                background-color: $hortela;
+                border-radius: 15px 15px 0 0 ;
+                .card-header-title{
+                    color: $branco;
+                    text-transform: uppercase;
+                    small{
+                        margin-left: 10px;
+                        color: $branco-smoke;
+                    }                
+                }
+            }
+            .tab{
+                overflow: visible;
+                span{
+                    color: #aaa;
+                }
+                .tag{
+                    text-align: center;
+                    margin-bottom: -25px;
+                    color: $hortela;
+                    z-index: 10;
+                }
+                .icon{
+                    img{
+                        width: 32px !important;
+                        height: 32px !important;
+                        max-width: 32px;
+                        border-radius: 50%;
+                        filter: grayscale(1);
+                        transition: .9s ease;
+                    }
+                }
+                &.is-active{
+                    span{
+                        color: $hortela;
+                    }
+                    img{
+                        filter: grayscale(0);
+                    }
+                    
+                }
+            }
+            .content-tab{
+                img{
+                    border-radius: 50%;
+                }
+                p{
+                    font-size: .9rem;
+                }
+            }
+
+            &.palestra{
+                .card-header{
+                    background-color: $branco;
+                    .tooltiptext {
+                        visibility: hidden;
+                        width: 120px;
+                        background-color: black;
+                        color: #fff;
+                        text-align: center;
+                        padding: 5px 0;
+                        border-radius: 6px;
+                       
+                        /* Position the tooltip text - see examples below! */
+                        position: absolute;
+                        top: -30px;
+                        z-index: 1;
+                    }
+                    cursor: pointer;
+                    &:hover{
+                        background-color:$branco-smoke;
+                        .tooltiptext {
+                            visibility: visible;
+                          }
+                    }
+                    
+                    .card-header-icon{
+                        color: $hortela;
+                        transition: .5s ease-in;
+                        &:hover{
+                            color: $preto;
+                        }
+                    }
+                    transition: .3s ease;
+                    border-radius: 15px;
+                    .card-header-title{
+                        display: block;
+                        color: $hortela;
+                        span{
+                            color: $cinza;
+                            display: block;
+                            font-size: .8rem;
+                        }
+                    }
+                }
+                .card-content{
+                    max-height: 0;
+                    transition: .3s ease;
+                    overflow: hidden;
+                    padding: 0;
+                }
+                
+                &.is-active{
+                    .card-header{
+                        border-radius: 15px 15px 0 0 ;
+                        background-color: $hortela;
+                        &:hover{
+                            background-color:$cinza;
+                        }
+                        .card-header-title{
+                            color: $branco;
+                            span{
+                                color: $branco;
+                            }
+                        }
+                        .card-header-icon{
+                            color: $branco;
+                            transform: rotate(180deg);
+                        }
+                    }
+                    .card-content{
+                        max-height: 100vh;
+                        padding: 2rem;
+                    }
+                    
+                }
+                .subtitle{
+                    margin-bottom: 0;
+                }
+                .columns{
+                    margin-top: 1rem;
+                }
+                .palestrante{
+                    .is-one-quarter{
+                        text-align: center;
+                    }
+                    border-radius: 15px;
+                    background-color: $branco-smoke;
+                    padding: 1.5rem;
+                    p{
+                        font-size: .9rem;
+                    }
+                }
+                img{
+                    border-radius: 50%;
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+        }
     }
     &#anais{
         background-color: $branco;
@@ -655,5 +812,4 @@ footer{
         color: $hortela;
     }
 }
-
 
