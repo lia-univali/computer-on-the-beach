@@ -158,7 +158,8 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: url("img/bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 168, 151, 0.8)), to(rgba(143, 214, 189, 0.8))), url("img/bg.jpg");
+  background-image: linear-gradient(to bottom right, rgba(0, 168, 151, 0.8), rgba(143, 214, 189, 0.8)), url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -170,21 +171,19 @@ section.hero .hero-body .container {
 }
 
 section.hero .hero-body .container h2 {
-  color: #00a897;
+  color: white;
   font-size: 2.4rem;
   font-weight: 900;
   font-style: italic;
-  -webkit-text-stroke: 1px white;
   position: relative;
   top: -25px;
 }
 
 section.hero .hero-body .container h4 {
-  color: #00a897;
+  color: white;
   font-size: 1.9rem;
   font-weight: 900;
   font-style: italic;
-  -webkit-text-stroke: 2px white;
   position: relative;
   top: -35px;
 }
