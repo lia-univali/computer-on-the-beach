@@ -418,7 +418,7 @@ section{
                         border-radius: 15px 15px 0 0 ;
                         background-color: $hortela;
                         &:hover{
-                            background-color:$cinza;
+                            background-color:darken($hortela,5%);
                         }
                         .card-header-title{
                             color: $branco;
@@ -478,7 +478,7 @@ section{
                 transition: .3s ease;
                 &:hover{
                     transform: scale(1.05);
-                    background-color: $preto;
+                    background-color: darken($hortela,10%);
                     .title{
                         color: $branco;
                     }
@@ -488,9 +488,11 @@ section{
         }
     }
     &#realizacao{
+        
         text-align: center;
         background-color: $branco;
         img{
+            
             max-height: 90px;
             max-width: 160px;
             &.logo-lia{
@@ -661,6 +663,16 @@ footer{
 
 .big-link{
     text-align: center;
+    transition: .3s ease;
+    
+    a{
+        color: $hortela;
+       
+        &:hover{
+            color:darken($hortela,10%);
+        }
+    }
+    
     .this-icon{
         font-size: 3rem;
         display: block;

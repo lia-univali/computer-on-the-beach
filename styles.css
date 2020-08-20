@@ -482,7 +482,7 @@ section#programacao .card.palestra.is-active .card-header {
 }
 
 section#programacao .card.palestra.is-active .card-header:hover {
-  background-color: #555555;
+  background-color: #008f80;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title {
@@ -554,7 +554,7 @@ section#anais .column article .title {
 section#anais .column article:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #0a1128;
+  background-color: #007569;
 }
 
 section#anais .column article:hover .title {
@@ -791,6 +791,16 @@ footer img {
 
 .big-link {
   text-align: center;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.big-link a {
+  color: #00a897;
+}
+
+.big-link a:hover {
+  color: #007569;
 }
 
 .big-link .this-icon {
