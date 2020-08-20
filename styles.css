@@ -174,7 +174,7 @@ section.hero .hero-body .container h2 {
   font-size: 2.4rem;
   font-weight: 900;
   font-style: italic;
-  -webkit-text-stroke: 3px white;
+  -webkit-text-stroke: 1px white;
   position: relative;
   top: -25px;
 }
