@@ -85,17 +85,20 @@ nav{
         }
     }
 }
+
 .floating-date{
     margin-top: -50px;
     text-align: right;
     color: $branco;
     background-color: $hortela;
 }
+
 .link-marambaia{
     color: $coral;
     font-weight: 600;
     text-decoration: underline;
 }
+
 section{
     &.section{
         .container{
@@ -619,6 +622,7 @@ section{
         }
     }
 }
+
 #topicos{
     ul{
         padding-top: 1rem;
@@ -664,7 +668,6 @@ footer{
 .big-link{
     text-align: center;
     transition: .3s ease;
-    
     a{
         color: $hortela;
        
