@@ -408,6 +408,12 @@ section#programacao .card .tab.is-active img {
           filter: grayscale(0);
 }
 
+section#programacao .card .content-tab .is-primary {
+  margin-bottom: 2rem;
+  background: -webkit-gradient(linear, right bottom, left top, from(#00a897), to(#00d6c0));
+  background: linear-gradient(to left top, #00a897, #00d6c0);
+}
+
 section#programacao .card .content-tab img {
   border-radius: 50%;
 }

@@ -357,6 +357,10 @@ section{
                 }
             }
             .content-tab{
+                .is-primary{
+                    margin-bottom: 2rem;
+                    background: linear-gradient(to left top,$hortela, lighten($hortela,9%));
+                }
                 img{
                     border-radius: 50%;
                 }
