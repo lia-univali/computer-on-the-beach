@@ -468,6 +468,7 @@ section{
                 }
             }
         }
+        
     }
     &#anais{
         background-color: $branco;
@@ -832,3 +833,50 @@ footer{
     }
 }
 
+#programacaosessoes{
+    .tecsection{
+        padding: 1rem;
+        margin: 15px 0;
+        background-color: $branco;
+        border: 3px solid $branco-smoke;
+        border-radius: 10px;
+    }
+    .head{
+        .link{
+            text-align: right;
+            .assista{
+                span{
+                    margin-left: 10px;
+                }
+            }
+        }
+        .section-title{
+            color: $hortela;
+            font-size: 1.3rem;
+        }
+        .section-chair{
+            color: $preto;
+            font-size: 1rem;
+        }
+    }
+    
+    .papers{
+        .paper{
+            padding: .1rem;
+            border: 1px solid $branco-smoke;
+            background-color: $branco-smoke;
+            padding: .5rem;
+            border-radius: 10px;
+            margin: .5rem;
+            .paper-title{
+                color: $hortela;
+                font-size: 1.1rem;
+            }
+            .authors{
+                .author{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

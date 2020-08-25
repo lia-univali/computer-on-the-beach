@@ -989,4 +989,48 @@ footer img {
 .modal a {
   color: #00a897;
 }
+
+#programacaosessoes .tecsection {
+  padding: 1rem;
+  margin: 15px 0;
+  background-color: white;
+  border: 3px solid #f0f6f7;
+  border-radius: 10px;
+}
+
+#programacaosessoes .head .link {
+  text-align: right;
+}
+
+#programacaosessoes .head .link .assista span {
+  margin-left: 10px;
+}
+
+#programacaosessoes .head .section-title {
+  color: #00a897;
+  font-size: 1.3rem;
+}
+
+#programacaosessoes .head .section-chair {
+  color: #0a1128;
+  font-size: 1rem;
+}
+
+#programacaosessoes .papers .paper {
+  padding: .1rem;
+  border: 1px solid #f0f6f7;
+  background-color: #f0f6f7;
+  padding: .5rem;
+  border-radius: 10px;
+  margin: .5rem;
+}
+
+#programacaosessoes .papers .paper .paper-title {
+  color: #00a897;
+  font-size: 1.1rem;
+}
+
+#programacaosessoes .papers .paper .authors .author {
+  font-size: .9rem;
+}
 /*# sourceMappingURL=styles.css.map */
