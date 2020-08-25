@@ -54,10 +54,11 @@ nav{
     }
     .button.is-primary{
         border: 0;
-        background-image: linear-gradient(to bottom right,$menta, $hortela);
+        background-color: $coral;
+        background-image: linear-gradient(to bottom right,$coral, darken($coral,5%));
         transition: 0.5s ease;
         &:hover{
-            background: $hortela;
+            background: $coral;
             animation: btnanimation .4s;
         }
         @keyframes btnanimation {
@@ -834,34 +835,106 @@ footer{
 }
 
 #programacaosessoes{
+    .tag{
+        &.is-info{
+            margin-left: .5rem;
+            font-size: .8rem;
+        }
+    }
     .tecsection{
         padding: 1rem;
         margin: 15px 0;
         background-color: $branco;
         border: 3px solid $branco-smoke;
         border-radius: 10px;
+        &.st{
+            .section-time{
+                background-color: $hortela;
+                color: $branco;
+                border: 1px solid $hortela;
+            }
+            .section-day{
+                background-color: $branco-smoke;
+                color: $preto;
+                border: 1px solid $hortela;
+            }
+            .section-title{
+                color: $hortela;
+            }
+            .section-chair{
+                color: $preto;
+            }
+        }
+        &.sp{
+            .section-time{
+                background-color: $preto;
+                color: $branco;
+                border: 1px solid $preto;
+            }
+            .section-day{
+                background-color: $branco-smoke;
+                color: $preto;
+                border: 1px solid $preto;
+            }
+            .section-title{
+                color: $hortela;
+            }
+            .section-chair{
+                color: $preto;
+            }
+        }
     }
     .head{
+        display: flex;
+        .time{
+            padding: 5px;
+            .section-time{
+                text-align: center;
+                border-radius: 10px 10px 0 0;
+                padding: 2px 10px ;
+            }
+            .section-day{
+                text-align: center;
+                font-size: .8rem;
+                padding: 2px;
+                border-radius: 0 0 10px 10px ;
+            }
+        }
         .link{
+            flex: 1;
             text-align: right;
+            padding: 10px;
             .assista{
+                margin: 5px;
                 span{
                     margin-left: 10px;
                 }
             }
         }
-        .section-title{
-            color: $hortela;
-            font-size: 1.3rem;
+        .title{
+            flex: auto;
+            padding: 1rem;
+            .section-title{
+                font-size: 1.3rem;
+            }
+            .section-chair{
+                font-size: 1rem;
+            }
         }
-        .section-chair{
-            color: $preto;
-            font-size: 1rem;
-        }
+        
     }
     
     .papers{
+        .paper-link{
+            &:hover{
+                .paper{
+                    transform: scale(1.02)  translateX(25px);
+                    background-color: darken($branco-smoke,5%);
+                }
+            }
+        }
         .paper{
+            transition: .3s ease;
             padding: .1rem;
             border: 1px solid $branco-smoke;
             background-color: $branco-smoke;
@@ -875,8 +948,15 @@ footer{
             .authors{
                 .author{
                     font-size: .9rem;
+                    color: $preto;
                 }
             }
         }
+    }
+}
+
+.secoes{
+    svg{
+        margin-right: 15px;
     }
 }

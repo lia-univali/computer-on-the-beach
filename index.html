@@ -131,8 +131,8 @@
 
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary open-modal" data-modal-id="#modal-inscricoes">
-            <strong>Inscreva-se</strong>
+          <a class="button is-primary open-modal" onclick="loadPapers()" data-modal-id="#modal-sections">
+            <strong>Sessões Técnicas</strong>
           </a>
         </div>
       </div>
@@ -319,17 +319,36 @@
         </div>
       </div>
     </div>
-
     </div>
   </section>
 
   <section class="section" id="programacao">
     <div class="container">
       <h1 class="title">Programação</h1>
+
+      <div class="secoes">
+        <a onclick="loadPapers()"  class="button is-primary is-large is-fullwidth open-modal" data-modal-id="#modal-sections"><i class="fas fa-file"></i> Sessões Técnicas</a>
+      </div>
+      
+      <div class="columns">
+        <div class="column">
+          <div class="column big-link extreme">
+            <a href="arquivos/ctt.pdf" title="Concurso de Trabalhos Técnicos" target="_blank">
+              <div class="this-icon">
+                <i class="fas fa-file"></i>
+              </div>
+              <div class="text">
+                CTT
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <h3 class="title">Painel de Abertura</h3>
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">
-            Painel de Abertura: <small>Liderança e Carreira em Tecnologias da Informação</small>
+           Liderança e Carreira em Tecnologias da Informação
           </p>
 
         </header>
@@ -673,31 +692,7 @@
       </div>
 
 
-      <h3 class="title">Sessões Técnicas</h3>
-
-
-      <div class="secoes">
-        <a onclick="loadPapers()"  class="button is-primary is-large is-fullwidth open-modal" data-modal-id="#modal-sections">Ver Programação</a>
-        
-      </div>
       
-
-      <div class="columns">
-        
-
-        <div class="column">
-          <div class="column big-link extreme">
-            <a href="arquivos/ctt.pdf" title="Concurso de Trabalhos Técnicos" target="_blank">
-              <div class="this-icon">
-                <i class="fas fa-file"></i>
-              </div>
-              <div class="text">
-                CTT
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
