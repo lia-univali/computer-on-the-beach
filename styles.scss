@@ -972,18 +972,14 @@ footer{
 .botao-palestra{
     margin-top: 15px;
     transition: .9s ease;
-    span{
-        color: $branco !important;
-        display: none !important;
-        transition: .9s ease;
+    strong{
+        // color: #ff3860;
+        color: $branco;
+        transition: ease;
+        overflow: hidden;
     }
-    &:hover{
-        span{
-            display: block !important;
-        }
-        svg{
-            margin-right: 10px;
-        }
+    svg{
+        margin-right: 10px;
     }
     
 }

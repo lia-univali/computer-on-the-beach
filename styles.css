@@ -1144,18 +1144,14 @@ footer img {
   transition: .9s ease;
 }
 
-.botao-palestra span {
-  color: white !important;
-  display: none !important;
-  -webkit-transition: .9s ease;
-  transition: .9s ease;
+.botao-palestra strong {
+  color: white;
+  -webkit-transition: ease;
+  transition: ease;
+  overflow: hidden;
 }
 
-.botao-palestra:hover span {
-  display: block !important;
-}
-
-.botao-palestra:hover svg {
+.botao-palestra svg {
   margin-right: 10px;
 }
 
