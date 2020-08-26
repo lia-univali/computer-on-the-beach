@@ -627,7 +627,7 @@ var json = [
     },
     {
        "title":"ST11 ",
-       "chair":" Selecionados para concorrer ao Melhor Artigo Completo ",
+       "chair":"Raimundo",
        "youtube": "https://www.youtube.com/watch?v=DCFARJsbxNE",
        "time": "09h",
        "day": "Set 4",
@@ -667,7 +667,7 @@ var json = [
     },
     {
        "title":"SP4 ",
-       "chair":" Selecionados para concorrer ao Melhor Resumo Estendido ",
+       "chair":"Thiago Felski",
        "youtube": "https://www.youtube.com/watch?v=VMOYGTbbk2s",
        "time": "10h",
        "day": "Set 4",
@@ -744,7 +744,7 @@ var json = [
     },
     {
        "title":"ST12 ",
-       "chair":" Selecionados para concorrer ao Melhor Artigo Completo ",
+       "chair":"Marcelo Thiry",
        "youtube": "https://www.youtube.com/watch?v=nEVIraCKOU0",
        "time": "11h",
        "day": "Set 4",

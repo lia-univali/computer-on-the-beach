@@ -834,7 +834,7 @@ footer{
     }
 }
 
-#programacaosessoes{
+#programacaosessoes,#programacaoctt{
     .tag{
         &.is-info{
             margin-left: .5rem;
@@ -955,7 +955,13 @@ footer{
     }
 }
 
-.secoes{
+.sessoes{
+    a{
+        &.is-large{
+            margin: 15px;
+            font-size: 2rem;
+        }          
+    }
     svg{
         margin-right: 15px;
     }

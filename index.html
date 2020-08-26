@@ -53,7 +53,7 @@
   <script src="tabs.js"></script>
   <script src="panels.js"></script>
   <script src="scheduler.js"></script>
-
+  <script src="cttschedule.js"></script>
   <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
 
 </head>
@@ -326,25 +326,12 @@
     <div class="container">
       <h1 class="title">Programação</h1>
 
-      <div class="secoes">
+      <div class="sessoes">
         <a onclick="loadPapers()"  class="button is-primary is-large is-fullwidth open-modal" data-modal-id="#modal-sections"><i class="fas fa-file"></i> Sessões Técnicas</a>
-      </div>
-      
-      <div class="columns">
-        <div class="column">
-          <div class="column big-link extreme">
-            <a href="arquivos/ctt.pdf" title="Concurso de Trabalhos Técnicos" target="_blank">
-              <div class="this-icon">
-                <i class="fas fa-file"></i>
-              </div>
-              <div class="text">
-                CTT
-              </div>
-            </a>
-          </div>
-        </div>
+        <a onclick="loadCTT()"  class="button is-primary is-large is-fullwidth open-modal" data-modal-id="#modal-ctt"><i class="fas fa-file"></i> CTT</a>
       </div>
       <h3 class="title">Painel de Abertura</h3>
+      <h4 class="subtitle">Quarta-Feira (02/09) <small>19h às 21h30</small></h4>
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">
@@ -1510,6 +1497,21 @@
       </header>
       <section class="modal-card-body">
         <div id="programacaosessoes">
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-ctt">
+    <div class="modal-background" data-modal-id="#modal-ctt"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Concurso de Trabalhos Técnicos</p>
+        <button class="delete close-modal" data-modal-id="#modal-ctt" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <div id="programacaoctt">
         </div>
 
       </section>
