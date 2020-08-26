@@ -189,7 +189,7 @@ var cttJson = [
  function loadCTT(){
     a = ""
     cttJson.forEach((sec) =>{
-        a +=  '<div class="tecsection sp">'
+        a +=  '<div class="tecsection st">'
         a +=  '<div class="head">'
         a +=  '<div class="time">'
         a +=  '<h2 class="section-time">'+sec.time+'</h2>'

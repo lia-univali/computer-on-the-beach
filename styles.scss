@@ -469,7 +469,9 @@ section{
                 }
             }
         }
-        
+        .subtitle{
+            color: $preto;
+        }
     }
     &#anais{
         background-color: $branco;
@@ -965,4 +967,31 @@ footer{
     svg{
         margin-right: 15px;
     }
+}
+
+.botao-palestra{
+    margin-top: 15px;
+    transition: .9s ease;
+    span{
+        color: $branco !important;
+        display: none !important;
+        transition: .9s ease;
+    }
+    &:hover{
+        span{
+            display: block !important;
+        }
+        svg{
+            margin-right: 10px;
+        }
+    }
+    
+}
+
+
+.botao-painel{
+    margin-left: 20px;
+    svg{
+        margin-right: 10px;
+    }    
 }

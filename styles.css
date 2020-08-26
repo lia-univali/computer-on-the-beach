@@ -538,6 +538,10 @@ section#programacao .card.palestra img {
   height: auto;
 }
 
+section#programacao .subtitle {
+  color: #0a1128;
+}
+
 section#anais {
   background-color: white;
 }
@@ -1132,5 +1136,34 @@ footer img {
 
 .sessoes svg {
   margin-right: 15px;
+}
+
+.botao-palestra {
+  margin-top: 15px;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+.botao-palestra span {
+  color: white !important;
+  display: none !important;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+}
+
+.botao-palestra:hover span {
+  display: block !important;
+}
+
+.botao-palestra:hover svg {
+  margin-right: 10px;
+}
+
+.botao-painel {
+  margin-left: 20px;
+}
+
+.botao-painel svg {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
