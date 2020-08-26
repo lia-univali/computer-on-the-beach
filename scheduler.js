@@ -1,7 +1,7 @@
 var json = [
     {
        "title":"ST01 ",
-       "chair":" Raimundo",
+       "chair":" Raimundo Teive",
        "youtube": "https://www.youtube.com/watch?v=Q426z-_znrA",
        "time": "09h",
        "day": "Set 2",
@@ -41,7 +41,7 @@ var json = [
     },
     {
        "title":"ST02 ",
-       "chair":" Douglas Melo",
+       "chair":" Douglas Rossi",
        "youtube": "https://www.youtube.com/watch?v=-2VRb0LeEbk",
        "time": "10h",
        "day": "Set 2",
@@ -120,7 +120,7 @@ var json = [
     },
     {
        "title":"ST04 ",
-       "chair":" Alejandro",
+       "chair":" Alejandro Ramirez",
        "youtube": "https://www.youtube.com/watch?v=_prgEfdHhew",
        "time": "14h",
        "day": "Set 2",
@@ -274,7 +274,7 @@ var json = [
     },
     {
        "title":"ST06 ",
-       "chair":" Eros",
+       "chair":" Eros Comunello",
        "youtube": "https://www.youtube.com/watch?v=uqQSiXnJf_0",
        "time": "09h",
        "day": "Set 3",
@@ -391,7 +391,7 @@ var json = [
     },
     {
        "title":"ST07 ",
-       "chair":" Raimundo",
+       "chair":" Raimundo Teive",
        "youtube": "https://www.youtube.com/watch?v=W-NgB0Rkvm4",
        "time": "11h",
        "day": "Set 3",
@@ -483,7 +483,7 @@ var json = [
     },
     {
        "title":"SP3 ",
-       "chair":" Eros e Rodrigo Lyra",
+       "chair":"Eros Comunello e Rodrigo Lyra",
        "youtube": "https://www.youtube.com/watch?v=RQ92kZUSBVQ",
        "time": "15h30",
        "day": "Set 3",
@@ -627,7 +627,7 @@ var json = [
     },
     {
        "title":"ST11 ",
-       "chair":"Raimundo",
+       "chair":"Raimundo Teive",
        "youtube": "https://www.youtube.com/watch?v=DCFARJsbxNE",
        "time": "09h",
        "day": "Set 4",
@@ -893,7 +893,7 @@ var json = [
     },
     {
        "title":"ST14 ",
-       "chair":" Daniela",
+       "chair":"Daniela Souza Moreira",
        "youtube": "https://www.youtube.com/watch?v=EKmqgkHmNLM",
        "time": "16h",
        "day": "Set 4",
