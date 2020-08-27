@@ -350,6 +350,10 @@ section#programacao {
   background-color: #f0f6f7;
 }
 
+section#programacao p.is-danger {
+  color: #ff3860;
+}
+
 section#programacao .card {
   margin: 2rem 0;
   border-radius: 15px;
@@ -540,6 +544,67 @@ section#programacao .card.palestra img {
 
 section#programacao .subtitle {
   color: #0a1128;
+}
+
+section#programacao .grid {
+  margin: 1rem 0;
+  border: 2px #8fd6bd solid;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+section#programacao .grid .duo {
+  padding: 0 .65rem;
+  margin-bottom: -1.33rem;
+}
+
+section#programacao .grid .duo .column {
+  margin: 0;
+  padding: .75rem .25rem;
+}
+
+section#programacao .grid h2 {
+  font-weight: 500;
+  text-align: center;
+}
+
+section#programacao .grid .track {
+  background-color: #00a897;
+  color: white;
+  position: relative;
+  padding: 0;
+  border-radius: 5px;
+  border: 1px solid #00a897;
+  margin: 10px 0;
+  padding: 6px;
+}
+
+section#programacao .grid .track span {
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  padding: 6px;
+  margin: 0;
+  margin-top: -6px;
+  border-radius: 0 4px 4px 0;
+  width: auto;
+  background-color: white;
+  color: #00a897;
+  text-align: center;
+  width: 55px;
+}
+
+section#programacao .grid .track.pl {
+  background-color: #0a1128;
+}
+
+section#programacao .grid .track.sp {
+  background-color: #007569;
+}
+
+section#programacao .grid .track.ctt {
+  background-color: #44bb91;
 }
 
 section#anais {
@@ -1130,7 +1195,7 @@ footer img {
 }
 
 .sessoes a.is-large {
-  margin: 15px;
+  margin: 15px 0;
   font-size: 2rem;
 }
 

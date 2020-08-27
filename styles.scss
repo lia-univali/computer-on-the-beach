@@ -308,6 +308,11 @@ section{
     }
     &#programacao{
         background-color: $branco-smoke;
+        p{
+            &.is-danger{
+                color: #ff3860;
+            }
+        }
         .card{
             margin: 2rem 0;
             border-radius: 15px;
@@ -471,6 +476,66 @@ section{
         }
         .subtitle{
             color: $preto;
+        }
+        .grid{
+            margin: 1rem 0;
+            border: 2px $menta solid;
+            background-color: $branco;
+            border-radius: 5px;
+            padding: 1rem;
+            .duo{
+                padding: 0 .65rem;
+                .column{
+                    margin: 0;
+                    padding: .75rem .25rem;
+                }
+                margin-bottom: -1.33rem;
+            }
+            h2{
+                font-weight: 500;
+                text-align: center;
+            }
+            .track{
+                
+                background-color: $hortela;
+                color: $branco;
+                position: relative;
+                padding: 0;
+                border-radius: 5px;
+                border: 1px solid $hortela;
+                margin: 10px 0;
+                padding: 6px;
+                span{
+                    right: 0;
+                    position: absolute;
+                    display: inline-block;
+                    padding: 6px;
+                    margin: 0;
+                    margin-top: -6px;
+                    border-radius: 0 4px 4px 0;                 
+                    width: auto;
+                    background-color: $branco;
+                    color: $hortela;
+                    text-align: center;
+                    width: 55px;
+                }
+                &.pl{
+                    background-color: $preto;
+                }
+                &.sp{
+                    background-color: darken($hortela, 10%);
+                }
+                &.ctt{
+                    background-color: darken($menta, 20%);
+                }
+                &.int{
+                    // background-color: $branco;
+                    // border: $branco;
+                    span{
+                        // color: $branco;
+                    }
+                }
+            }
         }
     }
     &#anais{
@@ -960,7 +1025,7 @@ footer{
 .sessoes{
     a{
         &.is-large{
-            margin: 15px;
+            margin: 15px 0;
             font-size: 2rem;
         }          
     }
