@@ -607,6 +607,11 @@ section#programacao .grid .track.ctt {
   background-color: #44bb91;
 }
 
+section#programacao .grid .track.int {
+  background-color: white;
+  color: #0a1128;
+}
+
 section#anais {
   background-color: white;
 }

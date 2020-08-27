@@ -529,9 +529,11 @@ section{
                     background-color: darken($menta, 20%);
                 }
                 &.int{
-                    // background-color: $branco;
+                    background-color: $branco;
+                    color: $preto;
                     // border: $branco;
                     span{
+                        // background-color: ;
                         // color: $branco;
                     }
                 }
