@@ -1,7 +1,8 @@
 var cttJson = [
     {
        "title":"CTT ",
-       "chair":" Trilha Extensão 1 ",
+       "chair":"Caroline Reis",
+       "name":" Trilha Extensão 1",
        "youtube": "https://www.youtube.com/watch?v=hOLA_siWHks",
        "time": "09h",
        "day": "Set 4",
@@ -48,7 +49,8 @@ var cttJson = [
     },
     {
        "title":"CTT ",
-       "chair":" Trilha Extensão 2 ",
+       "chair":"Denise Kronbauer",
+       "name":" Trilha Extensão 2",
        "youtube": "https://www.youtube.com/watch?v=SQm713mC6pw",
        "time": "11h",
        "day": "Set 4",
@@ -88,7 +90,8 @@ var cttJson = [
     },
     {
        "title":"CTT ",
-       "chair":" Trilha Pesquisa 1 ",
+       "chair":"Joelias Pinto Júnior",
+       "name":" Trilha Pesquisa 1",
        "youtube": "https://www.youtube.com/watch?v=RqYMGxEqwwk",
        "time": "14h",
        "day": "Set 4",
@@ -143,7 +146,8 @@ var cttJson = [
     },
     {
         "title":"CTT ",
-        "chair":" Trilha Pesquisa 2 ",
+        "chair":"Marcelo Dornbusch",
+       "name":" Trilha Pesquisa 2",
         "youtube": "https://www.youtube.com/watch?v=M2uWT1TVJas",
        "time": "16h",
        "day": "Set 4",
@@ -197,7 +201,7 @@ var cttJson = [
         a +=  '</div>'
         a +=  '<div class="title">'
         
-        a +=  '<h2 class="section-title">'+sec.title+'</h2>'
+        a +=  '<h2 class="section-title">'+sec.name+'</h2>'
         a +=  '<h2 class="section-chair">'+sec.chair+'</h2>'
         
         a +=  '</div>'
