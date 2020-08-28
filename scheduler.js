@@ -167,76 +167,90 @@ var json = [
     },
     {
        "title":"SP1 ",
-       "chair":" Wemerson Parreira e Rodrigo Lyra",
+       
        "youtube": "https://www.youtube.com/watch?v=mDiiJGdEzCU",
        "time": "15h30",
        "day": "Set 2",
        "papers":[
           {
-             "title":"Plataforma para Análise de Dados de Honeypots no Curto Prazo ",
-             "link": "https://yadi.sk/i/irU8zRgHqNAeGA",
-             "authors":[
-                "Gustavo José Neves da Silva, Rafael Obelheiro, UDESC, Brazil."
-             ]
+            "nome": "Grupo 1",
+            "chair":"Wemerson Parreira",
+            "papers": [
+               {
+                  "title":"Plataforma para Análise de Dados de Honeypots no Curto Prazo ",
+                  "link": "https://yadi.sk/i/irU8zRgHqNAeGA",
+                  "authors":[
+                     "Gustavo José Neves da Silva, Rafael Obelheiro, UDESC, Brazil."
+                  ]
+               },
+               {
+                  "title":"Simulação do comportamento estocástico do algoritmo adaptativo KLMS com diferentes kernels ",
+                  "link": "https://1drv.ms/v/s!Av01Ua0BcekIkyXBx-j9MIZM4XFv?e=fnX0k7",
+                  "authors":[
+                     "Patrick De Luca, Universidade do Vale do Itajaí, Brazil",
+                     "Wemerson Parreira, University of Vale do Itajaí, Brazil."
+                  ]
+               },
+               {
+                  "title":"Rede de Sensores Sem Fio para Monitoramento de Variáveis de Ambiente ",
+                  "link": "https://drive.google.com/file/d/1Sr6jfpb5HFdqDDfi8F4IXrcwNbHdEOIK/view?usp=sharing",
+                  "authors":[
+                     "Lucas José Cunha, Paulo Valim, Universidade do Vale do Itajaí, Brazil."
+                  ]
+               },
+               {
+                  "title":"SISDLE: Sistema Inteligente de Suporte ao Descarte de Lixo Eletroquímico ",
+                  "link": "http://www.mediafire.com/file/pz7flh2rg1clh4d/file",
+                  "authors":[
+                     "Gil Eduardo Andrade, Instituto Federal do Paraná, Brazil",
+                     "Diego Hoss, Ana Paula Marques Barbosa, IFPR, Brazil",
+                     "Diego Stiehl, Instituto Federal do Paraná, Brazil",
+                     "Fernanda Silva, UFPR, Brazil."
+                  ]
+               }
+            ]
           },
           {
-             "title":"Simulação do comportamento estocástico do algoritmo adaptativo KLMS com diferentes kernels ",
-             "link": "https://1drv.ms/v/s!Av01Ua0BcekIkyXBx-j9MIZM4XFv?e=fnX0k7",
-             "authors":[
-                "Patrick De Luca, Universidade do Vale do Itajaí, Brazil",
-                "Wemerson Parreira, University of Vale do Itajaí, Brazil."
-             ]
-          },
-          {
-             "title":"Rede de Sensores Sem Fio para Monitoramento de Variáveis de Ambiente ",
-             "link": "https://drive.google.com/file/d/1Sr6jfpb5HFdqDDfi8F4IXrcwNbHdEOIK/view?usp=sharing",
-             "authors":[
-                "Lucas José Cunha, Paulo Valim, Universidade do Vale do Itajaí, Brazil."
-             ]
-          },
-          {
-             "title":"SISDLE: Sistema Inteligente de Suporte ao Descarte de Lixo Eletroquímico ",
-             "link": "http://www.mediafire.com/file/pz7flh2rg1clh4d/file",
-             "authors":[
-                "Gil Eduardo Andrade, Instituto Federal do Paraná, Brazil",
-                "Diego Hoss, Ana Paula Marques Barbosa, IFPR, Brazil",
-                "Diego Stiehl, Instituto Federal do Paraná, Brazil",
-                "Fernanda Silva, UFPR, Brazil."
-             ]
-          },
-          {
-             "title":"Dispositivo Vestível para Monitoramento de Pessoas Idosas ",
-             "link": "https://drive.google.com/file/d/1zNzqkjuVEQuOVZpj9Vx9kZcW_7MUDiBE/view?usp=sharing",
-             "authors":[
-                "Caroline Mendes, Veronica Quandt, Elisângela Dias, Leonardo Mariani, Universidade Positivo, Brazil."
-             ]
-          },
-          {
-             "title":"Sistema de Iluminação Pública Inteligente ",
-             "link": "https://drive.google.com/file/d/1vFhgs6SZ8EA0wHGZ7pxvTQHLEAahJ_6U/view?usp=sharing",
-             "authors":[
-                "Fabio de la Rocha, Universidade Federal de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"Internet das coisas robóticas: desenvolvimento de um protótipo para o ensino de programação ",
-             "link": "https://drive.google.com/file/d/141sQkOwNht681Q-y-hGY-4xJxLI7xy42/view?usp=sharing",
-             "authors":[
-                "Gabriel Alves, Carlos Beleti Jr, André Moreira, Universidade Federal do Paraná, Brazil",
-                "Linnyer Ruiz, UEM, Brazil",
-                "Daniela Flôr, Instituto Federal do Paraná - Campus Paranavaí, Brazil."
-             ]
-          },
-          {
-             "title":"O uso de sequências didáticas no ensino de Internet das Coisas: uma experiência no ensino médio ",
-             "link": "https://drive.google.com/file/d/1h0hv64c_xDVoRsnkS1jgCTq5dUdTEYCa/view",
-             "authors":[
-                "André Moreira, Carlos Beleti Jr, Universidade Federal do Paraná, Brazil",
-                "Daniela Flôr, Instituto Federal do Paraná - Campus Paranavaí, Brazil",
-                "Linnyer Ruiz, UEM, Brazil",
-                "Gabriel Alves, Universidade Federal do Paraná, Brazil."
-             ]
-          }
+            "nome": "Grupo 2",
+            "chair":"Rodrigo Lyra",
+            "papers": [
+               {
+                  "title":"Dispositivo Vestível para Monitoramento de Pessoas Idosas ",
+                  "link": "https://drive.google.com/file/d/1zNzqkjuVEQuOVZpj9Vx9kZcW_7MUDiBE/view?usp=sharing",
+                  "authors":[
+                     "Caroline Mendes, Veronica Quandt, Elisângela Dias, Leonardo Mariani, Universidade Positivo, Brazil."
+                  ]
+               },
+               {
+                  "title":"Sistema de Iluminação Pública Inteligente ",
+                  "link": "https://drive.google.com/file/d/1vFhgs6SZ8EA0wHGZ7pxvTQHLEAahJ_6U/view?usp=sharing",
+                  "authors":[
+                     "Fabio de la Rocha, Universidade Federal de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"Internet das coisas robóticas: desenvolvimento de um protótipo para o ensino de programação ",
+                  "link": "https://drive.google.com/file/d/141sQkOwNht681Q-y-hGY-4xJxLI7xy42/view?usp=sharing",
+                  "authors":[
+                     "Gabriel Alves, Carlos Beleti Jr, André Moreira, Universidade Federal do Paraná, Brazil",
+                     "Linnyer Ruiz, UEM, Brazil",
+                     "Daniela Flôr, Instituto Federal do Paraná - Campus Paranavaí, Brazil."
+                  ]
+               },
+               {
+                  "title":"O uso de sequências didáticas no ensino de Internet das Coisas: uma experiência no ensino médio ",
+                  "link": "https://drive.google.com/file/d/1h0hv64c_xDVoRsnkS1jgCTq5dUdTEYCa/view",
+                  "authors":[
+                     "André Moreira, Carlos Beleti Jr, Universidade Federal do Paraná, Brazil",
+                     "Daniela Flôr, Instituto Federal do Paraná - Campus Paranavaí, Brazil",
+                     "Linnyer Ruiz, UEM, Brazil",
+                     "Gabriel Alves, Universidade Federal do Paraná, Brazil."
+                  ]
+               }
+            ]
+         }
+          
+          
        ]
     },
     {
@@ -310,83 +324,95 @@ var json = [
     },
     {
        "title":"SP2 ",
-       "chair":" Wemerson Parreira e Alex",
        "youtube": "https://www.youtube.com/watch?v=MPlpZwumvEg",
        "time": "10h",
        "day": "Set 3",
        "papers":[
-          {
-             "title":"Um Modelo de Rede Neural Convolucional para Classificação de Peças de Vestuário ",
-             "link": "https://www.dropbox.com/s/cg6daj7fa707uf6/SP2_202555_OmarAndresCarmonaCortes.mp4?dl=0",
-             "authors":[
-                "Anita Fernandes, Andrei Hodecker, UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Avaliando o Desempenho da Abordagem de Comitê na Análise de Sentimentos na Língua Portuguesa ",
-             "link": "https://1drv.ms/v/s!AvJmaYxIQkcUhJgc9JLrF1hhRmkHOQ?e=f3Saoo",
-             "authors":[
-                "Matheus Cardoso, UNIVALI - Universidade do Vale do Itajaí, Brazil",
-                "Anita Fernandes, UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Aplicação de Mineração De Dados para o Auxílio na Tomada de Decisão em Gestão de Pessoas ",
-             "link": "https://drive.google.com/file/d/1KDuXsGk6v39yubcpxMJXGm3JZgFI2wjq/view?usp=sharing",
-             "authors":[
-                "Samuel Favarin, Univali, Brazil",
-                "Rafael Martins, Universidade do Vale do Itajaí, Brazil."
-             ]
-          },
-          {
-             "title":"Previsão de Geração de Energia em uma Usina Éolica a partir de Séries Temporais ",
-             "link": "https://drive.google.com/file/d/1r07WpW4GP-_4YcBDO6JKJvQaZYrXaMN7/view?usp=sharing",
-             "authors":[
-                "Manoel Souza, Luis Cuevas Rodríguez, Universidade do Estado do Amazonas, Brazil",
-                "Carlos Trinchet Varella, Centro de Estúdios CAD/CAM, Universidad de Holguín, Cuba."
-             ]
-          },
-          {
-             "title":"Aplicação de Mineração de Dados para Detecção de Potenciais Churns em Empresa do Segmento Saas ",
-             "link": "https://drive.google.com/file/d/1Shivybeo4lkKOiZrEzDnHr_sES9Rmv70/view?usp=sharing",
-             "authors":[
-                "Rafael Martins, Universidade do Vale do Itajaí, Brazil",
-                "Leonardo Lucas, Univali, Brazil."
-             ]
-          },
-          {
-             "title":"A Preliminary Study on the Applied Machine Learning for Detection of the Predominant Factor of Big Five Personality Test ",
-             "link": "https://cefetrjbr-my.sharepoint.com/:v:/g/personal/08668257706_cefet-rj_br/Efoom2DE5vFEnY98bWGsc9oBOLq-EImS376acVknB-Vpgg?e=eMpkij",
-             "authors":[
-                "Felipe Henriques, Centro Federal de Educação Tecnológica Celso Suckow da Fonseca, Brazil",
-                "Caio Christian da Rocha, CEFET/RJ, -- Select Country --",
-                "Diogo Fagundes Pereira, FASE, -- Select Country --",
-                "Andre Felipe Monteiro, CEFET/RJ Campus Petrópolis, Brazil."
-             ]
-          },
-          {
-             "title":"Um Algoritmo Híbrido Baseado em Fireworks e Evolução Diferencial para Otimização Numérica ",
-             "link": "https://www.dropbox.com/s/luoky80p51rhu79/SP2_202551_OmarAndresCarmonaCortes.mp4?dl=0",
-             "authors":[
-                "Isaac Marques, UEMA, Brazil",
-                "Omar Cortes, IFMA, Brazil."
-             ]
-          },
-          {
-             "title":"Um Estudo Sobre Meta-Heurísticas em Otimização Multimodal ",
-             "link": "https://www.dropbox.com/s/cg6daj7fa707uf6/SP2_202555_OmarAndresCarmonaCortes.mp4?dl=0",
-             "authors":[
-                "Omar Cortes, IFMA, Brazil",
-                "Lucio SIlva, UEMA, Brazil."
-             ]
-          },
-          {
-             "title":"Gerenciamento de Frequência Escolar usando Visão Computacional e Redes Neurais Convolucionais ",
-             "link": "https://drive.google.com/drive/folders/1-jgg5fnG9_BfFUsPp9KCShbImW2Y3KUi?usp=sharing",
-             "authors":[
-                "Eder Chiquito, Guilherme Rodrigues, Julio Becker, Caroline Mendes, Universidade Positivo, Brazil."
-             ]
-          }
+         {
+            "nome": "Grupo 1",
+            "chair":"Wemerson Parreira",
+            "papers":[
+               {
+                  "title":"Um Modelo de Rede Neural Convolucional para Classificação de Peças de Vestuário ",
+                  "link": "https://www.dropbox.com/s/cg6daj7fa707uf6/SP2_202555_OmarAndresCarmonaCortes.mp4?dl=0",
+                  "authors":[
+                     "Anita Fernandes, Andrei Hodecker, UNIVALI, Brazil."
+                  ]
+               },
+               {
+                  "title":"Avaliando o Desempenho da Abordagem de Comitê na Análise de Sentimentos na Língua Portuguesa ",
+                  "link": "https://1drv.ms/v/s!AvJmaYxIQkcUhJgc9JLrF1hhRmkHOQ?e=f3Saoo",
+                  "authors":[
+                     "Matheus Cardoso, UNIVALI - Universidade do Vale do Itajaí, Brazil",
+                     "Anita Fernandes, UNIVALI, Brazil."
+                  ]
+               },
+               {
+                  "title":"Aplicação de Mineração De Dados para o Auxílio na Tomada de Decisão em Gestão de Pessoas ",
+                  "link": "https://drive.google.com/file/d/1KDuXsGk6v39yubcpxMJXGm3JZgFI2wjq/view?usp=sharing",
+                  "authors":[
+                     "Samuel Favarin, Univali, Brazil",
+                     "Rafael Martins, Universidade do Vale do Itajaí, Brazil."
+                  ]
+               },
+               {
+                  "title":"Previsão de Geração de Energia em uma Usina Éolica a partir de Séries Temporais ",
+                  "link": "https://drive.google.com/file/d/1r07WpW4GP-_4YcBDO6JKJvQaZYrXaMN7/view?usp=sharing",
+                  "authors":[
+                     "Manoel Souza, Luis Cuevas Rodríguez, Universidade do Estado do Amazonas, Brazil",
+                     "Carlos Trinchet Varella, Centro de Estúdios CAD/CAM, Universidad de Holguín, Cuba."
+                  ]
+               }
+            ]
+         },
+         {
+            "nome": "Grupo 2",
+            "chair":"Alex Rese",
+            "papers": [
+               {
+                  "title":"Aplicação de Mineração de Dados para Detecção de Potenciais Churns em Empresa do Segmento Saas ",
+                  "link": "https://drive.google.com/file/d/1Shivybeo4lkKOiZrEzDnHr_sES9Rmv70/view?usp=sharing",
+                  "authors":[
+                     "Rafael Martins, Universidade do Vale do Itajaí, Brazil",
+                     "Leonardo Lucas, Univali, Brazil."
+                  ]
+               },
+               {
+                  "title":"A Preliminary Study on the Applied Machine Learning for Detection of the Predominant Factor of Big Five Personality Test ",
+                  "link": "https://cefetrjbr-my.sharepoint.com/:v:/g/personal/08668257706_cefet-rj_br/Efoom2DE5vFEnY98bWGsc9oBOLq-EImS376acVknB-Vpgg?e=eMpkij",
+                  "authors":[
+                     "Felipe Henriques, Centro Federal de Educação Tecnológica Celso Suckow da Fonseca, Brazil",
+                     "Caio Christian da Rocha, CEFET/RJ, -- Select Country --",
+                     "Diogo Fagundes Pereira, FASE, -- Select Country --",
+                     "Andre Felipe Monteiro, CEFET/RJ Campus Petrópolis, Brazil."
+                  ]
+               },
+               {
+                  "title":"Um Algoritmo Híbrido Baseado em Fireworks e Evolução Diferencial para Otimização Numérica ",
+                  "link": "https://www.dropbox.com/s/luoky80p51rhu79/SP2_202551_OmarAndresCarmonaCortes.mp4?dl=0",
+                  "authors":[
+                     "Isaac Marques, UEMA, Brazil",
+                     "Omar Cortes, IFMA, Brazil."
+                  ]
+               },
+               {
+                  "title":"Um Estudo Sobre Meta-Heurísticas em Otimização Multimodal ",
+                  "link": "https://www.dropbox.com/s/cg6daj7fa707uf6/SP2_202555_OmarAndresCarmonaCortes.mp4?dl=0",
+                  "authors":[
+                     "Omar Cortes, IFMA, Brazil",
+                     "Lucio SIlva, UEMA, Brazil."
+                  ]
+               },
+               {
+                  "title":"Gerenciamento de Frequência Escolar usando Visão Computacional e Redes Neurais Convolucionais ",
+                  "link": "https://drive.google.com/drive/folders/1-jgg5fnG9_BfFUsPp9KCShbImW2Y3KUi?usp=sharing",
+                  "authors":[
+                     "Eder Chiquito, Guilherme Rodrigues, Julio Becker, Caroline Mendes, Universidade Positivo, Brazil."
+                  ]
+               }
+            ]
+         }
+          
        ]
     },
     {
@@ -483,73 +509,84 @@ var json = [
     },
     {
        "title":"SP3 ",
-       "chair":"Eros Comunello e Rodrigo Lyra",
        "youtube": "https://www.youtube.com/watch?v=RQ92kZUSBVQ",
        "time": "15h30",
        "day": "Set 3",
        "papers":[
-          {
-             "title":"Um estudo sobre identificação de aglomerados de galáxias ",
-             "link": "https://drive.google.com/drive/folders/1arwxePq9CU0UeOLEmRqtyzAi_AVjzk15?usp=sharing",
-             "authors":[
-                "João Ribeiro de Jesus, Rodrigo Lyra, UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Desenvolvimento de um software para calibração de trenas utilizando visão computacional ",
-             "link": "https://www.dropbox.com/s/pb4dsaf94kk2q01/CotB-Trena.mp4?dl=0",
-             "authors":[
-                "Benjamin Grando Moreira, Universidade Federal de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"NEAT Snake: a both evolutionary and neural network adaptation approach ",
-             "link": "https://drive.google.com/file/d/15CutpdBp_uTCun9_-Jn2icax_6b0Q_ux/view?usp=sharing",
-             "authors":[
-                "Alisson Henrique, Universidade do Vale de Itajaí, Brazil",
-                "Vinícius Santos, Universidade do Vale do Itajaí, Brazil",
-                "Rodrigo Lyra, UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Detecção de Roubo de Computadores em Laboratório usando Visão Computacional ",
-             "link": "https://drive.google.com/file/d/1bPbTAXWRPOPmVTkNReV3on25EuS4kgMj/view?usp=sharing",
-             "authors":[
-                "Gabriel de Andrade Cordeiro, Giovani Grockotzki, Itamar Azevedo, Universidade Positivo, Brazil",
-                "João Mantovani, Universidade Positivo , -- Select Country --",
-                "Matheus Santos, Ricardo Poncio, Caroline Mendes, Universidade Positivo, Brazil."
-             ]
-          },
-          {
-             "title":"A adaptabilidade de NPCs em jogos com estilo Presa-Predador usando Algoritmo Genético ",
-             "link": "https://drive.google.com/file/d/1sX8wxDrD8bqISz1qLpiLvM9MYJcB8x8o/view",
-             "authors":[
-                "Rafael Silva, Christiane Brasil, Universidade Federal de Uberlândia, Brazil."
-             ]
-          },
-          {
-             "title":"A Study on Semantic Segmentation for Autonomous Vehicles ",
-             "link": "https://drive.google.com/file/d/1jkI6872hjr7R_FM3afsOcYRR-VWMdC5D/view?usp=sharing",
-             "authors":[
-                "Vinícius Santos, Universidade do Vale do Itajaí, Brazil",
-                "Rodrigo Lyra, Thiago Felski Pereira, UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Correção de pose facial a partir de modelos 3D ",
-             "link": "https://drive.google.com/file/d/1tq3u_-2ywVPOSbqaRL0btBKrsMIl5vLx/view?usp=sharing",
-             "authors":[
-                "Rafael Piemontez, Univali, Brazil",
-                "Eros Comunello, Univali - Universidade do Vale do Itajaí, Brazil."
-             ]
-          },
-          {
-             "title":"Detecção de Vagas em Estacionamento usando Visão Computacional e Redes Neurais Convolucionais ",
-             "link": "FALTA",
-             "authors":[
-                "Caroline Mendes, Willian Cavenagli, Universidade Positivo, -- Select Country --."
-             ]
-          }
+         {
+            "nome": "Grupo 1",
+            "chair":"Rodrigo Lyra",
+            "papers": [
+               {
+                  "title":"Um estudo sobre identificação de aglomerados de galáxias ",
+                  "link": "https://drive.google.com/drive/folders/1arwxePq9CU0UeOLEmRqtyzAi_AVjzk15?usp=sharing",
+                  "authors":[
+                     "João Ribeiro de Jesus, Rodrigo Lyra, UNIVALI, Brazil."
+                  ]
+               },
+               {
+                  "title":"Desenvolvimento de um software para calibração de trenas utilizando visão computacional ",
+                  "link": "https://www.dropbox.com/s/pb4dsaf94kk2q01/CotB-Trena.mp4?dl=0",
+                  "authors":[
+                     "Benjamin Grando Moreira, Universidade Federal de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"NEAT Snake: a both evolutionary and neural network adaptation approach ",
+                  "link": "https://drive.google.com/file/d/15CutpdBp_uTCun9_-Jn2icax_6b0Q_ux/view?usp=sharing",
+                  "authors":[
+                     "Alisson Henrique, Universidade do Vale de Itajaí, Brazil",
+                     "Vinícius Santos, Universidade do Vale do Itajaí, Brazil",
+                     "Rodrigo Lyra, UNIVALI, Brazil."
+                  ]
+               },
+               {
+                  "title":"A Study on Semantic Segmentation for Autonomous Vehicles ",
+                  "link": "https://drive.google.com/file/d/1jkI6872hjr7R_FM3afsOcYRR-VWMdC5D/view?usp=sharing",
+                  "authors":[
+                     "Vinícius Santos, Universidade do Vale do Itajaí, Brazil",
+                     "Rodrigo Lyra, Thiago Felski Pereira, UNIVALI, Brazil."
+                  ]
+               }
+            ]
+         },
+         {
+            "nome": "Grupo 2",
+            "chair":"Eros Comunello",
+            "papers":[
+               {
+                  "title":"Detecção de Roubo de Computadores em Laboratório usando Visão Computacional ",
+                  "link": "https://drive.google.com/file/d/1bPbTAXWRPOPmVTkNReV3on25EuS4kgMj/view?usp=sharing",
+                  "authors":[
+                     "Gabriel de Andrade Cordeiro, Giovani Grockotzki, Itamar Azevedo, Universidade Positivo, Brazil",
+                     "João Mantovani, Universidade Positivo , -- Select Country --",
+                     "Matheus Santos, Ricardo Poncio, Caroline Mendes, Universidade Positivo, Brazil."
+                  ]
+               },
+               {
+                  "title":"A adaptabilidade de NPCs em jogos com estilo Presa-Predador usando Algoritmo Genético ",
+                  "link": "https://drive.google.com/file/d/1sX8wxDrD8bqISz1qLpiLvM9MYJcB8x8o/view",
+                  "authors":[
+                     "Rafael Silva, Christiane Brasil, Universidade Federal de Uberlândia, Brazil."
+                  ]
+               },
+               {
+                  "title":"Correção de pose facial a partir de modelos 3D ",
+                  "link": "https://drive.google.com/file/d/1tq3u_-2ywVPOSbqaRL0btBKrsMIl5vLx/view?usp=sharing",
+                  "authors":[
+                     "Rafael Piemontez, Univali, Brazil",
+                     "Eros Comunello, Univali - Universidade do Vale do Itajaí, Brazil."
+                  ]
+               },
+               {
+                  "title":"Detecção de Vagas em Estacionamento usando Visão Computacional e Redes Neurais Convolucionais ",
+                  "link": "FALTA",
+                  "authors":[
+                     "Caroline Mendes, Willian Cavenagli, Universidade Positivo, -- Select Country --."
+                  ]
+               }
+            ]
+         }
        ]
     },
     {
@@ -667,79 +704,91 @@ var json = [
     },
     {
        "title":"SP4 ",
-       "chair":"Thiago Felski",
        "youtube": "https://www.youtube.com/watch?v=VMOYGTbbk2s",
        "time": "10h",
        "day": "Set 4",
        "papers":[
-          {
-             "title":"Rastreabilidade de alocação e desalocação de contêineres usando Docker Swarm com base em blockchain Hyperledger consorciado ",
-             "link": "https://www.dropbox.com/s/5oeea4nxa23xuw3/SP04_202306_CharlesChristianMiers.m4v?dl=0",
-             "authors":[
-                "Marco Marques, Mauricio Aronne Pillon, Universidade do Estado de Santa Catarina, Brazil",
-                "Guilherme Koslovski, Universidade do Estado de Santa Catarina - UDESC, Brazil",
-                "Charles Miers, Universidade do Estado de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"SCIUIoT: Sistema de combate aos Incêndios Urbanos por meio da IoT ",
-             "link": "https://drive.google.com/file/d/1x_BPdpu2ElhDfArMK5vfbvh_teBNbd1Z/view?usp=sharing",
-             "authors":[
-                "Emanuel Souza, Instituto Federal da Bahia, Brazil",
-                "Matheus Ullmann, Intituto Federal da Bahia, Brazil."
-             ]
-          },
-          {
-             "title":"Proposta para reparticionamento de estado em Replicação Máquina de Estado Paralela ",
-             "link": "https://www.dropbox.com/s/qknndc167m1z1dn/SP4_202328_JoaoGabrielTrombeta.mp4",
-             "authors":[
-                "João Trombeta, Odorico Mendizabal, Universidade Federal de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"Estudo da classificação de imagens a partir de sensoriamento remoto de Santa Catarina ",
-             "link": "https://drive.google.com/file/d/12dPl5pFTB-UwyLBZRtzdKs9N1E5zfVeG/view?usp=sharing",
-             "authors":[
-                "Luciana P. de Araújo Kohler, Universidade Regional de Blumenau (FURB), Brazil",
-                "Artur Bizon, Universidade Regional de Blumenau, Brazil."
-             ]
-          },
-          {
-             "title":"Sistema De Telefonia Comunitária Com Baixo Consumo De Energia ",
-             "link": "FALTA",
-             "authors":[
-                "Gabriel Couto, Federal University Of pará, Brazil",
-                "Giovanni Leao, Universidade Federal do Pará, Brazil",
-                "Lauro Castro, Federal University of Pará, Brazil",
-                "Aldebaro Klautau, Universidade Federal do Para (UFPA), Brazil",
-                "Francisco Muller, Universidade Federal do Para, Brazil."
-             ]
-          },
-          {
-             "title":"Contando Histórias com Realidade Aumentada: Livro Didático Interativo para Crianças Portadoras de Necessidades Especiais (PNEs) ",
-             "link": "https://drive.google.com/file/d/1Rb_JRPJDf6A51Y4Ugp2pyzZakSuM9300/view?usp=sharing",
-             "authors":[
-                "Fabiann Barbosa, IFAM - Instituto Federal de Educação Ciência e Tecnologia do Amazonas, Brazil",
-                "Francisca Silva, Mizael Rodrigues, IFAM - Instituto Federal de Educação, Ciência e Tecnologia do Amazonas, Brazil."
-             ]
-          },
-          {
-             "title":"Dispositivo de IoT para Monitoramento e Controle Remoto de Condicionadores de Ar ",
-             "link": "https://drive.google.com/file/d/1I7y_QuuAgKtMwMAZiOrGhs2eaeR1X4EW/view?usp=sharing",
-             "authors":[
-                "Gil Eduardo Andrade, Levy Silva, Instituto Federal do Paraná, Brazil",
-                "Diego Hoss, IFPR, Brazil."
-             ]
-          },
-          {
-             "title":"Processo para Reconhecimento e Tradução de Sinais em Libras Utilizando Redes Neurais Artificiais ",
-             "link": "https://drive.google.com/file/d/1ZXdua0bnop-_uqwj9M_U1NLOWoS-Q8fw/view?usp=sharing",
-             "authors":[
-                "João Pedro Sobrinho, Lucas Pacheco, CEFET-MG, Brazil",
-                "Gabriella Costa, Federal Center for Technological Education of Minas Gerais, Brazil",
-                "Samuel Basilio, CEFET-MG, Brazil."
-             ]
-          }
+         {
+            "nome": "Grupo 1",
+            "chair":"Daniela Souza Moreira e Rudimar Dazzi",
+            "papers": [
+               {
+                  "title":"Rastreabilidade de alocação e desalocação de contêineres usando Docker Swarm com base em blockchain Hyperledger consorciado ",
+                  "link": "https://www.dropbox.com/s/5oeea4nxa23xuw3/SP04_202306_CharlesChristianMiers.m4v?dl=0",
+                  "authors":[
+                     "Marco Marques, Mauricio Aronne Pillon, Universidade do Estado de Santa Catarina, Brazil",
+                     "Guilherme Koslovski, Universidade do Estado de Santa Catarina - UDESC, Brazil",
+                     "Charles Miers, Universidade do Estado de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"SCIUIoT: Sistema de combate aos Incêndios Urbanos por meio da IoT ",
+                  "link": "https://drive.google.com/file/d/1x_BPdpu2ElhDfArMK5vfbvh_teBNbd1Z/view?usp=sharing",
+                  "authors":[
+                     "Emanuel Souza, Instituto Federal da Bahia, Brazil",
+                     "Matheus Ullmann, Intituto Federal da Bahia, Brazil."
+                  ]
+               },
+               {
+                  "title":"Proposta para reparticionamento de estado em Replicação Máquina de Estado Paralela ",
+                  "link": "https://www.dropbox.com/s/qknndc167m1z1dn/SP4_202328_JoaoGabrielTrombeta.mp4",
+                  "authors":[
+                     "João Trombeta, Odorico Mendizabal, Universidade Federal de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"Estudo da classificação de imagens a partir de sensoriamento remoto de Santa Catarina ",
+                  "link": "https://drive.google.com/file/d/12dPl5pFTB-UwyLBZRtzdKs9N1E5zfVeG/view?usp=sharing",
+                  "authors":[
+                     "Luciana P. de Araújo Kohler, Universidade Regional de Blumenau (FURB), Brazil",
+                     "Artur Bizon, Universidade Regional de Blumenau, Brazil."
+                  ]
+               }
+            ]
+         },
+         {
+            "nome": "Grupo 2",
+            "chair":"Christiane Heeman e Anita Fernandes",
+            "papers": [
+               {
+                  "title":"Sistema De Telefonia Comunitária Com Baixo Consumo De Energia ",
+                  "link": "https://drive.google.com/file/d/105iCvrP58Qm3bFrdYMGNDtdZx-lKTl__/view?usp=sharing",
+                  "authors":[
+                     "Gabriel Couto, Federal University Of pará, Brazil",
+                     "Giovanni Leao, Universidade Federal do Pará, Brazil",
+                     "Lauro Castro, Federal University of Pará, Brazil",
+                     "Aldebaro Klautau, Universidade Federal do Para (UFPA), Brazil",
+                     "Francisco Muller, Universidade Federal do Para, Brazil."
+                  ]
+               },
+               {
+                  "title":"Contando Histórias com Realidade Aumentada: Livro Didático Interativo para Crianças Portadoras de Necessidades Especiais (PNEs) ",
+                  "link": "https://drive.google.com/file/d/1Rb_JRPJDf6A51Y4Ugp2pyzZakSuM9300/view?usp=sharing",
+                  "authors":[
+                     "Fabiann Barbosa, IFAM - Instituto Federal de Educação Ciência e Tecnologia do Amazonas, Brazil",
+                     "Francisca Silva, Mizael Rodrigues, IFAM - Instituto Federal de Educação, Ciência e Tecnologia do Amazonas, Brazil."
+                  ]
+               },
+               {
+                  "title":"Dispositivo de IoT para Monitoramento e Controle Remoto de Condicionadores de Ar ",
+                  "link": "https://drive.google.com/file/d/1I7y_QuuAgKtMwMAZiOrGhs2eaeR1X4EW/view?usp=sharing",
+                  "authors":[
+                     "Gil Eduardo Andrade, Levy Silva, Instituto Federal do Paraná, Brazil",
+                     "Diego Hoss, IFPR, Brazil."
+                  ]
+               },
+               {
+                  "title":"Processo para Reconhecimento e Tradução de Sinais em Libras Utilizando Redes Neurais Artificiais ",
+                  "link": "https://drive.google.com/file/d/1ZXdua0bnop-_uqwj9M_U1NLOWoS-Q8fw/view?usp=sharing",
+                  "authors":[
+                     "João Pedro Sobrinho, Lucas Pacheco, CEFET-MG, Brazil",
+                     "Gabriella Costa, Federal Center for Technological Education of Minas Gerais, Brazil",
+                     "Samuel Basilio, CEFET-MG, Brazil."
+                  ]
+               }
+            ]
+         }
+          
        ]
     },
     {
@@ -834,61 +883,73 @@ var json = [
     },
     {
        "title":"SP5 ",
-       "chair":" Rafael Queiros",
        "youtube": "https://www.youtube.com/watch?v=jePUX4JRa7I",
        "time": "15h30",
        "day": "Set 4",
        "papers":[
-          {
-             "title":"Uma Proposta de Abordagem para Mineração de Argumentos em Redações do Português Brasileiro no Modelo ENEM ",
-             "link": "https://drive.google.com/file/d/1X_pxanA8mEpm_OlQjpvS2jj8nPaZVKgn/view?usp=sharing",
-             "authors":[
-                "Jonathan Nau, UNIVALI, Brazil",
-                "Aluizio Haendchen Filho, Rudimar Dazzi, Universidade do Vale do Itajaí - UNIVALI, Brazil."
-             ]
-          },
-          {
-             "title":"Jogo para apoio ao ensino-aprendizagem de especificação de requisitos ",
-             "link": "https://drive.google.com/file/d/1SKuH5T4uU8ZTOsNQHx9tokoyIjqI2N3_/view?usp=sharing",
-             "authors":[
-                "João Vitor Demaria Venancio, UFSC, Brazil",
-                "Fabiane Benitti, Universidade Federal de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"Detection of Depression Symptoms Using Chatbots Based on Machine Learning ",
-             "link": "https://drive.google.com/file/d/1t05pWyD3OB9bQ4FrpjYlFlBbicW44jAa/view?usp=drivesdk",
-             "authors":[
-                "Andre Felipe Monteiro, Vitor Bastos, Laysa Bitencourt, Giovana Moreira, CEFET/RJ Campus Petrópolis, Brazil."
-             ]
-          },
-          {
-             "title":"Middleware para formatos de arquivos de ferramentas de modelagem de Sistemas a Eventos Discretos ",
-             "link":"https://www.dropbox.com/s/b6rbp1d6aiw5r9v/CotB-SED.mp4?dl=0",
-             "authors":[
-                "Benjamin Grando Moreira, Universidade Federal de Santa Catarina, Brazil."
-             ]
-          },
-          {
-             "title":"Lixeira interativa para o aprendizado de crianças fora da faixa de alfabetização. ",
-             "link":"https://drive.google.com/file/d/1iTTZcaUwnbrkodRd8DgCJZEAbO1jIVqr/view?usp=sharing",
-             "authors":[
-                "Will Almeida, Gylnara Almeida, Yonara Magalhães, JOSÉ AUGUSTO MEDEIROS SILVA FILHO, Universidade Ceuma, -- Select Country --",
-                "Lissa Maria Vieira Lôbo, Univcersidade Ceuma, -- Select Country --."
-             ]
-          },
-          {
-             "title":"API para Extração de Parâmetros em Objetos de Aprendizagem Digital para Validação de Acessibilidade ",
-             "link":"https://drive.google.com/file/d/1nvZmustoxbuwGEIRFprYx66WPQfapRAf/view?usp=sharing",
-             "authors":[
-                "Juliana Silva, Universidade Federal de Santa Maria, Brazil",
-                "Maicon Dall'Asta, Universidade Regional Integrada do Alto Uruguai e das Missões (URI), Brazil",
-                "Fabio Parreira, UFSM - Universidade Federal de Santa Maria, Brazil",
-                "Renan Binda, UFSC - Universidade Federal de Santa Catarina, Brazil",
-                "Vania Ribas Ulbricht, Universidade Federal de Santa Catarina, Brazil",
-                "Sidnei Renato Silveira, Universidade Federal de Santa Maria - CESNORS/UFSM, Brazil."
-             ]
-          }
+         {
+            "nome": "Grupo 1",
+            "chair":"Rafael Queiros",
+            "papers":[
+               {
+                  "title":"Uma Proposta de Abordagem para Mineração de Argumentos em Redações do Português Brasileiro no Modelo ENEM ",
+                  "link": "https://drive.google.com/file/d/1X_pxanA8mEpm_OlQjpvS2jj8nPaZVKgn/view?usp=sharing",
+                  "authors":[
+                     "Jonathan Nau, UNIVALI, Brazil",
+                     "Aluizio Haendchen Filho, Rudimar Dazzi, Universidade do Vale do Itajaí - UNIVALI, Brazil."
+                  ]
+               },
+               {
+                  "title":"Jogo para apoio ao ensino-aprendizagem de especificação de requisitos ",
+                  "link": "https://drive.google.com/file/d/1SKuH5T4uU8ZTOsNQHx9tokoyIjqI2N3_/view?usp=sharing",
+                  "authors":[
+                     "João Vitor Demaria Venancio, UFSC, Brazil",
+                     "Fabiane Benitti, Universidade Federal de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"Detection of Depression Symptoms Using Chatbots Based on Machine Learning ",
+                  "link": "https://drive.google.com/file/d/1t05pWyD3OB9bQ4FrpjYlFlBbicW44jAa/view?usp=drivesdk",
+                  "authors":[
+                     "Andre Felipe Monteiro, Vitor Bastos, Laysa Bitencourt, Giovana Moreira, CEFET/RJ Campus Petrópolis, Brazil."
+                  ]
+               }
+            ]
+         },
+         {
+            "nome": "Grupo 2",
+            "chair":"Anita Fernandes",
+            "papers": [
+               {
+                  "title":"Middleware para formatos de arquivos de ferramentas de modelagem de Sistemas a Eventos Discretos ",
+                  "link":"https://www.dropbox.com/s/b6rbp1d6aiw5r9v/CotB-SED.mp4?dl=0",
+                  "authors":[
+                     "Benjamin Grando Moreira, Universidade Federal de Santa Catarina, Brazil."
+                  ]
+               },
+               {
+                  "title":"Lixeira interativa para o aprendizado de crianças fora da faixa de alfabetização. ",
+                  "link":"https://drive.google.com/file/d/1iTTZcaUwnbrkodRd8DgCJZEAbO1jIVqr/view?usp=sharing",
+                  "authors":[
+                     "Will Almeida, Gylnara Almeida, Yonara Magalhães, JOSÉ AUGUSTO MEDEIROS SILVA FILHO, Universidade Ceuma, -- Select Country --",
+                     "Lissa Maria Vieira Lôbo, Univcersidade Ceuma, -- Select Country --."
+                  ]
+               },
+               {
+                  "title":"API para Extração de Parâmetros em Objetos de Aprendizagem Digital para Validação de Acessibilidade ",
+                  "link":"https://drive.google.com/file/d/1nvZmustoxbuwGEIRFprYx66WPQfapRAf/view?usp=sharing",
+                  "authors":[
+                     "Juliana Silva, Universidade Federal de Santa Maria, Brazil",
+                     "Maicon Dall'Asta, Universidade Regional Integrada do Alto Uruguai e das Missões (URI), Brazil",
+                     "Fabio Parreira, UFSM - Universidade Federal de Santa Maria, Brazil",
+                     "Renan Binda, UFSC - Universidade Federal de Santa Catarina, Brazil",
+                     "Vania Ribas Ulbricht, Universidade Federal de Santa Catarina, Brazil",
+                     "Sidnei Renato Silveira, Universidade Federal de Santa Maria - CESNORS/UFSM, Brazil."
+                  ]
+               }
+            ]
+         }
+          
        ]
     },
     {
@@ -939,7 +1000,7 @@ var json = [
         "chair":" Marcelo Thiry",
         "youtube": "https://www.youtube.com/watch?v=v54p_nQq_ms",
         "time": "17h",
-       "day": "Set 4",
+        "day": "Set 4",
         "papers":[
            {
               "title":"Conversational agents for the elderly, the Guardian platform ",
@@ -994,37 +1055,62 @@ function loadPapers(){
         a +=  '<div class="title">'
         
         a +=  '<h2 class="section-title">'+sec.title+'</h2>'
-        a +=  '<h2 class="section-chair">'+sec.chair+'</h2>'
-        
+        if (!sec.title.includes('SP')){
+           a +=  '<h2 class="section-chair">'+sec.chair+'</h2>'
+        }
         a +=  '</div>'
         a +=  '<div class="link">'
         
-
-        a += '<a class="button is-danger is-medium assista" href="'+sec.youtube+'" target="_blank"><i class="fas fa-play"></i><span>Assista</span></a>'
-        
+        if (sec.title.includes('SP')){
+            a += '<a class="button is-info is-medium assista" href="https://discord.gg/NcQhXk" target="_blank"><i class="fab fa-discord"></i><span>Participe</span></a>'
+        }
+        else{
+         a += '<a class="button is-danger is-medium assista" href="'+sec.youtube+'" target="_blank"><i class="fas fa-play"></i><span>Assista</span></a>'
+        }
         a +=  '</div>'
         a +=  '</div>'
         
         a +=  '<div class="papers">'
         if (sec.title.includes('SP')){
-            a += '<span class="tag is-info"> Clique no Tabalho para exibir o Poster</span>'
+            
+            sec.papers.forEach((paper) =>{
+               //grupo
+               a += "<h2 class='group-title'>"+paper.nome+"</h2>"
+               a += "<h2 class='group-chair'>"+paper.chair+"</h2>"
+               a += '<span class="tag is-info"> Clique no Tabalho para exibir o Poster</span>'
+               paper.papers.forEach((p) =>{
+                  a += '<a href="'+p.link+'" target="_blank" class="paper-link">'
+                  a +=  '<div class="paper">'
+                  a +=  '<p class="paper-title">'+p.title+'</p>'
+                  a +=  '<div class="authors">'
+                  p.authors.forEach((author) =>{
+                     a +=  '<p class="author">'+author+'</p>'
+                  })
+                  a +=  '</div>'
+                  a +=  '</div>'
+                  a += '</a>'
+               })
+               
+           })
+        }else{
+            sec.papers.forEach((paper) =>{
+               if (sec.title.includes('SP')){
+                  a += '<a href="'+paper.link+'" target="_blank" class="paper-link">'
+               }
+               a +=  '<div class="paper">'
+               a +=  '<p class="paper-title">'+paper.title+'</p>'
+               a +=  '<div class="authors">'
+               paper.authors.forEach((author) =>{
+                  a +=  '<p class="author">'+author+'</p>'
+               })
+               a +=  '</div>'
+               a +=  '</div>'
+               if (sec.title.includes('SP')){
+                  a += '</a>'
+               }
+         })
         }
-        sec.papers.forEach((paper) =>{
-            if (sec.title.includes('SP')){
-                a += '<a href="'+paper.link+'" target="_blank" class="paper-link">'
-            }
-            a +=  '<div class="paper">'
-            a +=  '<p class="paper-title">'+paper.title+'</p>'
-            a +=  '<div class="authors">'
-            paper.authors.forEach((author) =>{
-                a +=  '<p class="author">'+author+'</p>'
-            })
-            a +=  '</div>'
-            a +=  '</div>'
-            if (sec.title.includes('SP')){
-                a += '</a>'
-            }
-        })
+        
         a +=  '</div>'
         a +=  '</div>'
     })

@@ -1110,6 +1110,17 @@ footer img {
   border: 1px solid #0a1128;
 }
 
+#programacaosessoes .tecsection.sp .group-title, #programacaoctt .tecsection.sp .group-title {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+#programacaosessoes .tecsection.sp .group-chair, #programacaoctt .tecsection.sp .group-chair {
+  color: #0a1128;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 #programacaosessoes .tecsection.sp .section-title, #programacaoctt .tecsection.sp .section-title {
   color: #00a897;
 }
