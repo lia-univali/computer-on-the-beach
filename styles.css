@@ -354,6 +354,11 @@ section#programacao p.is-danger {
   color: #ff3860;
 }
 
+section#programacao h3.title {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
 section#programacao .card {
   margin: 2rem 0;
   border-radius: 15px;
@@ -370,7 +375,6 @@ section#programacao .card .card-header {
 
 section#programacao .card .card-header .card-header-title {
   color: white;
-  text-transform: uppercase;
 }
 
 section#programacao .card .card-header .card-header-title small {
@@ -435,26 +439,8 @@ section#programacao .card.palestra .card-header {
   border-radius: 15px;
 }
 
-section#programacao .card.palestra .card-header .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  top: -30px;
-  z-index: 1;
-}
-
 section#programacao .card.palestra .card-header:hover {
   background-color: #f0f6f7;
-}
-
-section#programacao .card.palestra .card-header:hover .tooltiptext {
-  visibility: visible;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon {
@@ -470,6 +456,15 @@ section#programacao .card.palestra .card-header .card-header-icon:hover {
 section#programacao .card.palestra .card-header .card-header-title {
   display: block;
   color: #00a897;
+}
+
+section#programacao .card.palestra .card-header .card-header-title strong {
+  color: #0a1128;
+  font-weight: 700;
+}
+
+section#programacao .card.palestra .card-header .card-header-title a strong {
+  color: white;
 }
 
 section#programacao .card.palestra .card-header .card-header-title span {
@@ -496,6 +491,14 @@ section#programacao .card.palestra.is-active .card-header:hover {
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title {
+  color: white;
+}
+
+section#programacao .card.palestra.is-active .card-header .card-header-title strong {
+  color: white;
+}
+
+section#programacao .card.palestra.is-active .card-header .card-header-title a strong {
   color: white;
 }
 
@@ -570,10 +573,10 @@ section#programacao .grid h2 {
 }
 
 section#programacao .grid .track {
+  display: block;
   background-color: #00a897;
   color: white;
   position: relative;
-  padding: 0;
   border-radius: 5px;
   border: 1px solid #00a897;
   margin: 10px 0;
@@ -605,6 +608,16 @@ section#programacao .grid .track.sp {
 
 section#programacao .grid .track.ctt {
   background-color: #44bb91;
+}
+
+section#programacao .grid .track.painel {
+  background-color: #111d45;
+  padding: 3.45rem 6px;
+}
+
+section#programacao .grid .track.painel span {
+  margin-top: -3.45rem;
+  padding: 3.45rem 6px;
 }
 
 section#programacao .grid .track.int {

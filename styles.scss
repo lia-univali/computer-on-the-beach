@@ -313,6 +313,12 @@ section{
                 color: #ff3860;
             }
         }
+        h3{
+            &.title{
+                margin-top: 3rem;
+                font-size: 2rem;
+            }
+        }
         .card{
             margin: 2rem 0;
             border-radius: 15px;
@@ -324,7 +330,6 @@ section{
                 border-radius: 15px 15px 0 0 ;
                 .card-header-title{
                     color: $branco;
-                    text-transform: uppercase;
                     small{
                         margin-left: 10px;
                         color: $branco-smoke;
@@ -378,29 +383,14 @@ section{
             &.palestra{
                 .card-header{
                     background-color: $branco;
-                    .tooltiptext {
-                        visibility: hidden;
-                        width: 120px;
-                        background-color: black;
-                        color: #fff;
-                        text-align: center;
-                        padding: 5px 0;
-                        border-radius: 6px;
-                       
-                        /* Position the tooltip text - see examples below! */
-                        position: absolute;
-                        top: -30px;
-                        z-index: 1;
-                    }
+                    
                     cursor: pointer;
                     &:hover{
                         background-color:$branco-smoke;
-                        .tooltiptext {
-                            visibility: visible;
-                          }
                     }
                     
                     .card-header-icon{
+                        
                         color: $hortela;
                         transition: .5s ease-in;
                         &:hover{
@@ -412,6 +402,16 @@ section{
                     .card-header-title{
                         display: block;
                         color: $hortela;
+                        strong{
+                            color: $preto;
+                            font-weight: 700;
+                            
+                        }
+                        a{
+                            strong{
+                                color: $branco;
+                            }
+                        }
                         span{
                             color: $cinza;
                             display: block;
@@ -435,6 +435,15 @@ section{
                         }
                         .card-header-title{
                             color: $branco;
+
+                            strong{
+                                color: $branco;
+                            }
+                            a{
+                                strong{
+                                    color: $branco;
+                                }
+                            }
                             span{
                                 color: $branco;
                             }
@@ -496,11 +505,10 @@ section{
                 text-align: center;
             }
             .track{
-                
+                display: block;
                 background-color: $hortela;
                 color: $branco;
                 position: relative;
-                padding: 0;
                 border-radius: 5px;
                 border: 1px solid $hortela;
                 margin: 10px 0;
@@ -527,6 +535,14 @@ section{
                 }
                 &.ctt{
                     background-color: darken($menta, 20%);
+                }
+                &.painel{
+                    background-color: lighten($preto, 7%);
+                    padding: 3.45rem 6px;
+                    span{
+                        margin-top: -3.45rem;
+                        padding: 3.45rem 6px;
+                    }
                 }
                 &.int{
                     background-color: $branco;
