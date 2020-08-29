@@ -513,6 +513,17 @@ section{
                 border: 1px solid $hortela;
                 margin: 10px 0;
                 padding: 6px;
+                transition: .2s ease;
+                &:hover{
+                    transform: scale(1.025);
+                    opacity: .8;
+                }
+                &.int{
+                    cursor: default;
+                    &:hover{
+                        transform: scale(1);
+                    }   
+                }
                 span{
                     right: 0;
                     position: absolute;

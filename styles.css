@@ -581,6 +581,23 @@ section#programacao .grid .track {
   border: 1px solid #00a897;
   margin: 10px 0;
   padding: 6px;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+section#programacao .grid .track:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+  opacity: .8;
+}
+
+section#programacao .grid .track.int {
+  cursor: default;
+}
+
+section#programacao .grid .track.int:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 section#programacao .grid .track span {
