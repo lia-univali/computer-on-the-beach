@@ -1062,7 +1062,7 @@ function loadPapers(){
         a +=  '<div class="link">'
         
         if (sec.title.includes('SP')){
-            a += '<a class="button is-info is-medium assista" href="https://discord.gg/NcQhXk" target="_blank"><i class="fab fa-discord"></i><span>Participe</span></a>'
+            a += '<a class="button is-info is-medium assista" href="https://discord.gg/XFKscpC" target="_blank"><i class="fab fa-discord"></i><span>Participe</span></a>'
         }
         else{
          a += '<a class="button is-danger is-medium assista" href="'+sec.youtube+'" target="_blank"><i class="fas fa-play"></i><span>Assista</span></a>'
