@@ -334,7 +334,7 @@ var json = [
             "papers":[
                {
                   "title":"Um Modelo de Rede Neural Convolucional para Classificação de Peças de Vestuário ",
-                  "link": "https://www.dropbox.com/s/cg6daj7fa707uf6/SP2_202555_OmarAndresCarmonaCortes.mp4?dl=0",
+                  "link": "https://drive.google.com/file/d/1D3mWl1Rhd7yA7lahqvMPifaVFr5LfGkx/view?usp=sharing",
                   "authors":[
                      "Anita Fernandes, Andrei Hodecker, UNIVALI, Brazil."
                   ]
