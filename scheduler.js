@@ -367,7 +367,7 @@ var json = [
          },
          {
             "nome": "Grupo 2",
-            "chair":"Alex Rese",
+            "chair":"Felipe Viel",
             "papers": [
                {
                   "title":"Aplicação de Mineração de Dados para Detecção de Potenciais Churns em Empresa do Segmento Saas ",
@@ -627,7 +627,7 @@ var json = [
     },
     {
        "title":"ST10 ",
-       "chair":" Adriana Alves",
+       "chair":" Christiane Heemann",
        "youtube": "https://www.youtube.com/watch?v=DMcMAW8HqN8",
        "time": "17h",
        "day": "Set 3",
@@ -1074,10 +1074,9 @@ function loadPapers(){
         if (sec.title.includes('SP')){
             
             sec.papers.forEach((paper) =>{
-               //grupo
                a += "<h2 class='group-title'>"+paper.nome+"</h2>"
                a += "<h2 class='group-chair'>"+paper.chair+"</h2>"
-               a += '<span class="tag is-info"> Clique no Tabalho para exibir o Poster</span>'
+               a += '<span class="tag is-info"> Clique no Tabalho para exibir a Apresentação</span>'
                paper.papers.forEach((p) =>{
                   a += '<a href="'+p.link+'" target="_blank" class="paper-link">'
                   a +=  '<div class="paper">'
