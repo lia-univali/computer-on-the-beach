@@ -889,7 +889,7 @@ var json = [
        "papers":[
          {
             "nome": "Grupo 1",
-            "chair":"Rafael Queiros",
+            "chair":"Rafael Queiroz",
             "papers":[
                {
                   "title":"Uma Proposta de Abordagem para Mineração de Argumentos em Redações do Português Brasileiro no Modelo ENEM ",
