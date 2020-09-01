@@ -326,8 +326,8 @@
     <div class="container">
       <h1 class="title">Programação</h1>
       
-      <div class="columns is-desktop grid">
-        <div class="column">
+      <div class="columns is-multiline is-desktop grid">
+        <div class="column is-one-third">
           <h2>Quarta-Feira - 2 de Setembro</h2>
           <a class="track" href="https://www.youtube.com/watch?v=Q426z-_znrA" target="_blank">ST 01 <span>9h</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=-2VRb0LeEbk" target="_blank">ST 02 <span>10h</span></a>
@@ -337,9 +337,8 @@
           <a class="track" href="https://www.youtube.com/watch?v=KBWWS9-BuKk" target="_blank">ST 05 <span>16h</span></a>
           <a class="track int double">Intervalo <span>17h</span></a>
           <a class="track pl painel" href="https://www.youtube.com/watch?v=u_JvGB54qrM" target="_blank">Painel de Abertura <span>19h</span></a>
-
         </div>
-        <div class="column">
+        <div class="column is-one-third">
           <h2>Quinta-Feira - 3 de Setembro</h2>
           <a class="track" href="https://www.youtube.com/watch?v=uqQSiXnJf_0" target="_blank">ST 06 <span>9h</span></a>
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 02 <span>10h</span></a>
@@ -353,7 +352,7 @@
           <a class="track pl" href="https://www.youtube.com/watch?v=1XDcQqNpEYY" target="_blank">Palestra 2 <span>19h45</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3 <span>20h30</span></a>
         </div>
-        <div class="column">
+        <div class="column is-one-third">
           <h2>Sexta-Feira - 4 de Setembro</h2>
           <div class="columns duo">
             <div class="column">
@@ -363,8 +362,7 @@
               <a class="track" href="https://www.youtube.com/watch?v=heivWCTkxt8" target="_blank">ST 13 <span>14h</span></a>
               <a class="track sp " href="https://discord.gg/XFKscpC" target="_blank">SP 05 <span>15h30</span></a>
               <a class="track" href="https://www.youtube.com/watch?v=EKmqgkHmNLM" target="_blank">ST 14 <span>16h</span></a>
-              <a class="track" href="https://www.youtube.com/watch?v=v54p_nQq_ms" target="_blank">ST 15 <span>17h</span></a>
-              
+              <a class="track" href="https://www.youtube.com/watch?v=v54p_nQq_ms" target="_blank">ST 15 <span>17h</span></a>      
             </div>
             <div class="column">
               <a class="track ctt" href="https://www.youtube.com/watch?v=hOLA_siWHks" target="_blank">CTT E1 <span>9h</span></a>
@@ -374,18 +372,20 @@
               <a class="track ctt int">Intervalo <span>15h</span></a>
               <a class="track ctt" href="https://www.youtube.com/watch?v=M2uWT1TVJas" target="_blank">CTT P2 <span>16h</span></a>
               <a class="track ctt int">Intervalo <span>17h</span></a>
-            </div>
-            
+            </div>   
           </div>
           <a class="track premio" href="https://www.youtube.com/watch?v=dnf_ZpdjEk4" target="_blank">Premiação <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=obgTVn7zRc0" target="_blank">Palestra 4 <span>19h</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=MWk70G4lfDA" target="_blank">Palestra 5 <span>19h45</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=O3lpblOUGck" target="_blank">Palestra 6 <span>20h30</span></a>
-          
+        </div>
+        <div class="column is-fullwidth">
+          <h2>Sábado - 5 de Setembro</h2>
+          <a class="track course" href="#minic" target="_blank">Minicurso <span>9h</span></a>
         </div>
         
-        
       </div>
+      
       <p>Legenda: 
         <strong>ST:</strong> Sessão Técnica
         <strong>SP:</strong> Sessão de Poster
@@ -809,7 +809,45 @@
         </div>
       </div>
 
-
+      <h3 class="title" id="minic">Minicurso</h3>
+      <h4 class="subtitle">Sábado (05/09) <small>9h às 12h</small></h4>
+      <p class="is-danger"><small>*Pré-inscrição pelo email: computeronthebeach@univali.br</small></p>
+      <!-- Bate Papo -->
+      <div class="card palestra" id="curso">
+        <header class="card-header" onclick="openContent(event,'curso')">
+          <p class="card-header-title">
+            <strong>Minicurso - </strong>
+            Gestão de Vulnerabilidades Técnicas
+            <span>André Landim e Nicole Rieckmann (CAIS-RNP)</span>
+            <a href="mailto:computeronthebeach@univali.br" target="_blank" class="button is-primary botao-palestra"><i class="fas fa-chart-bar"></i> <strong>Participe</strong></a>
+            
+          </p>
+          <a class="card-header-icon" aria-label="more">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </a>
+        </header>
+        <div class="card-content">
+          <p class="">Este minicurso tem o objetivo de mostrar a importância da utilização de um processo para gerenciamento de vulnerabilidades em ambientes de TI. Serão abordados os conceitos básicos sobre riscos, ameaças, formas de ataques e vulnerabilidades em redes e sistemas. Apresentaremos, também, ferramentas para auxiliar o administrador no processo de inventário, identificação e tratamento de vulnerabilidades.</p>
+          <div class="columns is-vcentered palestrante">
+            <div class="column is-one-quarter">
+              <img src="img/palestrantes/landin.png" />
+            </div>
+            <div class="column">
+              <p>André Landim é analista do Centro de Atendimento a Incidentes de Segurança (CAIS). Atua há mais de 19 anos em Tecnologia da Informação sendo 15 anos especificamente no campo de Segurança da Informação. É tecnólogo em Administração em Redes de Computadores pela Faculdade IBTA e pós-graduado em Segurança da Informação pela mesma instituição, cursou como aluno especial Redes de Computadores pela Universidade Estadual de Campinas (Unicamp). Atua no CAIS com foco em segurança de infraestrutura e gestão de vulnerabilidades.</p>
+            </div>
+          </div>
+          <div class="columns is-vcentered palestrante">
+            <div class="column is-one-quarter">
+              <img src="img/palestrantes/nicole.png" />
+            </div>
+            <div class="column">
+              <p>Nicole Rieckmann é Analista de Segurança do Centro de Atendimento a Incidentes de Segurança (CAIS) desde 2019, onde atua na Gestão de Incidentes. Formada Engenheira da Computação pela Universidade Federal do Rio Grande do Norte (UFRN), pós graduada em Gestão da Tecnologia da Informação pela UnP. Trabalhou no PoP-RN e na Superintendência de Informática da UFRN (SINFO) na operação e serviços de rede, com suas respectivas configurações de segurança. Apaixonada pela TI desde sua primeira configuração de roteador em 2009 e segue em busca de novos conhecimentos e desafios!</p>
+            </div>
+          </div>
+        </div>
+      </div>
       
     </div>
   </section>

@@ -566,6 +566,9 @@ section{
                     background-color: darken($preto, 5%);
 
                 }
+                &.course{
+                    background-color: lighten($hortela, 2%);
+                }
                 &.pl{
                     background-color: $preto;
                 }

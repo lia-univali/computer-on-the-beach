@@ -633,6 +633,10 @@ section#programacao .grid .track.premio {
   background-color: #050814;
 }
 
+section#programacao .grid .track.course {
+  background-color: #00b2a0;
+}
+
 section#programacao .grid .track.pl {
   background-color: #0a1128;
 }
