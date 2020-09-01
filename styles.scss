@@ -381,6 +381,7 @@ section{
             }
 
             &.palestra{
+                
                 .card-header{
                     background-color: $branco;
                     
@@ -481,6 +482,16 @@ section{
                     width: 120px;
                     height: auto;
                 }
+                &#melhores{
+                //     .card-header{
+                //         background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                // radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+                //         .card-header-title{
+                //             color: $preto;
+                //         }
+                //     }
+                }
             }
         }
         .subtitle{
@@ -499,12 +510,25 @@ section{
                     padding: .75rem .25rem;
                 }
                 margin-bottom: -1.33rem;
+                &.inner{
+                    .column{
+                        padding: 0rem .1rem;
+                        padding-bottom: .75rem;
+                    }
+                }
             }
             h2{
                 font-weight: 500;
                 text-align: center;
             }
             .track{
+                &.double{
+                    padding: 1.9rem 6px;
+                    span{
+                        margin-top: -1.9rem;
+                        padding: 1.9rem 6px;
+                    } 
+                }
                 display: block;
                 background-color: $hortela;
                 color: $branco;
@@ -538,6 +562,10 @@ section{
                     text-align: center;
                     width: 55px;
                 }
+                &.premio{
+                    background-color: darken($preto, 5%);
+
+                }
                 &.pl{
                     background-color: $preto;
                 }
@@ -546,6 +574,14 @@ section{
                 }
                 &.ctt{
                     background-color: darken($menta, 20%);
+                }
+                &.bt{
+                    background-color: lighten($preto, 7%);
+                    // padding: 1.9rem 6px;
+                    // span{
+                    //     margin-top: -1.9rem;
+                    //     padding: 1.9rem 6px;
+                    // }
                 }
                 &.painel{
                     background-color: lighten($preto, 7%);

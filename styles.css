@@ -567,6 +567,11 @@ section#programacao .grid .duo .column {
   padding: .75rem .25rem;
 }
 
+section#programacao .grid .duo.inner .column {
+  padding: 0rem .1rem;
+  padding-bottom: .75rem;
+}
+
 section#programacao .grid h2 {
   font-weight: 500;
   text-align: center;
@@ -583,6 +588,15 @@ section#programacao .grid .track {
   padding: 6px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
+}
+
+section#programacao .grid .track.double {
+  padding: 1.9rem 6px;
+}
+
+section#programacao .grid .track.double span {
+  margin-top: -1.9rem;
+  padding: 1.9rem 6px;
 }
 
 section#programacao .grid .track:hover {
@@ -615,6 +629,10 @@ section#programacao .grid .track span {
   width: 55px;
 }
 
+section#programacao .grid .track.premio {
+  background-color: #050814;
+}
+
 section#programacao .grid .track.pl {
   background-color: #0a1128;
 }
@@ -625,6 +643,10 @@ section#programacao .grid .track.sp {
 
 section#programacao .grid .track.ctt {
   background-color: #44bb91;
+}
+
+section#programacao .grid .track.bt {
+  background-color: #111d45;
 }
 
 section#programacao .grid .track.painel {

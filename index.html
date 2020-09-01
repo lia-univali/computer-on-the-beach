@@ -335,7 +335,7 @@
           <a class="track" href="https://www.youtube.com/watch?v=_prgEfdHhew" target="_blank">ST 04 <span>14h</span></a>
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 01 <span>15h30</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=KBWWS9-BuKk" target="_blank">ST 05 <span>16h</span></a>
-          <a class="track int">Intervalo <span>17h</span></a>
+          <a class="track int double">Intervalo <span>17h</span></a>
           <a class="track pl painel" href="https://www.youtube.com/watch?v=u_JvGB54qrM" target="_blank">Painel de Abertura <span>19h</span></a>
 
         </div>
@@ -348,6 +348,7 @@
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 03 <span>15h30</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=GH_7NUmlP7Y" target="_blank">ST 09 <span>16h</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=DMcMAW8HqN8" target="_blank">ST 10 <span>17h</span></a>
+          <a class="track bt" href="https://www.youtube.com/watch?v=na_jwbzb140" target="_blank">Bate Papo <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=zPtunpqZSZU" target="_blank">Palestra 1 <span>19h</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=1XDcQqNpEYY" target="_blank">Palestra 2 <span>19h45</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3 <span>20h30</span></a>
@@ -376,11 +377,13 @@
             </div>
             
           </div>
+          <a class="track premio" href="https://www.youtube.com/watch?v=dnf_ZpdjEk4" target="_blank">Premiação <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=obgTVn7zRc0" target="_blank">Palestra 4 <span>19h</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=MWk70G4lfDA" target="_blank">Palestra 5 <span>19h45</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=O3lpblOUGck" target="_blank">Palestra 6 <span>20h30</span></a>
           
         </div>
+        
         
       </div>
       <p>Legenda: 
@@ -521,7 +524,42 @@
       </div>
 
       <h3 class="title">Palestras</h3>
-      <h4 class="subtitle">Quinta-Feira (03/09) <small>19h às 21h30</small></h4>
+      <h4 class="subtitle">Quinta-Feira (03/09) <small>18h30 às 21h30</small></h4>
+      <!-- Bate Papo -->
+      <div class="card palestra" id="papo">
+        <header class="card-header" onclick="openContent(event,'papo')">
+          <p class="card-header-title">
+            <strong>Bate-papo - </strong>
+            Programa Meninas Digitais e o Projeto Catarinas
+            <span>Cristiano Maciel - UFMT e Avanilde Kemczinski - UDESC</span>
+            <a href="https://www.youtube.com/watch?v=na_jwbzb140" target="_blank" class="button is-danger botao-palestra"><i class="fas fa-play"></i> <strong>Assista</strong></a>
+          </p>
+          <a class="card-header-icon" aria-label="more">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </a>
+        </header>
+        <div class="card-content">
+          <p class="">Um bate-papo entre o Programa Meninas Digitais e o Projeto Catarinas</p>
+          <div class="columns is-vcentered palestrante">
+            <div class="column is-one-quarter">
+              <img src="img/palestrantes/cristiano.jpg" />
+            </div>
+            <div class="column">
+              <p> Cristiano Maciel é Doutor em Ciência da Computação; professor do Instituto de Computação, dos Programas de Pós-Graduação em Educação, e em Propriedade Intelectual e Transferência de Tecnologia para a Inovação, pesquisador do LAVI e do LêTECE da Universidade Federal do Mato Grosso. É bolsista de Produtividade em Pesquisa 2 do CNPq; membro da diretoria da Sociedade Brasileira de Computação e um dos coordenadores do Programa Meninas Digitais.</p>
+            </div>
+          </div>
+          <div class="columns is-vcentered palestrante">
+            <div class="column is-one-quarter">
+              <img src="img/palestrantes/avanilde.jfif" />
+            </div>
+            <div class="column">
+              <p> Avanilde Kemczinski é Doutora em Engenharia de Produção, professora do Departamento de Ciência da Computação, do Programa de Pós-Graduação em Computação Aplicada, do Programa de Pós-Graduação em Ensino de Ciências, Matemática e Tecnologias, do Bacharelado em Ciência da Computação, do Tecnologia em Análise e Desenvolvimento de Sistemas e Líder/Pesquisadora do Grupo de Pesquisa em Informática na Educação - GPIE (do LINE) e Coordenadora do Projeto de Extensão Catarinas da Universidade do Estado de Santa Catarina - UDESC.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Palestra 1 -->
       <div class="card palestra" id="reflexoes">
@@ -645,7 +683,26 @@
       </div>
 
 
-      <h4 class="subtitle">Sexta-Feira (04/09) <small>19h às 21h30</small></h4>
+      <h4 class="subtitle">Sexta-Feira (04/09) <small>18h30 às 21h30</small></h4>
+      <!-- Melhores  -->
+      <div class="card palestra" id="melhores">
+        <header class="card-header" onclick="openContent(event,'melhores')">
+          <p class="card-header-title">
+            <strong>Sessão de Premiação - </strong>
+            Melhores Trabalhos
+            <span></span>
+            <a href="https://www.youtube.com/watch?v=dnf_ZpdjEk4" target="_blank" class="button is-danger botao-palestra"><i class="fas fa-play"></i> <strong>Assista</strong></a>
+          </p>
+          <a class="card-header-icon" aria-label="more">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </a>
+        </header>
+        <div class="card-content">
+          <p class="">Premiação dos melhores trabalhos do evento</p>
+        </div>
+      </div>
 
       <!-- Palestra 4 -->
       <div class="card palestra" id="quatro">
