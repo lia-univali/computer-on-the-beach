@@ -664,7 +664,7 @@ var json = [
     },
     {
        "title":"ST11 ",
-       "chair":"Raimundo Teive",
+       "chair":"Raimundo Teive e Eros Comunello",
        "youtube": "https://www.youtube.com/watch?v=DCFARJsbxNE",
        "time": "09h",
        "day": "Set 4",
@@ -793,7 +793,7 @@ var json = [
     },
     {
        "title":"ST12 ",
-       "chair":"Marcelo Thiry",
+       "chair":"Marcelo Thiry e Eduardo Alves",
        "youtube": "https://www.youtube.com/watch?v=nEVIraCKOU0",
        "time": "11h",
        "day": "Set 4",
