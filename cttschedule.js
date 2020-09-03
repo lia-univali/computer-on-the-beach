@@ -185,6 +185,14 @@ var cttJson = [
                  "Gustavo Danielevig Pereira Dias, IFC, Brazil.",
                  "Luiz Uriarte, IFC, Brazil ."
               ]
+           },
+           {
+              "title": "LUDUS - Desenvolvimento de um jogo para auxiliar no aprendizado de matemática para alunos com autismo",
+              "authors":[
+               "Diego Porcellis, IFSul, Brazil",
+               "Marcelo Siedler, IFSul, Brazil",
+               "Marizele Garcia, IFSul, Brazil"
+            ]
            }
         ]
      }
