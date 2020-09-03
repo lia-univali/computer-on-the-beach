@@ -738,7 +738,7 @@ var json = [
                },
                {
                   "title":"Estudo da classificação de imagens a partir de sensoriamento remoto de Santa Catarina ",
-                  "link": "   ",
+                  "link": "https://youtu.be/1wwv5-hjcR8",
                   "authors":[
                      "Luciana P. de Araújo Kohler, Universidade Regional de Blumenau (FURB), Brazil",
                      "Artur Bizon, Universidade Regional de Blumenau, Brazil."
