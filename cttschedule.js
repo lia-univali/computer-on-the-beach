@@ -1,7 +1,7 @@
 var cttJson = [
     {
        "title":"CTT ",
-       "chair":"Caroline Reis",
+       "chair":"Caroline Reis e Denise Kronbauer",
        "name":" Trilha Extensão 1",
        "youtube": "https://www.youtube.com/watch?v=hOLA_siWHks",
        "time": "09h",
@@ -49,7 +49,7 @@ var cttJson = [
     },
     {
        "title":"CTT ",
-       "chair":"Denise Kronbauer",
+       "chair":"Caroline Reis e Denise Kronbauer",
        "name":" Trilha Extensão 2",
        "youtube": "https://www.youtube.com/watch?v=SQm713mC6pw",
        "time": "11h",
@@ -90,7 +90,7 @@ var cttJson = [
     },
     {
        "title":"CTT ",
-       "chair":"Joelias Pinto Júnior",
+       "chair":"Marcelo Dornbusch Lopes e Joelias Pinto Júnior",
        "name":" Trilha Pesquisa 1",
        "youtube": "https://www.youtube.com/watch?v=RqYMGxEqwwk",
        "time": "14h",
@@ -146,7 +146,7 @@ var cttJson = [
     },
     {
         "title":"CTT ",
-        "chair":"Marcelo Dornbusch",
+        "chair":"Marcelo Dornbusch Lopes e Joelias Pinto Júnior",
        "name":" Trilha Pesquisa 2",
         "youtube": "https://www.youtube.com/watch?v=M2uWT1TVJas",
        "time": "16h",
