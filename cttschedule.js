@@ -131,6 +131,7 @@ var cttJson = [
              "title":"Contando Histórias com Realidade Aumentada: Livro Interativo para Crianças Portadoras de\nNecessidades Especiais (PNEs) em Lábrea AM",
              "authors":[
                 "Francisca Silva, IFAM, Brazil",
+                "Mizael Nascimento Rodrigues, IFAM, Brazil",
                 "Fabiann Barbosa, IFAM, Brazil ."
              ]
           },
