@@ -697,6 +697,15 @@ section#anais .column article:hover .title {
   color: white;
 }
 
+section#anais .column article#ed2020 {
+  background-color: hsl(350, 100%, 61%);
+}
+
+section#anais .column article#ed2020:hover {
+  background-color: #FF0000;
+}
+
+
 section#realizacao {
   text-align: center;
   background-color: white;
