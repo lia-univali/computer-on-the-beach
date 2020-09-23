@@ -4,13 +4,13 @@ nav {
 }
 
 nav.navbar {
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
 }
 
 nav.is-fixed-top {
   border-radius: 0;
   margin: 0;
-  border-bottom: 3px solid #8fd6bd;
+  border-bottom: 3px solid #1469AA;
 }
 
 nav .navbar-brand {
@@ -19,14 +19,14 @@ nav .navbar-brand {
 }
 
 nav .menu-real .navbar-item {
-  color: #00a897;
-  -webkit-transition: .9s ease;
-  transition: .9s ease;
+  color: #36A4F7;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 nav .menu-real .navbar-item:hover {
-  background-color: #8fd6bd;
-  color: #0a1128;
+  background-color: #e6e6e6;
+  color: #1469AA;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -44,15 +44,15 @@ nav .navbar-item, nav .button.is-primary {
 
 nav .button.is-primary {
   border: 0;
-  background-color: #fa7268;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#fa7268), to(#f95b4f));
-  background-image: linear-gradient(to bottom right, #fa7268, #f95b4f);
+  background-color: #e98c85;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#e98c85), to(#e5786f));
+  background-image: linear-gradient(to bottom right, #e98c85, #e5786f);
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
 nav .button.is-primary:hover {
-  background: #fa7268;
+  background: #e98c85;
   -webkit-animation: btnanimation .4s;
           animation: btnanimation .4s;
 }
@@ -113,11 +113,11 @@ nav.is-fixed-top #nav-logo-icon {
   margin-top: -50px;
   text-align: right;
   color: white;
-  background-color: #00a897;
+  background-color: #36A4F7;
 }
 
 .link-marambaia {
-  color: #fa7268;
+  color: #e98c85;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -129,13 +129,13 @@ nav.is-fixed-top #nav-logo-icon {
 }
 
 section .title {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 2.4rem;
 }
 
 section .subtitle {
   font-size: 1.3rem;
-  color: #8fd6bd;
+  color: #1469AA;
 }
 
 section p, section li {
@@ -145,12 +145,12 @@ section p, section li {
 
 section p strong, section li strong {
   font-weight: 500;
-  color: #00a897;
+  color: #36A4F7;
 }
 
 section p.lead, section li.lead {
   font-style: italic;
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1.3rem;
 }
 
@@ -159,8 +159,8 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 168, 151, 0.8)), to(rgba(143, 214, 189, 0.8))), url("img/bg.jpg");
-  background-image: linear-gradient(to bottom right, rgba(0, 168, 151, 0.8), rgba(143, 214, 189, 0.8)), url("img/bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(54, 164, 247, 0.95)), to(rgba(20, 105, 170, 0.95))), url("img/bg.jpg");
+  background-image: linear-gradient(to bottom right, rgba(54, 164, 247, 0.95), rgba(20, 105, 170, 0.95)), url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -174,19 +174,17 @@ section.hero .hero-body .container {
 section.hero .hero-body .container h2 {
   color: white;
   font-size: 2.4rem;
-  font-weight: 900;
+  font-weight: 300;
   font-style: italic;
   position: relative;
-  top: -25px;
 }
 
 section.hero .hero-body .container h4 {
   color: white;
   font-size: 1.9rem;
-  font-weight: 900;
+  font-weight: 300;
   font-style: italic;
   position: relative;
-  top: -35px;
 }
 
 section.hero img {
@@ -226,14 +224,18 @@ section .galeria img:hover {
 }
 
 section#balneario, section#anais {
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
+}
+
+section#balneario .title, section#anais .title {
+  color: #1469AA;
 }
 
 section#chamadas p.title {
   font-size: 1.9rem;
   text-align: center;
   font-weight: 600;
-  color: #00a897;
+  color: #36A4F7;
 }
 
 section#chamadas ul li {
@@ -252,8 +254,8 @@ section#chamadas .tile {
 }
 
 section#chamadas .tile#datas-importantes {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(143, 214, 189, 0.9)), to(rgba(0, 168, 151, 0.9)));
-  background-image: linear-gradient(to top right, rgba(143, 214, 189, 0.9), rgba(0, 168, 151, 0.9));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(20, 105, 170, 0.9)), to(rgba(54, 164, 247, 0.9)));
+  background-image: linear-gradient(to top right, rgba(20, 105, 170, 0.9), rgba(54, 164, 247, 0.9));
 }
 
 section#chamadas .tile#datas-importantes .title {
@@ -262,7 +264,7 @@ section#chamadas .tile#datas-importantes .title {
 
 section#chamadas .tile#datas-importantes li {
   background-color: white;
-  color: #0a1128;
+  color: #04212F;
   margin-top: 1rem;
   padding: .5rem 1rem;
   text-align: center;
@@ -274,7 +276,7 @@ section#chamadas .tile#datas-importantes li {
 
 section#chamadas .tile#datas-importantes li strong {
   display: block;
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1.2rem;
 }
 
@@ -292,7 +294,7 @@ section#chamadas .tile#datas-importantes li .columns .column {
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data {
-  border: 2px solid #00a897;
+  border: 2px solid #36A4F7;
   border-radius: 10px;
   padding: .5rem .5rem;
   padding-top: .2rem;
@@ -318,16 +320,16 @@ section#chamadas .tile#datas-importantes li .columns .column .data legend {
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos {
-  border-color: #00a897;
+  border-color: #36A4F7;
 }
 
 section#chamadas .tile#autores {
-  background: #0a1128;
+  background: #04212F;
   color: white;
 }
 
 section#chamadas .tile#autores .open-modal {
-  color: #0a1128;
+  color: #04212F;
 }
 
 section#chamadas .tile#autores .title {
@@ -347,7 +349,7 @@ section#chamadas .tile#autores a {
 }
 
 section#programacao {
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
 }
 
 section#programacao p.is-danger {
@@ -369,7 +371,7 @@ section#programacao .card .resumo {
 }
 
 section#programacao .card .card-header {
-  background-color: #00a897;
+  background-color: #36A4F7;
   border-radius: 15px 15px 0 0;
 }
 
@@ -379,7 +381,7 @@ section#programacao .card .card-header .card-header-title {
 
 section#programacao .card .card-header .card-header-title small {
   margin-left: 10px;
-  color: #f0f6f7;
+  color: #f6fdff;
 }
 
 section#programacao .card .tab {
@@ -393,7 +395,7 @@ section#programacao .card .tab span {
 section#programacao .card .tab .tag {
   text-align: center;
   margin-bottom: -25px;
-  color: #00a897;
+  color: #36A4F7;
   z-index: 10;
 }
 
@@ -409,7 +411,7 @@ section#programacao .card .tab .icon img {
 }
 
 section#programacao .card .tab.is-active span {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 section#programacao .card .tab.is-active img {
@@ -419,8 +421,8 @@ section#programacao .card .tab.is-active img {
 
 section#programacao .card .content-tab .is-primary {
   margin-bottom: 2rem;
-  background: -webkit-gradient(linear, right bottom, left top, from(#00a897), to(#00d6c0));
-  background: linear-gradient(to left top, #00a897, #00d6c0);
+  background: -webkit-gradient(linear, right bottom, left top, from(#36A4F7), to(#62b8f9));
+  background: linear-gradient(to left top, #36A4F7, #62b8f9);
 }
 
 section#programacao .card .content-tab img {
@@ -440,26 +442,26 @@ section#programacao .card.palestra .card-header {
 }
 
 section#programacao .card.palestra .card-header:hover {
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon {
-  color: #00a897;
+  color: #36A4F7;
   -webkit-transition: .5s ease-in;
   transition: .5s ease-in;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon:hover {
-  color: #0a1128;
+  color: #04212F;
 }
 
 section#programacao .card.palestra .card-header .card-header-title {
   display: block;
-  color: #00a897;
+  color: #36A4F7;
 }
 
 section#programacao .card.palestra .card-header .card-header-title strong {
-  color: #0a1128;
+  color: #04212F;
   font-weight: 700;
 }
 
@@ -483,11 +485,11 @@ section#programacao .card.palestra .card-content {
 
 section#programacao .card.palestra.is-active .card-header {
   border-radius: 15px 15px 0 0;
-  background-color: #00a897;
+  background-color: #36A4F7;
 }
 
 section#programacao .card.palestra.is-active .card-header:hover {
-  background-color: #008f80;
+  background-color: #1d99f6;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title {
@@ -527,7 +529,7 @@ section#programacao .card.palestra .columns {
 
 section#programacao .card.palestra .palestrante {
   border-radius: 15px;
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
   padding: 1.5rem;
 }
 
@@ -546,12 +548,12 @@ section#programacao .card.palestra img {
 }
 
 section#programacao .subtitle {
-  color: #0a1128;
+  color: #04212F;
 }
 
 section#programacao .grid {
   margin: 1rem 0;
-  border: 2px #8fd6bd solid;
+  border: 2px #1469AA solid;
   background-color: white;
   border-radius: 5px;
   padding: 1rem;
@@ -579,11 +581,11 @@ section#programacao .grid h2 {
 
 section#programacao .grid .track {
   display: block;
-  background-color: #00a897;
+  background-color: #36A4F7;
   color: white;
   position: relative;
   border-radius: 5px;
-  border: 1px solid #00a897;
+  border: 1px solid #36A4F7;
   margin: 10px 0;
   padding: 6px;
   -webkit-transition: .2s ease;
@@ -624,37 +626,37 @@ section#programacao .grid .track span {
   border-radius: 0 4px 4px 0;
   width: auto;
   background-color: white;
-  color: #00a897;
+  color: #36A4F7;
   text-align: center;
   width: 55px;
 }
 
 section#programacao .grid .track.premio {
-  background-color: #050814;
+  background-color: #021118;
 }
 
 section#programacao .grid .track.course {
-  background-color: #00b2a0;
+  background-color: #40a8f7;
 }
 
 section#programacao .grid .track.pl {
-  background-color: #0a1128;
+  background-color: #04212F;
 }
 
 section#programacao .grid .track.sp {
-  background-color: #007569;
+  background-color: #0a8df0;
 }
 
 section#programacao .grid .track.ctt {
-  background-color: #44bb91;
+  background-color: #09314f;
 }
 
 section#programacao .grid .track.bt {
-  background-color: #111d45;
+  background-color: #073850;
 }
 
 section#programacao .grid .track.painel {
-  background-color: #111d45;
+  background-color: #073850;
   padding: 3.45rem 6px;
 }
 
@@ -665,7 +667,7 @@ section#programacao .grid .track.painel span {
 
 section#programacao .grid .track.int {
   background-color: white;
-  color: #0a1128;
+  color: #04212F;
 }
 
 section#anais {
@@ -673,12 +675,22 @@ section#anais {
 }
 
 section#anais .column article {
-  background-color: #00a897;
+  background-color: #36A4F7;
   padding: 2rem 1rem;
   border-radius: 20px;
   height: 100%;
   -webkit-transition: .3s ease;
   transition: .3s ease;
+}
+
+section#anais .column article.anal-new {
+  background-color: #e98c85;
+}
+
+section#anais .column article.anal-new:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #e1635a;
 }
 
 section#anais .column article .title {
@@ -690,25 +702,16 @@ section#anais .column article .title {
 section#anais .column article:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #007569;
+  background-color: #0a8df0;
 }
 
 section#anais .column article:hover .title {
   color: white;
 }
 
-section#anais .column article#ed2020 {
-  background-color: hsl(350, 100%, 61%);
-}
-
-section#anais .column article#ed2020:hover {
-  background-color: #FF0000;
-}
-
-
 section#realizacao {
   text-align: center;
-  background-color: white;
+  background-color: #f6fdff;
 }
 
 section#realizacao img {
@@ -842,7 +845,7 @@ section#realizacao .marcas img:hover {
 }
 
 section#comitePrograma {
-  background-color: #f0f6f7;
+  background-color: #f6fdff;
 }
 
 section#comitePrograma ul {
@@ -863,7 +866,7 @@ section#comitePrograma ul li {
 }
 
 section#comitePrograma ul li:before {
-  color: #8fd6bd;
+  color: #1469AA;
   font-size: 1rem;
   content: "\26ac";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -898,7 +901,7 @@ section#comitePrograma .tile#membros p {
 }
 
 #topicos ul li:before {
-  color: #8fd6bd;
+  color: #1469AA;
   font-size: 1rem;
   content: "\26ac";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -913,20 +916,20 @@ section#comitePrograma .tile#membros p {
 }
 
 footer.footer {
-  background-color: #0a1128;
+  background-color: #04212F;
   color: white;
 }
 
 footer.footer a {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 footer.footer .fa-code {
-  color: #8fd6bd;
+  color: #1469AA;
 }
 
 footer.footer .fa-heart {
-  color: #fa7268;
+  color: #e98c85;
 }
 
 footer img {
@@ -941,11 +944,11 @@ footer img {
 }
 
 .big-link a {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 .big-link a:hover {
-  color: #007569;
+  color: #0a8df0;
 }
 
 .big-link .this-icon {
@@ -987,7 +990,7 @@ footer img {
 }
 
 .modal#modal-aviso .modal-card-head {
-  background-color: #00a897;
+  background-color: #36A4F7;
 }
 
 .modal#modal-aviso .modal-card-head p {
@@ -999,7 +1002,7 @@ footer img {
 }
 
 .modal#modal-aviso h1 {
-  color: #00a897 !important;
+  color: #36A4F7 !important;
 }
 
 .modal#modal-aviso strong {
@@ -1016,11 +1019,11 @@ footer img {
 }
 
 .modal#modal-aviso .btns .is-danger {
-  background-color: #00a897;
+  background-color: #36A4F7;
 }
 
 .modal#modal-aviso .btns .is-danger:hover {
-  background-color: #8fd6bd;
+  background-color: #1469AA;
 }
 
 .modal#modal-aviso a {
@@ -1032,7 +1035,7 @@ footer img {
 }
 
 .modal#modal-inscricoes .table th {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 .modal#modal-inscricoes .table strong {
@@ -1041,7 +1044,7 @@ footer img {
 }
 
 .modal#modal-inscricoes .table .nahora {
-  background-color: #ecf8f4;
+  background-color: #53a9eb;
 }
 
 .modal ul {
@@ -1060,18 +1063,18 @@ footer img {
 }
 
 .modal .modal-card-foot, .modal .modal-card-head {
-  background-color: #0a1128;
+  background-color: #04212F;
 }
 
 .modal .modal-card-foot p, .modal .modal-card-head p {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 2rem;
   font-weight: 900;
 }
 
 .modal .card-host {
   margin: 2rem;
-  background-color: #fa7268;
+  background-color: #e98c85;
   border-radius: 20px;
 }
 
@@ -1109,25 +1112,25 @@ footer img {
 }
 
 .modal h2 {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .modal h3 {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .modal h5 {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .modal a {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 #programacaosessoes .tag.is-info, #programacaoctt .tag.is-info {
@@ -1139,40 +1142,40 @@ footer img {
   padding: 1rem;
   margin: 15px 0;
   background-color: white;
-  border: 3px solid #f0f6f7;
+  border: 3px solid #f6fdff;
   border-radius: 10px;
 }
 
 #programacaosessoes .tecsection.st .section-time, #programacaoctt .tecsection.st .section-time {
-  background-color: #00a897;
+  background-color: #36A4F7;
   color: white;
-  border: 1px solid #00a897;
+  border: 1px solid #36A4F7;
 }
 
 #programacaosessoes .tecsection.st .section-day, #programacaoctt .tecsection.st .section-day {
-  background-color: #f0f6f7;
-  color: #0a1128;
-  border: 1px solid #00a897;
+  background-color: #f6fdff;
+  color: #04212F;
+  border: 1px solid #36A4F7;
 }
 
 #programacaosessoes .tecsection.st .section-title, #programacaoctt .tecsection.st .section-title {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 #programacaosessoes .tecsection.st .section-chair, #programacaoctt .tecsection.st .section-chair {
-  color: #0a1128;
+  color: #04212F;
 }
 
 #programacaosessoes .tecsection.sp .section-time, #programacaoctt .tecsection.sp .section-time {
-  background-color: #0a1128;
+  background-color: #04212F;
   color: white;
-  border: 1px solid #0a1128;
+  border: 1px solid #04212F;
 }
 
 #programacaosessoes .tecsection.sp .section-day, #programacaoctt .tecsection.sp .section-day {
-  background-color: #f0f6f7;
-  color: #0a1128;
-  border: 1px solid #0a1128;
+  background-color: #f6fdff;
+  color: #04212F;
+  border: 1px solid #04212F;
 }
 
 #programacaosessoes .tecsection.sp .group-title, #programacaoctt .tecsection.sp .group-title {
@@ -1181,17 +1184,17 @@ footer img {
 }
 
 #programacaosessoes .tecsection.sp .group-chair, #programacaoctt .tecsection.sp .group-chair {
-  color: #0a1128;
+  color: #04212F;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
 #programacaosessoes .tecsection.sp .section-title, #programacaoctt .tecsection.sp .section-title {
-  color: #00a897;
+  color: #36A4F7;
 }
 
 #programacaosessoes .tecsection.sp .section-chair, #programacaoctt .tecsection.sp .section-chair {
-  color: #0a1128;
+  color: #04212F;
 }
 
 #programacaosessoes .head, #programacaoctt .head {
@@ -1251,28 +1254,28 @@ footer img {
 #programacaosessoes .papers .paper-link:hover .paper, #programacaoctt .papers .paper-link:hover .paper {
   -webkit-transform: scale(1.02) translateX(25px);
           transform: scale(1.02) translateX(25px);
-  background-color: #dfecee;
+  background-color: #ddf7ff;
 }
 
 #programacaosessoes .papers .paper, #programacaoctt .papers .paper {
   -webkit-transition: .3s ease;
   transition: .3s ease;
   padding: .1rem;
-  border: 1px solid #f0f6f7;
-  background-color: #f0f6f7;
+  border: 1px solid #f6fdff;
+  background-color: #f6fdff;
   padding: .5rem;
   border-radius: 10px;
   margin: .5rem;
 }
 
 #programacaosessoes .papers .paper .paper-title, #programacaoctt .papers .paper .paper-title {
-  color: #00a897;
+  color: #36A4F7;
   font-size: 1.1rem;
 }
 
 #programacaosessoes .papers .paper .authors .author, #programacaoctt .papers .paper .authors .author {
   font-size: .9rem;
-  color: #0a1128;
+  color: #04212F;
 }
 
 .sessoes a.is-large {
