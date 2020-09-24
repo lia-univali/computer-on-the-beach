@@ -4,7 +4,7 @@ nav {
 }
 
 nav.navbar {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 nav.is-fixed-top {
@@ -19,14 +19,14 @@ nav .navbar-brand {
 }
 
 nav .menu-real .navbar-item {
-  color: #36A4F7;
+  color: #1469AA;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
 nav .menu-real .navbar-item:hover {
-  background-color: #e6e6e6;
-  color: #1469AA;
+  background-color: white;
+  color: #36A4F7;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
@@ -94,8 +94,8 @@ nav #nav-logo-name {
 }
 
 nav #nav-logo-icon {
-  -webkit-transform: scale(1.7);
-          transform: scale(1.7);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 nav.is-fixed-top #nav-logo-name, nav.is-fixed-top #nav-logo-icon {
@@ -159,11 +159,11 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(54, 164, 247, 0.95)), to(rgba(20, 105, 170, 0.95))), url("img/bg.jpg");
-  background-image: linear-gradient(to bottom right, rgba(54, 164, 247, 0.95), rgba(20, 105, 170, 0.95)), url("img/bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(54, 164, 247, 0.8)), to(rgba(20, 105, 170, 0.8))), url("img/bg.jpg");
+  background-image: linear-gradient(to bottom right, rgba(54, 164, 247, 0.8), rgba(20, 105, 170, 0.8)), url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
 }
 
 section.hero .hero-body .container {
@@ -224,7 +224,7 @@ section .galeria img:hover {
 }
 
 section#balneario, section#anais {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 section#balneario .title, section#anais .title {
@@ -349,7 +349,7 @@ section#chamadas .tile#autores a {
 }
 
 section#programacao {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 section#programacao p.is-danger {
@@ -381,7 +381,7 @@ section#programacao .card .card-header .card-header-title {
 
 section#programacao .card .card-header .card-header-title small {
   margin-left: 10px;
-  color: #f6fdff;
+  color: #d5f3fc;
 }
 
 section#programacao .card .tab {
@@ -442,7 +442,7 @@ section#programacao .card.palestra .card-header {
 }
 
 section#programacao .card.palestra .card-header:hover {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon {
@@ -529,7 +529,7 @@ section#programacao .card.palestra .columns {
 
 section#programacao .card.palestra .palestrante {
   border-radius: 15px;
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
   padding: 1.5rem;
 }
 
@@ -711,7 +711,7 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 section#realizacao img {
@@ -845,7 +845,7 @@ section#realizacao .marcas img:hover {
 }
 
 section#comitePrograma {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
 }
 
 section#comitePrograma ul {
@@ -1142,7 +1142,7 @@ footer img {
   padding: 1rem;
   margin: 15px 0;
   background-color: white;
-  border: 3px solid #f6fdff;
+  border: 3px solid #d5f3fc;
   border-radius: 10px;
 }
 
@@ -1153,7 +1153,7 @@ footer img {
 }
 
 #programacaosessoes .tecsection.st .section-day, #programacaoctt .tecsection.st .section-day {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
   color: #04212F;
   border: 1px solid #36A4F7;
 }
@@ -1173,7 +1173,7 @@ footer img {
 }
 
 #programacaosessoes .tecsection.sp .section-day, #programacaoctt .tecsection.sp .section-day {
-  background-color: #f6fdff;
+  background-color: #d5f3fc;
   color: #04212F;
   border: 1px solid #04212F;
 }
@@ -1254,15 +1254,15 @@ footer img {
 #programacaosessoes .papers .paper-link:hover .paper, #programacaoctt .papers .paper-link:hover .paper {
   -webkit-transform: scale(1.02) translateX(25px);
           transform: scale(1.02) translateX(25px);
-  background-color: #ddf7ff;
+  background-color: #bdecfa;
 }
 
 #programacaosessoes .papers .paper, #programacaoctt .papers .paper {
   -webkit-transition: .3s ease;
   transition: .3s ease;
   padding: .1rem;
-  border: 1px solid #f6fdff;
-  background-color: #f6fdff;
+  border: 1px solid #d5f3fc;
+  background-color: #d5f3fc;
   padding: .5rem;
   border-radius: 10px;
   margin: .5rem;

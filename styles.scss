@@ -3,10 +3,10 @@ $preto: #04212F;
 $menta: #1469AA;
 $hortela:#36A4F7;
 $branco: rgb(255, 255, 255);
-$branco-smoke:#f6fdff;
+$branco-smoke:#d5f3fc;
 $cinza: rgb(85,85,85);
 
-$hero-gradient-opacity: .95;
+$hero-gradient-opacity: .8;
 $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
@@ -34,11 +34,11 @@ nav{
         
     }
     .menu-real .navbar-item{
-        color: $hortela;
+        color: $menta;
         transition: .3s ease;
         &:hover{
-            background-color: darken($branco, 10%);
-            color: $menta;
+            background-color:$branco;
+            color: $hortela;
             transform: scale(1.05);
         }
         img{
@@ -74,7 +74,7 @@ nav{
 
     }
     #nav-logo-icon{
-        transform: scale(1.7);
+        transform: scale(1.5);
     }
     &.is-fixed-top{
         #nav-logo-name, #nav-logo-icon{
@@ -137,7 +137,7 @@ section{
                 background-image: linear-gradient(to bottom right, rgba($hortela,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity)), url('img/bg.jpg');
                 background-size: cover;
                 background-attachment: fixed;
-                background-position: center;
+                background-position: bottom;
             }
         }
         .hero-body{
