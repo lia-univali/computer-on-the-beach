@@ -1,9 +1,9 @@
-$coral: rgba(250, 114, 104, 1);
-$preto: rgba(10, 17, 40, 1);
-$menta: #8fd6bd;
-$hortela: #00a897;
+$coral:#e98c85;
+$preto: #04212F;
+$menta: #1469AA;
+$hortela:#36A4F7;
 $branco: rgb(255, 255, 255);
-$branco-smoke:rgba(240, 246, 247, 1);
+$branco-smoke:#d5f3fc;
 $cinza: rgb(85,85,85);
 
 $hero-gradient-opacity: .8;
@@ -34,11 +34,11 @@ nav{
         
     }
     .menu-real .navbar-item{
-        color: $hortela;
-        transition: .9s ease;
+        color: $menta;
+        transition: .3s ease;
         &:hover{
-            background-color: $menta;
-            color: $preto;
+            background-color:$branco;
+            color: $hortela;
             transform: scale(1.05);
         }
         img{
@@ -74,7 +74,7 @@ nav{
 
     }
     #nav-logo-icon{
-        transform: scale(1.7);
+        transform: scale(1.5);
     }
     &.is-fixed-top{
         #nav-logo-name, #nav-logo-icon{
@@ -137,7 +137,7 @@ section{
                 background-image: linear-gradient(to bottom right, rgba($hortela,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity)), url('img/bg.jpg');
                 background-size: cover;
                 background-attachment: fixed;
-                background-position: center;
+                background-position: bottom;
             }
         }
         .hero-body{
@@ -148,20 +148,19 @@ section{
                 h2{
                     color: $branco;
                     font-size: 2.4rem;
-                    font-weight: 900;
+
+                    font-weight: 300;
                     font-style: italic;
                     // -webkit-text-stroke: 1px $branco;
                     position: relative;
-                    top: -25px;
                 }
                 h4{
                     color: $branco;
                     font-size: 1.9rem;
-                    font-weight: 900;
+                    font-weight: 300;
                     font-style: italic;
                     // -webkit-text-stroke: 2px $branco;
                     position: relative;
-                    top: -35px;
 
                 }
             }
@@ -196,6 +195,9 @@ section{
     }    
     &#balneario, &#anais{
         background-color: $branco-smoke;
+        .title{
+            color: $menta;
+        }
     }
     &#chamadas{
         p{
@@ -614,6 +616,13 @@ section{
                 padding: 2rem 1rem;
                 border-radius: 20px;
                 height: 100%;
+                &.anal-new{
+                    background-color: $coral;
+                    &:hover{
+                        transform: scale(1.05);
+                        background-color: darken($coral,10%);
+                    }
+                }
                 .title{
                     text-align: center;
                     font-size: 1.7rem;
@@ -634,7 +643,7 @@ section{
     &#realizacao{
         
         text-align: center;
-        background-color: $branco;
+        background-color: $branco-smoke;
         img{
             
             max-height: 90px;
