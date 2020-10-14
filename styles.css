@@ -4,13 +4,7 @@ nav {
 }
 
 nav.navbar {
-  background-color: #d5f3fc;
-}
-
-nav.is-fixed-top {
-  border-radius: 0;
-  margin: 0;
-  border-bottom: 3px solid #1469AA;
+  background-color: #04212F;
 }
 
 nav .navbar-brand {
@@ -19,7 +13,7 @@ nav .navbar-brand {
 }
 
 nav .menu-real .navbar-item {
-  color: #1469AA;
+  color: white;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -34,6 +28,15 @@ nav .menu-real .navbar-item:hover {
 nav .menu-real .navbar-item img {
   max-height: 3rem;
   height: 48px;
+}
+
+nav.is-fixed-top {
+  border-radius: 0;
+  margin: 0;
+  border-bottom: 3px solid #36A4F7;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(4, 33, 47, 0.95);
 }
 
 nav .navbar-item, nav .button.is-primary {
@@ -105,8 +108,8 @@ nav.is-fixed-top #nav-logo-name, nav.is-fixed-top #nav-logo-icon {
 }
 
 nav.is-fixed-top #nav-logo-icon {
-  -webkit-transform: scale(1.7) translateX(1.9rem) translateY(-0.1rem);
-          transform: scale(1.7) translateX(1.9rem) translateY(-0.1rem);
+  -webkit-transform: scale(1.7) translateX(1.5rem) translateY(-0.08rem);
+          transform: scale(1.7) translateX(1.5rem) translateY(-0.08rem);
 }
 
 .floating-date {
@@ -159,8 +162,8 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(54, 164, 247, 0.8)), to(rgba(20, 105, 170, 0.8))), url("img/bg.jpg");
-  background-image: linear-gradient(to bottom right, rgba(54, 164, 247, 0.8), rgba(20, 105, 170, 0.8)), url("img/bg.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(6, 84, 142, 0.5)), to(rgba(4, 20, 33, 0.5))), url("img/bg.jpg");
+  background-image: linear-gradient(to bottom right, rgba(6, 84, 142, 0.5), rgba(4, 20, 33, 0.5)), url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -206,7 +209,7 @@ section .galeria .column {
 }
 
 section .galeria img {
-  opacity: .7;
+  opacity: .9;
   max-width: 100%;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
@@ -224,7 +227,7 @@ section .galeria img:hover {
 }
 
 section#balneario, section#anais {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
 }
 
 section#balneario .title, section#anais .title {
@@ -349,7 +352,7 @@ section#chamadas .tile#autores a {
 }
 
 section#programacao {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
 }
 
 section#programacao p.is-danger {
@@ -381,7 +384,7 @@ section#programacao .card .card-header .card-header-title {
 
 section#programacao .card .card-header .card-header-title small {
   margin-left: 10px;
-  color: #d5f3fc;
+  color: #e1eef5;
 }
 
 section#programacao .card .tab {
@@ -442,7 +445,7 @@ section#programacao .card.palestra .card-header {
 }
 
 section#programacao .card.palestra .card-header:hover {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon {
@@ -529,7 +532,7 @@ section#programacao .card.palestra .columns {
 
 section#programacao .card.palestra .palestrante {
   border-radius: 15px;
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
   padding: 1.5rem;
 }
 
@@ -711,7 +714,7 @@ section#anais .column article:hover .title {
 
 section#realizacao {
   text-align: center;
-  background-color: #d5f3fc;
+  background-color: #eee;
 }
 
 section#realizacao img {
@@ -845,7 +848,7 @@ section#realizacao .marcas img:hover {
 }
 
 section#comitePrograma {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
 }
 
 section#comitePrograma ul {
@@ -1142,7 +1145,7 @@ footer img {
   padding: 1rem;
   margin: 15px 0;
   background-color: white;
-  border: 3px solid #d5f3fc;
+  border: 3px solid #e1eef5;
   border-radius: 10px;
 }
 
@@ -1153,7 +1156,7 @@ footer img {
 }
 
 #programacaosessoes .tecsection.st .section-day, #programacaoctt .tecsection.st .section-day {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
   color: #04212F;
   border: 1px solid #36A4F7;
 }
@@ -1173,7 +1176,7 @@ footer img {
 }
 
 #programacaosessoes .tecsection.sp .section-day, #programacaoctt .tecsection.sp .section-day {
-  background-color: #d5f3fc;
+  background-color: #e1eef5;
   color: #04212F;
   border: 1px solid #04212F;
 }
@@ -1254,15 +1257,15 @@ footer img {
 #programacaosessoes .papers .paper-link:hover .paper, #programacaoctt .papers .paper-link:hover .paper {
   -webkit-transform: scale(1.02) translateX(25px);
           transform: scale(1.02) translateX(25px);
-  background-color: #bdecfa;
+  background-color: #cee3ef;
 }
 
 #programacaosessoes .papers .paper, #programacaoctt .papers .paper {
   -webkit-transition: .3s ease;
   transition: .3s ease;
   padding: .1rem;
-  border: 1px solid #d5f3fc;
-  background-color: #d5f3fc;
+  border: 1px solid #e1eef5;
+  background-color: #e1eef5;
   padding: .5rem;
   border-radius: 10px;
   margin: .5rem;

@@ -3,10 +3,10 @@ $preto: #04212F;
 $menta: #1469AA;
 $hortela:#36A4F7;
 $branco: rgb(255, 255, 255);
-$branco-smoke:#d5f3fc;
+$branco-smoke:rgb(225, 238, 245);
 $cinza: rgb(85,85,85);
 
-$hero-gradient-opacity: .8;
+$hero-gradient-opacity: .5;
 $hero-local-gradient-opacity: .7;
 
 $break-large: 800px;
@@ -15,26 +15,23 @@ $logo-border-weight: 1px;
 $date-text-stroke: 3px;
 $date-text-color: $branco;
 
+$colors-darken: 30%;
 $important-dates-fade-out: .1;
 
 nav{
     transition: .3s ease;
     &.navbar{
-        background-color: $branco-smoke;
+        background-color: $preto;
     }
     
-    &.is-fixed-top{
-        border-radius: 0;
-        margin: 0;
-        border-bottom: 3px solid $menta;
-    }
+    
     .navbar-brand{
         padding-left: 20px;
         padding-top: 5px;
         
     }
     .menu-real .navbar-item{
-        color: $menta;
+        color: $branco;
         transition: .3s ease;
         &:hover{
             background-color:$branco;
@@ -45,6 +42,13 @@ nav{
             max-height: 3rem;
             height: 48px;
         }
+    }
+    &.is-fixed-top{
+        border-radius: 0;
+        margin: 0;
+        border-bottom: 3px solid $hortela;
+        backdrop-filter: blur(5px);
+        background-color: rgba($preto, .95);
     }
     .navbar-item, .button.is-primary{
         font-size: 1.05rem;
@@ -82,7 +86,7 @@ nav{
             transform: scale(2) translateX(.5rem);
         }
         #nav-logo-icon{
-            transform: scale(1.7) translateX(1.9rem) translateY(-.1rem);
+            transform: scale(1.7) translateX(1.5rem) translateY(-.08rem);
         }
     }
 }
@@ -134,7 +138,7 @@ section{
         overflow: hidden;
         &.is-primary{
             &.is-bold{
-                background-image: linear-gradient(to bottom right, rgba($hortela,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity)), url('img/bg.jpg');
+                background-image: linear-gradient(to bottom right, rgba(darken($hortela,$colors-darken),$hero-gradient-opacity), rgba(darken($menta,$colors-darken),$hero-gradient-opacity)), url('img/bg.jpg');
                 background-size: cover;
                 background-attachment: fixed;
                 background-position: bottom;
@@ -180,7 +184,7 @@ section{
             text-align: center;
         }
         img{
-            opacity: .7;
+            opacity: .9;
             max-width: 100%;
             transition: .3s ease-in-out;
             z-index: 1;
@@ -643,7 +647,7 @@ section{
     &#realizacao{
         
         text-align: center;
-        background-color: $branco-smoke;
+        background-color: #eee;
         img{
             
             max-height: 90px;
