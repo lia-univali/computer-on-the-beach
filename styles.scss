@@ -23,16 +23,27 @@ nav{
     &.navbar{
         background-color: $preto;
     }
-    
+    .navbar-burger{
+        &.burger{
+            span{
+                background-color: $branco;
+            }
+        }
+    }
     
     .navbar-brand{
         padding-left: 20px;
         padding-top: 5px;
         
     }
+    .navbar-menu{
+        &.is-active{
+            background-color: $preto;
+        }
+    }
     .menu-real .navbar-item{
         color: $branco;
-        background-color: rgba($preto, .01);
+        background-color: $preto;
         transition: .3s ease;
         &:hover{
             background-color:$hortela;
@@ -47,7 +58,7 @@ nav{
         margin: 0;
         border-bottom: 3px solid $hortela;
         backdrop-filter: blur(5px);
-        background-color: rgba($preto, .95);
+        background-color: $preto;
     }
     .navbar-item, .button.is-primary{
         font-size: 1.05rem;

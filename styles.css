@@ -7,14 +7,22 @@ nav.navbar {
   background-color: #04212F;
 }
 
+nav .navbar-burger.burger span {
+  background-color: white;
+}
+
 nav .navbar-brand {
   padding-left: 20px;
   padding-top: 5px;
 }
 
+nav .navbar-menu.is-active {
+  background-color: #04212F;
+}
+
 nav .menu-real .navbar-item {
   color: white;
-  background-color: rgba(4, 33, 47, 0.01);
+  background-color: #04212F;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -34,7 +42,7 @@ nav.is-fixed-top {
   border-bottom: 3px solid #36A4F7;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  background-color: rgba(4, 33, 47, 0.95);
+  background-color: #04212F;
 }
 
 nav .navbar-item, nav .button.is-primary {
