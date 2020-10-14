@@ -14,15 +14,13 @@ nav .navbar-brand {
 
 nav .menu-real .navbar-item {
   color: white;
+  background-color: rgba(4, 33, 47, 0.01);
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
 nav .menu-real .navbar-item:hover {
-  background-color: white;
-  color: #36A4F7;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  background-color: #36A4F7;
 }
 
 nav .menu-real .navbar-item img {

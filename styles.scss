@@ -32,11 +32,10 @@ nav{
     }
     .menu-real .navbar-item{
         color: $branco;
+        background-color: rgba($preto, .01);
         transition: .3s ease;
         &:hover{
-            background-color:$branco;
-            color: $hortela;
-            transform: scale(1.05);
+            background-color:$hortela;
         }
         img{
             max-height: 3rem;
