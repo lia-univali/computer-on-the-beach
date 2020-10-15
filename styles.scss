@@ -113,7 +113,17 @@ nav{
     font-weight: 600;
     text-decoration: underline;
 }
-
+.button{
+    &.is-primary{
+        border: none;
+        background: linear-gradient(to bottom,$hortela, $menta);
+        color: $branco !important;
+        font-weight: 700;
+        &:hover{
+            background: $menta;
+        }
+    }
+}
 section{
     &.section{
         .container{

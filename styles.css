@@ -131,6 +131,18 @@ nav.is-fixed-top #nav-logo-icon {
   text-decoration: underline;
 }
 
+.button.is-primary {
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#36A4F7), to(#1469AA));
+  background: linear-gradient(to bottom, #36A4F7, #1469AA);
+  color: white !important;
+  font-weight: 700;
+}
+
+.button.is-primary:hover {
+  background: #1469AA;
+}
+
 @media screen and (min-width: 800px) {
   section.section .container {
     padding: 50px 10%;
