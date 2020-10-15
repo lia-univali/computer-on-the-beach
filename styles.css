@@ -911,17 +911,17 @@ section#comitePrograma .tile#membros p {
   margin-bottom: .2rem;
 }
 
-#topicos ul {
+#topicos ul, .styled-ul ul {
   padding-top: 1rem;
   padding-left: 2rem;
   list-style-type: none;
 }
 
-#topicos ul li {
+#topicos ul li, .styled-ul ul li {
   font-size: .9rem;
 }
 
-#topicos ul li:before {
+#topicos ul li:before, .styled-ul ul li:before {
   color: #1469AA;
   font-size: 1rem;
   content: "\26ac";
