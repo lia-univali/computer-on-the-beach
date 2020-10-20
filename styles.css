@@ -143,6 +143,11 @@ nav.is-fixed-top #nav-logo-icon {
   background: #1469AA;
 }
 
+.button.is-primary.is-inverted {
+  background: white;
+  color: #36A4F7 !important;
+}
+
 @media screen and (min-width: 800px) {
   section.section .container {
     padding: 50px 10%;

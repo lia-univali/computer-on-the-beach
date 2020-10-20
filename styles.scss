@@ -122,6 +122,10 @@ nav{
         &:hover{
             background: $menta;
         }
+        &.is-inverted{
+            background: $branco;
+            color: $hortela !important;
+        }
     }
 }
 section{
