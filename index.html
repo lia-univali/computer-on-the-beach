@@ -1337,11 +1337,19 @@
         <p>Informações para usuários LaTeX:</p>
         <br>
         <ul>
-          <li>Siga as instruções da ACM: <a href="https://www.acm.org/publications/proceedings-template">Seção LaTex
+          <li>Siga as instruções da ACM: <a href="https://www.acm.org/publications/proceedings-template">Seção LaTeX
               Authors</a>.</li>
-          <li>Classe a ser utilizada: <strong>\documentclass[sigconf]{acmart}</strong>.</li>
+          <li>Classe a ser utilizada: <strong>\documentclass[sigconf, nonacm, screen]{acmart}</strong>.
+            <ul>
+              <li><strong>sigconf</strong>: Modelo ACM de 2 colunas para conferências</li>
+              <li><strong>nonacm</strong>: Remove os elementos de conferências da ACM (copyright e ACM Reference Format)</li>
+              <li><strong>screen</strong>: Versão para leitura digital (em tela ao invés de impresso)</li>
+            </ul>
+          </li>
+          <li>O item <em>CCS Concepts</em> deve ser removido após a definição da classe: <strong>\settopmatter{printccs=false}
+</strong></li>
           <li>Dica: use a opção "anonymous" na submissão inicial:
-            <em>\documentclass[sigconf,<strong>anonymous</strong>]{acmart}</em>.
+            <em>\documentclass[sigconf, nonacm, screen, <strong>anonymous</strong>]{acmart}</em>.
             <p>Atente-se a redução do espaço de informações sobre os autores e tome os demais cuidados sobre a submissão
               anônima.</p>
           </li>
