@@ -232,7 +232,11 @@
                   <div class="column">
                     <fieldset class=" data data-principal">
                       <legend>Trilha Principal</legend>
+<<<<<<< HEAD
                       07/12/2020
+=======
+                      14/11/2020
+>>>>>>> 754ff539886f903729e50922e1aa6e3b173fa6dd
                     </fieldset>
                   </div>
                   <div class="column">
@@ -1324,8 +1328,8 @@
         <br>
         <ul>
           <li><strong>MS Word</strong>: <a
-              href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout-.docx">Interim_layout.docx</a>
-          </li>
+              href="https://www.acm.org/binaries/content/assets/publications/word_style/interim-template-style/interim-layout.docx">Interim_layout.docx</a>
+         </li>
           <li><strong>Latex</strong>: <a
               href="https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip">LaTeX.zip</a>
           </li>
@@ -1337,33 +1341,45 @@
         <p>Informações para usuários LaTeX:</p>
         <br>
         <ul>
-          <li>Siga as instruções da ACM: <a href="https://www.acm.org/publications/proceedings-template">Seção LaTex
+          <li>Siga as instruções da ACM: <a href="https://www.acm.org/publications/proceedings-template">Seção LaTeX
               Authors</a>.</li>
-          <li>Classe a ser utilizada: <strong>\documentclass[sigconf]{acmart}</strong>.</li>
+          <li>Classe a ser utilizada: <strong>\documentclass[sigconf, nonacm, screen]{acmart}</strong>.
+            <ul>
+              <li><strong>sigconf</strong>: Modelo ACM de 2 colunas para conferências</li>
+              <li><strong>nonacm</strong>: Remove os elementos de conferências da ACM (copyright e ACM Reference Format)</li>
+              <li><strong>screen</strong>: Versão para leitura digital (em tela ao invés de impresso)</li>
+            </ul>
+          </li>
+          <li>O item <em>CCS Concepts</em> deve ser removido após a definição da classe: <strong>\settopmatter{printccs=false}
+</strong></li>
           <li>Dica: use a opção "anonymous" na submissão inicial:
-            <em>\documentclass[sigconf,<strong>anonymous</strong>]{acmart}</em>.
+            <em>\documentclass[sigconf, nonacm, screen, <strong>anonymous</strong>]{acmart}</em>.
             <p>Atente-se a redução do espaço de informações sobre os autores e tome os demais cuidados sobre a submissão
               anônima.</p>
           </li>
         </ul>
         <br>
-        <!-- <p>Para submeter o seu trabalho, acesse:</p>
+        <p>Para submeter o seu trabalho, acesse:</p>
         <br>
         <div class="columns">
-          <div class="column big-link"><a href="https://submissoes.sbc.org.br/computeronthebeach2020"
+          <div class="column big-link"><a href="https://submissoes.sbc.org.br/computeronthebeach2021"
               title="Link para submissão" target="_blank">
               <div class="this-icon"><i class="fas fa-external-link-alt"></i></div>
               <div class="text">Link para submissão</div>
             </a></div>
-          <div class="column big-link"><a
+         <!--
+          <div class="column big-link">
+            <a
               href="https://drive.google.com/file/d/1p-yNKfg16YjUe4BGK0jfdx2QNROm86yK/view?usp=sharing"
               title="Modelo do poster para o evento" target="_blank">
               <div class="this-icon"><i class="fas fa-download"></i></div>
               <div class="text">Download do modelo do poster</div>
-            </a></div>
+            </a>
+          </div>
+          -->
         </div>
 
-        <br> -->
+        <br>
 
         <h3>Coordenação Geral:</h3>
         <ul>
@@ -1488,6 +1504,36 @@
           escolherá os melhores dentre os artigos completos aceitos e apresentados no evento. Para cada artigo ou resumo
           aceito para publicação no COTB é necessário, no mínimo, a inscrição de um dos autore(a)s (inscrição na
           categoria autor(a) de trabalho) até o dia <strong>15/02/2021</strong>.</p>
+        <br>
+        
+        <br>
+        <p>Para submeter o seu trabalho, acesse:</p>
+        <br>
+        <div class="columns">
+          <div class="column big-link"><a href="https://submissoes.sbc.org.br/Paper.cgi?c=3721&track=8383"
+              title="Link para submissão" target="_blank">
+              <div class="this-icon"><i class="fas fa-external-link-alt"></i></div>
+              <div class="text">Trilha Pesquisa</div>
+            </a>
+          </div>
+          <div class="column big-link"><a href="https://submissoes.sbc.org.br/Paper.cgi?c=3721&track=8384"
+              title="Link para submissão" target="_blank">
+              <div class="this-icon"><i class="fas fa-external-link-alt"></i></div>
+              <div class="text">Trilha Extensão</div>
+            </a>
+          </div>
+         <!--
+          <div class="column big-link">
+            <a
+              href="https://drive.google.com/file/d/1p-yNKfg16YjUe4BGK0jfdx2QNROm86yK/view?usp=sharing"
+              title="Modelo do poster para o evento" target="_blank">
+              <div class="this-icon"><i class="fas fa-download"></i></div>
+              <div class="text">Download do modelo do poster</div>
+            </a>
+          </div>
+          -->
+        </div>
+
         <br>
         
         <h3>Coordenação Geral:</h3>
