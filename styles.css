@@ -249,7 +249,7 @@ section .galeria img:hover {
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.541);
 }
 
-section#balneario, section#anais {
+section#chamadas, section#anais {
   background-color: #e1eef5;
 }
 
