@@ -257,6 +257,10 @@ section#balneario .title, section#anais .title {
   color: #1469AA;
 }
 
+section#chamadas del {
+  color: #e98c85;
+}
+
 section#chamadas p.title {
   font-size: 1.9rem;
   text-align: center;
