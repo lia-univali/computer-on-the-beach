@@ -53,15 +53,15 @@ nav .navbar-item, nav .button.is-primary {
 
 nav .button.is-primary {
   border: 0;
-  background-color: #e98c85;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#e98c85), to(#e5786f));
-  background-image: linear-gradient(to bottom right, #e98c85, #e5786f);
+  background-color: #36A4F7;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#36A4F7), to(#1469AA));
+  background-image: linear-gradient(to bottom right, #36A4F7, #1469AA);
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
 nav .button.is-primary:hover {
-  background: #e98c85;
+  background: #1469AA;
   -webkit-animation: btnanimation .4s;
           animation: btnanimation .4s;
 }
@@ -249,7 +249,7 @@ section .galeria img:hover {
           box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.541);
 }
 
-section#chamadas, section#anais {
+section#balneario, section#anais {
   background-color: #e1eef5;
 }
 
@@ -1161,6 +1161,10 @@ footer img {
 
 .modal a {
   color: #36A4F7;
+}
+
+.is-danger {
+  color: #ff3860;
 }
 
 #programacaosessoes .tag.is-info, #programacaoctt .tag.is-info {
