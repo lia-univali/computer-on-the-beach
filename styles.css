@@ -1061,6 +1061,7 @@ footer img {
 }
 
 .modal#modal-inscricoes .table {
+  width: 100%;
   vertical-align: middle;
 }
 
@@ -1139,6 +1140,10 @@ footer img {
 
 .modal .big-link.extreme .text {
   font-size: 2rem;
+}
+
+.modal .big-link.button a {
+  color: white !important;
 }
 
 .modal h2 {
