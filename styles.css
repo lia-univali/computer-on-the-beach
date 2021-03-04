@@ -749,6 +749,12 @@ section#realizacao img {
   max-width: 160px;
 }
 
+section#realizacao img.logo-fapesc {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-top: -10px;
+}
+
 section#realizacao img.logo-lia {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
@@ -775,7 +781,7 @@ section#realizacao img.logo-polo {
 }
 
 section#realizacao img.logo-asse {
-  margin-top: 30px;
+  margin-top: 32px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -793,7 +799,7 @@ section#realizacao img.logo-sist {
 }
 
 section#realizacao img.logo-ali {
-  margin-top: 15px;
+  margin-top: 20px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -805,15 +811,19 @@ section#realizacao img.logo-seg {
 }
 
 section#realizacao img.logo-sunt {
-  margin-top: 15px;
+  margin-top: 25px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 section#realizacao img.logo-sico {
-  margin-top: 10px;
+  margin-top: 15px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+section#realizacao img.logo-out {
+  margin-top: -5px;
 }
 
 section#realizacao img.logo-qualy {

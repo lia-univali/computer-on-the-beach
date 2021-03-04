@@ -679,6 +679,10 @@ section{
             
             max-height: 90px;
             max-width: 160px;
+            &.logo-fapesc{
+                transform: scale(1.2);
+                margin-top: -10px;
+            }
             &.logo-lia{
                 transform: scale(.9);
             }
@@ -696,7 +700,7 @@ section{
                 margin-top: 20px;
             }
             &.logo-asse{
-                margin-top: 30px;
+                margin-top: 32px;
                 transform: scale(1.2);
             }
             &.logo-pulses{
@@ -708,7 +712,7 @@ section{
                 transform: scale(1.3);
             }
             &.logo-ali{
-                margin-top: 15px;
+                margin-top: 20px;
                 transform: scale(1.2);
             }
             &.logo-seg{
@@ -716,12 +720,15 @@ section{
                 transform: scale(1.2);
             }
             &.logo-sunt{
-                margin-top: 15px;
+                margin-top: 25px;
                 transform: scale(1.2);
             }
             &.logo-sico{
-                margin-top: 10px;
+                margin-top: 15px;
                 transform: scale(1.2);
+            }
+            &.logo-out{
+                margin-top: -5px;
             }
             &.logo-qualy{
                 margin-top: 30px;
