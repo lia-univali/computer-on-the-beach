@@ -181,8 +181,7 @@
       <div class="columns is-multiline is-desktop grid">
         <div class="column is-one-third">
           <h2>Quarta-Feira - 7 de Abril</h2>
-          <a class="track mc is-tree" onclick="openAndGoToContent(event,'mc1')"
-            target="_blank">Minicurso
+          <a class="track mc is-tree" onclick="openAndGoToContent(event,'mc1')" target="_blank">Minicurso
             <span>14h</span></a>
           <!-- <a class="track" href="https://www.youtube.com/watch?v=Q426z-_znrA" target="_blank">ST 01 <span>9h</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=-2VRb0LeEbk" target="_blank">ST 02 <span>10h</span></a>
@@ -191,13 +190,12 @@
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 01 <span>15h30</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=KBWWS9-BuKk" target="_blank">ST 05 <span>16h</span></a>
           <a class="track int double">Intervalo <span>17h</span></a> -->
-          <a class="track pl painel" onclick="openAndGoToContent(event,'abertura')" target="_blank">Palestra de
+          <a class="track pl" onclick="openAndGoToContent(event,'abertura')" target="_blank">Palestra de
             Abertura <span>19h</span></a>
         </div>
         <div class="column is-one-third">
-          <h2>Quinta-Feira - 3 de Setembro</h2>
-          <a class="track mc is-four" onclick="openAndGoToContent(event,'sem')"
-            target="_blank">Seminário
+          <h2>Quinta-Feira - 8 de Abril</h2>
+          <a class="track sem is-four" onclick="openAndGoToContent(event,'sem')" target="_blank">Seminário
             <span>14h</span></a>
           <!-- <a class="track" href="https://www.youtube.com/watch?v=uqQSiXnJf_0" target="_blank">ST 06 <span>9h</span></a>
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 02 <span>10h</span></a>
@@ -216,7 +214,7 @@
             <span>20h30</span></a> -->
         </div>
         <div class="column is-one-third">
-          <h2>Sexta-Feira - 4 de Setembro</h2>
+          <h2>Sexta-Feira - 9 de Abril</h2>
 
           <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Pesq. 1
             <span>9h</span></a>
@@ -237,15 +235,15 @@
         <strong>CTT:</strong> Concurso de Trabalhos Técnicos
       </p>
       <p class="is-danger">* Para mais informações sobre os ítens da grade observe as seções abaixo</p>
-      
-      
+
+
 
       <!-- <h3 class="title">Minicursos</h3> -->
-      <div class="card palestra" id="mc1">
-        <header class="card-header" onclick="openContent(event,'mc1')">
+      <div class="card palestra mc" id="mc1">
+        <header class="card-header " onclick="openContent(event,'mc1')">
 
           <div class="card-header-title">
-            <div class="card-header-calendar">
+            <div class="card-header-calendar ">
               <p class="dia-mes">07</p>
               <p class="mes">abril</p>
               <p class="hora">14h às 17h</p>
@@ -255,7 +253,7 @@
               Manejo dos Sistemas de Informação em Saúde
               <span>Profa. Dra. Graziela Liebel - Univali</span>
               <a href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/4499" target="_blank"
-                class="button is-info botao-palestra"><strong>Inscreva-se</strong><i class="fas fa-bell"></i></a>
+                class="button is-success botao-palestra"><strong>Inscreva-se</strong><i class="fas fa-bell"></i></a>
             </div>
 
           </div>
@@ -296,7 +294,7 @@
 
       <!-- <h3 class="title">Palestras</h3> -->
       <!-- <!- - Palestra 1 - -> -->
-      <div class="card palestra" id="abertura">
+      <div class="card palestra pl" id="abertura">
         <header class="card-header" onclick="openContent(event,'abertura')">
           <div class="card-header-title">
             <div class="card-header-calendar">
@@ -319,7 +317,9 @@
           </a>
         </header>
         <div class="card-content">
-          <p class=""></p>
+          <p class="">Ana Paula e Bianka na palestra "Novos mindsets para um mundo em mudança" vão mostrar que maneira
+            como entendemos nossa inteligência impacta profundamente no nosso sucesso. Vamos compreender como
+            desenvolver novos mindsets no contexto da sociedade do conhecimento.</p>
           <div class="columns is-vcentered palestrante">
             <div class="column is-one-quarter">
               <img src="img/palestrantes/ana.jpg" />
@@ -365,7 +365,7 @@
         </div>
       </div>
 
-      <div class="card palestra" id="sem">
+      <div class="card palestra sem" id="sem">
         <header class="card-header" onclick="openContent(event,'sem')">
 
           <div class="card-header-title">
@@ -421,7 +421,7 @@
       </div>
 
       <!-- <!- - Palestra 2 - -> -->
-      <div class="card palestra" id="pcpt">
+      <div class="card palestra pl" id="pcpt">
         <header class="card-header" onclick="openContent(event,'pcpt')">
           <div class="card-header-title">
             <div class="card-header-calendar">
@@ -475,7 +475,7 @@
       </div>
 
       <!-- <!- - Palestra 3 - -> -->
-      <div class="card palestra" id="pospande">
+      <div class="card palestra pl" id="pospande">
         <header class="card-header" onclick="openContent(event,'pospande')">
           <div class="card-header-title">
             <div class="card-header-calendar">
@@ -498,7 +498,7 @@
           </a>
         </header>
         <div class="card-content">
-          <p class="">.</p>
+          <p class=""></p>
           <div class="columns is-vcentered palestrante">
             <div class="column is-one-quarter">
               <img src="img/palestrantes/ramices.jpg" />

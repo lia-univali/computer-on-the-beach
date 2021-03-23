@@ -503,8 +503,9 @@ section#programacao .card.palestra .card-header .card-header-title {
 }
 
 section#programacao .card.palestra .card-header .card-header-title .card-header-calendar {
-  background-color: #1469AA;
-  color: white;
+  color: #1469AA;
+  background-color: white;
+  border: 1px solid #ccc;
   padding: .5rem 1.5rem;
   border-radius: 15px;
   margin: .5rem;
@@ -559,28 +560,19 @@ section#programacao .card.palestra .card-content {
 
 section#programacao .card.palestra.is-active .card-header {
   border-radius: 15px 15px 0 0;
-  background-color: #1469AA;
+  background-color: #04212F;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title {
   color: white;
 }
 
-section#programacao .card.palestra.is-active .card-header .card-header-title .card-header-calendar {
-  background-color: white;
-  color: #1469AA;
-}
-
 section#programacao .card.palestra.is-active .card-header .card-header-title strong {
-  color: white;
-}
-
-section#programacao .card.palestra.is-active .card-header .card-header-title a strong {
-  color: white;
+  color: #36A4F7;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title span {
-  color: white;
+  color: #e1eef5;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-icon {
@@ -592,6 +584,18 @@ section#programacao .card.palestra.is-active .card-header .card-header-icon {
 section#programacao .card.palestra.is-active .card-content {
   max-height: none;
   padding: 2rem;
+}
+
+section#programacao .card.palestra.mc .card-header .card-header-calendar {
+  color: #18a549;
+}
+
+section#programacao .card.palestra.pl .card-header .card-header-calendar {
+  color: #e1635a;
+}
+
+section#programacao .card.palestra.sem .card-header .card-header-calendar {
+  color: #e7c436;
 }
 
 section#programacao .card.palestra .subtitle {
@@ -715,7 +719,7 @@ section#programacao .grid .track.course {
 }
 
 section#programacao .grid .track.pl {
-  background-color: #04212F;
+  background-color: #e1635a;
 }
 
 section#programacao .grid .track.sp {
@@ -723,7 +727,12 @@ section#programacao .grid .track.sp {
 }
 
 section#programacao .grid .track.mc {
-  background-color: #e1635a;
+  background-color: #18a549;
+}
+
+section#programacao .grid .track.sem {
+  background-color: #e7c436;
+  color: #04212F;
 }
 
 section#programacao .grid .track.ctt {

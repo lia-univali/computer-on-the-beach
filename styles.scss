@@ -18,6 +18,13 @@ $date-text-color: $branco;
 $colors-darken: 30%;
 $important-dates-fade-out: .1;
 
+
+$color_mc: #18a549;
+$color_pl: darken($coral, 10%);
+$color_sp: darken($hortela, 10%);
+$color_sem: #e7c436;
+$color_ctt: darken($menta, 20%);
+
 nav{
     transition: .3s ease;
     &.navbar{
@@ -444,8 +451,9 @@ section{
                         flex-direction: row;
                         padding: .2rem;
                         .card-header-calendar{
-                            background-color: $menta;
-                            color: $branco;
+                            color: $menta;
+                            background-color: $branco;
+                            border: 1px solid #ccc;
                             padding: .5rem 1.5rem;
                             border-radius: 15px;
                             margin: .5rem;
@@ -489,7 +497,9 @@ section{
                         }
                         
                     }
+                    
                 }
+                
                 .card-content{
                     max-height: 0;
                     transition: .3s ease;
@@ -500,24 +510,24 @@ section{
                 &.is-active{
                     .card-header{
                         border-radius: 15px 15px 0 0 ;
-                        background-color: $menta;
+                        background-color: $preto;
                         .card-header-title{
                             .card-header-calendar{
-                                background-color: $branco;
-                                color: $menta;
+                                // background-color: $branco;
+                                // color: $menta;
                             }
                             color: $branco;
 
                             strong{
-                                color: $branco;
+                                color: $hortela;
                             }
-                            a{
-                                strong{
-                                    color: $branco;
-                                }
-                            }
+                            // a{
+                            //     strong{
+                            //         color: $branco;
+                            //     }
+                            // }
                             span{
-                                color: $branco;
+                                color: $branco-smoke;
                             }
                         }
                         .card-header-icon{
@@ -530,6 +540,27 @@ section{
                         padding: 2rem;
                     }
                     
+                }
+                &.mc{
+                    .card-header{
+                        .card-header-calendar{
+                            color: $color_mc;
+                        }
+                    }
+                }
+                &.pl{
+                    .card-header{
+                        .card-header-calendar{
+                            color: $color_pl;
+                        }
+                    }
+                }
+                &.sem{
+                    .card-header{
+                        .card-header-calendar{
+                            color: $color_sem;
+                        }
+                    }
                 }
                 .subtitle{
                     margin-bottom: 0;
@@ -641,16 +672,21 @@ section{
                     background-color: lighten($hortela, 2%);
                 }
                 &.pl{
-                    background-color: $preto;
+                    background-color: $color_pl;
+                    
                 }
                 &.sp{
-                    background-color: darken($hortela, 10%);
+                    background-color: $color_sp;
                 }
                 &.mc{
-                    background-color: darken($coral, 10%);
+                    background-color: $color_mc;
+                }
+                &.sem{
+                    background-color: $color_sem;
+                    color: $preto;
                 }
                 &.ctt{
-                    background-color: darken($menta, 20%);
+                    background-color: $color_ctt;
                 }
                 &.bt{
                     background-color: lighten($preto, 7%);
