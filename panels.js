@@ -26,3 +26,12 @@ function openContent(evt, tabName) {
     }
     // evt.currentTarget.className += " is-active";
 }
+
+function openAndGoToContent(evt, tabName) {
+    
+    const yOffset = -75; 
+    const element = document.getElementById(tabName);
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({top: y, behavior: 'smooth'});
+    openContent(evt, tabName)
+}

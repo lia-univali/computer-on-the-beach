@@ -181,7 +181,7 @@
       <div class="columns is-multiline is-desktop grid">
         <div class="column is-one-third">
           <h2>Quarta-Feira - 7 de Abril</h2>
-          <a class="track mc is-tree" href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/4499"
+          <a class="track mc is-tree" onclick="openAndGoToContent(event,'mc1')"
             target="_blank">Minicurso
             <span>14h</span></a>
           <!-- <a class="track" href="https://www.youtube.com/watch?v=Q426z-_znrA" target="_blank">ST 01 <span>9h</span></a>
@@ -191,12 +191,12 @@
           <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 01 <span>15h30</span></a>
           <a class="track" href="https://www.youtube.com/watch?v=KBWWS9-BuKk" target="_blank">ST 05 <span>16h</span></a>
           <a class="track int double">Intervalo <span>17h</span></a> -->
-          <a class="track pl painel" href="#" target="_blank">Palestra de
+          <a class="track pl painel" onclick="openAndGoToContent(event,'abertura')" target="_blank">Palestra de
             Abertura <span>19h</span></a>
         </div>
         <div class="column is-one-third">
           <h2>Quinta-Feira - 3 de Setembro</h2>
-          <a class="track mc is-four" href="https://siaiap37.univali.br/elis/staff/login/index/cdEvento/4450"
+          <a class="track mc is-four" onclick="openAndGoToContent(event,'sem')"
             target="_blank">Seminário
             <span>14h</span></a>
           <!-- <a class="track" href="https://www.youtube.com/watch?v=uqQSiXnJf_0" target="_blank">ST 06 <span>9h</span></a>
@@ -210,7 +210,7 @@
             <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=zPtunpqZSZU" target="_blank">Palestra 1
             <span>19h</span></a> -->
-          <a class="track pl" href="#" target="_blank">Palestra 2
+          <a class="track pl" onclick="openAndGoToContent(event,'pcpt')" target="_blank">Palestra 2
             <span>19h</span></a>
           <!-- <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3
             <span>20h30</span></a> -->
@@ -218,13 +218,13 @@
         <div class="column is-one-third">
           <h2>Sexta-Feira - 4 de Setembro</h2>
 
-          <a class="track ctt" href="#" target="_blank">CTT Pesq. 1
+          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Pesq. 1
             <span>9h</span></a>
-          <a class="track ctt" href="#" target="_blank">CTT Pesq. 2
+          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Pesq. 2
             <span>11h</span></a>
-          <a class="track ctt" href="#" target="_blank">CTT Ext.
+          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Ext.
             <span>14h</span></a>
-          <a class="track pl" href="#" target="_blank">Palestra 3
+          <a class="track pl" onclick="openAndGoToContent(event,'pospande')" target="_blank">Palestra 3
             <span>16h</span></a>
         </div>
 
@@ -296,8 +296,8 @@
 
       <!-- <h3 class="title">Palestras</h3> -->
       <!-- <!- - Palestra 1 - -> -->
-      <div class="card palestra" id="papo">
-        <header class="card-header" onclick="openContent(event,'papo')">
+      <div class="card palestra" id="abertura">
+        <header class="card-header" onclick="openContent(event,'abertura')">
           <div class="card-header-title">
             <div class="card-header-calendar">
               <p class="dia-mes">07</p>
