@@ -341,6 +341,12 @@ section{
     }
     &#programacao{
         background-color: $branco-smoke;
+        .title{
+            small{
+                font-size: 1.2rem;
+                color: #444;
+            }
+        }
         p{
             &.is-danger{
                 color: #ff3860;
@@ -350,6 +356,7 @@ section{
             &.title{
                 margin-top: 3rem;
                 font-size: 2rem;
+                
             }
         }
         .card{
@@ -414,13 +421,11 @@ section{
             }
 
             &.palestra{
-                
                 .card-header{
                     background-color: $branco;
-                    
                     cursor: pointer;
                     &:hover{
-                        background-color:$branco-smoke;
+                        background-color: #f5f5f5;
                     }
                     
                     .card-header-icon{
@@ -434,23 +439,55 @@ section{
                     transition: .3s ease;
                     border-radius: 15px;
                     .card-header-title{
-                        display: block;
+                        display: flex;
                         color: $hortela;
-                        strong{
-                            color: $preto;
-                            font-weight: 700;
-                            
-                        }
-                        a{
-                            strong{
-                                color: $branco;
+                        flex-direction: row;
+                        padding: .2rem;
+                        .card-header-calendar{
+                            background-color: $menta;
+                            color: $branco;
+                            padding: .5rem 1.5rem;
+                            border-radius: 15px;
+                            margin: .5rem;
+                            text-align: center;
+                            p{
+                                margin: 0;
+                                
+                            }
+                            .dia-mes{
+                                font-size: 2rem;
+                                line-height: 2rem;
+                                text-align: center;
+                            }
+                            .mes{
+                                font-size: 1rem;
+                                line-height: .8rem;
+                                text-align: center; 
+                                font-weight: 400;
+                            }
+                            .hora{
+                                font-size: .8rem;
+                                text-align: center; 
+                                font-weight: 400;
                             }
                         }
-                        span{
-                            color: $cinza;
-                            display: block;
-                            font-size: .8rem;
+                        .card-header-text{
+                            strong{
+                                color: $preto;
+                                font-weight: 700;
+                            }
+                            a{
+                                strong{
+                                    color: $branco;
+                                }
+                            }
+                            span{
+                                color: $cinza;
+                                display: block;
+                                font-size: .8rem;
+                            }
                         }
+                        
                     }
                 }
                 .card-content{
@@ -463,11 +500,12 @@ section{
                 &.is-active{
                     .card-header{
                         border-radius: 15px 15px 0 0 ;
-                        background-color: $hortela;
-                        &:hover{
-                            background-color:darken($hortela,5%);
-                        }
+                        background-color: $menta;
                         .card-header-title{
+                            .card-header-calendar{
+                                background-color: $branco;
+                                color: $menta;
+                            }
                             color: $branco;
 
                             strong{
@@ -608,6 +646,9 @@ section{
                 &.sp{
                     background-color: darken($hortela, 10%);
                 }
+                &.mc{
+                    background-color: darken($coral, 10%);
+                }
                 &.ctt{
                     background-color: darken($menta, 20%);
                 }
@@ -621,12 +662,21 @@ section{
                 }
                 &.painel{
                     background-color: lighten($preto, 7%);
-                    padding: 3.45rem 6px;
-                    span{
-                        margin-top: -3.45rem;
-                        padding: 3.45rem 6px;
-                    }
                 }
+                // &.is-tree{
+                //     padding: 3.45rem 6px;
+                //     span{
+                //         margin-top: -3.45rem;
+                //         padding: 3.45rem 6px;
+                //     }
+                // }
+                // &.is-four{
+                //     padding: 4.45rem 6px;
+                //     span{
+                //         margin-top: -4.45rem;
+                //         padding: 4.45rem 6px;
+                //     }
+                // }
                 &.int{
                     background-color: $branco;
                     color: $preto;
@@ -1168,7 +1218,7 @@ footer{
 }
 
 .botao-palestra{
-    margin-top: 15px;
+    margin-top: 5px;
     transition: .9s ease;
     strong{
         // color: #ff3860;
@@ -1177,7 +1227,13 @@ footer{
         overflow: hidden;
     }
     svg{
-        margin-right: 10px;
+        color: $branco;
+        margin-left: 10px;
+    }
+    &.is-warning{
+        strong, svg{
+            color: $preto !important;
+        }
     }
     
 }
