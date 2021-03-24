@@ -636,21 +636,36 @@ section#programacao .grid {
   background-color: white;
   border-radius: 5px;
   padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
 }
 
-section#programacao .grid .duo {
-  padding: 0 .65rem;
-  margin-bottom: -1.33rem;
+@media screen and (min-width: 800px) {
+  section#programacao .grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-section#programacao .grid .duo .column {
-  margin: 0;
-  padding: .75rem .25rem;
+section#programacao .grid .dia {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: .3rem;
 }
 
-section#programacao .grid .duo.inner .column {
-  padding: 0rem .1rem;
-  padding-bottom: .75rem;
+section#programacao .grid .dia .duo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: .5rem;
+}
+
+section#programacao .grid .dia .duo .ev {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: .3rem;
 }
 
 section#programacao .grid h2 {
@@ -659,25 +674,36 @@ section#programacao .grid h2 {
 }
 
 section#programacao .grid .track {
-  display: block;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 55px;
+      grid-template-columns: 1fr 55px;
   background-color: #36A4F7;
   color: white;
   position: relative;
   border-radius: 5px;
   border: 1px solid #36A4F7;
-  margin: 10px 0;
-  padding: 6px;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 
-section#programacao .grid .track.double {
-  padding: 1.9rem 6px;
+section#programacao .grid .track p {
+  font-size: 1rem;
 }
 
-section#programacao .grid .track.double span {
-  margin-top: -1.9rem;
-  padding: 1.9rem 6px;
+section#programacao .grid .track p, section#programacao .grid .track span {
+  padding: 6px;
+  margin-bottom: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+section#programacao .grid .track span {
+  text-align: center;
+  background-color: white;
+  color: #1469AA;
+  border-radius: 0 5px 5px 0;
 }
 
 section#programacao .grid .track:hover {
@@ -695,21 +721,6 @@ section#programacao .grid .track.int:hover {
           transform: scale(1);
 }
 
-section#programacao .grid .track span {
-  right: 0;
-  position: absolute;
-  display: inline-block;
-  padding: 6px;
-  margin: 0;
-  margin-top: -6px;
-  border-radius: 0 4px 4px 0;
-  width: auto;
-  background-color: white;
-  color: #36A4F7;
-  text-align: center;
-  width: 55px;
-}
-
 section#programacao .grid .track.premio {
   background-color: #021118;
 }
@@ -723,7 +734,7 @@ section#programacao .grid .track.pl {
 }
 
 section#programacao .grid .track.sp {
-  background-color: #0a8df0;
+  background-color: #0762a7;
 }
 
 section#programacao .grid .track.mc {

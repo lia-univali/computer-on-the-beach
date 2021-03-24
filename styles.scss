@@ -21,7 +21,7 @@ $important-dates-fade-out: .1;
 
 $color_mc: #18a549;
 $color_pl: darken($coral, 10%);
-$color_sp: darken($hortela, 10%);
+$color_sp: darken($hortela, 25%);
 $color_sem: #e7c436;
 $color_ctt: darken($menta, 20%);
 
@@ -605,17 +605,22 @@ section{
             background-color: $branco;
             border-radius: 5px;
             padding: 1rem;
-            .duo{
-                padding: 0 .65rem;
-                .column{
-                    margin: 0;
-                    padding: .75rem .25rem;
-                }
-                margin-bottom: -1.33rem;
-                &.inner{
-                    .column{
-                        padding: 0rem .1rem;
-                        padding-bottom: .75rem;
+            display: grid;
+            @media screen and (min-width: $break-large) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            grid-gap: 1rem; 
+            .dia{
+                display: grid;
+                grid-gap: .3rem;
+                .duo{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: .5rem;
+
+                    .ev{
+                        display: grid;
+                        grid-gap: .3rem; 
                     }
                 }
             }
@@ -624,21 +629,30 @@ section{
                 text-align: center;
             }
             .track{
-                &.double{
-                    padding: 1.9rem 6px;
-                    span{
-                        margin-top: -1.9rem;
-                        padding: 1.9rem 6px;
-                    } 
+                display: grid;
+                grid-template-columns: 1fr 55px;
+                p{
+                    font-size: 1rem;
                 }
-                display: block;
+                p, span{
+                    padding: 6px;
+                    margin-bottom: 0;
+                    display: grid;
+                    place-items: center;
+                }
+                span{
+                    text-align: center;
+                    background-color: $branco;
+                    color: $menta;
+                    border-radius: 0 5px 5px 0;
+                }
                 background-color: $hortela;
                 color: $branco;
                 position: relative;
                 border-radius: 5px;
                 border: 1px solid $hortela;
-                margin: 10px 0;
-                padding: 6px;
+
+                
                 transition: .2s ease;
                 &:hover{
                     transform: scale(1.025);
@@ -649,20 +663,6 @@ section{
                     &:hover{
                         transform: scale(1);
                     }   
-                }
-                span{
-                    right: 0;
-                    position: absolute;
-                    display: inline-block;
-                    padding: 6px;
-                    margin: 0;
-                    margin-top: -6px;
-                    border-radius: 0 4px 4px 0;                 
-                    width: auto;
-                    background-color: $branco;
-                    color: $hortela;
-                    text-align: center;
-                    width: 55px;
                 }
                 &.premio{
                     background-color: darken($preto, 5%);
@@ -699,20 +699,6 @@ section{
                 &.painel{
                     background-color: lighten($preto, 7%);
                 }
-                // &.is-tree{
-                //     padding: 3.45rem 6px;
-                //     span{
-                //         margin-top: -3.45rem;
-                //         padding: 3.45rem 6px;
-                //     }
-                // }
-                // &.is-four{
-                //     padding: 4.45rem 6px;
-                //     span{
-                //         margin-top: -4.45rem;
-                //         padding: 4.45rem 6px;
-                //     }
-                // }
                 &.int{
                     background-color: $branco;
                     color: $preto;

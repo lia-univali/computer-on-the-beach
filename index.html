@@ -178,60 +178,96 @@
     <div class="container">
       <h1 class="title">Programação <small>(Prévia)</small></h1>
 
-      <div class="columns is-multiline is-desktop grid">
-        <div class="column is-one-third">
-          <h2>Quarta-Feira - 7 de Abril</h2>
-          <a class="track mc is-tree" onclick="openAndGoToContent(event,'mc1')" target="_blank">Minicurso
-            <span>14h</span></a>
-          <!-- <a class="track" href="https://www.youtube.com/watch?v=Q426z-_znrA" target="_blank">ST 01 <span>9h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=-2VRb0LeEbk" target="_blank">ST 02 <span>10h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=G2lUqyAStOE" target="_blank">ST 03 <span>11h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=_prgEfdHhew" target="_blank">ST 04 <span>14h</span></a>
-          <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 01 <span>15h30</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=KBWWS9-BuKk" target="_blank">ST 05 <span>16h</span></a>
-          <a class="track int double">Intervalo <span>17h</span></a> -->
-          <a class="track pl" onclick="openAndGoToContent(event,'abertura')" target="_blank">Palestra de
-            Abertura <span>19h</span></a>
+      <div class="grid">
+        <div class="dia">
+          <h2>Quarta-Feira - 7 de Abril</h2>          
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 01</p> <span>9h</span></a>
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 02</p> <span>10h</span></a>
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 03</p> <span>11h</span></a>
+          <div class="duo">
+            <div class="ev">
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 04</p> <span>14h</span></a>
+              <a class="track sp open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>SP 01</p> <span>15h30</span></a>
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 05</p> <span>16h</span></a>
+            </div>
+            <div class="ev">
+              <a class="track mc is-tree" onclick="openAndGoToContent(event,'mc1')" target="_blank"><p>MC</p>
+                <span>14h</span></a>
+            </div>
+          </div>
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 06</p> <span>17h30</span></a>
+          <a class="track pl" onclick="openAndGoToContent(event,'abertura')" target="_blank"><p>Palestra de
+            Abertura</p> <span>19h</span></a>
         </div>
-        <div class="column is-one-third">
+        <div class="dia">
           <h2>Quinta-Feira - 8 de Abril</h2>
-          <a class="track sem is-four" onclick="openAndGoToContent(event,'sem')" target="_blank">Seminário
-            <span>14h</span></a>
-          <!-- <a class="track" href="https://www.youtube.com/watch?v=uqQSiXnJf_0" target="_blank">ST 06 <span>9h</span></a>
-          <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 02 <span>10h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=W-NgB0Rkvm4" target="_blank">ST 07 <span>11h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=jzxlZb20jog" target="_blank">ST 08 <span>14h</span></a>
-          <a class="track sp" href="https://discord.gg/XFKscpC" target="_blank">SP 03 <span>15h30</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=GH_7NUmlP7Y" target="_blank">ST 09 <span>16h</span></a>
-          <a class="track" href="https://www.youtube.com/watch?v=DMcMAW8HqN8" target="_blank">ST 10 <span>17h</span></a> -->
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 07</p> <span>9h</span></a>
+          <a class="track sp open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>SP 02</p> <span>10h</span></a>
+          <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 08</p> <span>10h45</span></a>
+          <div class="duo">
+            <div class="ev">
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 08</p> <span>14h</span></a>
+              <a class="track sp open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>SP 03</p> <span>15h30</span></a>
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 09</p> <span>16h</span></a>
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 10</p> <span>17h</span></a>
+            </div>
+            <div class="ev">
+              <a class="track sem is-four" onclick="openAndGoToContent(event,'sem')" target="_blank"><p>SEM</p>
+                <span>14h</span></a>
+            </div>
+          </div>
+          
           <!-- <a class="track bt" href="https://www.youtube.com/watch?v=na_jwbzb140" target="_blank">Bate Papo
             <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=zPtunpqZSZU" target="_blank">Palestra 1
             <span>19h</span></a> -->
-          <a class="track pl" onclick="openAndGoToContent(event,'pcpt')" target="_blank">Palestra 2
+          <a class="track pl" onclick="openAndGoToContent(event,'pcpt')" target="_blank"><p>Palestra 2</p>
             <span>19h</span></a>
           <!-- <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3
             <span>20h30</span></a> -->
         </div>
-        <div class="column is-one-third">
+        <div class="dia">
           <h2>Sexta-Feira - 9 de Abril</h2>
-
-          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Pesq. 1
-            <span>9h</span></a>
-          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Pesq. 2
-            <span>11h</span></a>
-          <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank">CTT Ext.
-            <span>14h</span></a>
-          <a class="track pl" onclick="openAndGoToContent(event,'pospande')" target="_blank">Palestra 3
-            <span>16h</span></a>
+          <div class="duo">
+            <div class="ev">
+              <a class="track open-modal" data-modal-id="#modal-sections" onclick="loadPapers()" target="_blank"><p>ST 12</p> <span>9h</span></a>
+              <a class="track sp open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>SP 04</p> <span>10h</span></a>
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 13</p> <span>11h</span></a>
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 13</p> <span>14h</span></a>
+            </div>
+            <div class="ev">
+              <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank"><p>CTT Pesq. 1</p>
+                <span>9h</span></a>
+              <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank"><p>CTT Pesq. 2</p>
+                <span>11h</span></a>
+              <a class="track ctt open-modal" onclick="loadCTT()" data-modal-id="#modal-ctt" target="_blank"><p>CTT Ext.</p>
+                <span>14h</span></a>
+            </div>
+          </div>
+          <a class="track sp open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>SP 05</p> <span>15h30</span></a>
+          <div class="duo">
+            <div class="ev">
+              <a class="track open-modal" data-modal-id="#modal-sections"  onclick="loadPapers()" target="_blank"><p>ST 15</p> <span>16h</span></a>
+            </div>
+            <div class="ev">
+              <a class="track pl" onclick="openAndGoToContent(event,'pospande')" target="_blank"><p>Palestra 3</p>
+                <span>16h</span></a>
+            </div>
+          </div>
+          <a class="track int"><p>Intervalo</p> <span>17h</span></a>
+          <a class="track" href="" target="_blank"><p>Encerramento</p>
+            <span>19h</span></a>
+          
+          
         </div>
 
       </div>
 
       <p>Legenda:
-        <!-- <strong>MC:</strong> Minicurso
+        <strong>MC:</strong> Minicurso
+        <strong>SEM:</strong> Seminario
         <strong>ST:</strong> Sessão Técnica
-        <strong>SP:</strong> Sessão de Poster -->
+        <strong>SP:</strong> Sessão de Poster
         <strong>CTT:</strong> Concurso de Trabalhos Técnicos
       </p>
       <p class="is-danger">* Para mais informações sobre os ítens da grade observe as seções abaixo</p>
@@ -522,8 +558,8 @@
 
       <h3 class="title">Trabalhos</h3>
       <div class="sessoes">
-        <!-- <a onclick="loadPapers()" class="button is-primary is-large is-fullwidth open-modal"
-          data-modal-id="#modal-sections"><i class="fas fa-file"></i> Sessões Técnicas</a> -->
+        <a onclick="loadPapers()" class="button is-primary is-large is-fullwidth open-modal"
+          data-modal-id="#modal-sections"><i class="fas fa-file"></i> Sessões Técnicas</a>
         <a onclick="loadCTT()" class="button is-primary is-large is-fullwidth open-modal" data-modal-id="#modal-ctt"><i
             class="fas fa-file"></i> CTT</a>
       </div>
@@ -644,6 +680,9 @@
 
             <a class="button is-success is-link is-medium is-fullwidth"
               href="http://bit.ly/cotb-instrucoes-autores">Instruções versão final</a>
+
+              <a class="button is-danger is-link is-medium is-fullwidth"
+              href="/arquivos/InstrucoesApresentacoes.pdf" target="_blank">Instruções para Apresentação</a>
             <!--
             <a class="button is-success is-link is-medium is-fullwidth"
               href="arquivos/instrucoesApresentadores.pdf">Instruções Apresentadores</a> -->
