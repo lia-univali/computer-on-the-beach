@@ -106,7 +106,7 @@ var json = [
           {
               "title": "Google Summer of Code Gender Diversity: An analysis of the last 4 editions",
               "authors": [
-                  "Jhemeson Mota, Centro Universitário Luterano de Palmas, Brazil",
+                  "Jhemeson Mota, Universidade de Brasília, Brazil",
                   "Edna Dias Canedo, University of Brasília, Brazil",
                   "Marcio Okimoto, Universidade de Brasília, Brazil",
                   "Jhonatan Silva Mota, Centro Universitário Luterano de Palmas, Brazil.",
