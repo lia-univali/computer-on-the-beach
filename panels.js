@@ -28,7 +28,6 @@ function openContent(evt, tabName) {
 }
 
 function openAndGoToContent(evt, tabName) {
-    
     const yOffset = -75; 
     const element = document.getElementById(tabName);
     const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;

@@ -1,7 +1,7 @@
 var json = [
    {
       "title": "ST01",
-      "chair": "Rafael Gonçalves",
+      "chair": "Rafael Queiroz",
       "time": "09h00",
       "day": "abr 7",
       "papers": [
@@ -43,7 +43,7 @@ var json = [
   },
   {
       "title": "ST02",
-      "chair": "Daniela Moreira",
+      "chair": "Daniela Souza Moreira",
       "time": "10h00",
       "day": "abr 7",
       "papers": [
@@ -123,7 +123,7 @@ var json = [
   },
   {
       "title": "ST04",
-      "chair": "Douglas Melo",
+      "chair": "Douglas Rossi de Melo",
       "time": "14h00",
       "day": "abr 7",
       "papers": [
@@ -183,7 +183,7 @@ var json = [
   },
   {
       "title": "SP01",
-      "chair": "",
+      "chair": "Felipe Viel",
       "time": "15h30",
       "day": "abr 7",
       "papers": [
@@ -762,7 +762,7 @@ var json = [
   },
   {
       "title": "ST13",
-      "chair": "",
+      "chair": "Cesar Zeferino e Leandro Escobar",
       "time": "11h00",
       "day": "abr 9",
       "papers": [
@@ -802,7 +802,7 @@ var json = [
   },
   {
       "title": "ST14",
-      "chair": "",
+      "chair": "Daniela Souza Moreira e Wemerson Parreira",
       "time": "14h00",
       "day": "abr 9",
       "papers": [
