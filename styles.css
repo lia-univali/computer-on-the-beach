@@ -454,8 +454,14 @@ section#programacao .card .tab.is-active img {
           filter: grayscale(0);
 }
 
+section#programacao .card .content-tab .name {
+  color: #1469AA;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
 section#programacao .card .content-tab .is-primary {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: -webkit-gradient(linear, right bottom, left top, from(#36A4F7), to(#62b8f9));
   background: linear-gradient(to left top, #36A4F7, #62b8f9);
 }
@@ -468,7 +474,7 @@ section#programacao .card .content-tab p {
   font-size: .9rem;
 }
 
-section#programacao .card.palestra .card-header {
+section#programacao .card.palestra .card-header, section#programacao .card.painel .card-header {
   background-color: white;
   cursor: pointer;
   -webkit-transition: .3s ease;
@@ -476,21 +482,21 @@ section#programacao .card.palestra .card-header {
   border-radius: 15px;
 }
 
-section#programacao .card.palestra .card-header:hover {
+section#programacao .card.palestra .card-header:hover, section#programacao .card.painel .card-header:hover {
   background-color: #f5f5f5;
 }
 
-section#programacao .card.palestra .card-header .card-header-icon {
+section#programacao .card.palestra .card-header .card-header-icon, section#programacao .card.painel .card-header .card-header-icon {
   color: #36A4F7;
   -webkit-transition: .5s ease-in;
   transition: .5s ease-in;
 }
 
-section#programacao .card.palestra .card-header .card-header-icon:hover {
+section#programacao .card.palestra .card-header .card-header-icon:hover, section#programacao .card.painel .card-header .card-header-icon:hover {
   color: #04212F;
 }
 
-section#programacao .card.palestra .card-header .card-header-title {
+section#programacao .card.palestra .card-header .card-header-title, section#programacao .card.painel .card-header .card-header-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +508,7 @@ section#programacao .card.palestra .card-header .card-header-title {
   padding: .2rem;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-calendar {
+section#programacao .card.palestra .card-header .card-header-title .card-header-calendar, section#programacao .card.painel .card-header .card-header-title .card-header-calendar {
   color: #1469AA;
   background-color: white;
   border: 1px solid #ccc;
@@ -512,45 +518,45 @@ section#programacao .card.palestra .card-header .card-header-title .card-header-
   text-align: center;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-calendar p {
+section#programacao .card.palestra .card-header .card-header-title .card-header-calendar p, section#programacao .card.painel .card-header .card-header-title .card-header-calendar p {
   margin: 0;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .dia-mes {
+section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .dia-mes, section#programacao .card.painel .card-header .card-header-title .card-header-calendar .dia-mes {
   font-size: 2rem;
   line-height: 2rem;
   text-align: center;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .mes {
+section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .mes, section#programacao .card.painel .card-header .card-header-title .card-header-calendar .mes {
   font-size: 1rem;
   line-height: .8rem;
   text-align: center;
   font-weight: 400;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .hora {
+section#programacao .card.palestra .card-header .card-header-title .card-header-calendar .hora, section#programacao .card.painel .card-header .card-header-title .card-header-calendar .hora {
   font-size: .8rem;
   text-align: center;
   font-weight: 400;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-text strong {
+section#programacao .card.palestra .card-header .card-header-title .card-header-text strong, section#programacao .card.painel .card-header .card-header-title .card-header-text strong {
   color: #04212F;
   font-weight: 700;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-text a strong {
+section#programacao .card.palestra .card-header .card-header-title .card-header-text a strong, section#programacao .card.painel .card-header .card-header-title .card-header-text a strong {
   color: white;
 }
 
-section#programacao .card.palestra .card-header .card-header-title .card-header-text span {
+section#programacao .card.palestra .card-header .card-header-title .card-header-text span, section#programacao .card.painel .card-header .card-header-title .card-header-text span {
   color: #555555;
   display: block;
   font-size: .8rem;
 }
 
-section#programacao .card.palestra .card-content {
+section#programacao .card.palestra .card-content, section#programacao .card.painel .card-content {
   max-height: 0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
@@ -558,51 +564,51 @@ section#programacao .card.palestra .card-content {
   padding: 0;
 }
 
-section#programacao .card.palestra.is-active .card-header {
+section#programacao .card.palestra.is-active .card-header, section#programacao .card.painel.is-active .card-header {
   border-radius: 15px 15px 0 0;
   background-color: #04212F;
 }
 
-section#programacao .card.palestra.is-active .card-header .card-header-title {
+section#programacao .card.palestra.is-active .card-header .card-header-title, section#programacao .card.painel.is-active .card-header .card-header-title {
   color: white;
 }
 
-section#programacao .card.palestra.is-active .card-header .card-header-title strong {
+section#programacao .card.palestra.is-active .card-header .card-header-title strong, section#programacao .card.painel.is-active .card-header .card-header-title strong {
   color: #36A4F7;
 }
 
-section#programacao .card.palestra.is-active .card-header .card-header-title span {
+section#programacao .card.palestra.is-active .card-header .card-header-title span, section#programacao .card.painel.is-active .card-header .card-header-title span {
   color: #e1eef5;
 }
 
-section#programacao .card.palestra.is-active .card-header .card-header-icon {
+section#programacao .card.palestra.is-active .card-header .card-header-icon, section#programacao .card.painel.is-active .card-header .card-header-icon {
   color: white;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-section#programacao .card.palestra.is-active .card-content {
+section#programacao .card.palestra.is-active .card-content, section#programacao .card.painel.is-active .card-content {
   max-height: none;
   padding: 2rem;
 }
 
-section#programacao .card.palestra.mc .card-header .card-header-calendar {
+section#programacao .card.palestra.mc .card-header .card-header-calendar, section#programacao .card.painel.mc .card-header .card-header-calendar {
   color: #18a549;
 }
 
-section#programacao .card.palestra.pl .card-header .card-header-calendar {
+section#programacao .card.palestra.pl .card-header .card-header-calendar, section#programacao .card.painel.pl .card-header .card-header-calendar {
   color: #e1635a;
 }
 
-section#programacao .card.palestra.sem .card-header .card-header-calendar {
+section#programacao .card.palestra.sem .card-header .card-header-calendar, section#programacao .card.painel.sem .card-header .card-header-calendar {
   color: #e7c436;
 }
 
-section#programacao .card.palestra .subtitle {
+section#programacao .card.palestra .subtitle, section#programacao .card.painel .subtitle {
   margin-bottom: 0;
 }
 
-section#programacao .card.palestra .columns {
+section#programacao .card.palestra .columns, section#programacao .card.painel .columns {
   margin-top: 1rem;
 }
 

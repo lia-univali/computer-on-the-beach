@@ -415,8 +415,13 @@ section{
                 }
             }
             .content-tab{
+                .name{
+                    color: $menta;
+                    font-size: 1.2rem;
+                    margin-bottom: 1rem;
+                }
                 .is-primary{
-                    margin-bottom: 2rem;
+                    margin-bottom: 1rem;
                     background: linear-gradient(to left top,$hortela, lighten($hortela,9%));
                 }
                 img{
@@ -427,7 +432,7 @@ section{
                 }
             }
 
-            &.palestra{
+            &.palestra, &.painel{
                 .card-header{
                     background-color: $branco;
                     cursor: pointer;
@@ -568,6 +573,9 @@ section{
                 .columns{
                     margin-top: 1rem;
                 }
+                
+            }
+            &.palestra{
                 .palestrante{
                     .is-one-quarter{
                         text-align: center;
@@ -583,16 +591,6 @@ section{
                     border-radius: 50%;
                     width: 120px;
                     height: auto;
-                }
-                &#melhores{
-                //     .card-header{
-                //         background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                // radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-
-                //         .card-header-title{
-                //             color: $preto;
-                //         }
-                //     }
                 }
             }
         }
