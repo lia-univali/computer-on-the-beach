@@ -600,6 +600,10 @@ section#programacao .card.palestra.pl .card-header .card-header-calendar, sectio
   color: #e1635a;
 }
 
+section#programacao .card.palestra.pn .card-header .card-header-calendar, section#programacao .card.painel.pn .card-header .card-header-calendar {
+  color: #04212F;
+}
+
 section#programacao .card.palestra.sem .card-header .card-header-calendar, section#programacao .card.painel.sem .card-header .card-header-calendar {
   color: #e7c436;
 }
@@ -754,6 +758,10 @@ section#programacao .grid .track.sem {
 
 section#programacao .grid .track.ctt {
   background-color: #09314f;
+}
+
+section#programacao .grid .track.pn {
+  background-color: #04212F;
 }
 
 section#programacao .grid .track.bt {
@@ -1421,6 +1429,11 @@ footer img {
 .botao-palestra svg {
   color: white;
   margin-left: 10px;
+}
+
+.botao-palestra.is-danger svg {
+  margin-left: 0px;
+  margin-right: 10px;
 }
 
 .botao-palestra.is-warning strong, .botao-palestra.is-warning svg {

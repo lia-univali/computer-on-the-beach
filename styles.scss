@@ -24,7 +24,7 @@ $color_pl: darken($coral, 10%);
 $color_sp: darken($hortela, 25%);
 $color_sem: #e7c436;
 $color_ctt: darken($menta, 20%);
-
+$color_pn: $preto;
 nav{
     transition: .3s ease;
     &.navbar{
@@ -560,6 +560,13 @@ section{
                         }
                     }
                 }
+                &.pn{
+                    .card-header{
+                        .card-header-calendar{
+                            color: $color_pn;
+                        }
+                    }
+                }
                 &.sem{
                     .card-header{
                         .card-header-calendar{
@@ -685,6 +692,9 @@ section{
                 }
                 &.ctt{
                     background-color: $color_ctt;
+                }
+                &.pn{
+                    background-color: $color_pn;
                 }
                 &.bt{
                     background-color: lighten($preto, 7%);
@@ -1249,6 +1259,12 @@ footer{
     svg{
         color: $branco;
         margin-left: 10px;
+    }
+    &.is-danger{
+        svg{
+            margin-left: 0px;
+            margin-right: 10px;
+        }
     }
     &.is-warning{
         strong, svg{
