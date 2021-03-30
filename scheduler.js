@@ -224,7 +224,7 @@ var json = [
               ]
           },
           {
-              "title": "Definindo um Sistema de Monitoramento em Tempo Real do Transporte Público da Cidade XXXXXX através do Uso de Técnicas de Elicitação de Requisitos",
+              "title": "Definindo um Sistema de Monitoramento em Tempo Real do Transporte Público da Cidade de Manaus através do Uso de Técnicas de Elicitação de Requisitos",
               "authors": [
                   "Matheus Brito, Instituto Federal do Amazonas, Brasil",
                   "Diego Bruzaca, IFAM, Brasil",
@@ -367,7 +367,7 @@ var json = [
       "day": "abr 8",
       "papers": [
           {
-              "title": "Protótipo de Alta Fidelidade de Assistente Virtual para Instituições de Ensino no Estado XXXXX",
+              "title": "Protótipo de Alta Fidelidade de Assistente Virtual para Instituições de Ensino no Estado Amazonas",
               "authors": [
                   "Ana Paula Teixeira, IFAM, Brasil",
                   "Yuri Santos, IFAM - CMDI, Brasil",
