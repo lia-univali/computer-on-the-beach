@@ -497,15 +497,12 @@ section#programacao .card.palestra .card-header .card-header-icon:hover, section
 }
 
 section#programacao .card.palestra .card-header .card-header-title, section#programacao .card.painel .card-header .card-header-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
   color: #36A4F7;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: .2rem;
+  padding: 1rem;
 }
 
 section#programacao .card.palestra .card-header .card-header-title .card-header-calendar, section#programacao .card.painel .card-header .card-header-title .card-header-calendar {
@@ -516,6 +513,11 @@ section#programacao .card.palestra .card-header .card-header-title .card-header-
   border-radius: 15px;
   margin: .5rem;
   text-align: center;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0;
+  place-items: center;
 }
 
 section#programacao .card.palestra .card-header .card-header-title .card-header-calendar p, section#programacao .card.painel .card-header .card-header-title .card-header-calendar p {
@@ -676,6 +678,60 @@ section#programacao .grid .dia .duo .ev {
   display: -ms-grid;
   display: grid;
   grid-gap: .3rem;
+}
+
+section#programacao .grid.sem {
+  border: none;
+}
+
+@media screen and (min-width: 800px) {
+  section#programacao .grid.sem {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+section#programacao .grid.sem .dia {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+section#programacao .grid.sem .dia .card {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+}
+
+section#programacao .grid.sem .dia .card, section#programacao .grid.sem .dia .card-header {
+  border-radius: 20px;
+}
+
+section#programacao .grid.sem .dia .card-header {
+  background-color: white;
+}
+
+section#programacao .grid.sem .dia .card-header .card-header-title {
+  color: #04212F;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 800px) {
+  section#programacao .grid.sem .dia .card-header .card-header-title {
+    -ms-grid-columns: auto 1fr;
+        grid-template-columns: auto 1fr;
+  }
+}
+
+section#programacao .grid.sem .dia .card-header .card-header-title span {
+  color: #1469AA;
+}
+
+section#programacao .grid.sem .dia .card-header .card-header-title .dia-mes {
+  font-size: 1.2rem;
 }
 
 section#programacao .grid h2 {

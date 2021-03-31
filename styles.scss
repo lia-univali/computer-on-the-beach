@@ -451,10 +451,10 @@ section{
                     transition: .3s ease;
                     border-radius: 15px;
                     .card-header-title{
-                        display: flex;
+                        display: grid;
+                        grid-template-columns: auto 1fr;
                         color: $hortela;
-                        flex-direction: row;
-                        padding: .2rem;
+                        padding: 1rem;
                         .card-header-calendar{
                             color: $menta;
                             background-color: $branco;
@@ -463,6 +463,10 @@ section{
                             border-radius: 15px;
                             margin: .5rem;
                             text-align: center;
+                            height: 100%;
+                            display: grid;
+                            grid-gap: 0;
+                            place-items: center;
                             p{
                                 margin: 0;
                                 
@@ -626,6 +630,43 @@ section{
                     .ev{
                         display: grid;
                         grid-gap: .3rem; 
+                    }
+                }
+            }
+            &.sem{
+                @media screen and (min-width: $break-large) {
+                    grid-template-columns: 1fr;
+                }
+                border: none;
+                .dia{
+                    display: grid;
+                    grid-gap: 1rem;
+                    grid-template-columns: 1fr;
+                    // @media screen and (min-width: $break-large) {
+                    //     grid-template-columns: 1fr 1fr;
+                    // }
+                    .card{
+                        margin: 0;
+                        display: grid;
+                    }
+                    .card, .card-header{
+                        border-radius: 20px;
+                    }
+                    .card-header{
+                        background-color: $branco;
+                        .card-header-title{
+                            color: $preto;
+                            grid-template-columns: 1fr;
+                            @media screen and (min-width: $break-large) {
+                                grid-template-columns: auto 1fr;
+                            }
+                            span{
+                                color: $menta;
+                            }
+                            .dia-mes{
+                                font-size: 1.2rem;
+                            }
+                        }
                     }
                 }
             }
