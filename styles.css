@@ -666,6 +666,17 @@ section#programacao .grid .dia {
   grid-gap: .3rem;
 }
 
+section#programacao .grid .dia .encerramento {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+section#programacao .grid .dia .encerramento:first-child {
+  margin-left: 15px;
+}
+
 section#programacao .grid .dia .duo {
   display: -ms-grid;
   display: grid;

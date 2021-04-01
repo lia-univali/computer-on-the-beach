@@ -620,6 +620,13 @@ section{
             }
             grid-gap: 1rem; 
             .dia{
+                .encerramento{
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    &:first-child {
+                        margin-left: 15px;
+                    }
+                }
                 display: grid;
                 grid-gap: .3rem;
                 .duo{
