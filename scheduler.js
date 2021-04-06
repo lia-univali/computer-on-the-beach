@@ -362,7 +362,7 @@ var json = [
   },
   {
       "title": "SP02",
-      "chair": "",
+      "chair": "Dennis Kerr Coelho",
       "time": "10h00",
       "day": "abr 8",
       "papers": [
@@ -520,7 +520,7 @@ var json = [
   },
   {
       "title": "SP03",
-      "chair": "",
+      "chair": "Marcelo Dornbusch",
       "time": "15h30",
       "day": "abr 8",
       "papers": [
@@ -707,7 +707,7 @@ var json = [
   },
   {
       "title": " SP04",
-      "chair": "",
+      "chair": "Denise Kronbauer e Paulo Valim",
       "time": "10h00",
       "day": "abr 9",
       "papers": [
