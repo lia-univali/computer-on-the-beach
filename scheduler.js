@@ -621,7 +621,7 @@ var json = [
       "day": "abr 8",
       "papers": [
           {
-              "title": "Descoberta de Conhecimento em Base de Consumidores Comerciais Buscando Identificar Padrões Atípico de Consumo de Energia Elétrica Utilizando o Software R",
+              "title": "Aprendizagem de Máquina Aplicada a Consumidores Comerciais Buscando Identificar Padrões Atípicos de Consumo de Energia Elétrica Utilizando o Software R",
               "authors": [
                   "Raimundo Teive, Universidade do Vale do Itajaí - Univali, Brasil",
                   "Lucas Evangelista de Souza, Universidade do Vale do Itajaí - Univali, Brasil",
