@@ -1507,6 +1507,19 @@ footer img {
   color: #04212F !important;
 }
 
+.secretaria {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.secretaria p {
+  margin-bottom: .5rem;
+}
+
+.secretaria .is-large {
+  width: 100%;
+}
+
 .botao-painel {
   margin-left: 20px;
 }
