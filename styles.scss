@@ -1,23 +1,19 @@
-$coral:#e98c85;
-$preto: #04212F;
-$menta: #1469AA;
-$hortela:#36A4F7;
-$branco: rgb(255, 255, 255);
-$branco-smoke:rgb(225, 238, 245);
-$cinza: rgb(85,85,85);
-
-$hero-gradient-opacity: .5;
+$coral:#F9E547;
+$preto: #1D1D1D;
+$menta: #F5DF4D;
+$hortela:#C7B537;
+$branco: #fff;
+$branco-smoke:#E6E6E6;
+$cinza: #939597;
+$hero-gradient-opacity: .95;
 $hero-local-gradient-opacity: .7;
-
 $break-large: 800px;
 $break-extra-large: 1200px;
 $logo-border-weight: 1px;
 $date-text-stroke: 3px;
 $date-text-color: $branco;
-
 $colors-darken: 30%;
 $important-dates-fade-out: .1;
-
 
 $color_mc: #18a549;
 $color_pl: darken($coral, 10%);
@@ -28,7 +24,7 @@ $color_pn: $preto;
 nav{
     transition: .3s ease;
     &.navbar{
-        background-color: $preto;
+        background-color: $branco-smoke;
     }
     .navbar-burger{
         &.burger{
@@ -45,12 +41,12 @@ nav{
     }
     .navbar-menu{
         &.is-active{
-            background-color: $preto;
+            background-color: $branco;
         }
     }
     .menu-real .navbar-item{
-        color: $branco;
-        background-color: $preto;
+        color: $preto;
+        background-color: $branco-smoke;
         transition: .3s ease;
         &:hover{
             background-color:$hortela;
@@ -63,9 +59,12 @@ nav{
     &.is-fixed-top{
         border-radius: 0;
         margin: 0;
-        border-bottom: 3px solid $hortela;
+        border-bottom: 3px solid $menta;
         backdrop-filter: blur(5px);
-        background-color: $preto;
+        background-color: $branco;
+        .menu-real .navbar-item{
+            background-color: $branco;
+        }
     }
     .navbar-item, .button.is-primary{
         font-size: 1.05rem;
@@ -123,7 +122,7 @@ nav{
 .button{
     &.is-primary{
         border: none;
-        background: linear-gradient(to bottom,$hortela, $menta);
+        background: $hortela;
         color: $branco !important;
         font-weight: 700;
         &:hover{
@@ -169,7 +168,8 @@ section{
         overflow: hidden;
         &.is-primary{
             &.is-bold{
-                background-image: linear-gradient(to bottom right, rgba(darken($hortela,$colors-darken),$hero-gradient-opacity), rgba(darken($menta,$colors-darken),$hero-gradient-opacity)), url('img/bg.jpg');
+                background-image: linear-gradient(to bottom right, rgba($branco,$hero-gradient-opacity), rgba($branco,$hero-gradient-opacity)), url('img/bg.jpg');
+                // background: url('img/full/bc2.jpg');
                 background-size: cover;
                 background-attachment: fixed;
                 background-position: bottom;
@@ -768,7 +768,10 @@ section{
         }
     }
     &#anais{
-        background-color: $branco;
+        background-color: $cinza;
+        .title{
+            color: $preto;
+        }
         .column{
             article{
                 background-color: $hortela;

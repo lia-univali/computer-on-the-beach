@@ -64,15 +64,16 @@
 
       <div class="container" id="hero-title">
         <h1 class="title">
-          <img src="img/logo.png" id="hero-logo" />
+          <img src="img/logo_c.png" id="hero-logo" />
 
         </h1>
-        <h2>
+        <br><br>
+        <!-- <h2>
           07 a 09 de abril, 2021
         </h2>
         <h4 style="font-weight: 700;">
           Online
-        </h4>
+        </h4> -->
 
       </div>
     </div>
@@ -81,7 +82,7 @@
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#hero">
-        <img src="img/w_logofirst.png" id="nav-logo-name">
+        <img src="img/logofirst.png" id="nav-logo-name">
         <img src="img/logoicon.png" id="nav-logo-icon">
 
       </a>
@@ -100,56 +101,41 @@
         <a class="navbar-item" href="#evento">
           Evento
         </a>
-        <!-- Remoção devido ao evento ser online -->
-        <!--
-        <a class="navbar-item" href="#balneario">
-          Balneário
-        </a>
--->
-        <a class="navbar-item" href="#programacao">
+        <!-- <a class="navbar-item" href="#anais">
+          Anais
+        </a> -->
+        <!-- <a class="navbar-item" href="#programacao">
           Programação
         </a>
         <a class="navbar-item" href="#chamadas">
           Chamadas
         </a>
 
-        <a class="navbar-item" href="#anais">
-          Anais
-        </a>
-        <!-- Remoção devido ao evento ser online -->
-
-        <!-- <a class="navbar-item open-modal" data-modal-id="#modal-host" href="#">
+        
+        <a class="navbar-item open-modal" data-modal-id="#modal-host" href="#">
             Hospedagem
-          </a> -->
+          </a>
 
         <a class="navbar-item" href="#comitePrograma">
           Comitê
         </a>
         <a class="navbar-item" href="#realizacao">
           Organização
-        </a>
+        </a> -->
       </div>
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary open-modal" data-modal-id="#modal-inscricoes">
+          <a class="button is-primary"  href="#anais">
+            <strong>Anais</strong>
+          </a>
+          <!-- <a class="button is-primary open-modal" data-modal-id="#modal-inscricoes">
             <strong>Inscrições</strong>
           </a>
           <a class="button is-light" href="https://teams.microsoft.com/l/meetup-join/19:meeting_MGM1YWUyZjQtMTYzMi00ZmRiLTg1ZjMtMDk0MTFjN2NmYTAy@thread.v2/0?context=%7B%22Tid%22:%22d0910ffd-8a37-4bdb-ba65-7d2d0eb57de9%22,%22Oid%22:%220a3f47a4-bd1b-42f6-b573-d164f0b7df49%22%7D" target="_blank">
             <strong>Secretaria</strong>
-          </a>
+          </a> -->
         </div>
       </div>
-      <!-- <div class="navbar-item">
-        <div class="buttons">
-          
-          <a class="button is-info" href="https://discord.gg/XFKscpC" target="_blank">
-            <strong>Secretaria/Bate-papo</strong>
-          </a>
-          <a class="button is-primary open-modal" onclick="loadPapers()" data-modal-id="#modal-sections">
-            <strong>Sessões Técnicas</strong>
-          </a>
-        </div>
-      </div> -->
     </div>
   </nav>
 
@@ -177,7 +163,7 @@
       </div>
     </div>
   </section>
-  <section class="section" id="programacao">
+  <!-- <section class="section" id="programacao">
     <div class="container">
       <h1 class="title">Programação</h1>
 
@@ -253,10 +239,10 @@
             </div>
           </div>
 
-          <!-- <a class="track bt" href="https://www.youtube.com/watch?v=na_jwbzb140" target="_blank">Bate Papo
+          <a class="track bt" href="https://www.youtube.com/watch?v=na_jwbzb140" target="_blank">Bate Papo
             <span>18h30</span></a>
           <a class="track pl" href="https://www.youtube.com/watch?v=zPtunpqZSZU" target="_blank">Palestra 1
-            <span>19h</span></a> -->
+            <span>19h</span></a> 
           <a class="track pl" onclick="openAndGoToContent(event,'pcpt')" target="_blank">
             <p>Palestra 2</p>
             <span>19h</span>
@@ -265,8 +251,8 @@
             <p>Meninas Digitais</p>
             <span>20h</span>
           </a>
-          <!-- <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3
-            <span>20h30</span></a> -->
+           <a class="track pl" href="https://www.youtube.com/watch?v=ClzhoX8yVa0" target="_blank">Palestra 3
+            <span>20h30</span></a>
         </div>
         <div class="dia">
           <h2>Sexta-Feira - 9 de Abril</h2>
@@ -356,7 +342,7 @@
       <p class="is-danger">* Para mais informações sobre os ítens da grade observe as seções abaixo</p>
 
 
-      <!-- <h3 class="title">Minicursos</h3> -->
+      <h3 class="title">Minicursos</h3> 
       <div class="card palestra mc" id="mc1">
         <header class="card-header " onclick="openContent(event,'mc1')">
 
@@ -410,8 +396,8 @@
         </div>
       </div>
 
-      <!-- <h3 class="title">Palestras</h3> -->
-      <!-- <!- - Palestra 1 - -> -->
+      <h3 class="title">Palestras</h3> 
+      <!- - Palestra 1 - -> 
       <div class="card palestra pl" id="abertura">
         <header class="card-header" onclick="openContent(event,'abertura')">
           <div class="card-header-title">
@@ -623,7 +609,7 @@
         </div>
       </div>
 
-      <!-- <!- - Palestra 2 - -> -->
+      <!- - Palestra 2 - -> 
       <div class="card palestra pl" id="pcpt">
         <header class="card-header" onclick="openContent(event,'pcpt')">
           <div class="card-header-title">
@@ -827,7 +813,7 @@
         </div>
       </div>
 
-      <!-- <!- - Palestra 3 - -> -->
+      <!- - Palestra 3 - ->
       <div class="card palestra pl" id="pospande">
         <header class="card-header" onclick="openContent(event,'pospande')">
           <div class="card-header-title">
@@ -1029,8 +1015,8 @@
       </div>
 
     </div>
-  </section>
-  <section class="section" id="chamadas">
+  </section> -->
+  <!-- <section class="section" id="chamadas">
     <div class="container">
       <h1 class="title">Chamadas</h1>
 
@@ -1147,9 +1133,9 @@
 
             <a class="button is-danger is-link is-medium is-fullwidth" href="/arquivos/InstrucoesApresentacoes.pdf"
               target="_blank">Instruções para Apresentação</a>
-            <!--
+            
             <a class="button is-success is-link is-medium is-fullwidth"
-              href="arquivos/instrucoesApresentadores.pdf">Instruções Apresentadores</a> -->
+              href="arquivos/instrucoesApresentadores.pdf">Instruções Apresentadores</a>
           </div>
         </div>
         <div class="tile is-parent">
@@ -1187,9 +1173,7 @@
       </div>
     </div>
     </div>
-  </section>
-
-
+  </section> -->
 
   <section class="section" id="anais">
     <div class="container">
@@ -1208,6 +1192,13 @@
         <div class="column">
           <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/596" class="" target="_blank">
             <article class="anal-new" id="ed2020">
+              <p class="title">2021</p>
+            </article>
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://siaiap32.univali.br/seer/index.php/acotb/issue/view/596" class="" target="_blank">
+            <article class="" id="ed2020">
               <p class="title">2020</p>
             </article>
           </a>
@@ -1231,7 +1222,7 @@
     </div>
   </section>
 
-  <section class="section" id="comitePrograma">
+  <!-- <section class="section" id="comitePrograma">
     <div class="container">
       <h1 class="title">Comitê</h1>
 
@@ -1445,7 +1436,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="section" id="realizacao">
     <div class="container">
