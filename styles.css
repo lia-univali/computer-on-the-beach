@@ -173,13 +173,14 @@ section p, section li {
 }
 
 section p strong, section li strong {
-  font-weight: 500;
+  font-weight: 900;
   color: #f5df4d;
 }
 
 section p.lead, section li.lead {
   font-style: italic;
-  color: #f5df4d;
+  font-weight: 600;
+  color: #939597;
   font-size: 1.3rem;
 }
 
@@ -892,6 +893,10 @@ section#anais .column article:hover .title {
 section#realizacao {
   text-align: center;
   background-color: #eee;
+}
+
+section#realizacao .title {
+  color: #1D1D1D;
 }
 
 section#realizacao img {

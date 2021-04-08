@@ -155,12 +155,13 @@ section{
         font-size: 1.1rem;
         text-align: justify;
         strong {
-            font-weight: 500;
+            font-weight: 900;
             color: $hortela;
         }
         &.lead{
             font-style: italic;
-            color: $hortela;
+            font-weight: 600;
+            color: $menta;
             font-size: 1.3rem;
         }
     }
@@ -227,7 +228,7 @@ section{
                 box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.541);
             }
         }
-    }    
+    }
     &#balneario, &#anais{
         background-color: $branco-smoke;
         .title{
@@ -803,7 +804,9 @@ section{
         }
     }
     &#realizacao{
-        
+        .title{
+            color: $preto;
+        }
         text-align: center;
         background-color: #eee;
         img{
