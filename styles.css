@@ -189,7 +189,7 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background: #f5df4d;
+  background: #fff;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
