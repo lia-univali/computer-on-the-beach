@@ -50,6 +50,7 @@ nav{
         transition: .3s ease;
         &:hover{
             background-color:$hortela;
+            color: $branco;
         }
         img{
             max-height: 3rem;
@@ -969,13 +970,13 @@ section{
 
 footer{
     &.footer{
-        background-color: $preto;
-        color: $branco;
+        background-color: $branco-smoke;
+        color: $preto;
         a{
             color: $hortela;
         }
         .fa-code{
-            color: $menta;
+            color: $hortela;
         }
         .fa-heart{
             color: $coral;

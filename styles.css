@@ -29,6 +29,7 @@ nav .menu-real .navbar-item {
 
 nav .menu-real .navbar-item:hover {
   background-color: #f5df4d;
+  color: #292929;
 }
 
 nav .menu-real .navbar-item img {
@@ -1116,8 +1117,8 @@ section#comitePrograma .tile#membros p {
 }
 
 footer.footer {
-  background-color: #fff;
-  color: #292929;
+  background-color: #525252;
+  color: #fff;
 }
 
 footer.footer a {
@@ -1125,7 +1126,7 @@ footer.footer a {
 }
 
 footer.footer .fa-code {
-  color: #939597;
+  color: #f5df4d;
 }
 
 footer.footer .fa-heart {
