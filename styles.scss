@@ -1,35 +1,35 @@
-$coral:#744df5;
-$branco: #292929;
-$menta: #939597;
-$hortela:#f5df4d;
-$preto: #fff;
-$branco-smoke:#525252;
+$destaque:#744df5;
+$bg: #292929;
+$secondary: #939597;
+$primary:#f5df4d;
+$text: #fff;
+$bg-smoke:#525252;
 $cinza: #939597;
-$hero-gradient-opacity: .95;
+$hero-gradient-opacity: .92;
 $hero-local-gradient-opacity: .7;
 $break-large: 800px;
 $break-extra-large: 1200px;
 $logo-border-weight: 1px;
 $date-text-stroke: 3px;
-$date-text-color: $branco;
+$date-text-color: $bg;
 $colors-darken: 30%;
 $important-dates-fade-out: .1;
 
 $color_mc: #18a549;
-$color_pl: darken($coral, 10%);
-$color_sp: darken($hortela, 25%);
+$color_pl: darken($destaque, 10%);
+$color_sp: darken($primary, 25%);
 $color_sem: #e7c436;
-$color_ctt: darken($menta, 20%);
-$color_pn: $preto;
+$color_ctt: darken($secondary, 20%);
+$color_pn: $text;
 nav{
     transition: .3s ease;
     &.navbar{
-        background-color: $branco-smoke;
+        background-color: $bg-smoke;
     }
     .navbar-burger{
         &.burger{
             span{
-                background-color: $preto;
+                background-color: $text;
             }
         }
     }
@@ -41,16 +41,16 @@ nav{
     }
     .navbar-menu{
         &.is-active{
-            background-color: $branco;
+            background-color: $bg;
         }
     }
     .menu-real .navbar-item{
-        color: $preto;
-        background-color: $branco-smoke;
+        color: $text;
+        background-color: $bg-smoke;
         transition: .3s ease;
         &:hover{
-            background-color:$hortela;
-            color: $branco;
+            background-color:$primary;
+            color: $bg;
         }
         img{
             max-height: 3rem;
@@ -60,11 +60,11 @@ nav{
     &.is-fixed-top{
         border-radius: 0;
         margin: 0;
-        border-bottom: 3px solid $hortela;
+        border-bottom: 3px solid $primary;
         backdrop-filter: blur(5px);
-        background-color: $branco;
+        background-color: $bg;
         .menu-real .navbar-item{
-            background-color: $branco;
+            background-color: $bg;
         }
     }
     .navbar-item, .button.is-primary{
@@ -75,11 +75,11 @@ nav{
     }
     .button.is-primary{
         border: 0;
-        background-color: $hortela;
-        background-image: linear-gradient(to bottom right,$hortela, darken($hortela, 20%));
+        background-color: $primary;
+        background-image: linear-gradient(to bottom right,$primary, darken($primary, 20%));
         transition: 0.5s ease;
         &:hover{
-            background: $menta;
+            background: $secondary;
             animation: btnanimation .4s;
         }
         @keyframes btnanimation {
@@ -111,32 +111,32 @@ nav{
 .floating-date{
     margin-top: -50px;
     text-align: right;
-    color: $branco;
-    background-color: $hortela;
+    color: $bg;
+    background-color: $primary;
 }
 
 .link-marambaia{
-    color: $coral;
+    color: $destaque;
     font-weight: 600;
     text-decoration: underline;
 }
 .button{
     &.is-primary{
         border: none;
-        background: $hortela;
-        color: $branco !important;
+        background: $primary;
+        color: $bg !important;
         font-weight: 700;
         &:hover{
-            background: $menta;
+            background: $secondary;
         }
         &.is-inverted{
-            background: $branco;
-            color: $hortela !important;
+            background: $bg;
+            color: $primary !important;
         }
     }
 }
 section{
-    background-color: $branco;
+    background-color: $bg;
     &.section{
         .container{
             @media screen and (min-width: $break-large) {
@@ -146,25 +146,25 @@ section{
     }
     
     .title{
-        color: $hortela;
+        color: $primary;
         font-size: 2.4rem;
     }
     .subtitle{
         font-size: 1.3rem;
-        color: $menta;
+        color: $secondary;
     }
     p, li{ // REVER EFEITO
-        color: $preto;
+        color: $text;
         font-size: 1.1rem;
         text-align: justify;
         strong {
             font-weight: 900;
-            color: $hortela;
+            color: $primary;
         }
         &.lead{
             font-style: italic;
             font-weight: 600;
-            color: $menta;
+            color: $secondary;
             font-size: 1.3rem;
         }
     }
@@ -172,33 +172,33 @@ section{
         overflow: hidden;
         &.is-primary{
             &.is-bold{
-                // background-image: linear-gradient(to bottom right, rgba($branco,$hero-gradient-opacity), rgba($branco,$hero-gradient-opacity)), url('img/bg.jpg');
-                background: $branco;
+                background-image: linear-gradient(to bottom right, rgba($bg,$hero-gradient-opacity), rgba($bg,$hero-gradient-opacity)), url('img/bg.jpg');
+                // background: $bg;
                 background-size: cover;
                 background-attachment: fixed;
                 background-position: bottom;
             }
         }
         .hero-body{
-            //background-image: linear-gradient(to bottom right,rgba($coral,$hero-gradient-opacity), rgba($menta,$hero-gradient-opacity));
+            //background-image: linear-gradient(to bottom right,rgba($destaque,$hero-gradient-opacity), rgba($secondary,$hero-gradient-opacity));
             .container{
                 text-align: center;                   
                 margin-bottom: -5%;
                 h2{
-                    color: $branco;
+                    color: $bg;
                     font-size: 2.4rem;
 
                     font-weight: 300;
                     font-style: italic;
-                    // -webkit-text-stroke: 1px $branco;
+                    // -webkit-text-stroke: 1px $bg;
                     position: relative;
                 }
                 h4{
-                    color: $branco;
+                    color: $bg;
                     font-size: 1.9rem;
                     font-weight: 300;
                     font-style: italic;
-                    // -webkit-text-stroke: 2px $branco;
+                    // -webkit-text-stroke: 2px $bg;
                     position: relative;
 
                 }
@@ -233,21 +233,21 @@ section{
         }
     }
     &#balneario, &#anais{
-        background-color: $branco-smoke;
+        background-color: $bg-smoke;
         .title{
-            color: $menta;
+            color: $secondary;
         }
     }
     &#chamadas{
         del{
-            color: $coral;
+            color: $destaque;
         }
         p{
             &.title{
                 font-size: 1.9rem;
                 text-align: center;
                 font-weight: 600;
-                color: $hortela;
+                color: $primary;
             }   
         }
         ul{
@@ -264,16 +264,16 @@ section{
             border-radius: 1rem;
             border: none;
             &#datas-importantes{
-                background-image: linear-gradient(to top right,fade-out($menta, $important-dates-fade-out), fade-out($hortela, $important-dates-fade-out));
-                //background-image: linear-gradient(to top right,$menta, $hortela);
-                //background-color: fade-out($hortela, 0.4);
+                // background-image: linear-gradient(to top right,fade-out($secondary, $important-dates-fade-out), fade-out($primary, $important-dates-fade-out));
+                //background-image: linear-gradient(to top right,$secondary, $primary);
+                background-color: lighten($bg, 5%);
                 .title{
-                    color: $branco;
+                    color: $text;
                 }
                 
                 li{
-                    background-color: $branco;
-                    color: $preto;
+                    background-color: $bg;
+                    color: $text;
                     margin-top: 1rem;
                     padding: .5rem 1rem;
                     text-align: center;
@@ -281,7 +281,7 @@ section{
                     font-size: 1rem;
                     strong{
                         display: block;
-                        color: $hortela;
+                        color: $primary;
                         font-size: 1.2rem;
                     }
                     transition: .3s ease;
@@ -298,7 +298,7 @@ section{
                             padding: .5rem .5rem ;
                             
                             .data{
-                                border: 2px solid $hortela;
+                                border: 2px solid $primary;
                                 border-radius: 10px;
                                 padding: .5rem .5rem;
                                 padding-top: .2rem;
@@ -313,10 +313,10 @@ section{
                                         font-size: .9rem;
                                     } 
                                     
-                                    color: $cinza;
+                                    color: darken($text, 30%);
                                 }
                                 &.data-trabalhos{
-                                    border-color: $hortela;
+                                    border-color: $primary;
                                     
                                 }
                                
@@ -328,16 +328,19 @@ section{
             }
             &#autores{
                 .open-modal{
-                    color: $preto;
+                    color: $text;
                 }
-                background: $preto;
+                background: lighten($bg, 5%);
                 .title{
-                    color: $branco;
+                    color: $text;
                 }
-                color: $branco;
+                color: $bg;
                 a{
                     margin-top: 1rem;
                 }
+            }
+            &#topicos{
+                background-color: lighten($bg, 10%);
             }
             
         }
@@ -351,7 +354,7 @@ section{
         }
     }
     &#programacao{
-        background-color: $branco-smoke;
+        background-color: $bg-smoke;
         .title{
             small{
                 font-size: 1.2rem;
@@ -377,13 +380,13 @@ section{
                 margin: 30px 10px;
             }
             .card-header{
-                background-color: $hortela;
+                background-color: $primary;
                 border-radius: 15px 15px 0 0 ;
                 .card-header-title{
-                    color: $branco;
+                    color: $bg;
                     small{
                         margin-left: 10px;
-                        color: $branco-smoke;
+                        color: $bg-smoke;
                     }                
                 }
             }
@@ -395,7 +398,7 @@ section{
                 .tag{
                     text-align: center;
                     margin-bottom: -25px;
-                    color: $hortela;
+                    color: $primary;
                     z-index: 10;
                 }
                 .icon{
@@ -410,7 +413,7 @@ section{
                 }
                 &.is-active{
                     span{
-                        color: $hortela;
+                        color: $primary;
                     }
                     img{
                         filter: grayscale(0);
@@ -420,13 +423,13 @@ section{
             }
             .content-tab{
                 .name{
-                    color: $menta;
+                    color: $secondary;
                     font-size: 1.2rem;
                     margin-bottom: 1rem;
                 }
                 .is-primary{
                     margin-bottom: 1rem;
-                    background: linear-gradient(to left top,$hortela, lighten($hortela,9%));
+                    background: linear-gradient(to left top,$primary, lighten($primary,9%));
                 }
                 img{
                     border-radius: 50%;
@@ -438,7 +441,7 @@ section{
 
             &.palestra, &.painel{
                 .card-header{
-                    background-color: $branco;
+                    background-color: $bg;
                     cursor: pointer;
                     &:hover{
                         background-color: #f5f5f5;
@@ -446,10 +449,10 @@ section{
                     
                     .card-header-icon{
                         
-                        color: $hortela;
+                        color: $primary;
                         transition: .5s ease-in;
                         &:hover{
-                            color: $preto;
+                            color: $text;
                         }
                     }
                     transition: .3s ease;
@@ -457,11 +460,11 @@ section{
                     .card-header-title{
                         display: grid;
                         grid-template-columns: auto 1fr;
-                        color: $hortela;
+                        color: $primary;
                         padding: 1rem;
                         .card-header-calendar{
-                            color: $menta;
-                            background-color: $branco;
+                            color: $secondary;
+                            background-color: $bg;
                             border: 1px solid #ccc;
                             padding: .5rem 1.5rem;
                             border-radius: 15px;
@@ -494,12 +497,12 @@ section{
                         }
                         .card-header-text{
                             strong{
-                                color: $preto;
+                                color: $text;
                                 font-weight: 700;
                             }
                             a{
                                 strong{
-                                    color: $branco;
+                                    color: $bg;
                                 }
                             }
                             span{
@@ -523,28 +526,28 @@ section{
                 &.is-active{
                     .card-header{
                         border-radius: 15px 15px 0 0 ;
-                        background-color: $preto;
+                        background-color: $text;
                         .card-header-title{
                             // .card-header-calendar{
-                            //     // background-color: $branco;
-                            //     // color: $menta;
+                            //     // background-color: $bg;
+                            //     // color: $secondary;
                             // }
-                            color: $branco;
+                            color: $bg;
 
                             strong{
-                                color: $hortela;
+                                color: $primary;
                             }
                             // a{
                             //     strong{
-                            //         color: $branco;
+                            //         color: $bg;
                             //     }
                             // }
                             span{
-                                color: $branco-smoke;
+                                color: $bg-smoke;
                             }
                         }
                         .card-header-icon{
-                            color: $branco;
+                            color: $bg;
                             transform: rotate(180deg);
                         }
                     }
@@ -596,7 +599,7 @@ section{
                         text-align: center;
                     }
                     border-radius: 15px;
-                    background-color: $branco-smoke;
+                    background-color: $bg-smoke;
                     padding: 1.5rem;
                     p{
                         font-size: .9rem;
@@ -610,12 +613,12 @@ section{
             }
         }
         .subtitle{
-            color: $preto;
+            color: $text;
         }
         .grid{
             margin: 1rem 0;
-            border: 2px $menta solid;
-            background-color: $branco;
+            border: 2px $secondary solid;
+            background-color: $bg;
             border-radius: 5px;
             padding: 1rem;
             display: grid;
@@ -664,15 +667,15 @@ section{
                         border-radius: 20px;
                     }
                     .card-header{
-                        background-color: $branco;
+                        background-color: $bg;
                         .card-header-title{
-                            color: $preto;
+                            color: $text;
                             grid-template-columns: 1fr;
                             @media screen and (min-width: $break-large) {
                                 grid-template-columns: auto 1fr;
                             }
                             span{
-                                color: $menta;
+                                color: $secondary;
                             }
                             .dia-mes{
                                 font-size: 1.2rem;
@@ -699,15 +702,15 @@ section{
                 }
                 span{
                     text-align: center;
-                    background-color: $branco;
-                    color: $menta;
+                    background-color: $bg;
+                    color: $secondary;
                     border-radius: 0 5px 5px 0;
                 }
-                background-color: $hortela;
-                color: $branco;
+                background-color: $primary;
+                color: $bg;
                 position: relative;
                 border-radius: 5px;
-                border: 1px solid $hortela;
+                border: 1px solid $primary;
 
                 
                 transition: .2s ease;
@@ -722,11 +725,11 @@ section{
                     }   
                 }
                 &.premio{
-                    background-color: darken($preto, 5%);
+                    background-color: darken($text, 5%);
 
                 }
                 &.course{
-                    background-color: lighten($hortela, 2%);
+                    background-color: lighten($primary, 2%);
                 }
                 &.pl{
                     background-color: $color_pl;
@@ -740,7 +743,7 @@ section{
                 }
                 &.sem{
                     background-color: $color_sem;
-                    color: $preto;
+                    color: $text;
                 }
                 &.ctt{
                     background-color: $color_ctt;
@@ -749,7 +752,7 @@ section{
                     background-color: $color_pn;
                 }
                 &.bt{
-                    background-color: lighten($preto, 7%);
+                    background-color: lighten($text, 7%);
                     // padding: 1.9rem 6px;
                     // span{
                     //     margin-top: -1.9rem;
@@ -757,49 +760,49 @@ section{
                     // }
                 }
                 &.painel{
-                    background-color: lighten($preto, 7%);
+                    background-color: lighten($text, 7%);
                 }
                 &.int{
-                    background-color: $branco;
-                    color: $preto;
-                    // border: $branco;
+                    background-color: $bg;
+                    color: $text;
+                    // border: $bg;
                     // span{
                     //     // background-color: ;
-                    //     // color: $branco;
+                    //     // color: $bg;
                     // }
                 }
             }
         }
     }
     &#anais{
-        background-color: $branco-smoke;
+        background-color: $bg-smoke;
         .title{
-            color: $preto;
+            color: $text;
         }
         .column{
             article{
-                background-color: $hortela;
+                background-color: $primary;
                 padding: 2rem 1rem;
                 border-radius: 20px;
                 height: 100%;
                 &.anal-new{
-                    background-color: $coral;
+                    background-color: $destaque;
                     &:hover{
                         transform: scale(1.05);
-                        background-color: darken($coral,10%);
+                        background-color: darken($destaque,10%);
                     }
                 }
                 .title{
                     text-align: center;
                     font-size: 1.7rem;
-                    color: $branco;
+                    color: $bg;
                 }
                 transition: .3s ease;
                 &:hover{
                     transform: scale(1.05);
-                    background-color: darken($hortela,10%);
+                    background-color: darken($primary,10%);
                     .title{
-                        color: $branco;
+                        color: $bg;
                     }
                 }
             }
@@ -808,10 +811,10 @@ section{
     }
     &#realizacao{
         .title{
-            color: $preto;
+            color: $text;
         }
         text-align: center;
-        background-color: $branco;
+        background-color: $bg;
         img{
             
             max-height: 90px;
@@ -910,7 +913,7 @@ section{
         }
     }
     &#comitePrograma{
-        background-color: $branco-smoke;
+        background-color: $bg-smoke;
         ul{
             &.ul-two{
                 columns: 2;
@@ -920,7 +923,7 @@ section{
             list-style-type: none;
             li{
                 &:before{
-                    color: $menta;
+                    color: $secondary;
                     font-size: 1rem;
                     content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
                     font-weight: bold; /* If you want it to be bold */
@@ -955,7 +958,7 @@ section{
         list-style-type: none;
         li{
             &:before{
-                color: $menta;
+                color: $secondary;
                 font-size: 1rem;
                 content: "\26ac";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
                 font-weight: bold; /* If you want it to be bold */
@@ -970,16 +973,16 @@ section{
 
 footer{
     &.footer{
-        background-color: $branco-smoke;
-        color: $preto;
+        background-color: $bg-smoke;
+        color: $text;
         a{
-            color: $hortela;
+            color: $primary;
         }
         .fa-code{
-            color: $hortela;
+            color: $primary;
         }
         .fa-heart{
-            color: $coral;
+            color: $destaque;
         }
     }
     
@@ -994,10 +997,10 @@ footer{
     text-align: center;
     transition: .3s ease;
     a{
-        color: $hortela;
+        color: $primary;
        
         &:hover{
-            color:darken($hortela,10%);
+            color:darken($primary,10%);
         }
     }
     
@@ -1035,7 +1038,7 @@ footer{
     }
     &#modal-aviso{
         .modal-card-head{
-            background-color: $hortela;
+            background-color: $primary;
             p{
                 color: #fff;       
             }
@@ -1044,7 +1047,7 @@ footer{
             font-size: .8rem;
         }
         h1{
-            color: $hortela !important;
+            color: $primary !important;
         } 
         strong{
             color: #f00 !important;
@@ -1059,9 +1062,9 @@ footer{
             padding: 1rem;
             text-align: right;
             .is-danger{
-                background-color: $hortela;
+                background-color: $primary;
                 &:hover{
-                    background-color: $menta;    
+                    background-color: $secondary;    
                 }
             }
         }
@@ -1073,7 +1076,7 @@ footer{
         .table{
             width: 100%;
             th{
-                color: $hortela;
+                color: $primary;
             }
             strong{
                 color: rgb(223, 57, 57);
@@ -1081,7 +1084,7 @@ footer{
             }
             vertical-align: middle;
             .nahora{
-                background-color: lighten($menta,25%);
+                background-color: lighten($secondary,25%);
             }
         }
     }
@@ -1097,19 +1100,19 @@ footer{
         
     }
     .modal-card-foot, .modal-card-head {            
-        background-color: $preto;
+        background-color: $text;
         p{
-            color: $hortela;
+            color: $primary;
             font-size: 2rem;
             font-weight: 900;
         }
     }
     .card-host{
         margin: 2rem;
-        background-color: $coral;
+        background-color: $destaque;
         border-radius: 20px;
         .subtitle{
-            color: $branco;
+            color: $bg;
         }
     }
     .diarias{
@@ -1135,28 +1138,28 @@ footer{
         }
         &.button{
             a{
-                color: $branco !important;
+                color: $bg !important;
             }
             
         }
     }
     h2{
-        color: $hortela;
+        color: $primary;
         font-size: 1.4rem;
         font-weight: 700;            
     }
     h3{
-        color: $hortela;
+        color: $primary;
         font-size: 1.2rem;
         font-weight: 600;            
     }
     h5{
-        color: $hortela;
+        color: $primary;
         font-size: 1rem;
         font-weight: 500;            
     }
     a{
-        color: $hortela;
+        color: $primary;
     }
 }
 .is-danger{
@@ -1172,52 +1175,52 @@ footer{
     .tecsection{
         padding: 1rem;
         margin: 15px 0;
-        background-color: $branco;
-        border: 3px solid $branco-smoke;
+        background-color: $bg;
+        border: 3px solid $bg-smoke;
         border-radius: 10px;
         &.st{
             .section-time{
-                background-color: $hortela;
-                color: $branco;
-                border: 1px solid $hortela;
+                background-color: $primary;
+                color: $bg;
+                border: 1px solid $primary;
             }
             .section-day{
-                background-color: $branco-smoke;
-                color: $preto;
-                border: 1px solid $hortela;
+                background-color: $bg-smoke;
+                color: $text;
+                border: 1px solid $primary;
             }
             .section-title{
-                color: $hortela;
+                color: $primary;
             }
             .section-chair{
-                color: $preto;
+                color: $text;
             }
         }
         &.sp{
             .section-time{
-                background-color: $preto;
-                color: $branco;
-                border: 1px solid $preto;
+                background-color: $text;
+                color: $bg;
+                border: 1px solid $text;
             }
             .section-day{
-                background-color: $branco-smoke;
-                color: $preto;
-                border: 1px solid $preto;
+                background-color: $bg-smoke;
+                color: $text;
+                border: 1px solid $text;
             }
             .group-title{
                 font-size: 1.1rem;
                 margin-top: 1rem;
             }
             .group-chair{
-                color: $preto;
+                color: $text;
                 font-size: 1rem;
                 margin-bottom: 1rem;
             }
             .section-title{
-                color: $hortela;
+                color: $primary;
             }
             .section-chair{
-                color: $preto;
+                color: $text;
             }
         }
     }
@@ -1266,26 +1269,26 @@ footer{
             &:hover{
                 .paper{
                     transform: scale(1.02)  translateX(25px);
-                    background-color: darken($branco-smoke,5%);
+                    background-color: darken($bg-smoke,5%);
                 }
             }
         }
         .paper{
             transition: .3s ease;
             padding: .1rem;
-            border: 1px solid $branco-smoke;
-            background-color: $branco-smoke;
+            border: 1px solid $bg-smoke;
+            background-color: $bg-smoke;
             padding: .5rem;
             border-radius: 10px;
             margin: .5rem;
             .paper-title{
-                color: $hortela;
+                color: $primary;
                 font-size: 1.1rem;
             }
             .authors{
                 .author{
                     font-size: .9rem;
-                    color: $preto;
+                    color: $text;
                 }
             }
         }
@@ -1309,12 +1312,12 @@ footer{
     transition: .9s ease;
     strong{
         // color: #ff3860;
-        color: $branco;
+        color: $bg;
         transition: ease;
         overflow: hidden;
     }
     svg{
-        color: $branco;
+        color: $bg;
         margin-left: 10px;
     }
     &.is-danger{
@@ -1325,7 +1328,7 @@ footer{
     }
     &.is-warning{
         strong, svg{
-            color: $preto !important;
+            color: $text !important;
         }
     }
     

@@ -195,7 +195,8 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background: #292929;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(41, 41, 41, 0.92)), to(rgba(41, 41, 41, 0.92))), url("img/bg.jpg");
+  background-image: linear-gradient(to bottom right, rgba(41, 41, 41, 0.92), rgba(41, 41, 41, 0.92)), url("img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -293,12 +294,11 @@ section#chamadas .tile {
 }
 
 section#chamadas .tile#datas-importantes {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(147, 149, 151, 0.9)), to(rgba(245, 223, 77, 0.9)));
-  background-image: linear-gradient(to top right, rgba(147, 149, 151, 0.9), rgba(245, 223, 77, 0.9));
+  background-color: #363636;
 }
 
 section#chamadas .tile#datas-importantes .title {
-  color: #292929;
+  color: #fff;
 }
 
 section#chamadas .tile#datas-importantes li {
@@ -343,7 +343,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data legend {
   padding: .2rem .7rem;
   padding-bottom: 0;
   font-size: 1rem;
-  color: #939597;
+  color: #b3b3b3;
 }
 
 @media screen and (min-width: 800px) {
@@ -363,7 +363,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalho
 }
 
 section#chamadas .tile#autores {
-  background: #fff;
+  background: #363636;
   color: #292929;
 }
 
@@ -372,11 +372,15 @@ section#chamadas .tile#autores .open-modal {
 }
 
 section#chamadas .tile#autores .title {
-  color: #292929;
+  color: #fff;
 }
 
 section#chamadas .tile#autores a {
   margin-top: 1rem;
+}
+
+section#chamadas .tile#topicos {
+  background-color: #434343;
 }
 
 @media screen and (min-width: 800px) {
