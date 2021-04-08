@@ -1,9 +1,9 @@
 $coral:#744df5;
-$preto: #1D1D1D;
+$branco: #292929;
 $menta: #939597;
 $hortela:#f5df4d;
-$branco: #fff;
-$branco-smoke:#E6E6E6;
+$preto: #fff;
+$branco-smoke:#525252;
 $cinza: #939597;
 $hero-gradient-opacity: .95;
 $hero-local-gradient-opacity: .7;
@@ -59,7 +59,7 @@ nav{
     &.is-fixed-top{
         border-radius: 0;
         margin: 0;
-        border-bottom: 3px solid $menta;
+        border-bottom: 3px solid $hortela;
         backdrop-filter: blur(5px);
         background-color: $branco;
         .menu-real .navbar-item{
@@ -135,6 +135,7 @@ nav{
     }
 }
 section{
+    background-color: $branco;
     &.section{
         .container{
             @media screen and (min-width: $break-large) {
@@ -152,6 +153,7 @@ section{
         color: $menta;
     }
     p, li{ // REVER EFEITO
+        color: $preto;
         font-size: 1.1rem;
         text-align: justify;
         strong {
@@ -808,7 +810,7 @@ section{
             color: $preto;
         }
         text-align: center;
-        background-color: #eee;
+        background-color: $branco;
         img{
             
             max-height: 90px;
