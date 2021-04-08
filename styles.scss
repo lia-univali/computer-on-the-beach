@@ -1,7 +1,7 @@
-$coral:#F9E547;
+$coral:#744df5;
 $preto: #1D1D1D;
-$menta: #F5DF4D;
-$hortela:#C7B537;
+$menta: #939597;
+$hortela:#f5df4d;
 $branco: #fff;
 $branco-smoke:#E6E6E6;
 $cinza: #939597;
@@ -75,7 +75,7 @@ nav{
     .button.is-primary{
         border: 0;
         background-color: $hortela;
-        background-image: linear-gradient(to bottom right,$hortela, $menta);
+        background-image: linear-gradient(to bottom right,$hortela, darken($hortela, 20%));
         transition: 0.5s ease;
         &:hover{
             background: $menta;
@@ -168,8 +168,8 @@ section{
         overflow: hidden;
         &.is-primary{
             &.is-bold{
-                background-image: linear-gradient(to bottom right, rgba($branco,$hero-gradient-opacity), rgba($branco,$hero-gradient-opacity)), url('img/bg.jpg');
-                // background: url('img/full/bc2.jpg');
+                // background-image: linear-gradient(to bottom right, rgba($branco,$hero-gradient-opacity), rgba($branco,$hero-gradient-opacity)), url('img/bg.jpg');
+                background: $hortela;
                 background-size: cover;
                 background-attachment: fixed;
                 background-position: bottom;
@@ -768,7 +768,7 @@ section{
         }
     }
     &#anais{
-        background-color: $cinza;
+        background-color: $branco-smoke;
         .title{
             color: $preto;
         }

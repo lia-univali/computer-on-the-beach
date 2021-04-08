@@ -28,7 +28,7 @@ nav .menu-real .navbar-item {
 }
 
 nav .menu-real .navbar-item:hover {
-  background-color: #C7B537;
+  background-color: #f5df4d;
 }
 
 nav .menu-real .navbar-item img {
@@ -39,7 +39,7 @@ nav .menu-real .navbar-item img {
 nav.is-fixed-top {
   border-radius: 0;
   margin: 0;
-  border-bottom: 3px solid #F5DF4D;
+  border-bottom: 3px solid #939597;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   background-color: #fff;
@@ -57,15 +57,15 @@ nav .navbar-item, nav .button.is-primary {
 
 nav .button.is-primary {
   border: 0;
-  background-color: #C7B537;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#C7B537), to(#F5DF4D));
-  background-image: linear-gradient(to bottom right, #C7B537, #F5DF4D);
+  background-color: #f5df4d;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f5df4d), to(#d0b70c));
+  background-image: linear-gradient(to bottom right, #f5df4d, #d0b70c);
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
 nav .button.is-primary:hover {
-  background: #F5DF4D;
+  background: #939597;
   -webkit-animation: btnanimation .4s;
           animation: btnanimation .4s;
 }
@@ -126,29 +126,29 @@ nav.is-fixed-top #nav-logo-icon {
   margin-top: -50px;
   text-align: right;
   color: #fff;
-  background-color: #C7B537;
+  background-color: #f5df4d;
 }
 
 .link-marambaia {
-  color: #F9E547;
+  color: #744df5;
   font-weight: 600;
   text-decoration: underline;
 }
 
 .button.is-primary {
   border: none;
-  background: #C7B537;
+  background: #f5df4d;
   color: #fff !important;
   font-weight: 700;
 }
 
 .button.is-primary:hover {
-  background: #F5DF4D;
+  background: #939597;
 }
 
 .button.is-primary.is-inverted {
   background: #fff;
-  color: #C7B537 !important;
+  color: #f5df4d !important;
 }
 
 @media screen and (min-width: 800px) {
@@ -158,13 +158,13 @@ nav.is-fixed-top #nav-logo-icon {
 }
 
 section .title {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 2.4rem;
 }
 
 section .subtitle {
   font-size: 1.3rem;
-  color: #F5DF4D;
+  color: #939597;
 }
 
 section p, section li {
@@ -174,12 +174,12 @@ section p, section li {
 
 section p strong, section li strong {
   font-weight: 500;
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 section p.lead, section li.lead {
   font-style: italic;
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1.3rem;
 }
 
@@ -188,8 +188,7 @@ section.hero {
 }
 
 section.hero.is-primary.is-bold {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.95)), to(rgba(255, 255, 255, 0.95))), url("img/bg.jpg");
-  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("img/bg.jpg");
+  background: #f5df4d;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
@@ -257,18 +256,18 @@ section#balneario, section#anais {
 }
 
 section#balneario .title, section#anais .title {
-  color: #F5DF4D;
+  color: #939597;
 }
 
 section#chamadas del {
-  color: #F9E547;
+  color: #744df5;
 }
 
 section#chamadas p.title {
   font-size: 1.9rem;
   text-align: center;
   font-weight: 600;
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 section#chamadas ul li {
@@ -287,8 +286,8 @@ section#chamadas .tile {
 }
 
 section#chamadas .tile#datas-importantes {
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(245, 223, 77, 0.9)), to(rgba(199, 181, 55, 0.9)));
-  background-image: linear-gradient(to top right, rgba(245, 223, 77, 0.9), rgba(199, 181, 55, 0.9));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(147, 149, 151, 0.9)), to(rgba(245, 223, 77, 0.9)));
+  background-image: linear-gradient(to top right, rgba(147, 149, 151, 0.9), rgba(245, 223, 77, 0.9));
 }
 
 section#chamadas .tile#datas-importantes .title {
@@ -309,7 +308,7 @@ section#chamadas .tile#datas-importantes li {
 
 section#chamadas .tile#datas-importantes li strong {
   display: block;
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1.2rem;
 }
 
@@ -327,7 +326,7 @@ section#chamadas .tile#datas-importantes li .columns .column {
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data {
-  border: 2px solid #C7B537;
+  border: 2px solid #f5df4d;
   border-radius: 10px;
   padding: .5rem .5rem;
   padding-top: .2rem;
@@ -353,7 +352,7 @@ section#chamadas .tile#datas-importantes li .columns .column .data legend {
 }
 
 section#chamadas .tile#datas-importantes li .columns .column .data.data-trabalhos {
-  border-color: #C7B537;
+  border-color: #f5df4d;
 }
 
 section#chamadas .tile#autores {
@@ -409,7 +408,7 @@ section#programacao .card .resumo {
 }
 
 section#programacao .card .card-header {
-  background-color: #C7B537;
+  background-color: #f5df4d;
   border-radius: 15px 15px 0 0;
 }
 
@@ -433,7 +432,7 @@ section#programacao .card .tab span {
 section#programacao .card .tab .tag {
   text-align: center;
   margin-bottom: -25px;
-  color: #C7B537;
+  color: #f5df4d;
   z-index: 10;
 }
 
@@ -449,7 +448,7 @@ section#programacao .card .tab .icon img {
 }
 
 section#programacao .card .tab.is-active span {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 section#programacao .card .tab.is-active img {
@@ -458,15 +457,15 @@ section#programacao .card .tab.is-active img {
 }
 
 section#programacao .card .content-tab .name {
-  color: #F5DF4D;
+  color: #939597;
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
 section#programacao .card .content-tab .is-primary {
   margin-bottom: 1rem;
-  background: -webkit-gradient(linear, right bottom, left top, from(#C7B537), to(#d2c35a));
-  background: linear-gradient(to left top, #C7B537, #d2c35a);
+  background: -webkit-gradient(linear, right bottom, left top, from(#f5df4d), to(#f7e778));
+  background: linear-gradient(to left top, #f5df4d, #f7e778);
 }
 
 section#programacao .card .content-tab img {
@@ -490,7 +489,7 @@ section#programacao .card.palestra .card-header:hover, section#programacao .card
 }
 
 section#programacao .card.palestra .card-header .card-header-icon, section#programacao .card.painel .card-header .card-header-icon {
-  color: #C7B537;
+  color: #f5df4d;
   -webkit-transition: .5s ease-in;
   transition: .5s ease-in;
 }
@@ -504,12 +503,12 @@ section#programacao .card.palestra .card-header .card-header-title, section#prog
   display: grid;
   -ms-grid-columns: auto 1fr;
       grid-template-columns: auto 1fr;
-  color: #C7B537;
+  color: #f5df4d;
   padding: 1rem;
 }
 
 section#programacao .card.palestra .card-header .card-header-title .card-header-calendar, section#programacao .card.painel .card-header .card-header-title .card-header-calendar {
-  color: #F5DF4D;
+  color: #939597;
   background-color: #fff;
   border: 1px solid #ccc;
   padding: .5rem 1.5rem;
@@ -579,7 +578,7 @@ section#programacao .card.palestra.is-active .card-header .card-header-title, se
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title strong, section#programacao .card.painel.is-active .card-header .card-header-title strong {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title span, section#programacao .card.painel.is-active .card-header .card-header-title span {
@@ -602,7 +601,7 @@ section#programacao .card.palestra.mc .card-header .card-header-calendar, sectio
 }
 
 section#programacao .card.palestra.pl .card-header .card-header-calendar, section#programacao .card.painel.pl .card-header .card-header-calendar {
-  color: #f7de16;
+  color: #4e1df2;
 }
 
 section#programacao .card.palestra.pn .card-header .card-header-calendar, section#programacao .card.painel.pn .card-header .card-header-calendar {
@@ -647,7 +646,7 @@ section#programacao .subtitle {
 
 section#programacao .grid {
   margin: 1rem 0;
-  border: 2px #F5DF4D solid;
+  border: 2px #939597 solid;
   background-color: #fff;
   border-radius: 5px;
   padding: 1rem;
@@ -741,7 +740,7 @@ section#programacao .grid.sem .dia .card-header .card-header-title {
 }
 
 section#programacao .grid.sem .dia .card-header .card-header-title span {
-  color: #F5DF4D;
+  color: #939597;
 }
 
 section#programacao .grid.sem .dia .card-header .card-header-title .dia-mes {
@@ -758,11 +757,11 @@ section#programacao .grid .track {
   display: grid;
   -ms-grid-columns: 1fr 55px;
       grid-template-columns: 1fr 55px;
-  background-color: #C7B537;
+  background-color: #f5df4d;
   color: #fff;
   position: relative;
   border-radius: 5px;
-  border: 1px solid #C7B537;
+  border: 1px solid #f5df4d;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
@@ -782,7 +781,7 @@ section#programacao .grid .track p, section#programacao .grid .track span {
 section#programacao .grid .track span {
   text-align: center;
   background-color: #fff;
-  color: #F5DF4D;
+  color: #939597;
   border-radius: 0 5px 5px 0;
 }
 
@@ -806,15 +805,15 @@ section#programacao .grid .track.premio {
 }
 
 section#programacao .grid .track.course {
-  background-color: #cab83e;
+  background-color: #f6e157;
 }
 
 section#programacao .grid .track.pl {
-  background-color: #f7de16;
+  background-color: #4e1df2;
 }
 
 section#programacao .grid .track.sp {
-  background-color: #635a1b;
+  background-color: #b8a10a;
 }
 
 section#programacao .grid .track.mc {
@@ -827,7 +826,7 @@ section#programacao .grid .track.sem {
 }
 
 section#programacao .grid .track.ctt {
-  background-color: #d0b70c;
+  background-color: #606264;
 }
 
 section#programacao .grid .track.pn {
@@ -848,7 +847,7 @@ section#programacao .grid .track.int {
 }
 
 section#anais {
-  background-color: #939597;
+  background-color: #E6E6E6;
 }
 
 section#anais .title {
@@ -856,7 +855,7 @@ section#anais .title {
 }
 
 section#anais .column article {
-  background-color: #C7B537;
+  background-color: #f5df4d;
   padding: 2rem 1rem;
   border-radius: 20px;
   height: 100%;
@@ -865,13 +864,13 @@ section#anais .column article {
 }
 
 section#anais .column article.anal-new {
-  background-color: #F9E547;
+  background-color: #744df5;
 }
 
 section#anais .column article.anal-new:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #f7de16;
+  background-color: #4e1df2;
 }
 
 section#anais .column article .title {
@@ -883,7 +882,7 @@ section#anais .column article .title {
 section#anais .column article:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
-  background-color: #9f912c;
+  background-color: #f2d61d;
 }
 
 section#anais .column article:hover .title {
@@ -1057,7 +1056,7 @@ section#comitePrograma ul li {
 }
 
 section#comitePrograma ul li:before {
-  color: #F5DF4D;
+  color: #939597;
   font-size: 1rem;
   content: "\26ac";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -1092,7 +1091,7 @@ section#comitePrograma .tile#membros p {
 }
 
 #topicos ul li:before, .styled-ul ul li:before {
-  color: #F5DF4D;
+  color: #939597;
   font-size: 1rem;
   content: "\26ac";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -1112,15 +1111,15 @@ footer.footer {
 }
 
 footer.footer a {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 footer.footer .fa-code {
-  color: #F5DF4D;
+  color: #939597;
 }
 
 footer.footer .fa-heart {
-  color: #F9E547;
+  color: #744df5;
 }
 
 footer img {
@@ -1135,11 +1134,11 @@ footer img {
 }
 
 .big-link a {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 .big-link a:hover {
-  color: #9f912c;
+  color: #f2d61d;
 }
 
 .big-link .this-icon {
@@ -1181,7 +1180,7 @@ footer img {
 }
 
 .modal#modal-aviso .modal-card-head {
-  background-color: #C7B537;
+  background-color: #f5df4d;
 }
 
 .modal#modal-aviso .modal-card-head p {
@@ -1193,7 +1192,7 @@ footer img {
 }
 
 .modal#modal-aviso h1 {
-  color: #C7B537 !important;
+  color: #f5df4d !important;
 }
 
 .modal#modal-aviso strong {
@@ -1210,11 +1209,11 @@ footer img {
 }
 
 .modal#modal-aviso .btns .is-danger {
-  background-color: #C7B537;
+  background-color: #f5df4d;
 }
 
 .modal#modal-aviso .btns .is-danger:hover {
-  background-color: #F5DF4D;
+  background-color: #939597;
 }
 
 .modal#modal-aviso a {
@@ -1227,7 +1226,7 @@ footer img {
 }
 
 .modal#modal-inscricoes .table th {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 .modal#modal-inscricoes .table strong {
@@ -1236,7 +1235,7 @@ footer img {
 }
 
 .modal#modal-inscricoes .table .nahora {
-  background-color: #fcf5c6;
+  background-color: #d4d5d6;
 }
 
 .modal ul {
@@ -1259,14 +1258,14 @@ footer img {
 }
 
 .modal .modal-card-foot p, .modal .modal-card-head p {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 2rem;
   font-weight: 900;
 }
 
 .modal .card-host {
   margin: 2rem;
-  background-color: #F9E547;
+  background-color: #744df5;
   border-radius: 20px;
 }
 
@@ -1308,25 +1307,25 @@ footer img {
 }
 
 .modal h2 {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .modal h3 {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .modal h5 {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .modal a {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 .is-danger {
@@ -1347,19 +1346,19 @@ footer img {
 }
 
 #programacaosessoes .tecsection.st .section-time, #programacaoctt .tecsection.st .section-time {
-  background-color: #C7B537;
+  background-color: #f5df4d;
   color: #fff;
-  border: 1px solid #C7B537;
+  border: 1px solid #f5df4d;
 }
 
 #programacaosessoes .tecsection.st .section-day, #programacaoctt .tecsection.st .section-day {
   background-color: #E6E6E6;
   color: #1D1D1D;
-  border: 1px solid #C7B537;
+  border: 1px solid #f5df4d;
 }
 
 #programacaosessoes .tecsection.st .section-title, #programacaoctt .tecsection.st .section-title {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 #programacaosessoes .tecsection.st .section-chair, #programacaoctt .tecsection.st .section-chair {
@@ -1390,7 +1389,7 @@ footer img {
 }
 
 #programacaosessoes .tecsection.sp .section-title, #programacaoctt .tecsection.sp .section-title {
-  color: #C7B537;
+  color: #f5df4d;
 }
 
 #programacaosessoes .tecsection.sp .section-chair, #programacaoctt .tecsection.sp .section-chair {
@@ -1469,7 +1468,7 @@ footer img {
 }
 
 #programacaosessoes .papers .paper .paper-title, #programacaoctt .papers .paper .paper-title {
-  color: #C7B537;
+  color: #f5df4d;
   font-size: 1.1rem;
 }
 
