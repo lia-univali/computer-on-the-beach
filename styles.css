@@ -392,7 +392,7 @@ section#chamadas .tile#topicos {
 }
 
 section#programacao {
-  background-color: #525252;
+  background-color: #363636;
 }
 
 section#programacao .title small {
@@ -412,6 +412,7 @@ section#programacao h3.title {
 section#programacao .card {
   margin: 2rem 0;
   border-radius: 15px;
+  border: none;
 }
 
 section#programacao .card .resumo {
@@ -487,6 +488,10 @@ section#programacao .card .content-tab p {
   font-size: .9rem;
 }
 
+section#programacao .card.palestra, section#programacao .card.painel {
+  background-color: #525252;
+}
+
 section#programacao .card.palestra .card-header, section#programacao .card.painel .card-header {
   background-color: #292929;
   cursor: pointer;
@@ -496,7 +501,7 @@ section#programacao .card.palestra .card-header, section#programacao .card.paine
 }
 
 section#programacao .card.palestra .card-header:hover, section#programacao .card.painel .card-header:hover {
-  background-color: #f5f5f5;
+  background-color: #525252;
 }
 
 section#programacao .card.palestra .card-header .card-header-icon, section#programacao .card.painel .card-header .card-header-icon {
@@ -581,11 +586,11 @@ section#programacao .card.palestra .card-content, section#programacao .card.pain
 
 section#programacao .card.palestra.is-active .card-header, section#programacao .card.painel.is-active .card-header {
   border-radius: 15px 15px 0 0;
-  background-color: #fff;
+  background-color: #525252;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title, section#programacao .card.painel.is-active .card-header .card-header-title {
-  color: #292929;
+  color: #fff;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title strong, section#programacao .card.painel.is-active .card-header .card-header-title strong {
@@ -593,7 +598,7 @@ section#programacao .card.palestra.is-active .card-header .card-header-title str
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-title span, section#programacao .card.painel.is-active .card-header .card-header-title span {
-  color: #525252;
+  color: #fff;
 }
 
 section#programacao .card.palestra.is-active .card-header .card-header-icon, section#programacao .card.painel.is-active .card-header .card-header-icon {
@@ -603,16 +608,17 @@ section#programacao .card.palestra.is-active .card-header .card-header-icon, sec
 }
 
 section#programacao .card.palestra.is-active .card-content, section#programacao .card.painel.is-active .card-content {
+  background-color: #292929;
   max-height: none;
   padding: 2rem;
 }
 
 section#programacao .card.palestra.mc .card-header .card-header-calendar, section#programacao .card.painel.mc .card-header .card-header-calendar {
-  color: #18a549;
+  color: #68CCFC;
 }
 
 section#programacao .card.palestra.pl .card-header .card-header-calendar, section#programacao .card.painel.pl .card-header .card-header-calendar {
-  color: #4e1df2;
+  color: #FF3EB1;
 }
 
 section#programacao .card.palestra.pn .card-header .card-header-calendar, section#programacao .card.painel.pn .card-header .card-header-calendar {
@@ -620,7 +626,7 @@ section#programacao .card.palestra.pn .card-header .card-header-calendar, sectio
 }
 
 section#programacao .card.palestra.sem .card-header .card-header-calendar, section#programacao .card.painel.sem .card-header .card-header-calendar {
-  color: #e7c436;
+  color: #3eff6e;
 }
 
 section#programacao .card.palestra .subtitle, section#programacao .card.painel .subtitle {
@@ -657,7 +663,7 @@ section#programacao .subtitle {
 
 section#programacao .grid {
   margin: 1rem 0;
-  border: 2px #939597 solid;
+  border: none;
   background-color: #292929;
   border-radius: 5px;
   padding: 1rem;
@@ -674,6 +680,7 @@ section#programacao .grid {
 }
 
 section#programacao .grid .dia {
+  color: #fff;
   display: -ms-grid;
   display: grid;
   grid-gap: .3rem;
@@ -772,13 +779,14 @@ section#programacao .grid .track {
   color: #292929;
   position: relative;
   border-radius: 5px;
-  border: 1px solid #f5df4d;
+  border: 2px solid #292929;
   -webkit-transition: .2s ease;
   transition: .2s ease;
 }
 
 section#programacao .grid .track p {
   font-size: 1rem;
+  color: #292929;
 }
 
 section#programacao .grid .track p, section#programacao .grid .track span {
@@ -791,9 +799,9 @@ section#programacao .grid .track p, section#programacao .grid .track span {
 
 section#programacao .grid .track span {
   text-align: center;
-  background-color: #292929;
-  color: #939597;
-  border-radius: 0 5px 5px 0;
+  background-color: #525252;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
 }
 
 section#programacao .grid .track:hover {
@@ -820,24 +828,24 @@ section#programacao .grid .track.course {
 }
 
 section#programacao .grid .track.pl {
-  background-color: #4e1df2;
+  background-color: #FF3EB1;
 }
 
 section#programacao .grid .track.sp {
-  background-color: #b8a10a;
+  background-color: #FD8C46;
 }
 
 section#programacao .grid .track.mc {
-  background-color: #18a549;
+  background-color: #68CCFC;
 }
 
 section#programacao .grid .track.sem {
-  background-color: #e7c436;
+  background-color: #3eff6e;
   color: #fff;
 }
 
 section#programacao .grid .track.ctt {
-  background-color: #606264;
+  background-color: #B600E0;
 }
 
 section#programacao .grid .track.pn {

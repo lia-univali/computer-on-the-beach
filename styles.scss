@@ -15,11 +15,11 @@ $date-text-color: $bg;
 $colors-darken: 30%;
 $important-dates-fade-out: .1;
 
-$color_mc: #18a549;
-$color_pl: darken($destaque, 10%);
-$color_sp: darken($primary, 25%);
-$color_sem: #e7c436;
-$color_ctt: darken($secondary, 20%);
+$color_mc: #68CCFC;
+$color_pl: #FF3EB1;
+$color_sp: #FD8C46;
+$color_sem: #3eff6e;
+$color_ctt: #B600E0;
 $color_pn: $text;
 nav{
     transition: .3s ease;
@@ -354,7 +354,7 @@ section{
         }
     }
     &#programacao{
-        background-color: $bg-smoke;
+        background-color: lighten($bg, 5%);
         .title{
             small{
                 font-size: 1.2rem;
@@ -376,6 +376,7 @@ section{
         .card{
             margin: 2rem 0;
             border-radius: 15px;
+            border: none;
             .resumo{
                 margin: 30px 10px;
             }
@@ -440,15 +441,15 @@ section{
             }
 
             &.palestra, &.painel{
+                background-color: $bg-smoke;
                 .card-header{
                     background-color: $bg;
                     cursor: pointer;
                     &:hover{
-                        background-color: #f5f5f5;
+                        background-color: $bg-smoke;
                     }
                     
                     .card-header-icon{
-                        
                         color: $primary;
                         transition: .5s ease-in;
                         &:hover{
@@ -526,13 +527,13 @@ section{
                 &.is-active{
                     .card-header{
                         border-radius: 15px 15px 0 0 ;
-                        background-color: $text;
+                        background-color: $bg-smoke;
                         .card-header-title{
                             // .card-header-calendar{
                             //     // background-color: $bg;
                             //     // color: $secondary;
                             // }
-                            color: $bg;
+                            color: $text;
 
                             strong{
                                 color: $primary;
@@ -543,7 +544,7 @@ section{
                             //     }
                             // }
                             span{
-                                color: $bg-smoke;
+                                color: $text;
                             }
                         }
                         .card-header-icon{
@@ -552,6 +553,7 @@ section{
                         }
                     }
                     .card-content{
+                        background-color: $bg;
                         max-height: none;
                         padding: 2rem;
                     }
@@ -617,7 +619,7 @@ section{
         }
         .grid{
             margin: 1rem 0;
-            border: 2px $secondary solid;
+            border: none;
             background-color: $bg;
             border-radius: 5px;
             padding: 1rem;
@@ -627,6 +629,7 @@ section{
             }
             grid-gap: 1rem; 
             .dia{
+                color: $text;
                 .encerramento{
                     display: grid;
                     grid-template-columns: auto 1fr;
@@ -693,6 +696,7 @@ section{
                 grid-template-columns: 1fr 55px;
                 p{
                     font-size: 1rem;
+                    color: $bg;
                 }
                 p, span{
                     padding: 6px;
@@ -702,15 +706,15 @@ section{
                 }
                 span{
                     text-align: center;
-                    background-color: $bg;
-                    color: $secondary;
-                    border-radius: 0 5px 5px 0;
+                    background-color: $bg-smoke;
+                    color: $text;
+                    border-radius: 0 3px 3px 0;
                 }
                 background-color: $primary;
                 color: $bg;
                 position: relative;
                 border-radius: 5px;
-                border: 1px solid $primary;
+                border: 2px solid $bg;
 
                 
                 transition: .2s ease;
