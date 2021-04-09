@@ -1027,6 +1027,7 @@ footer{
 }
 
 .modal{
+    
     .dados-hotel{
         padding: 2rem;
         p{
@@ -1077,6 +1078,7 @@ footer{
         }
     }
     &#modal-inscricoes{
+        
         .table{
             width: 100%;
             th{
@@ -1097,14 +1099,21 @@ footer{
         padding-left: 2rem;
     }
     .modal-card{
+        background: $bg;
         border-radius: 1rem;
         @media screen and (min-width: $break-large) {
             width: 75%;
         }
         
     }
+    .modal-card-body{
+        background: $bg;
+    }
+    .modal-card-head {
+        border-bottom: 2px solid $primary;
+    }
     .modal-card-foot, .modal-card-head {            
-        background-color: $text;
+        background-color: $bg;
         p{
             color: $primary;
             font-size: 2rem;
@@ -1179,8 +1188,8 @@ footer{
     .tecsection{
         padding: 1rem;
         margin: 15px 0;
-        background-color: $bg;
-        border: 3px solid $bg-smoke;
+        background-color: lighten($bg,5%);
+        border: 3px solid $bg;
         border-radius: 10px;
         &.st{
             .section-time{

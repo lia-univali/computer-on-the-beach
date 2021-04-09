@@ -1267,6 +1267,7 @@ footer img {
 }
 
 .modal .modal-card {
+  background: #292929;
   border-radius: 1rem;
 }
 
@@ -1276,8 +1277,16 @@ footer img {
   }
 }
 
+.modal .modal-card-body {
+  background: #292929;
+}
+
+.modal .modal-card-head {
+  border-bottom: 2px solid #f5df4d;
+}
+
 .modal .modal-card-foot, .modal .modal-card-head {
-  background-color: #fff;
+  background-color: #292929;
 }
 
 .modal .modal-card-foot p, .modal .modal-card-head p {
@@ -1363,8 +1372,8 @@ footer img {
 #programacaosessoes .tecsection, #programacaoctt .tecsection {
   padding: 1rem;
   margin: 15px 0;
-  background-color: #292929;
-  border: 3px solid #525252;
+  background-color: #363636;
+  border: 3px solid #292929;
   border-radius: 10px;
 }
 
