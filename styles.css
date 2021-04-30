@@ -857,11 +857,11 @@ section#anais .column article {
   transition: .3s ease;
 }
 
-section#anais .column article.anal-new {
+section#anais .column article.anais-current {
   background-color: #e98c85;
 }
 
-section#anais .column article.anal-new:hover {
+section#anais .column article.anais-current:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   background-color: #e1635a;
